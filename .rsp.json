@@ -1,0 +1,12 @@
+{
+	"routes": [
+		"/",
+		"/qui-suis-je",
+		"/geobiologie",
+		"/les-9-rites-munay-ki",
+		"/contact",
+		"/plan-du-site",
+		"/erreur-404",
+		"/politique-de-confidentialite"
+	]
+}

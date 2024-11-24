@@ -1,0 +1,76 @@
+{
+	"short_name": "Cyril Cophignon",
+	"name": "Cyril COPHIGNON, guide des mondes subtils",
+	"icons": [
+		{
+			"src": "favicon.ico",
+			"sizes": "64x64 32x32 24x24 16x16",
+			"type": "image/x-icon",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "logo192.png",
+			"type": "image/png",
+			"sizes": "192x192",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "logo512.png",
+			"type": "image/png",
+			"sizes": "512x512",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		},
+		{
+			"src": "apple-touch-icon.png",
+			"sizes": "180x180",
+			"type": "image/png"
+		}
+	],
+	"start_url": "https://cyril.cophignon.net",
+	"display": "standalone",
+	"theme_color": "#f0f0f0",
+	"background_color": "#f0f0f0",
+	"description": "Guide des mondes subtils, je mets mes connaissances des mondes subtils à votre service pour vous accompagner sur votre chemin de vie. Cyril COPHIGNON",
+	"shortcuts": [
+		{
+			"name": "Qui suis-je?",
+			"short_name": "Qui suis-je?",
+			"description": "Guide des mondes subtils, je mets mes connaissances des mondes subtils à votre service pour vous accompagner sur votre chemin de vie.",
+			"url": "/qui-suis-je"
+		},
+		{
+			"name": "Géobiologie",
+			"short_name": "Géobiologie",
+			"description": "La Géobiologie, l’étude des phénomènes ondulatoires et de leur impact sur le vivant.",
+			"url": "/geobiologie"
+		},
+		{
+			"name": "Les 9 rites du Munay-Ki",
+			"short_name": "Munay-Ki",
+			"description": "Les 9 rites Munay-Ki, ou la transmission prophétisée d'un savoir ancestral venu des Andes et détenus par les Q'eros.",
+			"url": "/les-9-rites-munay-ki"
+		},
+		{
+			"name": "Contact",
+			"short_name": "Contact",
+			"description": "A travers mes différents accompagnements, soins et initiations, je suis à vos côtés pour vous guider sur votre chemin de vie.",
+			"url": "/contact"
+		},
+		{
+			"name": "Le plan du site",
+			"short_name": "Le plan du site",
+			"description": "Le plan du site. Vous trouverez le lien vers les différentes pages qui le compose : Reiki Usui, Massage des 5 Continents et plus encore...",
+			"url": "/plan-du-site"
+		}
+	]
+}

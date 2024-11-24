@@ -1,0 +1,36 @@
+article.contact form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly
+}
+
+article.contact form .field {
+  margin-right: 15%;
+}
+
+article.contact form .form-footer {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 426px) {
+  article.contact form {
+    flex-direction: column;
+  }
+  textarea {
+    width: 224px;
+  }
+}
+
+@media (max-width: 769px) and (min-width: 427px) {
+  article.contact form {
+    justify-content: flex-start
+  }
+}
+
+@media  (min-width: 770px) {
+  textarea {
+    width: 35rem;
+  }
+}
