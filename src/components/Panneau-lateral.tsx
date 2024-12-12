@@ -69,28 +69,26 @@ const PanneauLateral = () => {
 				</div>
 			</div>
 			<div>
-				{import.meta.env.VITE_ACTIVEFB == '1' && (
-					<p className='social-networks'>
-						{/* <Button
-							className='facebook p-0'
-							onClick={() => {
-								openInNewTab(import.meta.env.VITE_URLFB || '');
-							}}
-						>
-							<i className='pi pi-facebook px-2'></i>
-							<span className='facebook'>Facebook&nbsp;</span>
-						</Button> */}
-						<Button
-							className='linkedin p-0'
-							onClick={() => {
-								openInNewTab(import.meta.env.VITE_URLLinkedIn || '');
-							}}
-						>
-							<i className='pi pi-linkedin px-2'></i>
-							<span className='LinkedIn'>LinkedIn</span>
-						</Button>
-					</p>
-				)}
+				<p className='social-networks'>
+					<Button
+						className='facebook p-0'
+						onClick={() => {
+							openInNewTab(import.meta.env.VITE_URLFB || '');
+						}}
+					>
+						<i className='pi pi-facebook px-2'></i>
+						<span className='facebook'>Facebook&nbsp;</span>
+					</Button>
+					<Button
+						className='whatsapp p-0'
+						onClick={() => {
+							openInNewTab(import.meta.env.VITE_URLWhatsApp || '');
+						}}
+					>
+						<i className='pi pi-whatsapp px-2'></i>
+						<span className='WhatsApp'>WhatsApp</span>
+					</Button>{' '}
+				</p>
 			</div>
 		</>
 	);
