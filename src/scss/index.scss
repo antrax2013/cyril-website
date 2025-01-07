@@ -20,6 +20,7 @@ span
 	:not(.p-button-icon)
 	:not(.facebook)
 	:not(.linkedin)
+	:not(.whatsapp)
 	:not(.asterix)
 	:not(.p-menuitem-text)
 	:not(.p-toast-summary)
@@ -302,6 +303,14 @@ footer {
 	}
 	.twitter:hover {
 		background-color: #333 !important;
+	}
+	.whatsapp {
+		background-color: #25d366 !important;
+		border-color: #25d366 !important;
+	}
+	.whatsapp:hover {
+		background-color: #00a884 !important;
+		border-color: #00a884 !important;
 	}
 	.instagram {
 		background: linear-gradient(

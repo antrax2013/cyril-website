@@ -40,11 +40,20 @@ const PanneauLateral = () => {
 					<ul>
 						<ol>
 							<a
-								href='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcyril.cophignon%2Fposts%2Fpfbid0X3A9oNubtgWVqaCYGPPFpdCsYsz1GSN8FtU4F9jQN4Ke1jtkXRbB1RfiX6MgSiGUl'
-								title='Cliquez sur ce lien pour découvrir plus d’informations sur la conférence du 15/12/2024 à 15H00 lors des portes ouvertes de coffret d’Alumine à Plaisir'
+								href='https://fb.me/e/5hpKrEZ5d'
+								title='Cliquez sur ce lien pour découvrir plus d’informations sur les conférences du salon Art & bien-être 2025'
 								target='_blank'
 							>
-								15/12/2024 - Portes ouvertes coffret d'Alumine.
+								08-09/02/2025 - Salon Art & Bien-être 2025
+							</a>
+						</ol>
+						<ol>
+							<a
+								href='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcyril.cophignon%2Fposts%2Fpfbid0X3A9oNubtgWVqaCYGPPFpdCsYsz1GSN8FtU4F9jQN4Ke1jtkXRbB1RfiX6MgSiGUl'
+								title='Cliquez sur ce lien pour découvrir plus d’informations sur la conférence du 22/12/2024 à 15H00 lors des portes ouvertes de coffret d’Alumine à Plaisir'
+								target='_blank'
+							>
+								22/12/2024 - Portes ouvertes coffret d'Alumine.
 							</a>
 						</ol>
 						<ol>
@@ -59,38 +68,45 @@ const PanneauLateral = () => {
 						<ol>
 							<a
 								href='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcyril.cophignon%2Fposts%2Fpfbid0X3A9oNubtgWVqaCYGPPFpdCsYsz1GSN8FtU4F9jQN4Ke1jtkXRbB1RfiX6MgSiGUl'
-								title='Cliquez sur ce lien pour découvrir plus d’informations sur la conférence du 22/12/2024 à 15H00 lors des portes ouvertes de coffret d’Alumine à Plaisir'
+								title='Cliquez sur ce lien pour découvrir plus d’informations sur la conférence du 15/12/2024 à 15H00 lors des portes ouvertes de coffret d’Alumine à Plaisir'
 								target='_blank'
 							>
-								22/12/2024 - Portes ouvertes coffret d'Alumine.
+								15/12/2024 - Portes ouvertes coffret d'Alumine.
 							</a>
 						</ol>
 					</ul>
 				</div>
 			</div>
 			<div>
-				{import.meta.env.VITE_ACTIVEFB == '1' && (
-					<p className='social-networks'>
-						{/* <Button
-							className='facebook p-0'
-							onClick={() => {
-								openInNewTab(import.meta.env.VITE_URLFB || '');
-							}}
-						>
-							<i className='pi pi-facebook px-2'></i>
-							<span className='facebook'>Facebook&nbsp;</span>
-						</Button> */}
-						<Button
-							className='linkedin p-0'
-							onClick={() => {
-								openInNewTab(import.meta.env.VITE_URLLinkedIn || '');
-							}}
-						>
-							<i className='pi pi-linkedin px-2'></i>
-							<span className='LinkedIn'>LinkedIn</span>
-						</Button>
-					</p>
-				)}
+				<p className='social-networks'>
+					<Button
+						className='facebook p-0'
+						onClick={() => {
+							openInNewTab(import.meta.env.VITE_URLFB || '');
+						}}
+					>
+						<i className='pi pi-facebook px-2'></i>
+						<span className='facebook'>Facebook&nbsp;</span>
+					</Button>
+					<Button
+						className='whatsapp p-0'
+						onClick={() => {
+							openInNewTab(import.meta.env.VITE_URLWhatsApp || '');
+						}}
+					>
+						<i className='pi pi-whatsapp px-2'></i>
+						<span className='WhatsApp'>WhatsApp</span>
+					</Button>{' '}
+					<Button
+						className='instagram p-0'
+						onClick={() => {
+							openInNewTab(import.meta.env.VITE_URLInsta || '');
+						}}
+					>
+						<i className='pi pi-instagram px-2'></i>
+						<span className='Instagram'>Instagram</span>
+					</Button>{' '}
+				</p>
 			</div>
 		</>
 	);

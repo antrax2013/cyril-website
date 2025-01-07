@@ -1,51 +1,58 @@
-.p-component, .p-dropdown-label {
-  font-family: "Lato", sans-serif;
+.p-component,
+.p-dropdown-label {
+	font-family: 'Lato', sans-serif;
 }
 
-.p-component:not(.p-button), .p-dropdown-label {
-  color:var(--text-color) !important;
+.p-component:not(.p-button),
+.p-dropdown-label {
+	color: var(--text-color) !important;
 }
 
 label {
-  margin-right: 1rem;
-  display: flex;
+	margin-right: 1rem;
+	display: flex;
 }
 
-.p-inputtext {display: flex;}
+.p-inputtext {
+	display: flex;
+}
 
 .p-component:not(.p-button):hover,
 .p-component:not(.p-button):active,
 .p-component:not(.p-button):focus {
-  border-color: var(--secondary-color) !important;;
+	border-color: var(--secondary-color) !important;
 }
 
 .p-error {
-  display: flex;
-  margin-left: 1rem;
+	display: flex;
+	margin-left: 1rem;
 }
 
-.p-button:not(.facebook):not(.linkedin):not(.twitter):not(.instagram):not(.bottom-right-fixed):not(.p-button-secondary) {
-  background: var(--primary-color) !important;
-  border: var(--primary-color) !important;
+.p-button:not(.facebook):not(.linkedin):not(.whatsapp):not(.twitter):not(
+		.instagram
+	):not(.bottom-right-fixed):not(.p-button-secondary) {
+	background: var(--primary-color) !important;
+	border: var(--primary-color) !important;
 }
 
 .p-button:not(.bottom-right-fixed) {
-  padding: 0.2rem 0.75rem;
+	padding: 0.2rem 0.75rem;
 }
 
-nav .p-menuitem .p-menuitem-text, .p-menubar-end {
-  font-size: 0.9rem; 
+nav .p-menuitem .p-menuitem-text,
+.p-menubar-end {
+	font-size: 0.9rem;
 }
 
 .p-menubar ul {
-  padding-left: 0rem;
+	padding-left: 0rem;
 }
 .p-menubar ul li {
-  padding: 0 0.5rem;
+	padding: 0 0.5rem;
 }
 
 .p-menubar-start {
-  margin-left: 0.5em;
+	margin-left: 0.5em;
 }
 
 b p,
@@ -54,52 +61,52 @@ b p,
 .p-button-secondary,
 .p-button-icon-only,
 nav .p-menuitem:not(.selected) .p-menuitem-text {
-  color: var(--primary-color) !important;
+	color: var(--primary-color) !important;
 }
 
 nav .p-menuitem.selected .p-menuitem-text {
-  color: var(--text-color) !important;
-  border-bottom: 0.08em solid var(--primary-color) !important;
+	color: var(--text-color) !important;
+	border-bottom: 0.08em solid var(--primary-color) !important;
 }
 
 .bottom-right-fixed:hover,
 .p-button-secondary:hover,
 .p-button-icon-only:hover,
-nav .p-menuitem:not(.selected) a.p-menuitem:hover, 
-nav .p-menubar-mobile-active .p-menubar-button:hover, 
+nav .p-menuitem:not(.selected) a.p-menuitem:hover,
+nav .p-menubar-mobile-active .p-menubar-button:hover,
 .p-button-secondary:hover {
-  filter: invert(5%);
+	filter: invert(5%);
 }
 
 .bottom-right-fixed:active,
 .p-button-secondary:active,
 .p-button-icon-only:active,
-nav .p-menuitem:not(.selected) a.p-menuitem:active, 
-nav .p-menubar-mobile-active .p-menubar-button:active, 
+nav .p-menuitem:not(.selected) a.p-menuitem:active,
+nav .p-menubar-mobile-active .p-menubar-button:active,
 .p-button-secondary:active {
-  filter: invert(10%);
+	filter: invert(10%);
 }
 
 .p-menubar {
-  background: var(--background-color) !important;
-  border: unset !important;
-  border-radius: 0 !important;
-  padding-left: 0.5em;
+	background: var(--background-color) !important;
+	border: unset !important;
+	border-radius: 0 !important;
+	padding-left: 0.5em;
 }
 
-
 .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link {
-  padding: 0.2rem 0.75rem;
+	padding: 0.2rem 0.75rem;
 }
 
 @media (min-width: 961px) and (max-width: 1150px) {
-  nav .p-menuitem .p-menuitem-text, .p-menubar-end {
-      font-size: 0.9rem !important;
-  }
+	nav .p-menuitem .p-menuitem-text,
+	.p-menubar-end {
+		font-size: 0.9rem !important;
+	}
 }
 
 // @media (min-width: 961px) and (max-width: 1024px)  {
 //   nav .p-menuitem .p-menuitem-text, .p-menubar-end {
-//     font-size: 0.75rem; 
+//     font-size: 0.75rem;
 //   }
 // }
