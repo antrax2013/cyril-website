@@ -229,10 +229,23 @@ article:not(.title) h1:not(.aside) {
 	}
 	ul {
 		margin-top: 0em !important;
-		padding-left: 0.5em !important;
 		display: block;
 		text-align: left;
 		font-size: 0.9rem;
+
+		li,
+		ol {
+			padding-left: 0em !important;
+		}
+	}
+}
+
+.lateral-section-siret {
+	display: block;
+	text-align: center;
+	padding-bottom: 1em;
+	i {
+		padding-right: 0px;
 	}
 }
 
@@ -327,6 +340,10 @@ footer {
 			rgba(183, 3, 160, 0.5) 50%
 		) !important;
 	}
+}
+
+.nav-section-siret {
+	display: none;
 }
 
 .siret {
@@ -452,6 +469,14 @@ footer {
 			display: inherit;
 		}
 		align-items: center;
+	}
+	.nav-section-siret {
+		display: inherit;
+	}
+
+	.lateral-section-siret,
+	.nav-section-events {
+		display: none;
 	}
 }
 

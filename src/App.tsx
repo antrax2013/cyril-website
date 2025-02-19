@@ -22,6 +22,7 @@ const QuiSuisJe = lazy(() => import('./components/routes/Qui-suis-je'));
 const FooterMenu = lazy(() => import('./components/tools/Footer-Menu'));
 const ScrollButton = lazy(() => import('./components/tools/Scrollbutton'));
 const PlanDuSite = lazy(() => import('./components/routes/Site-Map'));
+const Cupule = lazy(() => import('./components/routes/Geobiologie/Cupule'));
 
 const App = () => {
 	return (
@@ -47,6 +48,7 @@ const App = () => {
 							/>
 							<Route path='erreur-404' element={<Error404 />} />
 							<Route path='plan-du-site' element={<PlanDuSite />} />
+							<Route path='les-cupules' element={<Cupule />} />
 							<Route path='*' element={<Navigate replace to='/erreur-404' />} />
 						</Routes>
 						<ScrollButton />

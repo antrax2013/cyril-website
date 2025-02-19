@@ -1,0 +1,64 @@
+@import '../../rules/mixins';
+
+.LesCupules {
+	article > section {
+		@include article-section;
+		align-items: center;
+	}
+
+	article section aside > div {
+		@include flex-content-center;
+	}
+
+	aside {
+		@include paragraphe-img-container;
+	}
+
+	.paragraphe-1 .paragraphe-content,
+	.paragraphe-2 .paragraphe-content,
+	.paragraphe-3 .paragraphe-content,
+	.paragraphe-4 .paragraphe-content,
+	.paragraphe-5 .paragraphe-content {
+		@include paragraphe-txt-container;
+	}
+
+	.paragraphe-1 {
+		margin-top: 1rem;
+	}
+
+	img,
+	video {
+		@include paragraphe-img;
+	}
+}
+
+@media (min-width: 427px) and (max-width: 768px) {
+	.LesCupules {
+		.paragraphe-1 .paragraphe-content {
+			flex: 1 1;
+		}
+		article section aside {
+			flex: 2 1;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.LesCupules {
+		article section {
+			flex-direction: column;
+		}
+	}
+}
+
+@media (min-width: 769px) {
+	.LesCupules aside {
+		flex-direction: inherit;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+	.LesCupules aside {
+		margin-right: 1em;
+	}
+}

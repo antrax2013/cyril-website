@@ -28,6 +28,10 @@ const Contact = () => {
 		// { label: 'Prise de rendez-vous', value: 'Prise de rendez-vous' },
 		// { label: 'Informations de suivi', value: 'Informations de suivi' },
 		{ label: 'Demande de renseignements', value: 'Demande de renseignements' },
+		{
+			label: 'Inscription Initiaition Géobio.',
+			value: 'Inscription Initiaition Géobio.',
+		},
 	];
 
 	const formik = useFormik({

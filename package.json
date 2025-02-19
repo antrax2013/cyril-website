@@ -1,43 +1,44 @@
 {
-  "name": "cyril-cophignon-net",
-  "private": true,
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "generate": "tsc && vite build",
-    "build": "tsc && vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "compile-sass": "sass --watch src/scss/:public/css --no-source-map -s compressed",
-    "postbuild": "react-spa-prerender"
-  },
-  "dependencies": {
-    "@emailjs/browser": "^4.3.3",
-    "@types/react-helmet": "^6.1.11",
-    "formik": "^2.4.6",
-    "primeflex": "^3.3.1",
-    "primeicons": "^7.0.0",
-    "primereact": "^10.8.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-helmet": "^6.1.0",
-    "react-router-dom": "^6.26.0"
-  },
-  "devDependencies": {
-    "@types/react": "^18.2.66",
-    "@types/react-dom": "^18.2.22",
-    "@typescript-eslint/eslint-plugin": "^8.0.0",
-    "@typescript-eslint/parser": "^8.0.0",
-    "@vitejs/plugin-react-swc": "^3.5.0",
-    "eslint": "^8.57.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.6",
-    "react-spa-prerender": "^1.0.10",
-    "sass": "^1.77.6",
-    "stylelint": "^16.10.0",
-    "stylelint-prettier": "^5.0.2",
-    "typescript": "^5.5.4",
-    "vite": "^5.3.3"
-  }
+	"name": "cyril-cophignon-net",
+	"private": true,
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"generate": "tsc && vite build",
+		"build": "tsc && vite build",
+		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+		"preview": "vite preview",
+		"compile-sass": "sass --watch src/scss/:public/css --no-source-map -s compressed",
+		"postbuild": "react-spa-prerender && purgecss -v --css build/assets/*.css --content build/*.html build/assets/*.js --output ."
+	},
+	"dependencies": {
+		"@emailjs/browser": "^4.3.3",
+		"@types/react-helmet": "^6.1.11",
+		"formik": "^2.4.6",
+		"primeflex": "^3.3.1",
+		"primeicons": "^7.0.0",
+		"primereact": "^10.8.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-helmet": "^6.1.0",
+		"react-router-dom": "^6.26.0"
+	},
+	"devDependencies": {
+		"@types/react": "^18.2.66",
+		"@types/react-dom": "^18.2.22",
+		"@typescript-eslint/eslint-plugin": "^8.0.0",
+		"@typescript-eslint/parser": "^8.0.0",
+		"@vitejs/plugin-react-swc": "^3.5.0",
+		"eslint": "^8.57.0",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"eslint-plugin-react-refresh": "^0.4.6",
+		"purgecss": "^7.0.2",
+		"react-spa-prerender": "^1.0.10",
+		"sass": "^1.77.6",
+		"stylelint": "^16.10.0",
+		"stylelint-prettier": "^5.0.2",
+		"typescript": "^5.5.4",
+		"vite": "^5.3.3"
+	}
 }

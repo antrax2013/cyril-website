@@ -38,10 +38,15 @@ const Menu = ({ ...props }) => {
 			case '2':
 				return (
 					<>
-						<section>
+						<section className='nav-section-siret'>
 							<div itemScope itemType='https://schema.org/Organization'>
 								<meta itemProp='iso6523Code' content='0009:93380473400012' />
 								<i className='siret'>N°Siret : 933 804 734 00012</i>
+							</div>
+						</section>
+						<section className='nav-section-events'>
+							<div>
+								🌀 <a href='#événements'>Initiations et événements</a> 🌀
 							</div>
 						</section>
 					</>
