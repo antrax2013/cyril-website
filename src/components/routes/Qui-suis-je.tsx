@@ -82,7 +82,15 @@ const QuiSuisJe = () => {
 									Reiki Usui
 								</a>
 								. Et ensemble, en septembre 2023, nous sommes devenus maître
-								Reiki.{' '}
+								Reiki. Merci{' '}
+								<a
+									href='https://www.reflexologie-carolejacob.fr/'
+									title='Accédez par ce lien au site de Carole Jacob, réflexologue et maître Reiki Usui enseignante.'
+									target='_blank'
+								>
+									Carole
+								</a>
+								.
 							</p>
 							<p>
 								Le <em>Reiki</em> m’a permis de m’ouvrir aux mondes du subtil et
