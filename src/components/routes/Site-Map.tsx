@@ -27,6 +27,9 @@ const SiteMap = () => {
 						<a href='/les-9-rites-munay-ki'>Les 9 rites Munay-Ki</a>
 					</li>
 					<li>
+						<a href='/les-cupules'>Les cupules</a>
+					</li>
+					<li>
 						<a href='/contact'>Contact</a>
 					</li>
 					<li>
