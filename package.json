@@ -14,19 +14,19 @@
 	},
 	"dependencies": {
 		"@emailjs/browser": "^4.3.3",
-		"@types/react-helmet": "^6.1.11",
 		"formik": "^2.4.6",
-		"primeflex": "^3.3.1",
+		"primeflex": "^4.0.0",
 		"primeicons": "^7.0.0",
-		"primereact": "^10.8.0",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
+		"primereact": "^10.9.2",
+		"react": "19.0.0-rc.1",
+		"react-dom": "19.0.0-rc.1",
 		"react-helmet": "^6.1.0",
-		"react-router-dom": "^6.26.0"
+		"react-router-dom": "^7.2.0"
 	},
 	"devDependencies": {
-		"@types/react": "^18.2.66",
-		"@types/react-dom": "^18.2.22",
+		"@types/react": "^18.3.18",
+		"@types/react-dom": "^18.3.5",
+		"@types/react-helmet": "^6.1.11",
 		"@typescript-eslint/eslint-plugin": "^8.0.0",
 		"@typescript-eslint/parser": "^8.0.0",
 		"@vitejs/plugin-react-swc": "^3.5.0",
