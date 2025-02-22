@@ -1,5 +1,5 @@
 import ParagraphSeparator from '../tools/Paragraph-Separator';
-import '../../scss/routes/geobiologie.scss';
+import '../../scss/routes/Geobiologie.scss';
 import MetaTag from '../tools/MetaTag';
 import GeobioEnvironement from '../../assets/géobiologie/environement-ondes.jpg';
 import Plan from '../../assets/géobiologie/plan-geobiologie.png';
