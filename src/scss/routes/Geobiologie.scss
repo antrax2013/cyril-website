@@ -1,76 +1,70 @@
-@import '../rules/_mixins.scss';
+@use '../rules/mixins';
 
 .geobiologie {
-  article > section {
-    @include article-section;
-    align-items: center;
-  }
+	article > section {
+		@include mixins.article-section;
+		align-items: center;
+	}
 
-  article section aside > div {
-    @include flex-content-center;
-  }
+	article section aside > div {
+		@include mixins.flex-content-center;
+	}
 
-  aside {
-    @include paragraphe-img-container;
-  }
+	aside {
+		@include mixins.paragraphe-img-container;
+	}
 
-  .paragraphe-1 .paragraphe-content, 
-  .paragraphe-2 .paragraphe-content, 
-  .paragraphe-3 .paragraphe-content {
-    @include paragraphe-txt-container;
-  }
+	.paragraphe-1 .paragraphe-content,
+	.paragraphe-2 .paragraphe-content,
+	.paragraphe-3 .paragraphe-content {
+		@include mixins.paragraphe-txt-container;
+	}
 
-  .paragraphe-3 dl {
-    .titre-module {
-      font-style: none;
-      color: var(--secondary-color) !important;
-    }
-    .objectif {
-      font-weight: bold;
-      font-size: 0.95em;
-    }    
-    dt {
-      font-style: italic;
-      font-size: 0.90em;
-    }    
-  }
+	.paragraphe-3 dl {
+		.titre-module {
+			font-style: none;
+			color: var(--secondary-color) !important;
+		}
+		.objectif {
+			font-weight: bold;
+			font-size: 0.95em;
+		}
+		dt {
+			font-style: italic;
+			font-size: 0.9em;
+		}
+	}
 
-  .paragraphe-1  {
-    margin-top: 1rem;
-  }
+	.paragraphe-1 {
+		margin-top: 1rem;
+	}
 
-  img  {
-    @include paragraphe-img;
-  }  
+	img {
+		@include mixins.paragraphe-img;
+	}
 }
 
-
-
 @media (max-width: 768px) and (min-width: 427px) {
-  .geobiologie {
-    .paragraphe-1 .paragraphe-content {
-      flex: 1 1;
-    }
-    article section aside {
-      flex: 2 1;
-    }
-  }
+	.geobiologie {
+		.paragraphe-1 .paragraphe-content {
+			flex: 1 1;
+		}
+		article section aside {
+			flex: 2 1;
+		}
+	}
 }
 
 @media (max-width: 768px) {
-  .geobiologie {
-      article section {
-      flex-direction: column;
-    }
-  }
+	.geobiologie {
+		article section {
+			flex-direction: column;
+		}
+	}
 }
-
 
 @media (min-width: 769px) {
-  .geobiologie aside {
-    flex-direction: inherit;
-  }
+	.geobiologie aside {
+		flex-direction: inherit;
+	}
 }
-
-
-

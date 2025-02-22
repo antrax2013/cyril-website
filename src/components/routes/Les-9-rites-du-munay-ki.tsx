@@ -22,7 +22,7 @@ const Les9RitesMunayKi = () => {
 	//www.espace-de-ressourcement.be/cours/initiation-aux-rites-sacres-de-munay-ki/apprendre-initiation-aux-rites-sacres-de-munay-ki.html
 	//https://www.therapeute-clairvoyante.com/les-9-rites-du-munay-ki-2/
 	//https://www.chakana.ca/21-pratiques-chamaniques-ebook?email=numeriquerelais%40gmail.com&name=dio
-	https: return (
+	return (
 		<>
 			{head()}
 			<div className='Les9RitesMunayKi'>

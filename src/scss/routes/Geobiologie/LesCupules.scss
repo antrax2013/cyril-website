@@ -1,17 +1,17 @@
-@import '../../rules/mixins';
+@use '../../rules/mixins';
 
 .LesCupules {
 	article > section {
-		@include article-section;
+		@include mixins.article-section;
 		align-items: center;
 	}
 
 	article section aside > div {
-		@include flex-content-center;
+		@include mixins.flex-content-center;
 	}
 
 	aside {
-		@include paragraphe-img-container;
+		@include mixins.paragraphe-img-container;
 	}
 
 	.paragraphe-1 .paragraphe-content,
@@ -19,7 +19,7 @@
 	.paragraphe-3 .paragraphe-content,
 	.paragraphe-4 .paragraphe-content,
 	.paragraphe-5 .paragraphe-content {
-		@include paragraphe-txt-container;
+		@include mixins.paragraphe-txt-container;
 	}
 
 	.paragraphe-1 {
@@ -28,7 +28,7 @@
 
 	img,
 	video {
-		@include paragraphe-img;
+		@include mixins.paragraphe-img;
 	}
 }
 

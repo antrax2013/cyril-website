@@ -1,23 +1,23 @@
-@import '../rules/_mixins.scss';
+@use '../rules/mixins';
 
 .QuiSuisJe {
 	article > section {
-		@include article-section;
+		@include mixins.article-section;
 		align-items: center;
 	}
 
 	article section aside > div {
-		@include flex-content-center;
+		@include mixins.flex-content-center;
 	}
 
 	aside {
-		@include paragraphe-img-container;
+		@include mixins.paragraphe-img-container;
 	}
 
 	.paragraphe-1 .paragraphe-content,
 	.paragraphe-2 .paragraphe-content,
 	.paragraphe-3 .paragraphe-content {
-		@include paragraphe-txt-container;
+		@include mixins.paragraphe-txt-container;
 	}
 
 	.paragraphe-1 {
@@ -25,7 +25,7 @@
 	}
 
 	img {
-		@include paragraphe-img;
+		@include mixins.paragraphe-img;
 		width: 100% !important;
 	}
 
