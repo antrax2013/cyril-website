@@ -1,39 +1,39 @@
 @mixin ombre-portee-panneau {
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  box-shadow: 5px 5px 5px 5px var(--shadow);
-  background-color: var(--background-color);
-  margin: 0 1rem;
-  padding: 0 1rem;
-  flex-direction: column;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	box-shadow: 5px 5px 5px 5px var(--shadow);
+	background-color: var(--background-color);
+	margin: 0 1rem;
+	padding: 0 1rem;
+	flex-direction: column;
 }
 
 @mixin article-section {
-    display: flex;
-    flex: 1 1;
-    justify-content: flex-start;
-    flex-direction: row;
+	display: flex;
+	flex: 1 1;
+	justify-content: flex-start;
+	flex-direction: row;
 }
 
 @mixin flex-content-center {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 @mixin paragraphe-txt-container {
-  flex: 2 1;
-  align-items: center;
+	flex: 2 1;
+	align-items: center;
 }
 
 @mixin paragraphe-img-container {
-  justify-content: space-around;
-  display: flex;
-  flex-direction: column;
+	justify-content: space-around;
+	display: flex;
+	flex-direction: column;
 }
 
 @mixin paragraphe-img {
-  display: flex;
-  width: 80%;
-  height: 80%;
-  border-radius: 25px;
+	display: flex;
+	width: 80%;
+	height: 80%;
+	border-radius: 25px;
 }

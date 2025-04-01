@@ -134,10 +134,10 @@ const Cupule = () => {
 					<section className='paragraphe-4'>
 						<section className='paragraphe-content'>
 							<p>
-								En géobiologie, il a été noté que ces cupules sont très souvent
-								liées à l’eau. A travers les prismes du subtil, de la géométrie
-								et/ou de l’astronomie pourrait-on en apprendre d’avantage sur
-								les cupules ?
+								En <em>géobiologie</em>, il a été noté que ces cupules sont très
+								souvent liées à l’eau. A travers les prismes du subtil, de la
+								géométrie et/ou de l’astronomie pourrait-on en apprendre
+								d’avantage sur les cupules ?
 							</p>
 							<p>
 								Bien que je n’aie aucune idée de ce que l’on pourrait découvrir,

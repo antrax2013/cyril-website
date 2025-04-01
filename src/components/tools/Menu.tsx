@@ -125,6 +125,50 @@ const Menu = ({ ...props }) => {
 			},
 		},
 		{
+			label: 'Ressources',
+			items: [
+				{
+					label: 'Études Géobiologiques',
+					items: [
+						{
+							// label: 'Yvelines',
+							// items: [
+							// 	{
+							label: 'Lavoir source aux fées (78)',
+							template: (item: MenuItem, options: MenuItemOptions) => {
+								return itemTemplate(item, options);
+							},
+							url: '/etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees',
+							className: getClassName('le-lavoir-de-la-source-aux-fees'),
+							command: () => {
+								onClick(
+									'etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees'
+								);
+							},
+							// 	},
+							// ],
+						},
+					],
+				},
+				{
+					label: 'Géologie',
+					items: [
+						{
+							label: 'Les cupules',
+							template: (item: MenuItem, options: MenuItemOptions) => {
+								return itemTemplate(item, options);
+							},
+							url: '/geologie/les-cupules',
+							className: getClassName('les-cupules'),
+							command: () => {
+								onClick('/geologie/les-cupules');
+							},
+						},
+					],
+				},
+			],
+		},
+		{
 			label: 'Contact',
 			template: (item: MenuItem, options: MenuItemOptions) => {
 				return itemTemplate(item, options);

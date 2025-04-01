@@ -27,9 +27,6 @@ const SiteMap = () => {
 						<a href='/les-9-rites-munay-ki'>Les 9 rites Munay-Ki</a>
 					</li>
 					<li>
-						<a href='/les-cupules'>Les cupules</a>
-					</li>
-					<li>
 						<a href='/contact'>Contact</a>
 					</li>
 					<li>
@@ -43,6 +40,23 @@ const SiteMap = () => {
 					<li>
 						<a href='/erreur-404'>Erreur 404</a>
 					</li>
+				</ul>
+				<ul>
+					<h2>Resources</h2>
+					<ul>
+						<h3>Études géobiologiques</h3>
+						<li>
+							<a href='/etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees'>
+								Le lavoir de la source aux fées
+							</a>
+						</li>
+					</ul>
+					<ul>
+						<h3>Géologie</h3>
+						<li>
+							<a href='geologie/les-cupules'>Les cupules</a>
+						</li>
+					</ul>
 				</ul>
 			</article>
 		</>
