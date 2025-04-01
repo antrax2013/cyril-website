@@ -221,11 +221,19 @@ article:not(.title) h1:not(.aside) {
 }
 
 .events .event {
-	h3 {
-		margin-top: 1.5em !important;
+	h3,
+	h4 {
 		padding-left: 0.25em !important;
 		padding-bottom: 0.25em !important;
 		margin-bottom: 0em !important;
+	}
+	h3 {
+		margin-top: 1.5em !important;
+		color: var(--tertiary-color) !important;
+	}
+	h4 {
+		margin-top: inherit !important;
+		font-size: 0.82rem;
 	}
 	ul {
 		margin-top: 0em !important;

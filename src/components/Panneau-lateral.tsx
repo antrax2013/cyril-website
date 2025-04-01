@@ -12,38 +12,41 @@ const PanneauLateral = () => {
 							href='/geobiologie#invisible'
 							title='Cliquez sur ce lien pour découvrir plus d’informations sur l’initiation Explorateur de l’invisible'
 						>
-							Initiation Géobiologie - Explorateur de l'invisible - Module 1
+							Initiation Géobiologie - Explorateur de l'invisible :
 						</a>
 					</h3>
+					<h4>Module 1 - La découverte </h4>
 					<ul>
-						<li>
-							<a
-								href='https://fb.me/e/2PrxuDo1O'
-								title='Cliquez sur ce lien pour découvrir plus d’informations sur la session du 09/03/2025 du Module 1 : La découverte.'
-								target='_blank'
-							>
-								09/03/2025 09h-13h
-							</a>
-						</li>
-						<li>18/05/2025 09h-13h</li>
-						<li>18/05/2025 14h-18h</li>
+						<li>25/05/2025 09h-13h à Plaisir (78)</li>
+						<li>25/05/2025 14h-18h à Plaisir (78)</li>
 					</ul>
+					<h4>Module 2 - Les failles et les veines d’eau</h4>
+					<ul>
+						<li>13/04/2025 14h-18h à Plaisir (78)</li>
+					</ul>
+					<h4>Module 4 : Les réseaux géomagnétiques</h4>
+					<ul>
+						<li>06/04/2025 14h-18h à Plaisir (78)</li>
+					</ul>
+				</div>
+				<div className='event' id='événements'>
 					<h3>
 						<a
 							href='/geobiologie#invisible'
 							title='Cliquez sur ce lien pour découvrir plus d’informations sur l’initiation Explorateur de l’invisible'
 						>
-							Conférence - Introduction à la Géobiologie
+							Conférences :
 						</a>
 					</h3>
+					<h4>Introduction à la Géobiologie</h4>
 					<ul>
 						<li>
 							<a
-								href='https://salon-art-bien-etre.fr/2019/12/05/samedi-8-fevrier/'
-								title='Cliquez sur ce lien pour vous inscrire ou découvrir plus d’informations sur ma conférence le 08/02/2025 à 12h00 lors du salon Art & Bien-être 2025'
+								href='https://fb.me/e/2koa1WwrD'
+								title='Cliquez sur ce lien pour plus d’informations sur ma conférence lors des portes ouvertes de Coffret dAlumine le 29/03 à 18h00 et 30/03 à 15h00'
 								target='_blank'
 							>
-								08/02/2025 12h - Salon Art & Bien-être 2025
+								29-30/03/2025 Portes ouvertes Coffret d'Alumine à Plaisir (78)
 							</a>
 						</li>
 					</ul>
