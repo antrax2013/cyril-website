@@ -29,3 +29,4 @@ coverage
 /src/assets/Reiki/Reiki.png
 /src/assets/Reiki/Sans titre-1.psd
 /buildindex.html
+/.env.production
