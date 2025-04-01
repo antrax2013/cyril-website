@@ -12,42 +12,63 @@ const PanneauLateral = () => {
 							href='/geobiologie#invisible'
 							title='Cliquez sur ce lien pour découvrir plus d’informations sur l’initiation Explorateur de l’invisible'
 						>
-							Initiation Géobiologie - Explorateur de l'invisible - Module 1
+							Initiation <em>Géobiologie</em> - Explorateur de l'invisible
 						</a>
 					</h3>
+					<h4>Module 1 - La découverte </h4>
+					<ul>
+						<li>25/05/2025 14h-18h à Plaisir (78)</li>
+					</ul>
+					<h4>Module 2 - Les premières recherches </h4>
+					<ul>
+						<li>??/06/2025 14h-18h à Plaisir (78)</li>
+					</ul>
+					<h4>Module 3 - Les failles et les veines d’eau</h4>
+					<ul>
+						<li>02/06/2025 14h-18h à Plaisir (78)</li>
+					</ul>
+					<h4>Module 4 - Les réseaux géomagnétiques de base</h4>
+					<ul>
+						<li>??/06/2025 14h-18h à Plaisir (78)</li>
+					</ul>
+				</div>
+				<div className='event' id='événements'>
+					<h3>Salons</h3>
+					<h4>Les Sens en Éveil</h4>
 					<ul>
 						<li>
 							<a
-								href='https://fb.me/e/2PrxuDo1O'
-								title='Cliquez sur ce lien pour découvrir plus d’informations sur la session du 09/03/2025 du Module 1 : La découverte.'
+								href='https://fb.me/e/3aKRIyi8x'
+								title='Cliquez sur ce lien pour plus d’informations sur le salon Les Sens en Éveil.'
 								target='_blank'
 							>
-								09/03/2025 09h-13h
+								18/05/2025 à la Ferme du Manet à Montigny-le-Bretonneux (78)
 							</a>
 						</li>
-						<li>18/05/2025 09h-13h</li>
-						<li>18/05/2025 14h-18h</li>
 					</ul>
+				</div>
+				{/* <div className='event' id='événements'>
 					<h3>
 						<a
 							href='/geobiologie#invisible'
 							title='Cliquez sur ce lien pour découvrir plus d’informations sur l’initiation Explorateur de l’invisible'
 						>
-							Conférence - Introduction à la Géobiologie
+							Conférences :
 						</a>
 					</h3>
+					<h4>Introduction à la Géobiologie</h4>
 					<ul>
 						<li>
 							<a
-								href='https://salon-art-bien-etre.fr/2019/12/05/samedi-8-fevrier/'
-								title='Cliquez sur ce lien pour vous inscrire ou découvrir plus d’informations sur ma conférence le 08/02/2025 à 12h00 lors du salon Art & Bien-être 2025'
+								href='https://fb.me/e/2koa1WwrD'
+								title='Cliquez sur ce lien pour plus d’informations sur ma conférence lors des portes ouvertes de Coffret dAlumine le 29/03 à 18h00 et 30/03 à 15h00'
 								target='_blank'
 							>
-								08/02/2025 12h - Salon Art & Bien-être 2025
+								29-30/03/2025 Portes ouvertes Coffret d'Alumine à Plaisir (78)
 							</a>
 						</li>
 					</ul>
-				</div>
+				</div> */}
 			</div>
 			<div id='events'>
 				<p className='social-networks'>

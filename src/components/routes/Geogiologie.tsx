@@ -92,11 +92,11 @@ const Geobiologie = () => {
 							<p>
 								Depuis, les grands sites sacrés, à travers le monde, ont été
 								étudiés. L’organisation singulière, constante et régulière, des
-								phénomènes géobiologiques, sur ces grands sites, met en évidence
-								une maîtrise de ceux-ci par les anciens bâtisseurs. Suivant
-								leurs cultures et leurs croyances, ils les utilisaient et les
-								modifiaient pour accroître l’énergie du lieu ainsi que son
-								potentiel thérapeutique.
+								phénomènes <em>géobiologiques</em>, sur ces grands sites, met en
+								évidence une maîtrise de ceux-ci par les anciens bâtisseurs.
+								Suivant leurs cultures et leurs croyances, ils les utilisaient
+								et les modifiaient pour accroître l’énergie du lieu ainsi que
+								son potentiel thérapeutique.
 							</p>
 						</section>
 						<aside>
@@ -129,9 +129,9 @@ const Geobiologie = () => {
 							<p>
 								L’objectif de cette initiation est d’être en mesure
 								d’appréhender, de manière autonome, les différents phénomènes
-								énergétiques et géobiologiques de base, présents dans un lieu
-								pour en comprendre leur agencement et ainsi évaluer leurs
-								impacts potentiels sur le vivant.
+								énergétiques et <em>géobiologiques</em> de base, présents dans
+								un lieu pour en comprendre leur agencement et ainsi évaluer
+								leurs impacts potentiels sur le vivant.
 							</p>
 							<p>
 								D’une durée approximative d’une demi-journée, les différents

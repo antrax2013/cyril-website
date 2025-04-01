@@ -46,8 +46,8 @@ const QuiSuisJe = () => {
 							<p>
 								J’aime être au contact de la Nature, de la faune, de la flore,
 								des roches... Passionné également de musique, d’Histoire et de
-								légendes, j’ai trouvé dans la géobiologie et le chamanisme des
-								réponses résonnant avec ce qui m’anime.
+								légendes, j’ai trouvé dans la <em>géobiologie</em> et le
+								chamanisme des réponses résonnant avec ce qui m’anime.
 							</p>
 							<p>
 								Indépendant, souvent à contre-courant, j’aime sortir des

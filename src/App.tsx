@@ -23,6 +23,12 @@ const FooterMenu = lazy(() => import('./components/tools/Footer-Menu'));
 const ScrollButton = lazy(() => import('./components/tools/Scrollbutton'));
 const PlanDuSite = lazy(() => import('./components/routes/Site-Map'));
 const Cupule = lazy(() => import('./components/routes/Geobiologie/Cupule'));
+const LeLavoirDeLaSourceAuxFees = lazy(
+	() =>
+		import(
+			'./components/routes/Geobiologie/Etudes/Le-lavoir-de-la-source-aux-fees'
+		)
+);
 
 const App = () => {
 	return (
@@ -39,7 +45,10 @@ const App = () => {
 							<Route path='qui-suis-je' element={<QuiSuisJe />} />
 							<Route index element={<QuiSuisJe />} />
 							<Route path='geobiologie' element={<Geobiologie />} />
-
+							<Route
+								path='les-cupules'
+								element={<Navigate replace to='/geologie/les-cupules' />}
+							/>
 							<Route path='les-9-rites-munay-ki' element={<RitesMunayKi />} />
 							<Route path='contact' element={<Contact />} />
 							<Route
@@ -48,7 +57,14 @@ const App = () => {
 							/>
 							<Route path='erreur-404' element={<Error404 />} />
 							<Route path='plan-du-site' element={<PlanDuSite />} />
-							<Route path='les-cupules' element={<Cupule />} />
+
+							{/* Resources */}
+							<Route path='geologie/les-cupules' element={<Cupule />} />
+							<Route
+								path='etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees'
+								element={<LeLavoirDeLaSourceAuxFees />}
+							/>
+
 							<Route path='*' element={<Navigate replace to='/erreur-404' />} />
 						</Routes>
 						<ScrollButton />
