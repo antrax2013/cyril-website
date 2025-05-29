@@ -45,10 +45,6 @@ const App = () => {
 							<Route path='qui-suis-je' element={<QuiSuisJe />} />
 							<Route index element={<QuiSuisJe />} />
 							<Route path='geobiologie' element={<Geobiologie />} />
-							<Route
-								path='les-cupules'
-								element={<Navigate replace to='/geologie/les-cupules' />}
-							/>
 							<Route path='les-9-rites-munay-ki' element={<RitesMunayKi />} />
 							<Route path='contact' element={<Contact />} />
 							<Route
