@@ -17,62 +17,52 @@ const PanneauLateral = () => {
 					</h3>
 					<h4>Module 1 - La découverte </h4>
 					<ul>
-						<li>25/05/2025 14h-18h à Plaisir (78)</li>
+						<li>En septembre...</li>
 					</ul>
 					<h4>Module 2 - Les premières recherches </h4>
 					<ul>
-						<li>??/06/2025 14h-18h à Plaisir (78)</li>
+						<li>07/06/2025 14h-18h à Plaisir (78)</li>
 					</ul>
 					<h4>Module 3 - Les failles et les veines d’eau</h4>
 					<ul>
-						<li>02/06/2025 14h-18h à Plaisir (78)</li>
+						<li>01/06/2025 9h30-13h à Plaisir (78)</li>
 					</ul>
 					<h4>Module 4 - Les réseaux géomagnétiques de base</h4>
 					<ul>
-						<li>??/06/2025 14h-18h à Plaisir (78)</li>
+						<li>(29?)/06/2025 14h-18h à Plaisir (78)</li>
 					</ul>
 				</div>
 				<div className='event' id='événements'>
-					<h3>Salons</h3>
-					<h4>Les Sens en Éveil</h4>
-					<ul>
-						<li>25/05/2025 09h-13h à Plaisir (78)</li>
-						<li>25/05/2025 14h-18h à Plaisir (78)</li>
-								href='https://fb.me/e/3aKRIyi8x'
-								title='Cliquez sur ce lien pour plus d’informations sur le salon Les Sens en Éveil.'
-								18/05/2025 à la Ferme du Manet à Montigny-le-Bretonneux (78)
-					</ul>
-				</div>
-				{/* <div className='event' id='événements'>
-						<li>13/04/2025 14h-18h à Plaisir (78)</li>
-					</ul>
-					<h4>Module 4 : Les réseaux géomagnétiques</h4>
-					<ul>
-						<li>06/04/2025 14h-18h à Plaisir (78)</li>
-					</ul>
-				</div>
-				<div className='event' id='événements'>
-					<h3>
-						<a
-							href='/geobiologie#invisible'
-							title='Cliquez sur ce lien pour découvrir plus d’informations sur l’initiation Explorateur de l’invisible'
-						>
-							Conférences :
-						</a>
-					</h3>
-					<h4>Introduction à la Géobiologie</h4>
+					<h3>Conférences / Salons</h3>
+					<h4>Salon Les Sens en Éveil</h4>
 					<ul>
 						<li>
+							25/05/2025 14h-18h à Plaisir (78)
 							<a
-								href='https://fb.me/e/2koa1WwrD'
-								title='Cliquez sur ce lien pour plus d’informations sur ma conférence lors des portes ouvertes de Coffret dAlumine le 29/03 à 18h00 et 30/03 à 15h00'
-								target='_blank'
+								href='https://fb.me/e/3aKRIyi8x'
+								title='Cliquez sur ce lien pour plus d’informations sur le salon Les Sens en Éveil.'
 							>
-								29-30/03/2025 Portes ouvertes Coffret d'Alumine à Plaisir (78)
+								18/05/2025 à la Ferme du Manet à Montigny-le-Bretonneux (78)
 							</a>
 						</li>
 					</ul>
-				</div> */}
+				</div>
+				<div className='event' id='événements'>
+					<h3>Sorties</h3>
+					<ul>
+						<li>
+							<a
+								href='/geologie/les-cupules'
+								title='Cliquez sur ce lien pour plus d’informations sur le cupules.'
+								target='_blank'
+							>
+								22/06/2025 à Poigny-la-Forêt(78) - Sortie Cupules
+								<br />
+								<i>départ à 9h00 de Maurepas - réservation me contacter</i>
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 			<div id='events'>
 				<p className='social-networks'>
