@@ -37,7 +37,6 @@ const PanneauLateral = () => {
 					<h4>Salon Les Sens en Éveil</h4>
 					<ul>
 						<li>
-							25/05/2025 14h-18h à Plaisir (78)
 							<a
 								href='https://fb.me/e/3aKRIyi8x'
 								title='Cliquez sur ce lien pour plus d’informations sur le salon Les Sens en Éveil.'
