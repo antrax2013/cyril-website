@@ -1,0 +1,44 @@
+$neutre-color: grey;
+$rose-color: #f197e3;
+$jaune-paille-color: #eefb58;
+
+$text-shadow:
+	var(--primary-color) 1px 0px 0px,
+	var(--primary-color) 0.540302px 0.841471px 0px,
+	var(--primary-color) -0.416147px 0.909297px 0px,
+	var(--primary-color) -0.989992px 0.14112px 0px,
+	var(--primary-color) -0.653644px -0.756802px 0px,
+	var(--primary-color) 0.283662px -0.958924px 0px,
+	var(--primary-color) 0.96017px -0.279416px 0px;
+
+/* Réseaux */
+$titane-color: #196b00;
+
+.text-shadow {
+	text-shadow: $text-shadow;
+}
+
+.text-titane {
+	color: $titane-color !important;
+}
+
+/* Elements */
+$eau-color: #97e9f1;
+
+.text-eau {
+	color: $eau-color !important;
+}
+
+/* Presences */
+.text-fee {
+	color: $rose-color !important;
+}
+
+/* Autres */
+.text-neutre {
+	color: $neutre-color !important;
+}
+
+.text-jaune-paille {
+	color: $jaune-paille-color !important;
+}
