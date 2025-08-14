@@ -4,6 +4,12 @@
 	p.txt-center {
 		text-align: center;
 		padding: 1em 0;
+		span,
+		b,
+		u,
+		a {
+			color: var(--warning) !important;
+		}
 	}
 
 	.separator {
