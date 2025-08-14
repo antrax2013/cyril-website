@@ -17,33 +17,38 @@ const PanneauLateral = () => {
 					</h3>
 					<h4>Module 1 - La découverte </h4>
 					<ul>
-						<li>En septembre...</li>
+						<li>Dimanche 19 octobre de 09h00 à 12h30</li>
 					</ul>
 					<h4>Module 2 - Les premières recherches </h4>
 					<ul>
-						<li>07/06/2025 14h-18h à Plaisir (78)</li>
+						<li>Dimanche 19 octobre de 14h00 à 18h00</li>
 					</ul>
 					<h4>Module 3 - Les failles et les veines d’eau</h4>
 					<ul>
-						<li>01/06/2025 9h30-13h à Plaisir (78)</li>
+						<li>Dimanche 16 novembre de 09h00 à 12h30</li>
 					</ul>
 					<h4>Module 4 - Les réseaux géomagnétiques de base</h4>
 					<ul>
-						<li>(29?)/06/2025 14h-18h à Plaisir (78)</li>
+						<li>Dimanche 16 novembre de 14h00 à 18h00</li>
 					</ul>
 				</div>
 				<div className='event' id='événements'>
 					<h3>Conférences / Salons</h3>
-					<h4>Salon Les Sens en Éveil</h4>
+					<h4>Portes ouvertes</h4>
 					<ul>
 						<li>
 							<a
-								href='https://fb.me/e/3aKRIyi8x'
-								title='Cliquez sur ce lien pour plus d’informations sur le salon Les Sens en Éveil.'
+								href='https://www.facebook.com/photo/?fbid=1356852189776823&set=a.402294491899269'
+								title='Cliquez sur ce lien pour plus d’informations'
 							>
-								18/05/2025 à la Ferme du Manet à Montigny-le-Bretonneux (78)
+								07/07/2025 au cabinet de Blowball Guyancourt (78) à 10h30 puis à
+								12h00
 							</a>
 						</li>
+					</ul>
+					<h4>Salon</h4>
+					<ul>
+						<li>23/11/2025 L'être au naturel Maurepas (78)</li>
 					</ul>
 				</div>
 				<div className='event' id='événements'>

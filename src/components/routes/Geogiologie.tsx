@@ -212,12 +212,12 @@ const Geobiologie = () => {
 								</dt>
 							</dl>
 							<p>
-								Le tarif est de 50€ par module. Le tarif comprend la location de
-								la salle et un lobe de Hartmann, artisanal, fait par mes soins
-								qui vous sera remis lors de votre participation à votre premier
-								module. Il vous sera utile durant les phases pratiques.
-								Naturellement, vous serez libre d'utiliser d'autres outils à
-								votre convenance.
+								Le tarif par module est à partir de 50€. Il comprend la location
+								de la salle, et pourra être ajusté en conséquence, et un lobe de
+								Hartmann artisanal, fait par mes soins qui vous sera remis lors
+								de votre participation à votre premier module. Il vous sera
+								utile durant les phases pratiques. Naturellement, vous serez
+								libre d'utiliser d'autres outils à votre convenance.
 							</p>
 							<p>
 								Les modules sont conçus pour être indépendants les uns des
