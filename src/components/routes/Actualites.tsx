@@ -24,65 +24,44 @@ const Actualites = () => {
 						<h2>Conférences, Salons et animations</h2>
 						<section className='paragraphe-content'>
 							<h3>
-								Le 07 septembre 2025 de 09h30 à 13h00 - Portes ouvertes du
-								cabinet Blowball à Guyancourt (78)
-							</h3>
-							<p className='txt-center'>
-								<a
-									href='https://www.billetweb.fr/porte-ouverte-cabinet-blowball'
-									target='_blank'
-									title='Lien pour réserver un billet pour les portes ouvertes du cabinet Blowball'
-								>
-									<span>
-										⚠️ Attention réservation <b>gratuite mais obligatoire</b>{' '}
-										via ce lien :{' '}
-									</span>
-									<u>réserver</u> ⚠️
-								</a>
-							</p>
-							<p>
-								Je serai présent, pour cette rentrée, aux portes ouvertes du
-								cabinet Blowball de mon amie Carole Jacob.
-							</p>{' '}
-							<p>
-								A cette occasion, je ferai une animation de découverte autours
-								des phénomènes énergétiques étudiés par la <em>Géobiologie</em>{' '}
-								ainsi que deux conférences interactives, d'une durée de 45 mins
-								environ, d’introduction à la <em>Géobiologie</em> à{' '}
-								<i>10h30 et 12h00.</i>
-							</p>
-							<p>Durant ces conférences, je vous présenterai :</p>
-							<ul>
-								<li>
-									Ce qu’est la <em>Géobiologie</em>.
-								</li>
-								<li>
-									Pourquoi on fait de la <em>Géobiologie</em>.
-								</li>
-								<li>
-									Les différents outils de la <em>Géobiologie</em>.
-								</li>
-								<li>
-									A qui s’adresse la <em>Géobiologie</em>.
-								</li>
-							</ul>
-							<Adresse
-								title='Cabinet Blowball'
-								floor='Rez-de-chaussée'
-								streetAddress='1, rue Le Corbusier'
-								postalCode='78280'
-								addressLocality='Guyancourt'
-							/>
-						</section>
-						<section className='paragraphe-content'>
-							<h3>
 								Le 23 novembre 2025 - Salon L’être au naturel hotel Mercure à
 								Maurepas (78)
 							</h3>
 							<p>
-								Je serai présent au salon L’être au naturel, à l’hotel Mercure à
-								Maurepas pour accompagner Marie, mon épouse. N'hésitez pas à
-								venir échanger avec nous.
+								Je serai présent au salon{' '}
+								<a
+									href='https://fb.me/e/1PYGeWXkGl'
+									title='Cliquez sur ce lien pour plus d’informations sur le salon L’être au naturel à Maurepas'
+									target='_blank'
+								>
+									L’être au naturel
+								</a>
+								, à l’hotel Mercure à Maurepas pour accompagner{' '}
+								<a
+									href='https://marie.cophignon.net'
+									title='Cliquez sur ce lien pour plus d’informations sur l’univers de Marie COPHIGNON, Massothérapeute énergétique'
+									target='_blank'
+								>
+									<em>Marie</em>
+								</a>
+								, mon épouse. N'hésitez pas à venir échanger avec nous.
+							</p>
+						</section>
+						<section className='paragraphe-content'>
+							<h3>
+								En décembre 2025 - Portes ouvertes coffret d'Alumine à Plaisir
+								(78)
+							</h3>
+							<p>
+								Je serai présent lors des portes ouvertes du show room{' '}
+								<a
+									href='https://coffret-alumine.art/fr/'
+									title='Cliquez sur ce lien pour découvrir la boutique en ligne'
+									target='_blank'
+								>
+									<em>coffret d’Alumine</em>
+								</a>{' '}
+								où je ferai une ou plusieurs coférences sur la Géobiologie.
 							</p>
 						</section>
 					</section>
@@ -126,6 +105,7 @@ const Actualites = () => {
 									href='/contact'
 									target='_blank'
 									title='Lien pour réserver un ou plusieurs modules pour l’initiation à la Géobiologie - Explorateur de l’invisible'
+									className='txt-warning'
 								>
 									<span>
 										⚠️ Attention réservation <b>obligatoire</b> via ce
@@ -158,7 +138,8 @@ const Actualites = () => {
 						<section className='paragraphe-content'>
 							<p>
 								<i>
-									Aucune sortie n'est planifiée pour cette rentrée à ce jour.
+									Aucune sortie n'est planifiée pour cette rentrée à ce jour. La
+									prochaine devrait avoir lieu au printemps 2026.
 								</i>
 							</p>
 						</section>
@@ -169,10 +150,10 @@ const Actualites = () => {
 						<section className='paragraphe-content'>
 							<h3>Octobre 2025</h3>
 							<p>
-								Pour cette année, je vais me former à la communication animale
-								avec Emmanta D’eaubonne à Magny-les-hameaux. J'ai toujours été
-								très proche des animaux. J’ai hâte d'y être et de pouvoir
-								partager avec vous ce retour d’expérience.
+								Pour cette année, je me suis formé à la communication animale
+								avec Emmanta D’Eaubonne à Magny-les-hameaux. J'ai toujours été
+								très proche des animaux. J'ai hâte de vous proposer
+								prochainement des sessions pour que je puisse m'exercer.
 							</p>
 						</section>
 					</section>

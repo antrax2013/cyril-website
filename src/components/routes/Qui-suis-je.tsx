@@ -88,7 +88,7 @@ const QuiSuisJe = () => {
 									title='Accédez par ce lien au site de Carole Jacob, réflexologue et maître Reiki Usui enseignante.'
 									target='_blank'
 								>
-									Carole
+									Carole Jacob
 								</a>
 								.
 							</p>
@@ -98,6 +98,35 @@ const QuiSuisJe = () => {
 								s’est ouverte à moi. Grâce à elle, j’ai pu expérimenter et
 								découvrir des sensations nouvelles, enrichissantes me donnant
 								envie d’aller plus loin.
+							</p>
+							<p>
+								En 2021, je m’initie, avec Catherine Leveau, à la{' '}
+								<em>Géobiolgie</em>. Un cadeau, un vertibale tournant pour moi.
+								Grâce à la <em>Géobiolgie</em>, je peux accéder à des
+								informations subtiles sur un lieu, à l’âme du lieu. Maintenant,
+								c’est une véritable passion.
+							</p>
+							<p>
+								En 2023, j’ai reçu les 9 rites du <em>Munay-Ki</em>. Pendant un
+								peu plus d’un an, Ludivine Subileau, m’a transmis des
+								enseignements chamaniques d’amérique du Sud. Une ouverture sur
+								un monde nouveau que je souhaite continuer d'explorer.
+							</p>
+							<p>
+								En février 2025, je participe à mon premier salon, le salon du
+								bien-être à St Lambert-des-bois où je fais une conférence sur la{' '}
+								<em>Géobiologie</em>. Par la magie du hasard, j’y rencontre
+								Marjorie Dufresne. J'échange avec elle sur la pratique de la{' '}
+								<em>communication animale</em> et je me rends compte que la
+								personne qui l’a initiée réside à quelques kilomètres. Et donc,
+								en octobre 2025, je participe au premier module du cycle de{' '}
+								<em>communication animale</em> dispensé par{' '}
+								<a
+									href='https://www.quanticienne-chamanique.fr/'
+									title='Accédez par ce lien au site d’Emmanta d’Eaubonne, quanticienne chamanique.'
+									target='_blank'
+								></a>
+								Emmanta d'Eaubonne.
 							</p>
 						</section>
 					</section>

@@ -34,6 +34,19 @@ p {
 	text-align: justify;
 }
 
+i.comment {
+	color: var(--tertiary-color) !important;
+}
+
+p.txt-center {
+	text-align: center;
+	padding: 1em 0;
+}
+.txt-warning,
+.txt-warning * {
+	color: var(--warning) !important;
+}
+
 a:not(.p-menubar-button),
 a:not(.p-menubar-button):hover,
 a:not(.p-menubar-button):active {

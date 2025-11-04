@@ -1,0 +1,70 @@
+@use '../rules/mixins';
+
+.message-animal {
+	article > section {
+		@include mixins.article-section;
+		align-items: center;
+	}
+
+	article section aside > div {
+		@include mixins.flex-content-center;
+	}
+
+	aside {
+		@include mixins.paragraphe-img-container;
+	}
+
+	.paragraphe-1 .paragraphe-content,
+	.paragraphe-2 .paragraphe-content,
+	.paragraphe-3 .paragraphe-content {
+		@include mixins.paragraphe-txt-container;
+	}
+
+	.paragraphe-1 {
+		margin-top: 1rem;
+	}
+
+	.paragraphe-2 aside {
+		img {
+			width: 100%;
+		}
+	}
+
+	.paragraphe-3 aside {
+		display: block;
+		width: 100%;
+		img {
+			width: 45%;
+			margin-bottom: 1em;
+		}
+	}
+
+	img {
+		@include mixins.paragraphe-img;
+	}
+}
+
+@media (max-width: 768px) and (min-width: 427px) {
+	.message-animal {
+		.paragraphe-1 .paragraphe-content {
+			flex: 1 1;
+		}
+		article section aside {
+			flex: 2 1;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.message-animal {
+		article section {
+			flex-direction: column;
+		}
+	}
+}
+
+@media (min-width: 769px) {
+	.message-animal aside {
+		flex-direction: inherit;
+	}
+}

@@ -1,17 +1,6 @@
 @use '../rules/mixins';
 
 .actualites {
-	p.txt-center {
-		text-align: center;
-		padding: 1em 0;
-		span,
-		b,
-		u,
-		a {
-			color: var(--warning) !important;
-		}
-	}
-
 	.separator {
 		padding: 1em 0;
 	}

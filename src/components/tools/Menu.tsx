@@ -75,8 +75,6 @@ const Menu = ({ ...props }) => {
 			'actualites',
 			'geobiologie',
 			'les-9-rites-munay-ki',
-			// 'consultations',
-			// 'offres',
 			'contact',
 		];
 
@@ -103,7 +101,6 @@ const Menu = ({ ...props }) => {
 			},
 			className: getClassName('qui-suis-je'),
 		},
-		,
 		{
 			label: 'Actualités',
 			template: (item: MenuItem, options: MenuItemOptions) => {
@@ -136,6 +133,17 @@ const Menu = ({ ...props }) => {
 			command: () => {
 				onClick('geobiologie');
 			},
+		},
+		{
+			label: 'La communication animale',
+			template: (item: MenuItem, options: MenuItemOptions) => {
+				return itemTemplate(item, options);
+			},
+			url: '/la-communication-animale',
+			command: () => {
+				onClick('la-communication-animale');
+			},
+			className: getClassName('la-communication-animale'),
 		},
 		{
 			label: 'Les 9 Rites Munay-Ki',
