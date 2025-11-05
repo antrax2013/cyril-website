@@ -108,9 +108,17 @@ const QuiSuisJe = () => {
 							</p>
 							<p>
 								En 2023, j’ai reçu les 9 rites du <em>Munay-Ki</em>. Pendant un
-								peu plus d’un an, Ludivine Subileau, m’a transmis des
-								enseignements chamaniques d’amérique du Sud. Une ouverture sur
-								un monde nouveau que je souhaite continuer d'explorer.
+								peu plus d’un an,{' '}
+								<a
+									href='https://www.facebook.com/subileau.psychosomato/'
+									title='Accédez par ce lien à la page Facebook de Ludivine Subileau, psycho-somatothérapeute,.'
+									target='_blank'
+								>
+									Ludivine Subileau
+								</a>
+								, m’a transmis des enseignements chamaniques d’amérique du Sud.
+								Une ouverture sur un monde nouveau que je souhaite continuer
+								d'explorer.
 							</p>
 							<p>
 								En février 2025, je participe à mon premier salon, le salon du
