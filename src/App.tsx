@@ -8,6 +8,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import { lazy } from 'react';
 
+const Actualites = lazy(() => import('./components/routes/Actualites'));
 const Contact = lazy(() => import('./components/routes/Contact'));
 const Error404 = lazy(() => import('./components/routes/Error404'));
 const RitesMunayKi = lazy(
@@ -44,6 +45,7 @@ const App = () => {
 							<Route path='/' element={<QuiSuisJe />} />
 							<Route path='qui-suis-je' element={<QuiSuisJe />} />
 							<Route index element={<QuiSuisJe />} />
+							<Route path='actualites' element={<Actualites />} />
 							<Route path='geobiologie' element={<Geobiologie />} />
 							<Route path='les-9-rites-munay-ki' element={<RitesMunayKi />} />
 							<Route path='contact' element={<Contact />} />

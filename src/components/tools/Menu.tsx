@@ -72,6 +72,7 @@ const Menu = ({ ...props }) => {
 
 		const entries: string[] = [
 			'qui-suis-je',
+			'actualites',
 			'geobiologie',
 			'les-9-rites-munay-ki',
 			// 'consultations',
@@ -101,6 +102,17 @@ const Menu = ({ ...props }) => {
 				onClick('qui-suis-je');
 			},
 			className: getClassName('qui-suis-je'),
+		},
+		{
+			label: 'Actualités',
+			template: (item: MenuItem, options: MenuItemOptions) => {
+				return itemTemplate(item, options);
+			},
+			url: '/actualites',
+			className: getClassName('actualites'),
+			command: () => {
+				onClick('actualites');
+			},
 		},
 		{
 			label: 'Géobiologie',

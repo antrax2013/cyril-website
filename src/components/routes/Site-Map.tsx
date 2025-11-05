@@ -21,6 +21,9 @@ const SiteMap = () => {
 						<a href='/'>Qui suis-je ?</a>
 					</li>
 					<li>
+						<a href='/actualites'>Actualités</a>
+					</li>
+					<li>
 						<a href='/geobiologie'>Géobiologie</a>
 					</li>
 					<li>
