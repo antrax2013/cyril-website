@@ -193,18 +193,6 @@ const Les9RitesMunayKi = () => {
 								l’équilibre et l’harmonie. Soyons les nouveaux Gardiens de la
 								Terre.
 							</p>
-							<p>
-								J’ai reçu, de{' '}
-								<a
-									href='https://www.facebook.com/subileau.psychosomato/'
-									title='Accédez par ce lien à la page Facebook de Ludivine Subileau, psycho-somatothérapeute,.'
-									target='_blank'
-								>
-									Ludivine Subileau
-								</a>
-								, les rites, enseignements et sagesses <em>Munay-Ki</em> et je
-								l’en remercie.
-							</p>
 						</section>
 					</section>
 				</article>

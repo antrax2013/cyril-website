@@ -74,6 +74,7 @@ const Menu = ({ ...props }) => {
 			'qui-suis-je',
 			'actualites',
 			'geobiologie',
+			'la-communication-animale',
 			'les-9-rites-munay-ki',
 			'contact',
 		];
@@ -100,17 +101,6 @@ const Menu = ({ ...props }) => {
 				onClick('qui-suis-je');
 			},
 			className: getClassName('qui-suis-je'),
-		},
-		{
-			label: 'Actualités',
-			template: (item: MenuItem, options: MenuItemOptions) => {
-				return itemTemplate(item, options);
-			},
-			url: '/actualites',
-			className: getClassName('actualites'),
-			command: () => {
-				onClick('actualites');
-			},
 		},
 		{
 			label: 'Actualités',
