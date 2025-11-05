@@ -38,33 +38,31 @@ const PanneauLateral = () => {
 					<ul>
 						<li>
 							<a
-								href='https://www.facebook.com/photo/?fbid=1356852189776823&set=a.402294491899269'
-								title='Cliquez sur ce lien pour plus d’informations'
+								href='https://coffret-alumine.art/fr/'
+								title='Cliquez sur ce lien pour découvrir la boutique en ligne'
+								target='_blank'
 							>
-								07/07/2025 au cabinet de Blowball Guyancourt (78) à 10h30 puis à
-								12h00
+								En décembre porte ouvertes coffret d'Alumine
 							</a>
 						</li>
 					</ul>
 					<h4>Salon</h4>
 					<ul>
-						<li>23/11/2025 L'être au naturel Maurepas (78)</li>
+						<li>
+							<a
+								href='https://fb.me/e/1PYGeWXkGl'
+								title='Cliquez sur ce lien pour plus d’informations sur le salon L’être au naturel à Maurepas'
+								target='_blank'
+							>
+								23/11/2025 L'être au naturel Maurepas (78)
+							</a>
+						</li>
 					</ul>
 				</div>
 				<div className='event' id='événements'>
 					<h3>Sorties</h3>
 					<ul>
-						<li>
-							<a
-								href='/geologie/les-cupules'
-								title='Cliquez sur ce lien pour plus d’informations sur le cupules.'
-								target='_blank'
-							>
-								22/06/2025 à Poigny-la-Forêt(78) - Sortie Cupules
-								<br />
-								<i>départ à 9h00 de Maurepas - réservation me contacter</i>
-							</a>
-						</li>
+						<li>La prochaine sortie sera au printemps 2026</li>
 					</ul>
 				</div>
 			</div>

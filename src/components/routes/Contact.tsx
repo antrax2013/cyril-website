@@ -29,8 +29,12 @@ const Contact = () => {
 		// { label: 'Informations de suivi', value: 'Informations de suivi' },
 		{ label: 'Demande de renseignements', value: 'Demande de renseignements' },
 		{
-			label: 'Inscription Initiaition Géobio.',
-			value: 'Inscription Initiaition Géobio.',
+			label: 'Inscription initiation Géobio.',
+			value: 'Inscription initiation Géobio.',
+		},
+		{
+			label: 'Séance de communication animal',
+			value: 'Séance de communication animal',
 		},
 	];
 

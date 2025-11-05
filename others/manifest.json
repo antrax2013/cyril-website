@@ -49,10 +49,22 @@
 			"url": "/qui-suis-je"
 		},
 		{
+			"name": "Actualités",
+			"short_name": "Actualités",
+			"description": "Les différentes actualités, nouvelles, informations que je souhaite partager avec vous.",
+			"url": "/actualité"
+		},
+		{
 			"name": "Géobiologie",
 			"short_name": "Géobiologie",
 			"description": "La Géobiologie, l’étude des phénomènes ondulatoires et de leur impact sur le vivant.",
 			"url": "/geobiologie"
+		},
+		{
+			"name": "La communication animale",
+			"short_name": "Comm. animale",
+			"description": "La communication animale, un moyen pour renforcer la compréhension mutuelle entre un gardien et son animal.",
+			"url": "/la-communication-animale"
 		},
 		{
 			"name": "Les 9 rites du Munay-Ki",

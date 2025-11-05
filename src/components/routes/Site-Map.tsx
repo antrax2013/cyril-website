@@ -27,6 +27,9 @@ const SiteMap = () => {
 						<a href='/geobiologie'>Géobiologie</a>
 					</li>
 					<li>
+						<a href='/la-communication-animale'>La communication animale</a>
+					</li>
+					<li>
 						<a href='/les-9-rites-munay-ki'>Les 9 rites Munay-Ki</a>
 					</li>
 					<li>

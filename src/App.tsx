@@ -7,6 +7,7 @@ import 'primeflex/primeflex.css';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import { lazy } from 'react';
+import MessageAnimal from './components/routes/Message-animal';
 
 const Actualites = lazy(() => import('./components/routes/Actualites'));
 const Contact = lazy(() => import('./components/routes/Contact'));
@@ -47,6 +48,10 @@ const App = () => {
 							<Route index element={<QuiSuisJe />} />
 							<Route path='actualites' element={<Actualites />} />
 							<Route path='geobiologie' element={<Geobiologie />} />
+							<Route
+								path='la-communication-animale'
+								element={<MessageAnimal />}
+							/>
 							<Route path='les-9-rites-munay-ki' element={<RitesMunayKi />} />
 							<Route path='contact' element={<Contact />} />
 							<Route
@@ -55,14 +60,12 @@ const App = () => {
 							/>
 							<Route path='erreur-404' element={<Error404 />} />
 							<Route path='plan-du-site' element={<PlanDuSite />} />
-
 							{/* Resources */}
 							<Route path='geologie/les-cupules' element={<Cupule />} />
 							<Route
 								path='etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees'
 								element={<LeLavoirDeLaSourceAuxFees />}
 							/>
-
 							<Route path='*' element={<Navigate replace to='/erreur-404' />} />
 						</Routes>
 						<ScrollButton />
