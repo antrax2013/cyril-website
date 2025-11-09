@@ -52,6 +52,10 @@
 		article section aside {
 			flex: 2 1;
 		}
+
+		.paragraphe-3 aside img {
+			width: 100%;
+		}
 	}
 }
 
@@ -60,11 +64,24 @@
 		article section {
 			flex-direction: column;
 		}
+
+		.paragraphe-3 aside img {
+			width: 100%;
+		}
 	}
 }
 
 @media (min-width: 769px) {
 	.message-animal aside {
 		flex-direction: inherit;
+
+		div {
+			padding-left: 1em;
+			padding-right: 1em;
+		}
+
+		img {
+			width: 100%;
+		}
 	}
 }

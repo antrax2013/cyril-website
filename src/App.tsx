@@ -7,8 +7,8 @@ import 'primeflex/primeflex.css';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import { lazy } from 'react';
-import MessageAnimal from './components/routes/Message-animal';
 
+const MessageAnimal = lazy(() => import('./components/routes/Message-animal'));
 const Actualites = lazy(() => import('./components/routes/Actualites'));
 const Contact = lazy(() => import('./components/routes/Contact'));
 const Error404 = lazy(() => import('./components/routes/Error404'));
@@ -16,21 +16,23 @@ const RitesMunayKi = lazy(
 	() => import('./components/routes/Les-9-rites-du-munay-ki')
 );
 const Geobiologie = lazy(() => import('./components/routes/Geogiologie'));
-const PanneauLateral = lazy(() => import('./components/Panneau-lateral'));
 const PolitiqueConfidentialite = lazy(
 	() => import('./components/routes/Politique-confidentialite')
 );
-const QuiSuisJe = lazy(() => import('./components/routes/Qui-suis-je'));
-const FooterMenu = lazy(() => import('./components/tools/Footer-Menu'));
-const ScrollButton = lazy(() => import('./components/tools/Scrollbutton'));
-const PlanDuSite = lazy(() => import('./components/routes/Site-Map'));
 const Cupule = lazy(() => import('./components/routes/Geobiologie/Cupule'));
+const QuiSuisJe = lazy(() => import('./components/routes/Qui-suis-je'));
+const PlanDuSite = lazy(() => import('./components/routes/Site-Map'));
+
 const LeLavoirDeLaSourceAuxFees = lazy(
 	() =>
 		import(
 			'./components/routes/Geobiologie/Etudes/Le-lavoir-de-la-source-aux-fees'
 		)
 );
+
+const PanneauLateral = lazy(() => import('./components/Panneau-lateral'));
+const FooterMenu = lazy(() => import('./components/tools/Footer-Menu'));
+const ScrollButton = lazy(() => import('./components/tools/Scrollbutton'));
 
 const App = () => {
 	return (
@@ -61,11 +63,11 @@ const App = () => {
 							<Route path='erreur-404' element={<Error404 />} />
 							<Route path='plan-du-site' element={<PlanDuSite />} />
 							{/* Resources */}
-							<Route path='geologie/les-cupules' element={<Cupule />} />
 							<Route
 								path='etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees'
 								element={<LeLavoirDeLaSourceAuxFees />}
 							/>
+							<Route path='geologie/les-cupules' element={<Cupule />} />
 							<Route path='*' element={<Navigate replace to='/erreur-404' />} />
 						</Routes>
 						<ScrollButton />

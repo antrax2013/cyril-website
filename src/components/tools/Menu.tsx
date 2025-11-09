@@ -66,25 +66,20 @@ const Menu = ({ ...props }) => {
 
 	const getClassName = (pathName: string) => {
 		pathName = pathName.toLowerCase();
-		const windowPathName = window.location.pathname
-			.replace('/', '')
-			.toLowerCase();
+		const windowPathName = window.location.pathname;
 
-		const entries: string[] = [
-			'qui-suis-je',
-			'actualites',
-			'geobiologie',
-			'la-communication-animale',
-			'les-9-rites-munay-ki',
-			'contact',
-		];
-
-		const exists = entries.indexOf(windowPathName) !== -1;
-
-		if (pathName === windowPathName && exists) {
+		if (windowPathName.includes(pathName)) {
 			return selectedClassName;
 		}
-		if (pathName === 'qui-suis-je' && !exists) {
+		if (pathName === 'qui-suis-je' && windowPathName === '/') {
+			return selectedClassName;
+		}
+		// Resources case
+		if (
+			pathName === 'resources' &&
+			(windowPathName.startsWith('/geologie/') ||
+				windowPathName.startsWith('/etudes-geobiologie/'))
+		) {
 			return selectedClassName;
 		}
 		return className;
@@ -119,7 +114,7 @@ const Menu = ({ ...props }) => {
 				return itemTemplate(item, options);
 			},
 			url: '/geobiologie',
-			className: getClassName('geobiologie'),
+			className: getClassName('/geobiologie'),
 			command: () => {
 				onClick('geobiologie');
 			},
@@ -147,7 +142,7 @@ const Menu = ({ ...props }) => {
 			},
 		},
 		{
-			label: 'Ressources',
+			label: 'Resources',
 			items: [
 				{
 					label: 'Études Géobiologiques',
@@ -171,6 +166,7 @@ const Menu = ({ ...props }) => {
 							// ],
 						},
 					],
+					className: getClassName('etudes-geobiologie'),
 				},
 				{
 					label: 'Géologie',
@@ -183,12 +179,14 @@ const Menu = ({ ...props }) => {
 							url: '/geologie/les-cupules',
 							className: getClassName('les-cupules'),
 							command: () => {
-								onClick('/geologie/les-cupules');
+								onClick('geologie/les-cupules');
 							},
 						},
 					],
+					className: getClassName('geologie'),
 				},
 			],
+			className: getClassName('resources'),
 		},
 		{
 			label: 'Contact',
