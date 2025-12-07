@@ -142,10 +142,8 @@ const Geobiologie = () => {
 							<dl>
 								<b className='titre-module'>Module 1 : La découverte.</b>
 								<dt className='objectif'>
-									<b>
-										<u>Objectif :</u> Module de présentation de ce qu’est la{' '}
-										<em>Géobiologie</em>
-									</b>
+									<u>Objectif :</u> Module de présentation de ce qu’est la{' '}
+									<em>Géobiologie</em>
 								</dt>
 								<dt>
 									Découvrir les outils utilisés par les géobiologues et leur

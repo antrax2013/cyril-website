@@ -1,7 +1,6 @@
 import ParagraphSeparator from '../tools/Paragraph-Separator';
 import '../../scss/routes/Actualites.scss';
 import MetaTag from '../tools/MetaTag';
-import { Adresse } from '../tools/Adresse';
 
 const Actualites = () => {
 	const head = () => {
@@ -23,37 +22,10 @@ const Actualites = () => {
 					<section className='paragraphe-1'>
 						<h2>Conférences, Salons et animations</h2>
 						<section className='paragraphe-content'>
-							<h3>
-								Le 23 novembre 2025 - Salon L’être au naturel hotel Mercure à
-								Maurepas (78)
-							</h3>
+							<h3>Portes ouvertes coffret d'Alumine à Plaisir (78)</h3>
 							<p>
-								Je serai présent au salon{' '}
-								<a
-									href='https://fb.me/e/1PYGeWXkGl'
-									title='Cliquez sur ce lien pour plus d’informations sur le salon L’être au naturel à Maurepas'
-									target='_blank'
-								>
-									L’être au naturel
-								</a>
-								, à l’hotel Mercure à Maurepas pour accompagner{' '}
-								<a
-									href='https://marie.cophignon.net'
-									title='Cliquez sur ce lien pour plus d’informations sur l’univers de Marie COPHIGNON, Massothérapeute énergétique'
-									target='_blank'
-								>
-									<em>Marie</em>
-								</a>
-								, mon épouse. N'hésitez pas à venir échanger avec nous.
-							</p>
-						</section>
-						<section className='paragraphe-content'>
-							<h3>
-								En décembre 2025 - Portes ouvertes coffret d'Alumine à Plaisir
-								(78)
-							</h3>
-							<p>
-								Je serai présent lors des portes ouvertes du show room{' '}
+								Je serai présent lors des portes ouvertes des espaces bien-être
+								Vibration et Libellule du{' '}
 								<a
 									href='https://coffret-alumine.art/fr/'
 									title='Cliquez sur ce lien pour découvrir la boutique en ligne'
@@ -61,8 +33,33 @@ const Actualites = () => {
 								>
 									<em>coffret d’Alumine</em>
 								</a>{' '}
-								où je ferai une ou plusieurs coférences sur la Géobiologie.
+								<p>
+									A cette occasion, et accompagné de nombreux thérapeutes et
+									particiens oeuvrant dans ces espaces, j'animerai 4 conférences
+									d’introduction à la Géobiologie.
+								</p>
+								<ul>
+									<li>Samedi 13/12 à 14h00</li>
+									<li>Dimanche 14/12 à 15h00</li>
+									<li>Samedi 20/12 à 14h00</li>
+									<li>Dimanche 21/12 à 14h00</li>
+								</ul>
+								<p>
+									<a href='https://marie.cophignon.net/massage-assis-methode-eas'>
+										Marie, mon épouse, Massothérapeute énergétique,
+									</a>{' '}
+									proposera des massages assis selon la méthode de l’Ecole des
+									Arts du souffle (EAS®).
+								</p>
 							</p>
+							<a
+								href='https://www.facebook.com/permalink.php?story_fbid=pfbid02aT94GYPdw9ZWN5AziFGhzcs71G1KVqbAP1hUUyCnowr6Dzg6mw3HP6WZbe2ghXTFl&id=61573954084460'
+								target='_blank'
+								title='Cliquez ici pour en savoir plus sur les portes ouvertes.'
+								className='cta cta-secondary'
+							>
+								En savoir plus
+							</a>
 						</section>
 					</section>
 					<ParagraphSeparator />
@@ -71,65 +68,55 @@ const Actualites = () => {
 							Initiation à la <em>Géobiologie</em> - Explorateur de l’invisible
 						</h2>
 						<section className='paragraphe-content'>
-							<h3>4ème trimrestre 2025</h3>
+							<h3>1er trimrestre 2025</h3>
 							<p>
-								Pour cette rentrée, je proposerai une session des 4 modules de
-								mon initiation à la <em>Géobiologie</em>, Explorateur de
-								l’invisible, au cabinet de Carole Jacob à Guyancourt.{' '}
+								Pour cette nouvelle année, je proposerai deux sessions des 4
+								modules de mon initiation à la <em>Géobiologie</em>, Explorateur
+								de l’invisible, une à l’espace Libellule de Coffret d'Alumine à
+								Plaisir et l'autre au cabinet de Carole Jacob à Guyancourt.{' '}
 							</p>
 							<p>
-								Je vous accueillerai, dans ce nouvel espace, en groupe restreint
-								(4-6 pers max.), pour pouvoir vous accompagner au mieux. Le
-								tarif sera de 60€ par module ou 200€ pour les 4.
+								Je vous accueillerai, dans ces espaces, en groupe restreint (4-6
+								pers max.), pour pouvoir vous accompagner au mieux. Le tarif
+								sera de 60€ par module ou 200€ pour les 4.
 							</p>
+							<h4>Module 1 - La découverte </h4>
 							<ul>
-								<li>
-									Module 1 - La découverte : Dimanche 19 octobre de 09h00 à
-									12h30
-								</li>
-								<li>
-									Module 2 - Les premières recherches : Dimanche 19 octobre de
-									14h00 à 18h00
-								</li>
-								<li>
-									Module 3 - Les failles et les veines d’eau : Dimanche 16
-									novembre de 09h00 à 12h30
-								</li>
-								<li>
-									Module 4 - Les réseaux géomagnétiques de base : Dimanche 16
-									novembre de 14h00 à 18h00
-								</li>
+								<li>Dimanche 18 janvier de 09h00 à 12h30</li>
+								<li>Dimanche 15 mars de 09h00 à 12h30</li>
 							</ul>
-							<p className='txt-center'>
-								<a
-									href='/contact'
-									target='_blank'
-									title='Lien pour réserver un ou plusieurs modules pour l’initiation à la Géobiologie - Explorateur de l’invisible'
-									className='txt-warning'
-								>
-									<span>
-										⚠️ Attention réservation <b>obligatoire</b> via ce
-										formulaire :{' '}
-									</span>
-									<u>formulaire</u> ⚠️
-								</a>
+							<h4>Module 2 - Les premières recherches </h4>
+							<ul>
+								<li>Dimanche 18 janvier de 14h00 à 18h30</li>
+								<li>Dimanche 15 mars de 14h00 à 18h30</li>
+							</ul>
+							<h4>Module 3 - Les failles et les veines d’eau</h4>
+							<ul>
+								<li>Dimanche 22 février de 09h00 à 12h30</li>
+								<li>Dimanche 19 avril de 09h00 à 12h30</li>
+							</ul>
+							<h4>Module 4 - Les réseaux géomagnétiques de base</h4>
+							<ul>
+								<li>Dimanche 22 février de 14h00 à 18h30</li>
+								<li>Dimanche 19 avril de 14h00 à 18h30</li>
+							</ul>
+							<p className='txt-center txt-warning'>
+								⚠️ Attention réservation <b>obligatoire</b> ⚠️
 							</p>
-							<Adresse
-								title='Cabinet Blowball'
-								floor='Rez-de-chaussée'
-								streetAddress='1, rue Le Corbusier'
-								postalCode='78280'
-								addressLocality='Guyancourt'
-							/>
-							<p>
-								<u>NB:</u>{' '}
-								<i>
-									Je n’abandonne pas les initiations à l’espace Vibrations de
-									Floriane à Plaisir. En fonction des demandes, il n’est pas
-									exclu que j’y organise des sessions. J’envisage d’y proposer
-									des sessions sur une journée ou un weekend-end entier.
-								</i>
-							</p>
+							<a
+								href='/geobiologie#invisible'
+								className='cta cta-primary'
+								title='Lien pour réserver un ou plusieurs modules pour l’initiation à la Géobiologie - Explorateur de l’invisible'
+							>
+								Réserver
+							</a>{' '}
+							<a
+								href='/geobiologie#invisible'
+								className='cta cta-secondary'
+								title='En savoir plus sur l’initiation à la Géobiologie - Explorateur de l’invisible'
+							>
+								En savoir plus
+							</a>
 						</section>
 					</section>
 					<ParagraphSeparator />
@@ -138,8 +125,9 @@ const Actualites = () => {
 						<section className='paragraphe-content'>
 							<p>
 								<i>
-									Aucune sortie n'est planifiée pour cette rentrée à ce jour. La
-									prochaine devrait avoir lieu au printemps 2026.
+									Aucune sortie n'est encore planifiée pour cette nouvelle année
+									à ce jour. La prochaine devrait avoir lieu au printemps en
+									avril ou en mai.
 								</i>
 							</p>
 						</section>
