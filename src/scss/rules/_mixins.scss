@@ -8,6 +8,10 @@
 	flex-direction: column;
 }
 
+@mixin btn-border-rounded {
+	border-radius: 10px;
+}
+
 @mixin article-section {
 	display: flex;
 	flex: 1 1;

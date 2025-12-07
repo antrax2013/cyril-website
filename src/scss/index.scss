@@ -47,9 +47,9 @@ p.txt-center {
 	color: var(--warning) !important;
 }
 
-a:not(.p-menubar-button),
-a:not(.p-menubar-button):hover,
-a:not(.p-menubar-button):active {
+a:not(.p-menubar-button, .cta),
+a:not(.p-menubar-button, .cta):hover,
+a:not(.p-menubar-button, .cta):active {
 	color: var(--primary-color) !important;
 	display: contents;
 }
@@ -140,6 +140,27 @@ h1:not(.aside) {
 	flex-direction: row;
 	align-items: flex-start;
 	justify-content: space-between;
+}
+
+a.cta {
+	display: inline-block !important;
+	@include mixins.btn-border-rounded;
+	padding: 0.4rem 0.8rem;
+	font-style: italic;
+}
+
+.cta-primary {
+	color: var(--primary-color-text) !important;
+	background-color: var(--primary-color) !important;
+	border: 0.1rem solid var(--primary-color) !important;
+}
+.cta-secondary {
+	color: var(--text-color) !important;
+	border: 0.1rem solid var(--secondary-color) !important;
+}
+.cta-tertiary {
+	color: var(--text-color) !important;
+	@include mixins.ombre-portee-panneau;
 }
 
 header {
