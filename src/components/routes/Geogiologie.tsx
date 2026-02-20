@@ -21,7 +21,7 @@ const Geobiologie = () => {
 		<>
 			{head()}
 			<div className='geobiologie'>
-				<article>
+				<div className='article'>
 					<h1>La Géobiologie</h1>
 					<h2>Qu'est-ce que la Géobiologie ?</h2>
 					<section className='paragraphe-1'>
@@ -227,7 +227,7 @@ const Geobiologie = () => {
 							</p>
 						</section>
 					</section>
-				</article>
+				</div>
 			</div>
 		</>
 	);

@@ -4,7 +4,7 @@ import logo from '../assets/logo512.png';
 const Header = () => {
 	return (
 		<>
-			<article className='title'>
+			<div className='article title'>
 				<div className='title-text'>
 					<h1>{import.meta.env.VITE_META_NAME}</h1>
 					<h2>
@@ -19,7 +19,7 @@ const Header = () => {
 						loading='lazy'
 					/>
 				</div>
-			</article>
+			</div>
 			<nav itemScope itemType='https://schema.org/SiteNavigationElement'>
 				<Menu />
 			</nav>

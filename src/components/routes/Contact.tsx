@@ -24,17 +24,27 @@ const Contact = () => {
 	const [enableSendButton, setEnableSendButton] = useState(true);
 	const toast = useRef<Toast>(null);
 
+	const tag =
+		new URLSearchParams(window.location.search).get('sujet') ??
+		'initiation-géobiologie';
+
 	const sujets = [
 		// { label: 'Prise de rendez-vous', value: 'Prise de rendez-vous' },
 		// { label: 'Informations de suivi', value: 'Informations de suivi' },
-		{ label: 'Demande de renseignements', value: 'Demande de renseignements' },
+		{
+			label: 'Demande de renseignements',
+			value: 'Demande de renseignements',
+			tag: 'demande-de-renseignements',
+		},
 		{
 			label: 'Inscription initiation Géobio.',
 			value: 'Inscription initiation Géobio.',
+			tag: 'initiation-géobiologie',
 		},
 		{
 			label: 'Séance de communication animal',
 			value: 'Séance de communication animal',
+			tag: 'communication-animal',
 		},
 	];
 
@@ -45,7 +55,7 @@ const Contact = () => {
 			prenom: '',
 			telephone: '',
 			message: '',
-			sujet: sujets[0].value,
+			sujet: sujets.filter((s) => s.tag === tag)[0]?.value ?? sujets[0].value,
 		},
 		validate: (data) => {
 			const errors: iError = {};
@@ -134,7 +144,7 @@ const Contact = () => {
 	return (
 		<>
 			{head()}
-			<article className='contact'>
+			<div className='article contact'>
 				<h1>Contact</h1>
 				<Toast ref={toast} />
 				<section className='paragraphe-1'>
@@ -235,7 +245,7 @@ const Contact = () => {
 						/>
 					</div>
 				</form>
-			</article>
+			</div>
 		</>
 	);
 };

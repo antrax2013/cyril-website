@@ -8,8 +8,8 @@ const QuiSuisJe = () => {
 		return (
 			<MetaTag
 				title={import.meta.env.VITE_META_MAIN_TITLE || 'Qui suis-je ?'}
-				description='Guide des mondes subtils, je vous propose de partager mes connaissances des mondes subtils, géobiologie, chamanisme... et ainsi vous guider, vous accompagner, sur votre chemin de vie dans le respect des énergies qui nous entourent. Cyril COPHIGNON'
-				resume='Guide des mondes subtils, je mets mes connaissances des mondes subtils à votre service pour vous accompagner sur votre chemin de vie.'
+				description='Explorateur des mondes subtils, je vous propose de partager mes connaissances des mondes subtils, géobiologie, chamanisme... et ainsi avec vous explorer les mondes subtils. Cyril COPHIGNON'
+				resume='Explorateur des mondes subtils, je mets mes connaissances des mondes subtils à votre service pour vous accompagner sur votre chemin de vie.'
 				forceTitle={true}
 			/>
 		);
@@ -19,7 +19,7 @@ const QuiSuisJe = () => {
 		<>
 			{head()}
 			<div className='QuiSuisJe'>
-				<article>
+				<div className='article'>
 					<h1>Qui suis-je ?</h1>
 					<section className='paragraphe-1'>
 						<aside>
@@ -27,8 +27,8 @@ const QuiSuisJe = () => {
 								<img
 									src={ImgMoi}
 									className='img-qui-suis-je-moi'
-									alt='Cyril Cophignon, guide des mondes subtils.'
-									title='Cyril Cophignon, guide des mondes subtils.'
+									alt='Cyril Cophignon, Explorateur des mondes subtils.'
+									title='Cyril Cophignon, Explorateur des mondes subtils.'
 								/>
 							</div>
 						</aside>
@@ -184,12 +184,12 @@ const QuiSuisJe = () => {
 							</ul>
 							<p>
 								Je serai heureux de partager avec vous ces passions qui ont
-								changé mon regard sur la vie et de vous accompagner, de vous
-								guider sur votre chemin de vie.
+								changé mon regard sur la vie et d’explorer avec vous les mondes
+								subtils.
 							</p>
 						</section>
 					</section>
-				</article>
+				</div>
 			</div>
 		</>
 	);

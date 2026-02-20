@@ -14,7 +14,7 @@ const PolitiqueConfidentialite = () => {
 	return (
 		<>
 			{head()}
-			<article>
+			<div className='article'>
 				<h1>Politique de confidentialité</h1>
 				<h2>
 					Avis important concernant le traitement des données en lien avec
@@ -111,7 +111,7 @@ const PolitiqueConfidentialite = () => {
 					</a>
 					.
 				</p>
-			</article>
+			</div>
 		</>
 	);
 };

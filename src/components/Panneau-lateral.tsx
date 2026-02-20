@@ -8,54 +8,87 @@ const PanneauLateral = () => {
 				<h2>Prochains événements</h2>
 				<div className='event' id='événements'>
 					<h3>
-						<a
-							href='/geobiologie#invisible'
-							title='Cliquez sur ce lien pour découvrir plus d’informations sur l’initiation Explorateur de l’invisible'
-						>
-							Initiation <em>Géobiologie</em> - Explorateur de l'invisible
-						</a>
+						Initiation <em>Géobiologie</em> - Explorateur de l'invisible
 					</h3>
 					<h4>Module 1 - La découverte </h4>
 					<ul>
-						<li>Dimanche 18 janvier de 09h00 à 12h30</li>
-						<li>Dimanche 15 mars de 09h00 à 12h30</li>
+						<li>
+							<s>Dim. 22/02 de 09h à 12h30 - Plaisir</s> <i>Annulé</i>
+						</li>
+						<li>Dim. 15/03 de 09h à 12h30 - Guyancourt</li>
 					</ul>
 					<h4>Module 2 - Les premières recherches </h4>
 					<ul>
-						<li>Dimanche 18 janvier de 14h00 à 18h30</li>
-						<li>Dimanche 15 mars de 14h00 à 18h30</li>
+						<li>
+							<s>Dim. 22/02 de 14h à 18h30 - Plaisir</s> <i>Annulé</i>
+						</li>
+						<li>Dim. 15/03 de 14h à 18h30 - Guyancourt</li>
 					</ul>
 					<h4>Module 3 - Les failles et les veines d’eau</h4>
 					<ul>
-						<li>Dimanche 22 février de 09h00 à 12h30</li>
-						<li>Dimanche 19 avril de 09h00 à 12h30</li>
+						<li>Dim. 19/04 de 09h à 12h30 - Guyancourt</li>
 					</ul>
 					<h4>Module 4 - Les réseaux géomagnétiques de base</h4>
 					<ul>
-						<li>Dimanche 22 février de 14h00 à 18h30</li>
-						<li>Dimanche 19 avril de 14h00 à 18h30</li>
+						<li>Dim. 19/04 de 14h à 18h30 - Guyancourt</li>
 					</ul>
+					<div className='ctas-container'>
+						<a
+							href='/contact?sujet=initiation-géobiologie'
+							className='cta cta-primary'
+							title='Lien pour réserver un ou plusieurs modules pour l’initiation à la Géobiologie - Explorateur de l’invisible'
+						>
+							Réserver
+						</a>
+						{'  '}
+						<a
+							href='/geobiologie#invisible'
+							className='cta cta-secondary'
+							title='En savoir plus sur l’initiation à la Géobiologie - Explorateur de l’invisible'
+						>
+							En savoir plus
+						</a>
+					</div>
 				</div>
 				<div className='event' id='événements'>
 					<h3>Conférences / Salons</h3>
 					<h4>Portes ouvertes</h4>
 					<ul>
 						<li>
+							<i>
+								A venir : Espace Vibration & Libellule à Plaisir - 78 (Sam.
+								21/03 ?)
+							</i>
+						</li>
+					</ul>
+					{/* <h4>Portes ouvertes</h4>
+					<ul>
+						<li>
 							<a
-								href='https://www.facebook.com/permalink.php?story_fbid=pfbid02aT94GYPdw9ZWN5AziFGhzcs71G1KVqbAP1hUUyCnowr6Dzg6mw3HP6WZbe2ghXTFl&id=61573954084460'
+								href='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid09V9H9QgejdRqpwbsrhiqetJiikoiXv3uAUcB1os9sq5mzoa7yQbWWec2cLMdzC8Gl%26id%3D61570202349589'
 								target='_blank'
 								title='Cliquez ici pour en savoir plus sur les portes ouvertes.'
 							>
-								Coffret d'Alumine espaces bien-être
+								Cabinet Blowball Dim. 25/01
 								<ul>
-									<li>Samedi 13/12 à 14h00</li>
-									<li>Dimanche 14/12 à 15h00</li>
-									<li>Samedi 20/12 à 14h00</li>
-									<li>Dimanche 21/12 à 14h00</li>
+									<li>
+										portes ouvertes de <i>09h30 à 13h</i>
+									</li>
+									<li>
+										conf. Géobio de <i>10h à 11h</i>
+									</li>
 								</ul>
 							</a>
+							<i>
+								<a
+									href='https://www.billetweb.fr/porte-ouverte-cabinet-blowball-25-janvier-2026'
+									target='_blank'
+								>
+									Inscription gratuite mais obligatoire
+								</a>
+							</i>
 						</li>
-					</ul>
+					</ul>*/}
 					<h4>Salon</h4>
 					<ul>
 						<li>

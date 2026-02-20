@@ -26,7 +26,7 @@ const LeLavoirDeLaSourceAuxFees = () => {
 		<>
 			{head()}
 			<div className='LeLavoirDeLaSourceAuxFees'>
-				<article>
+				<div className='article'>
 					<h1>Le lavoir de la source aux fées, étude géobiologique</h1>
 					<legend>
 						<a
@@ -311,7 +311,7 @@ const LeLavoirDeLaSourceAuxFees = () => {
 							</ol>
 						</section>
 					</section>
-				</article>
+				</div>
 			</div>
 		</>
 	);

@@ -2,12 +2,12 @@
 @use 'FontColorGeobio';
 
 .LeLavoirDeLaSourceAuxFees {
-	article > section {
+	.article > section {
 		@include mixins.article-section;
 		align-items: center;
 	}
 
-	article section aside > div {
+	.article section aside > div {
 		@include mixins.flex-content-center;
 	}
 
@@ -46,7 +46,7 @@
 		.paragraphe-1 .paragraphe-content {
 			flex: 1 1;
 		}
-		article section aside {
+		.article section aside {
 			flex: 2 1;
 		}
 	}
@@ -54,7 +54,7 @@
 
 @media (max-width: 768px) {
 	.LeLavoirDeLaSourceAuxFees {
-		article section {
+		.article section {
 			flex-direction: column;
 		}
 	}

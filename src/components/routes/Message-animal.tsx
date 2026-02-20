@@ -20,7 +20,7 @@ const MessageAnimal = () => {
 		<>
 			{head()}
 			<div className='message-animal'>
-				<article>
+				<div className='article'>
 					<h1>La communication animale</h1>
 					<h2>L’écoute du message animal</h2>
 					<section className='paragraphe-1'>
@@ -221,7 +221,7 @@ const MessageAnimal = () => {
 							</p>
 						</section>
 					</section>
-				</article>
+				</div>
 			</div>
 		</>
 	);

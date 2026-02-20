@@ -14,7 +14,7 @@ const SiteMap = () => {
 	return (
 		<>
 			{head()}
-			<article>
+			<div className='article'>
 				<h1>Le plan du site</h1>
 				<ul>
 					<li>
@@ -64,7 +64,7 @@ const SiteMap = () => {
 						</li>
 					</ul>
 				</ul>
-			</article>
+			</div>
 		</>
 	);
 };

@@ -170,7 +170,7 @@ header {
 	align-items: flex-start;
 	padding-bottom: 0px;
 
-	article {
+	.article {
 		margin-top: 0em;
 		--background-image-lazy: url('../assets/background-header.png');
 		background-image: var(--background-image-lazy);
@@ -244,7 +244,7 @@ aside.content {
 	@include mixins.ombre-portee-panneau;
 }
 
-article {
+.article {
 	padding-bottom: 1rem;
 
 	section aside {
@@ -253,7 +253,7 @@ article {
 	}
 }
 
-article:not(.title) h1:not(.aside) {
+.article:not(.title) h1:not(.aside) {
 	box-shadow: -0.5rem 0 0 0 var(--secondary-color);
 	display: inline-block;
 	position: relative;
@@ -303,6 +303,9 @@ article:not(.title) h1:not(.aside) {
 		ol {
 			padding-left: 0em !important;
 		}
+	}
+	.ctas-container {
+		text-align: center;
 	}
 }
 
@@ -496,13 +499,13 @@ footer {
 }
 
 @media (max-width: 541px) {
-	header article {
+	header .article {
 		--background-image-lazy: url('../assets/background-header-xxs.png');
 	}
 }
 
 @media (min-width: 542px) and (max-width: 768px) {
-	header article {
+	header .article {
 		--background-image-lazy: url('../assets/background-header-small.png');
 	}
 }
@@ -516,7 +519,7 @@ footer {
 		align-items: center;
 		padding-left: 2rem;
 	}
-	header article {
+	header .article {
 		background-size: cover;
 		background-position: bottom left;
 	}

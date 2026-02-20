@@ -21,7 +21,7 @@ const Cupule = () => {
 		<>
 			{head()}
 			<div className='LesCupules'>
-				<article>
+				<div className='article'>
 					<h1>Les cupules</h1>
 					<section className='paragraphe-1'>
 						<aside>
@@ -197,7 +197,7 @@ const Cupule = () => {
 							</aside>
 						</section>
 					</section>
-				</article>
+				</div>
 			</div>
 		</>
 	);

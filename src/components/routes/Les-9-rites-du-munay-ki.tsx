@@ -26,7 +26,7 @@ const Les9RitesMunayKi = () => {
 		<>
 			{head()}
 			<div className='Les9RitesMunayKi'>
-				<article>
+				<div className='article'>
 					<h1>Les 9 rites Munay-Ki</h1>
 					<section className='paragraphe-1-1'>
 						<section className='paragraphe-content'>
@@ -195,7 +195,7 @@ const Les9RitesMunayKi = () => {
 							</p>
 						</section>
 					</section>
-				</article>
+				</div>
 			</div>
 		</>
 	);

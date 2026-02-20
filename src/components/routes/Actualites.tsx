@@ -7,8 +7,8 @@ const Actualites = () => {
 		return (
 			<MetaTag
 				title='Actualités'
-				description='Les actualités de mon activités de guide des mondes subtiles.'
-				resume='Les actualités de mon activités de guide des mondes subtiles, sur cette page j’évoquerais les différents événements, salon et formation aquels je participerai.'
+				description='Les actualités de mon activités d’explorateur des mondes subtiles.'
+				resume='Les actualités de mon activités d’explorateurdes mondes subtiles, sur cette page j’évoquerais les différents événements, salon et formation aquels je participerai.'
 			/>
 		);
 	};
@@ -17,52 +17,8 @@ const Actualites = () => {
 		<>
 			{head()}
 			<div className='actualites'>
-				<article>
+				<div className='article'>
 					<h1>Les actualités</h1>
-					<section className='paragraphe-1'>
-						<h2>Conférences, Salons et animations</h2>
-						<section className='paragraphe-content'>
-							<h3>Portes ouvertes coffret d'Alumine à Plaisir (78)</h3>
-							<p>
-								Je serai présent lors des portes ouvertes des espaces bien-être
-								Vibration et Libellule du{' '}
-								<a
-									href='https://coffret-alumine.art/fr/'
-									title='Cliquez sur ce lien pour découvrir la boutique en ligne'
-									target='_blank'
-								>
-									<em>coffret d’Alumine</em>
-								</a>{' '}
-								<p>
-									A cette occasion, et accompagné de nombreux thérapeutes et
-									particiens oeuvrant dans ces espaces, j'animerai 4 conférences
-									d’introduction à la Géobiologie.
-								</p>
-								<ul>
-									<li>Samedi 13/12 à 14h00</li>
-									<li>Dimanche 14/12 à 15h00</li>
-									<li>Samedi 20/12 à 14h00</li>
-									<li>Dimanche 21/12 à 14h00</li>
-								</ul>
-								<p>
-									<a href='https://marie.cophignon.net/massage-assis-methode-eas'>
-										Marie, mon épouse, Massothérapeute énergétique,
-									</a>{' '}
-									proposera des massages assis selon la méthode de l’Ecole des
-									Arts du souffle (EAS®).
-								</p>
-							</p>
-							<a
-								href='https://www.facebook.com/permalink.php?story_fbid=pfbid02aT94GYPdw9ZWN5AziFGhzcs71G1KVqbAP1hUUyCnowr6Dzg6mw3HP6WZbe2ghXTFl&id=61573954084460'
-								target='_blank'
-								title='Cliquez ici pour en savoir plus sur les portes ouvertes.'
-								className='cta cta-secondary'
-							>
-								En savoir plus
-							</a>
-						</section>
-					</section>
-					<ParagraphSeparator />
 					<section className='paragraphe-2'>
 						<h2>
 							Initiation à la <em>Géobiologie</em> - Explorateur de l’invisible
@@ -82,29 +38,33 @@ const Actualites = () => {
 							</p>
 							<h4>Module 1 - La découverte </h4>
 							<ul>
-								<li>Dimanche 18 janvier de 09h00 à 12h30</li>
-								<li>Dimanche 15 mars de 09h00 à 12h30</li>
+								<li>
+									<s>Dimanche 22 février de 09h00 à 12h30 - Plaisir (78)</s>{' '}
+									<i>Annulé</i>
+								</li>
+								<li>Dimanche 15 mars de 09h00 à 12h30 - Guyancourt (78)</li>
 							</ul>
 							<h4>Module 2 - Les premières recherches </h4>
 							<ul>
-								<li>Dimanche 18 janvier de 14h00 à 18h30</li>
-								<li>Dimanche 15 mars de 14h00 à 18h30</li>
+								<li>
+									<s>Dimanche 22 février de 14h00 à 18h30 - Plaisir (78)</s>{' '}
+									<i>Annulé</i>
+								</li>
+								<li>Dimanche 15 mars de 14h00 à 18h30 - Guyancourt (78)</li>
 							</ul>
 							<h4>Module 3 - Les failles et les veines d’eau</h4>
 							<ul>
-								<li>Dimanche 22 février de 09h00 à 12h30</li>
-								<li>Dimanche 19 avril de 09h00 à 12h30</li>
+								<li>Dimanche 19 avril de 09h00 à 12h30 - Guyancourt (78)</li>
 							</ul>
 							<h4>Module 4 - Les réseaux géomagnétiques de base</h4>
 							<ul>
-								<li>Dimanche 22 février de 14h00 à 18h30</li>
-								<li>Dimanche 19 avril de 14h00 à 18h30</li>
+								<li>Dimanche 19 avril de 14h00 à 18h30 - Guyancourt (78)</li>
 							</ul>
 							<p className='txt-center txt-warning'>
 								⚠️ Attention réservation <b>obligatoire</b> ⚠️
 							</p>
 							<a
-								href='/geobiologie#invisible'
+								href='/contact?sujet=initiation-géobiologie'
 								className='cta cta-primary'
 								title='Lien pour réserver un ou plusieurs modules pour l’initiation à la Géobiologie - Explorateur de l’invisible'
 							>
@@ -118,6 +78,59 @@ const Actualites = () => {
 								En savoir plus
 							</a>
 						</section>
+					</section>
+					<ParagraphSeparator />
+					<section>
+						<h2>
+							Initiation à la <em>Géobiologie</em> - Explorateur de l’invisible
+							suite...
+						</h2>
+						<p>
+							Je suis en train d’imaginer la continuité de l’initiation{' '}
+							<strong>Explorateur de l’invisible</strong>. La forme reste à
+							définir : immersion en nature, exploration chez un hôte… ou
+							peut‑être un mélange des deux ou les deux.
+						</p>
+						<p>
+							L’objectif serait d’offrir, aux personnes ayant complété les
+							quatre modules, l’opportunité de venir, sur le terrain, avec moi,
+							pour étudier un lieu inspirant ou ayant besoin d'être rééquilibré.
+						</p>
+						<ul>
+							<li>
+								Approfondir des notions vues en initiation grâce à des cas
+								concrets et variés.
+							</li>
+							<li>
+								Explorer des environnements différents : forêt, maison, terrain,
+								lieu chargé d’histoire…
+							</li>
+							<li>
+								Apprendre à structurer une étude complète : observation,
+								mesures, interprétation, restitution.
+							</li>
+							<li>
+								Gagner en confiance dans sa pratique et dans ses ressentis
+								subtils.
+							</li>
+							<li>
+								Créer des liens avec d’autres passionnés, favorisant l’entraide
+								et la progression.{' '}
+							</li>
+							<li>
+								Profiter d’un espace bienveillant pour poser toutes ses
+								questions et lever ses doutes.
+							</li>
+						</ul>
+						<p>
+							Je crois profondément que l’énergie d’un groupe, lorsqu’il est
+							restreint et harmonieux, ouvre des portes que l’on ne peut
+							franchir seul. Le petit groupe devient alors un cercle
+							d’exploration, de soutien et de transformation. C’est pour cela
+							que je privilégie toujours les petits groupes, où chacun peut
+							trouver sa place, s’exprimer et progresser à son rythme sans
+							jugement.
+						</p>
 					</section>
 					<ParagraphSeparator />
 					<section className='paragraphe-3'>
@@ -145,7 +158,7 @@ const Actualites = () => {
 							</p>
 						</section>
 					</section>
-				</article>
+				</div>
 			</div>
 		</>
 	);
