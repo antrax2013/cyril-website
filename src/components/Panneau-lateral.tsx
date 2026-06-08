@@ -13,15 +13,13 @@ const PanneauLateral = () => {
 					<h4>Module 1 - La découverte</h4>
 					{/* <p>Prochaines sessions à l'automne 2026 </p> */}
 					<ul>
-						<li>
+						<li>Dim. 06/09 de 09h à 12h30 - Plaisir</li>
 							⚠️ Dim. <b>11/10</b> de 09h à 12h30 - Plaisir
-						</li>
 					</ul>
 					<h4>Module 2 - Les premières recherches </h4>
 					<ul>
-						<li>
+						<li>Dim. 06/09 de 14h à 18h30 - Plaisir</li>
 							⚠️ Dim. <b>11/10</b> de 14h à 17h30 - Plaisir
-						</li>
 					</ul>
 					<h4>Module 3 - Les failles et les veines d’eau</h4>
 					<ul>
@@ -126,7 +124,7 @@ const PanneauLateral = () => {
 							</a>
 							{/* Pas de salon planifé à ce jour. * /}
 						</li>
-					</ul>
+					</ul> */}
 				</div> */}
 				<div className='event' id='événements'>
 					{/* <h3>Conférences</h3>
@@ -166,6 +164,14 @@ const PanneauLateral = () => {
 							title='Lien pour réserver'
 						>
 							Réserver
+						</a>
+					</div>
+						<a
+							href='/actualites#forêt-de-rambouillet-à-gambaiseuil'
+							className='cta cta-secondary'
+							title='En savoir plus sur les sorties en nature'
+						>
+							En savoir plus
 						</a>
 					</div>
 				</div>

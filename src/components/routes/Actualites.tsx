@@ -126,6 +126,37 @@ const Actualites = () => {
 									<h5>
 										Dimanche 18 Octobre 2026 à Jouars-Pontchartrain — Dès 09h00
 									</h5>
+							<li>📍 Lieu : 5 rue Edmond Rostant, Plaisir 78</li>
+						</ul>
+						<h4>Changer la monnaie pour changer notre rapport au monde</h4>
+						<p>
+							Une exploration accessible et vivante des monnaies alternatives,
+							de la G1 et de la manière dont nos systèmes d’échange influencent
+							nos relations, nos choix et notre vision du monde.
+						</p>
+						<ul>
+							<li>⏰ De 14h30 à 15h30</li>
+							<li>
+								📍 Lieu : Espace Vibration, 1er étage uniquement par escalier
+							</li>
+						</ul>
+						<h4>Introduction à la Géobiologie</h4>
+						<p>
+							Exploration à la découverte des phénomènes énergétiques subtils
+							qui influencent un lieu, notre équilibre, notre ressenti, notre
+							vie au quotidien.
+						</p>
+						<ul>
+							<li>⏰ De 15h30 à 16h30</li>
+							<li>
+								📍 Lieu : Espace Vibration, 1er étage uniquement par escalier
+							</li>
+						</ul>
+					</section>
+					<ParagraphSeparator />
+					<section>
+						<h2 id='explorons-l-invisible-en-nature'>
+							Explorons l’invisible - la Géobiologie en nature
 									<p>
 										<i>
 											Journée d’application concrète en extérieur — Prérequis :
@@ -215,12 +246,11 @@ const Actualites = () => {
 								échanges en June.
 							</li>
 							<br />
+							<li>Développer la confiance en ses ressentis subtils.</li>
 							<li>
 								12h00 : Repas partagé — Chacun apporte quelque chose ; moment
 								convivial et communautaire.
-							</li>
 							<br />
-							<li>
 								14h00 à 18h00 : Atelier Bien-Être - animé par Marie <br />{' '}
 								<a
 									href='https://massage-reiki.fr/massage-assis-methode-eas'
@@ -244,6 +274,108 @@ const Actualites = () => {
 						</ul>
 						<p className='txt-center txt-warning'>
 							⚠️ Attention réservation <b>obligatoire</b> ⚠️
+
+						<section className='paragraphe-3'>
+							<h3>Fontaine St Sauveur de Maurepas</h3>
+							<h4>📍 Dimanche 24 mai de 09h à 12h30</h4>
+							<p>
+								Nichée dans un vallon verdoyant, la Fontaine Saint‑Sauveur est
+								un lieu ancien et discret.
+							</p>
+							<h4>Un lieu ancien, lié aux traditions locales</h4>
+							<p>
+								Dédiée au Saint Sauveur, Jésus‑Christ, cette fontaine témoigne
+								d’un passé spirituel profond. Même si peu de traces matérielles
+								subsistent, la dédicace elle‑même laisse entrevoir une histoire
+								plus vaste, faite de traditions, de passages et de pratiques
+								oubliées.
+							</p>
+							<p>
+								La combinaison eau + végétation + ancienneté du site crée un
+								environnement propice à l’exploration géobiologique.
+							</p>
+							<p>
+								🚨{' '}
+								<b>
+									Prochainement, retrouver l'étude complète de ce lieu dans la
+									section{' '}
+									<i>Etudes Géobiologiques / Fontaine St Sauveur de Maurepas</i>
+									.
+								</b>{' '}
+								🚨
+							</p>
+							{/* <a
+							href='/geobiologie#invisible'
+							className='cta cta-secondary'
+							title='En savoir plus sur l’initiation à la Géobiologie - Explorateur de l’invisible'
+						>
+							En savoir plus
+						</a> */}
+						</section>
+							<h3 id='forêt-de-rambouillet-à-gambaiseuil'>
+								Forêt de Rambouillet à Gambaiseuil
+							</h3>
+							<h4>📍 Samedi 13 juin de 09h à 18h30</h4>
+							</p>
+							<p>Au programme :</p>
+							<ul>
+								<li>🌀 La fontaine des Bourbiers</li>
+								<li>⛰️ L’atelier Montmorencien</li>
+							</ul>
+
+							<ul>
+								<li>📅 Samedi 13 juin 2026</li>
+								<li>⏰ De 09h à 18h30</li>
+								<li>
+									🚘 : Covoiturage au départ de Maurepas 09h - parking du
+									gymnase du bois - Av. de Normandie
+								</li>
+								<li>📍 Forêt de Rambouillet - Gambaiseuil</li>
+								<li>💶 Participation : 10 € par personne </li>
+								<li>
+									🥪 Prévoir un pique‑nique pour prolonger le moment ensemble
+								</li>
+								<li>🥢 intruments de radiesthésie</li>
+							</ul>
+							<p>
+								Au fil du chemin, François partagera ses connaissances, ses
+								ressentis, ses anecdotes… et cette manière unique qu’il a de
+								faire dialoguer le visible et l’invisible. Une sortie pour
+								celles et ceux qui aiment découvrir autrement, sentir, écouter,
+								se laisser surprendre.
+								Avril 2026 - Intégration du test musculaire dans ma pratique
+							</h3>
+							</p>
+							<p>
+								Le principe est simple : le corps réagit instantanément à un
+								stimulus, une intention ou une information, et cette réaction
+								musculaire devient un indicateur fiable pour comprendre ce qui
+								se joue en profondeur.
+							</p>
+							<p>Cette approche va enrichir ma pratique en me permettant :</p>
+							<ul>
+								<li>d’affiner mes ressentis</li>
+								<li>de valider certaines perceptions énergétiques</li>
+								<li>
+									de mieux comprendre comment les énergies d’un lieu influencent
+									ses habitants
+								</li>
+								<li>
+									d’apporter une lecture plus précise et plus nuancée lors des
+									études géobiologiques
+								</li>
+							</ul>
+							<p>
+								Le test musculaire devient alors un pont entre le subtil et le
+								concret, entre l’intuition et la réponse physiologique. C’est un
+								outil précieux pour confirmer, ajuster et approfondir ce que
+								l’on perçoit sur le terrain.{' '}
+							</p>
+							<p>
+								Je suis impatient d’intégrer cette dimension supplémentaire à
+								mes accompagnements, afin d’offrir une compréhension encore plus
+								fine des interactions entre les êtres vivants, leur corps et
+								leur environnement.
 						</p>
 						<a
 							href='https://is.gd/june78'
