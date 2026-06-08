@@ -4,6 +4,7 @@ import Cupule1 from '../../../assets/cupules/cupule-11.png';
 import Cupule2 from '../../../assets/cupules/cupule-2.png';
 import Cupule3 from '../../../assets/cupules/cupule-3.png';
 import '../../../scss/routes/Geobiologie/LesCupules.scss';
+import SharePopup from '../../tools/SharePopup';
 
 const Cupule = () => {
 	const head = () => {
@@ -23,6 +24,9 @@ const Cupule = () => {
 			<div className='LesCupules'>
 				<div className='article'>
 					<h1>Les cupules</h1>
+					<section className='icon-panel'>
+						<SharePopup url={window.location.href} title='Les cupules' />
+					</section>
 					<section className='paragraphe-1'>
 						<aside>
 							<div>

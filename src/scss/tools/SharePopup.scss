@@ -1,0 +1,26 @@
+@use '../rules/main';
+@use '../rules/mixins';
+
+.shared-popup {
+	.share-list {
+		ul,
+		li {
+			margin-bottom: 0.3rem;
+		}
+	}
+
+	.shared-link {
+		margin-top: 1.5rem;
+		label,
+		.p-inputtext {
+			font-style: italic;
+		}
+		.p-inputtext {
+			color: var(--tertiary-color) !important;
+			font-size: 0.9rem;
+		}
+		.p-button {
+			color: var(--tertiary-color) !important;
+		}
+	}
+}

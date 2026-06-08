@@ -5,6 +5,7 @@ import Andes from '../../assets/munay-ki/andes-matchu-pichu.png';
 import RoueMedecine from '../../assets/munay-ki/roue-de-la-medecine.png';
 import Laika from '../../assets/munay-ki/Q_eros_Paqo_calling_Apu.jpg';
 import AndesSoleil from '../../assets/munay-ki/chaman-peru.jpeg';
+import SharePopup from '../tools/SharePopup';
 
 const Les9RitesMunayKi = () => {
 	const head = () => {
@@ -28,6 +29,13 @@ const Les9RitesMunayKi = () => {
 			<div className='Les9RitesMunayKi'>
 				<div className='article'>
 					<h1>Les 9 rites Munay-Ki</h1>
+					<section className='icon-panel'>
+						<SharePopup
+							url={window.location.href}
+							title='Les 9 rites Munay-Ki'
+						/>
+					</section>
+
 					<section className='paragraphe-1-1'>
 						<section className='paragraphe-content'>
 							<p>

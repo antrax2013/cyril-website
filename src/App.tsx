@@ -13,13 +13,13 @@ const Actualites = lazy(() => import('./components/routes/Actualites'));
 const Contact = lazy(() => import('./components/routes/Contact'));
 const Error404 = lazy(() => import('./components/routes/Error404'));
 const RitesMunayKi = lazy(
-	() => import('./components/routes/Les-9-rites-du-munay-ki')
+	() => import('./components/routes/Les-9-rites-du-munay-ki'),
 );
 const Geobiologie = lazy(() => import('./components/routes/Geogiologie'));
 const PolitiqueConfidentialite = lazy(
-	() => import('./components/routes/Politique-confidentialite')
+	() => import('./components/routes/Politique-confidentialite'),
 );
-const Cupule = lazy(() => import('./components/routes/Geobiologie/Cupule'));
+
 const QuiSuisJe = lazy(() => import('./components/routes/Qui-suis-je'));
 const PlanDuSite = lazy(() => import('./components/routes/Site-Map'));
 
@@ -27,7 +27,14 @@ const LeLavoirDeLaSourceAuxFees = lazy(
 	() =>
 		import(
 			'./components/routes/Geobiologie/Etudes/Le-lavoir-de-la-source-aux-fees'
-		)
+		),
+);
+const FontaineStSauveur = lazy(
+	() => import('./components/routes/Geobiologie/Etudes/Fontaine-st-Sauveur'),
+);
+const Cupule = lazy(() => import('./components/routes/Geobiologie/Cupule'));
+const EntretienTambourChamanique = lazy(
+	() => import('./components/routes/Ressources/entretien-tambour-chamanique'),
 );
 
 const PanneauLateral = lazy(() => import('./components/Panneau-lateral'));
@@ -62,12 +69,20 @@ const App = () => {
 							/>
 							<Route path='erreur-404' element={<Error404 />} />
 							<Route path='plan-du-site' element={<PlanDuSite />} />
-							{/* Resources */}
+							{/* Ressources */}
 							<Route
 								path='etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees'
 								element={<LeLavoirDeLaSourceAuxFees />}
 							/>
+							<Route
+								path='etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas'
+								element={<FontaineStSauveur />}
+							/>
 							<Route path='geologie/les-cupules' element={<Cupule />} />
+							<Route
+								path='ressources/entretien-tambour-chamanique-peau'
+								element={<EntretienTambourChamanique />}
+							/>
 							<Route path='*' element={<Navigate replace to='/erreur-404' />} />
 						</Routes>
 						<ScrollButton />
