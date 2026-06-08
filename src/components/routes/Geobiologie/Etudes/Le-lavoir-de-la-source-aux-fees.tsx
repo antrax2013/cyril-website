@@ -6,6 +6,7 @@ import SourceAuxFeesPresence from '../../../../assets/géobiologie/etudes/yvelin
 import SourceAuxFeesReseaux from '../../../../assets/géobiologie/etudes/yvelines/st-forget/la-source-aux-fees-reseaux-geomagnétiques.png';
 import ImgCC from '../../../../assets/Cc_by-nc-nd_icon.svg';
 import '../../../../scss/routes/Geobiologie/Etudes/LeLavoirDeLaSourceAuxFees.scss';
+import SharePopup from '../../../tools/SharePopup';
 
 const LeLavoirDeLaSourceAuxFees = () => {
 	const head = () => {
@@ -40,7 +41,14 @@ const LeLavoirDeLaSourceAuxFees = () => {
 								title='étude géobiologique publiée sous Licence Creative Commons BY-NC-ND'
 							/>
 						</a>
+						<section className='icon-panel'>
+							<SharePopup
+								url={window.location.href}
+								title='La fontaine Saint‑Sauveur - étude géobiologique'
+							/>
+						</section>
 					</legend>
+
 					<section className='paragraphe-1'>
 						<aside>
 							<div>

@@ -2,6 +2,7 @@ import MetaTag from '../tools/MetaTag';
 import ParagraphSeparator from '../tools/Paragraph-Separator';
 import ImgMoi from '../../assets/moi.png';
 import '../../scss/routes/QuiSuisJe.scss';
+import SharePopup from '../tools/SharePopup';
 
 const QuiSuisJe = () => {
 	const head = () => {
@@ -21,6 +22,9 @@ const QuiSuisJe = () => {
 			<div className='QuiSuisJe'>
 				<div className='article'>
 					<h1>Qui suis-je ?</h1>
+					<section className='icon-panel'>
+						<SharePopup url={window.location.href} title='Qui suis-je ?' />
+					</section>
 					<section className='paragraphe-1'>
 						<aside>
 							<div>

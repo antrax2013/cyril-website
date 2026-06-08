@@ -3,6 +3,7 @@ import '../../scss/routes/Geobiologie.scss';
 import MetaTag from '../tools/MetaTag';
 import GeobioEnvironement from '../../assets/géobiologie/environement-ondes.jpg';
 import Plan from '../../assets/géobiologie/plan-geobiologie.png';
+import SharePopup from '../tools/SharePopup';
 
 //https://home-vibes-harmony.be/geobiologie/
 
@@ -23,6 +24,9 @@ const Geobiologie = () => {
 			<div className='geobiologie'>
 				<div className='article'>
 					<h1>La Géobiologie</h1>
+					<section className='icon-panel'>
+						<SharePopup url={window.location.href} title='La Géobiologie' />
+					</section>
 					<h2>Qu'est-ce que la Géobiologie ?</h2>
 					<section className='paragraphe-1'>
 						<section className='paragraphe-content'>

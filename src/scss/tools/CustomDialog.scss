@@ -1,0 +1,29 @@
+.p-dialog-center {
+	.p-dialog-content {
+		p {
+			margin-top: 0.5rem;
+		}
+	}
+	.p-dialog-header {
+		padding-bottom: 0.5rem;
+		.p-dialog-title {
+			.font-bold.white-space-nowrap {
+				color: var(--primary-color) !important;
+			}
+		}
+	}
+
+	.p-dialog-header-icons button {
+		color: var(--primary-color) !important;
+	}
+
+	.logo-menu {
+		width: 35px;
+		height: 35px;
+		vertical-align: bottom;
+		.logo {
+			width: 35px;
+			height: 35px;
+		}
+	}
+}

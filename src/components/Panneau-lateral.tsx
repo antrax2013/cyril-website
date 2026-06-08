@@ -10,27 +10,22 @@ const PanneauLateral = () => {
 					<h3>
 						Initiation <em>Géobiologie</em> - Explorateur de l'invisible
 					</h3>
-					<h4>Module 1 - La découverte </h4>
+					<h4>Module 1 & 2</h4>
+					{/* <p>Prochaines sessions à l'automne 2026 </p> */}
 					<ul>
-						<li>
-							<s>Dim. 22/02 de 09h à 12h30 - Plaisir</s> <i>Annulé</i>
-						</li>
-						<li>Dim. 15/03 de 09h à 12h30 - Guyancourt</li>
+						<li>Dim. 06/09 de 09h à 12h30 - Plaisir</li>
 					</ul>
 					<h4>Module 2 - Les premières recherches </h4>
 					<ul>
-						<li>
-							<s>Dim. 22/02 de 14h à 18h30 - Plaisir</s> <i>Annulé</i>
-						</li>
-						<li>Dim. 15/03 de 14h à 18h30 - Guyancourt</li>
+						<li>Dim. 06/09 de 14h à 18h30 - Plaisir</li>
 					</ul>
 					<h4>Module 3 - Les failles et les veines d’eau</h4>
 					<ul>
-						<li>Dim. 19/04 de 09h à 12h30 - Guyancourt</li>
+						<li>Dim. 04/10 de 09h à 12h30 - Plaisir</li>
 					</ul>
 					<h4>Module 4 - Les réseaux géomagnétiques de base</h4>
 					<ul>
-						<li>Dim. 19/04 de 14h à 18h30 - Guyancourt</li>
+						<li>Dim. 04/10 de 14h à 18h30 - Plaisir</li>
 					</ul>
 					<div className='ctas-container'>
 						<a
@@ -51,16 +46,38 @@ const PanneauLateral = () => {
 					</div>
 				</div>
 				<div className='event' id='événements'>
-					<h3>Conférences / Salons</h3>
-					<h4>Portes ouvertes</h4>
+					<h3>Conférences</h3>
+					{/* <h4>Portes ouvertes</h4>
+					<ul>
+						<li>
+							<i>Dim. 14/06</i> - Espace Vibration & Libellule à Plaisir - 78
+						</li>
+					</ul> */}
+					<h4>Changer la monnaie pour changer notre rapport au monde</h4>
 					<ul>
 						<li>
 							<i>
-								A venir : Espace Vibration & Libellule à Plaisir - 78 (Sam.
-								21/03 ?)
+								Dim. 14/06 à 14h30 - Espace Vibration & Libellule à Plaisir - 78
 							</i>
 						</li>
 					</ul>
+					<h4>Introduction à la Géobiologie</h4>
+					<ul>
+						<li>
+							<i>
+								Dim. 14/06 à 15h30 - Espace Vibration & Libellule à Plaisir - 78
+							</i>
+						</li>
+					</ul>
+					<div className='ctas-container'>
+						<a
+							href='/actualites#conférences'
+							className='cta cta-secondary'
+							title='En savoir plus sur les sorties en nature'
+						>
+							En savoir plus
+						</a>
+					</div>
 					{/* <h4>Portes ouvertes</h4>
 					<ul>
 						<li>
@@ -89,25 +106,48 @@ const PanneauLateral = () => {
 							</i>
 						</li>
 					</ul>*/}
-					<h4>Salon</h4>
+					{/* <h4>Salon</h4>
 					<ul>
 						<li>
-							{/* <a
-								href='https://fb.me/e/1PYGeWXkGl'
-								title='Cliquez sur ce lien pour plus d’informations sur le salon L’être au naturel à Maurepas'
+							<a
+								href='https://lafabriquedesevenements.fr/les-sens-en-eveil-salon-bien-etre/'
+								title='Cliquez sur ce lien pour plus d’informations sur le salon les Sens En Eveil à Guyancourt'
 								target='_blank'
 							>
-								23/11/2025 L'être au naturel Maurepas (78)
-							</a> */}
-							Pas de salon planifé à ce jour.
+								12/04 - les Sens En Eveil – 4ème édition Montigny (78)
+							</a>
+							{/* Pas de salon planifé à ce jour. * /}
 						</li>
-					</ul>
+					</ul> */}
 				</div>
 				<div className='event' id='événements'>
-					<h3>Sorties</h3>
+					<h3>Sorties en nature</h3>
 					<ul>
-						<li>La prochaine sortie sera au printemps 2026</li>
+						{/* <li>La prochaine sortie sera au printemps 2026</li> */}
+
+						{/* <li>24/05 de 09h-12h30 - Fontaine St Suveur - Maurepas</li> */}
+						<li>
+							Sam. 13/06 09h-18h30 - Sortie en forêt de Rambouillet avec
+							François Figuerau
+						</li>
 					</ul>
+					<div className='ctas-container'>
+						<a
+							href='/contact?sujet=sortie-géobiologie'
+							className='cta cta-primary'
+							title='Lien pour réserver'
+						>
+							Réserver
+						</a>
+						{'  '}
+						<a
+							href='/actualites#forêt-de-rambouillet-à-gambaiseuil'
+							className='cta cta-secondary'
+							title='En savoir plus sur les sorties en nature'
+						>
+							En savoir plus
+						</a>
+					</div>
 				</div>
 			</div>
 			<div id='events'>

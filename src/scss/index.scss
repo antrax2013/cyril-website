@@ -82,6 +82,19 @@ li:before {
 	content: ॐ;
 }
 
+.icon-panel {
+	display: block !important;
+	text-align: right;
+}
+
+legend {
+	text-align: right;
+	.icon-panel {
+		display: inline-block !important;
+		vertical-align: bottom;
+	}
+}
+
 blockquote,
 legend {
 	color: var(--tertiary-color) !important;
