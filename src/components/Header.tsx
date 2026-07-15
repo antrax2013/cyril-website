@@ -6,10 +6,8 @@ const Header = () => {
 		<>
 			<div className='article title'>
 				<div className='title-text'>
-					<h1>{import.meta.env.VITE_META_NAME}</h1>
-					<h2>
-						<span className='subtitle'>{import.meta.env.VITE_META_TITLE}</span>
-					</h2>
+					<p className='h1-title'>{import.meta.env.VITE_META_NAME}</p>
+					<p className='subtitle'>{import.meta.env.VITE_META_TITLE}</p>
 				</div>
 				<div className='logo' itemProp='logo'>
 					<img

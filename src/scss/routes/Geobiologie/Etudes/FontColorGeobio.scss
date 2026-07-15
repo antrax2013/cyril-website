@@ -12,26 +12,64 @@ $text-shadow:
 	var(--primary-color) 0.96017px -0.279416px 0px;
 
 /* Réseaux */
+$bronze-color: #614e1a;
+$curry-color: #f197e3;
+$cobalt-color: #22427c;
+$hartman-color: #333;
+$or-color: gold;
+$silver-color: silver;
 $titane-color: #196b00;
 
 .text-shadow {
 	text-shadow: $text-shadow;
 }
 
+.text-argent {
+	color: $silver-color !important;
+}
+
+.text-hartman {
+	color: $hartman-color !important;
+}
+
+.text-curry {
+	color: $curry-color !important;
+}
+
 .text-titane {
 	color: $titane-color !important;
 }
 
+.text-cobalt {
+	color: $cobalt-color !important;
+}
+
 /* Elements */
 $eau-color: #97e9f1;
+$feu-color: #ff4901;
+$terre-color: #582900;
+$air-color: silver;
 
 .text-eau {
 	color: $eau-color !important;
+}
+.text-feu {
+	color: $feu-color !important;
+}
+.text-terre {
+	color: $terre-color !important;
+}
+.text-air {
+	color: $air-color !important;
 }
 
 /* Presences */
 .text-fee {
 	color: $rose-color !important;
+}
+
+.text-deva-nature {
+	color: $titane-color !important;
 }
 
 /* Autres */

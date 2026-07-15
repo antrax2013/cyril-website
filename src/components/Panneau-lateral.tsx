@@ -10,7 +10,7 @@ const PanneauLateral = () => {
 					<h3>
 						Initiation <em>Géobiologie</em> - Explorateur de l'invisible
 					</h3>
-					<h4>Module 1 & 2</h4>
+					<h4>Module 1 - La découverte</h4>
 					{/* <p>Prochaines sessions à l'automne 2026 </p> */}
 					<ul>
 						<li>Dim. 06/09 de 09h à 12h30 - Plaisir</li>
@@ -45,14 +45,14 @@ const PanneauLateral = () => {
 						</a>
 					</div>
 				</div>
-				<div className='event' id='événements'>
+				{/* <div className='event' id='événements'>
 					<h3>Conférences</h3>
 					{/* <h4>Portes ouvertes</h4>
 					<ul>
 						<li>
 							<i>Dim. 14/06</i> - Espace Vibration & Libellule à Plaisir - 78
 						</li>
-					</ul> */}
+					</ul> * /}
 					<h4>Changer la monnaie pour changer notre rapport au monde</h4>
 					<ul>
 						<li>
@@ -77,8 +77,8 @@ const PanneauLateral = () => {
 						>
 							En savoir plus
 						</a>
-					</div>
-					{/* <h4>Portes ouvertes</h4>
+					</div> */}
+				{/* <h4>Portes ouvertes</h4>
 					<ul>
 						<li>
 							<a
@@ -106,7 +106,7 @@ const PanneauLateral = () => {
 							</i>
 						</li>
 					</ul>*/}
-					{/* <h4>Salon</h4>
+				{/* <h4>Salon</h4>
 					<ul>
 						<li>
 							<a
@@ -118,8 +118,8 @@ const PanneauLateral = () => {
 							</a>
 							{/* Pas de salon planifé à ce jour. * /}
 						</li>
-					</ul> */}
-				</div>
+					</ul>
+				</div> */}
 				<div className='event' id='événements'>
 					<h3>Sorties en nature</h3>
 					<ul>

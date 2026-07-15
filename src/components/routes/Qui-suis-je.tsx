@@ -1,18 +1,20 @@
-import MetaTag from '../tools/MetaTag';
-import ParagraphSeparator from '../tools/Paragraph-Separator';
 import ImgMoi from '../../assets/moi.png';
 import '../../scss/routes/QuiSuisJe.scss';
+import { Helmet } from 'react-helmet';
 import SharePopup from '../tools/SharePopup';
+import ParagraphSeparator from '../tools/Paragraph-Separator';
 
 const QuiSuisJe = () => {
 	const head = () => {
 		return (
-			<MetaTag
-				title={import.meta.env.VITE_META_MAIN_TITLE || 'Qui suis-je ?'}
-				description='Explorateur des mondes subtils, je vous propose de partager mes connaissances des mondes subtils, géobiologie, chamanisme... et ainsi avec vous explorer les mondes subtils. Cyril COPHIGNON'
-				resume='Explorateur des mondes subtils, je mets mes connaissances des mondes subtils à votre service pour vous accompagner sur votre chemin de vie.'
-				forceTitle={true}
-			/>
+			<Helmet>
+				<title>{'Qui suis-je ?'}</title>
+				<link rel='canonical' href='https://cyril.cophignon.net/qui-suis-je' />
+				<meta
+					name='description'
+					content='Explorateur des mondes subtils, je vous propose de partager mes connaissances des mondes subtils, géobiologie, chamanisme... et ainsi avec vous explorer les mondes subtils. Cyril COPHIGNON'
+				/>
+			</Helmet>
 		);
 	};
 
@@ -105,8 +107,8 @@ const QuiSuisJe = () => {
 							</p>
 							<p>
 								En 2021, je m’initie, avec Catherine Leveau, à la{' '}
-								<em>Géobiolgie</em>. Un cadeau, un vertibale tournant pour moi.
-								Grâce à la <em>Géobiolgie</em>, je peux accéder à des
+								<em>Géobiologie</em>. Un cadeau, un veritable tournant pour moi.
+								Grâce à la <em>Géobiologie</em>, je peux accéder à des
 								informations subtiles sur un lieu, à l’âme du lieu. Maintenant,
 								c’est une véritable passion.
 							</p>
