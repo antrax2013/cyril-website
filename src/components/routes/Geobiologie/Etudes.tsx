@@ -1,5 +1,4 @@
-{
-	/* <h1>Études géobiologiques de lieux remarquables en France</h1>
+<h1>Études géobiologiques de lieux remarquables en France</h1>
 
 
 <p>
@@ -69,5 +68,4 @@ Ces recherches visent également à identifier d'éventuelles similarités entre
 
 <p>
 Retrouvez ci-dessous les études actuellement publiées et découvrez les particularités de chaque lieu exploré.
-</p> */
-}
+</p>

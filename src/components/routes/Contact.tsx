@@ -10,6 +10,7 @@ import { Email, IMail } from '../../modules/email';
 import { Dropdown } from 'primereact/dropdown';
 import { Toast } from 'primereact/toast';
 // import { Helmet } from 'react-helmet-async';
+import { Helmet } from 'react-helmet';
 
 interface iError {
 	nom?: string;

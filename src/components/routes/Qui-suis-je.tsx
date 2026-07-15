@@ -1,9 +1,12 @@
 import ImgMoi from '../../assets/moi.png';
 import '../../scss/routes/QuiSuisJe.scss';
+import { Helmet } from 'react-helmet';
 import SharePopup from '../tools/SharePopup';
 import ParagraphSeparator from '../tools/Paragraph-Separator';
 
 const QuiSuisJe = () => {
+					content='Explorateur des mondes subtils, je vous propose de partager mes connaissances des mondes subtils, géobiologie, chamanisme... et ainsi avec vous explorer les mondes subtils. Cyril COPHIGNON'
+			</Helmet>
 	return (
 		<>
 			<div className='QuiSuisJe'>

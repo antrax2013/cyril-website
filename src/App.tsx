@@ -85,6 +85,11 @@ const App = () => {
 							/>
 
 							<Route
+								path='/contact/sujet/:sujet'
+								element={<ContactWrapper />}
+							/>
+
+							<Route
 								path='politique-de-confidentialite'
 								element={<PolitiqueConfidentialite />}
 							/>

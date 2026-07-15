@@ -124,7 +124,7 @@ const PanneauLateral = () => {
 							</a>
 							{/* Pas de salon planifé à ce jour. * /}
 						</li>
-					</ul> */}
+					</ul>
 				</div> */}
 				<div className='event' id='événements'>
 					{/* <h3>Conférences</h3>

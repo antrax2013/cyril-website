@@ -18,7 +18,6 @@ const EntretienTambourChamanique = () => {
 				title='Protection tambour en peau : sécheresse et humidité'
 				description='La peau d’un tambour réagit fortement à l’humidité : chaleur et sécheresse peuvent la tendre, l’étirer ou la détendre. Nicolas détaille les risques, les bons gestes, l’humidification et les protocoles pour préserver la tension et la qualité sonore de votre tambour.'
 				resume='La chaleur et l’air sec peuvent abîmer la peau de votre tambour. Nicolas explique comment l’humidité influence la tension, comment éviter les dommages et quelles actions simples protègent durablement votre instrument.'
-				forceTitle={true}
 			/>
 		);
 	};
