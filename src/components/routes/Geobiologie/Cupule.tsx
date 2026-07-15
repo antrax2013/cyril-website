@@ -10,7 +10,7 @@ const Cupule = () => {
 	const head = () => {
 		return (
 			<MetaTag
-				title={import.meta.env.VITE_META_MAIN_TITLE || 'Les cupules'}
+				title={'Les cupules'}
 				description='Les cupules, ces énigmatiques pétroglyphes, formés par l’Homme, extrémenement répandus dont les archéologues en ignorent l’usage et la signification. Symbole du féminin, je vous propose de partir ensemble à la découverte de ces souvenirs du passé. Voyons ce que les mondes subtils ont à nous apprendre sur les cupules. Cyril COPHIGNON'
 				resume='Les cupules, symbole du féminin, ces énigmatiques pétroglyphes, formés par l’Homme, extrémenement répandus dont les archéologues en ignorent l’usage et la signification.'
 				forceTitle={true}

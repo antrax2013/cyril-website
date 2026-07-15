@@ -12,10 +12,7 @@ const LeLavoirDeLaSourceAuxFees = () => {
 	const head = () => {
 		return (
 			<MetaTag
-				title={
-					import.meta.env.VITE_META_MAIN_TITLE ||
-					'Le lavoir de la source aux fées'
-				}
+				title={'Le lavoir de la source aux fées'}
 				description='Longtemps appelé trou-chaud, on lui attribue souvent un pouvoir de guérison à la source un pouvoir de guérison. Le lavoir, qui se trouve à son aval, est perdu dans la forêt, loin de tout village pour être réélement utilisé en tant que lavoir. Qu’en est-il d’un point de vue de la géobiologie ? Cyril COPHIGNON'
 				resume='Des fées. Une source avec un pouvoir de guérison. Un lavoir perdu dans la forêt. Qu’en est-il d’un point de vue de la géobiologie ?'
 				forceTitle={true}

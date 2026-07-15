@@ -13,6 +13,22 @@ label {
 	display: flex;
 }
 
+.p-accordion-header {
+	.p-icon.p-accordion-toggle-icon {
+		color: var(--tertiary-color) !important;
+		vertical-align: middle;
+	}
+}
+
+.p-accordion-tab {
+	.p-accordion-content {
+		background-color: inherit !important;
+		border: none;
+		display: flex;
+		color: inherit;
+	}
+}
+
 .p-inputtext {
 	display: flex;
 }
@@ -122,6 +138,9 @@ nav .p-menubar-mobile-active .p-menubar-button:active,
 	vertical-align: bottom;
 }
 
+.p-galleria-indicator.p-highlight .p-link {
+	background-color: var(--secondary-color);
+}
 @media (min-width: 961px) and (max-width: 1150px) {
 	nav .p-menuitem .p-menuitem-text,
 	.p-menubar-end {

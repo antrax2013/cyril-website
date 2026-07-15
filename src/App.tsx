@@ -7,6 +7,7 @@ import 'primeflex/primeflex.css';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import { lazy } from 'react';
+import ContactWrapper from './components/routes/ContactWrapper';
 
 const MessageAnimal = lazy(() => import('./components/routes/Message-animal'));
 const Actualites = lazy(() => import('./components/routes/Actualites'));
@@ -63,6 +64,11 @@ const App = () => {
 							/>
 							<Route path='les-9-rites-munay-ki' element={<RitesMunayKi />} />
 							<Route path='contact' element={<Contact />} />
+							<Route
+								path='/contact/sujet/:sujet'
+								element={<ContactWrapper />}
+							/>
+
 							<Route
 								path='politique-de-confidentialite'
 								element={<PolitiqueConfidentialite />}

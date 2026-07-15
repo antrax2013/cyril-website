@@ -52,6 +52,11 @@ const SiteMap = () => {
 					<ul>
 						<h3>Études géobiologiques</h3>
 						<li>
+							<a href='/etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas'>
+								La fontaine St-Sauveur
+							</a>
+						</li>
+						<li>
 							<a href='/etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees'>
 								Le lavoir de la source aux fées
 							</a>

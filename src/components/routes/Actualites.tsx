@@ -69,7 +69,7 @@ const Actualites = () => {
 							</a>
 						</section>
 					</section>
-					<ParagraphSeparator />
+					{/* <ParagraphSeparator />
 					<section>
 						<h2 id='conférences'>Conférences</h2>
 						<h3>
@@ -105,7 +105,7 @@ const Actualites = () => {
 								📍 Lieu : Espace Vibration, 1er étage uniquement par escalier
 							</li>
 						</ul>
-					</section>
+					</section> */}
 					<ParagraphSeparator />
 					<section>
 						<h2 id='explorons-l-invisible-en-nature'>
@@ -185,10 +185,13 @@ const Actualites = () => {
 							<p>
 								🚨{' '}
 								<b>
-									Prochainement, retrouver l'étude complète de ce lieu dans la
-									section{' '}
-									<i>Etudes Géobiologiques / Fontaine St Sauveur de Maurepas</i>
-									.
+									Retrouvez l'étude complète de ce lieu dans la section{' '}
+									<a href='/etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas'>
+										<i>
+											Etudes Géobiologiques / Fontaine St Sauveur de Maurepas
+										</i>
+										.
+									</a>
 								</b>{' '}
 								🚨
 							</p>

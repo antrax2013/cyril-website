@@ -59,11 +59,11 @@ const Geobiologie = () => {
 							</p>
 							<p>
 								Avec la découverte au 19ème siècle des ultras sons, des infras
-								rouges, des ultras violets... la science reconnait l'existence
-								de phénomènes naturels, non perceptibles par nos récepteurs
+								rouges, des ultraviolets... la science reconnait l'existence de
+								phénomènes naturels, non perceptibles par nos récepteurs
 								sensoriels. Non seulement ils existent, mais, ils ont également
 								un impact physique sur nous, sur tous les êtres peuplant notre
-								planète (cf. les coups de soleil dues aux ultras violets)
+								planète (cf. les coups de soleil dues aux ultraviolets)
 							</p>
 							<p>
 								Aujourd’hui, il existe une grande variété d’ondes artificielles

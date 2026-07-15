@@ -122,11 +122,14 @@ img.ImgCC {
 
 h1,
 h2,
-b {
+b,
+.subtitle,
+.h1-title {
 	color: var(--primary-color) !important;
 }
 
-h2 {
+h2,
+.subtitle {
 	font-size: 1rem;
 }
 
@@ -136,11 +139,27 @@ h3 {
 	color: var(--secondary-color) !important;
 }
 
+h4 {
+	font-size: 0.9rem;
+	font-style: italic;
+	color: var(--tertiary-color) !important;
+}
+
+h5 {
+	font-size: 0.9rem;
+	font-style: italic;
+	color: var(--primary-color) !important;
+}
+
+.inline-header {
+	display: inline;
+}
 .asterix {
 	color: var(--secondary-color) !important;
 }
 
-h1:not(.aside) {
+h1:not(.aside),
+.h1-title {
 	margin: inherit;
 	padding: 0.4em 0;
 	margin-top: 0.2rem;
@@ -215,17 +234,21 @@ nav .logo {
 	}
 
 	h1,
-	h2 {
+	.h1-title,
+	h2,
+	.subtitle {
 		color: var(--text-color) !important;
 		font-family: 'Engagement', cursive;
 		font-weight: 100;
 		text-align: right;
 	}
 
+	.h1-title,
 	h1 {
 		font-size: 3em;
 		padding-bottom: 0em;
 	}
+	.subtitle,
 	h2 {
 		font-style: italic;
 		font-size: 1.9em;
@@ -544,7 +567,8 @@ footer {
 	}
 	.title {
 		padding-bottom: 0.5em;
-		h1:not(.aside) {
+		h1:not(.aside),
+		.h1-title {
 			margin-top: inherit !important;
 		}
 		.logo {

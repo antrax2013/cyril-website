@@ -14,11 +14,9 @@ interface iMeta {
 	itemprop?: string;
 }
 
-const MetaTag = ({ title, description, resume, forceTitle }: iMetaTag) => {
-	const _title: string =
-		forceTitle === true
-			? title
-			: `${title} - ${import.meta.env.VITE_META_MAIN_TITLE_LIGTH || ''}`;
+const MetaTag = ({ title, description, resume }: iMetaTag) => {
+	var checkTitleTooLong = title.length > 70;
+	if (checkTitleTooLong) throw new Error(`title too long ${title}`);
 
 	const meta = [
 		{
@@ -28,7 +26,7 @@ const MetaTag = ({ title, description, resume, forceTitle }: iMetaTag) => {
 		{
 			//Open tags pour Faceboock et messenger
 			property: `og:title`,
-			content: _title,
+			content: title,
 		},
 		{
 			property: `og:description`,
@@ -40,7 +38,7 @@ const MetaTag = ({ title, description, resume, forceTitle }: iMetaTag) => {
 		},
 		{
 			property: `twitter:title`,
-			content: _title,
+			content: title,
 		},
 		{
 			property: `twitter:description`,
@@ -52,7 +50,7 @@ const MetaTag = ({ title, description, resume, forceTitle }: iMetaTag) => {
 		},
 	] as iMeta[];
 
-	return <Helmet title={_title.toString()} meta={meta} />;
+	return <Helmet title={title.toString()} meta={meta} />;
 };
 
 export default MetaTag;
