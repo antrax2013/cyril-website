@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { Accordion, AccordionTab } from 'primereact/accordion';
 import { Galleria } from 'primereact/galleria';
 
-import MetaTag from '../../../tools/MetaTag';
 import ParagraphSeparator from '../../../tools/Paragraph-Separator';
 import ImgCC from '../../../../assets/Cc_by-nc-nd_icon.svg';
 import SharePopup from '../../../tools/SharePopup';
@@ -56,16 +55,6 @@ const FontaineStSauveur = () => {
 
 	const [cartePostale, _] = useState<ICarousselItem[]>(tableCartePostales);
 
-	const head = () => {
-		return (
-			<MetaTag
-				title={'Fontaine Saint‑Sauveur de Maurepas : étude géobiologique'}
-				description='Étude géobiologique de la fontaine Saint‑Sauveur à Maurepas : source ancienne, champ sacré, vortex, réseaux subtils et présences protectrices. Un lieu qui veille.'
-				resume='La fontaine Saint‑Sauveur de Maurepas, héritière d’une source préhistorique, révèle une architecture subtile et un champ sacré actif. Vortex, réseaux géomagnétiques, présences élémentaires et mémoire du lieu composent un espace puissant, “bien plus qu’un simple point d’eau” selon ton texte : « La fontaine Saint‑Sauveur n’est pas qu’un point d’eau, mais une porte qui veille. '
-			/>
-		);
-	};
-
 	const itemTemplate = (item: ICarousselItem) => {
 		return (
 			<img
@@ -79,7 +68,6 @@ const FontaineStSauveur = () => {
 
 	return (
 		<>
-			{head()}
 			<div className='FontaineStSauveur'>
 				<div className='article'>
 					<h1>

@@ -1,5 +1,5 @@
 import { Button } from 'primereact/button';
-import MetaTag from '../../tools/MetaTag';
+
 import ParagraphSeparator from '../../tools/Paragraph-Separator';
 import React from 'react';
 import CustomDialog from '../../tools/CustomDialog';
@@ -11,25 +11,13 @@ import SharePopup from '../../tools/SharePopup';
 
 const EntretienTambourChamanique = () => {
 	const [visible, setVisible] = React.useState(false);
-
-	const head = () => {
-		return (
-			<MetaTag
-				title='Protection tambour en peau : sécheresse et humidité'
-				description='La peau d’un tambour réagit fortement à l’humidité : chaleur et sécheresse peuvent la tendre, l’étirer ou la détendre. Nicolas détaille les risques, les bons gestes, l’humidification et les protocoles pour préserver la tension et la qualité sonore de votre tambour.'
-				resume='La chaleur et l’air sec peuvent abîmer la peau de votre tambour. Nicolas explique comment l’humidité influence la tension, comment éviter les dommages et quelles actions simples protègent durablement votre instrument.'
-			/>
-		);
-	};
-
 	return (
 		<>
-			{head()}
 			<div className='EntretienTambourChamanique'>
 				<div className='article'>
 					<h1>
-						Comment protéger votre tambour en période de fortes chaleurs et
-						d’air sec
+						Prendre soin de votre tambour en période de fortes chaleurs et d’air
+						sec
 					</h1>
 					<section className='icon-panel'>
 						<SharePopup
