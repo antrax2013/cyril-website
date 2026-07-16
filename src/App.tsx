@@ -7,11 +7,11 @@ import 'primeflex/primeflex.css';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import { lazy } from 'react';
-import ContactWrapper from './components/routes/ContactWrapper';
 
 const MessageAnimal = lazy(() => import('./components/routes/Message-animal'));
 const Actualites = lazy(() => import('./components/routes/Actualites'));
 const Contact = lazy(() => import('./components/routes/Contact'));
+const ContactWrapper = lazy(() => import('./components/routes/ContactWrapper'));
 const Error404 = lazy(() => import('./components/routes/Error404'));
 const RitesMunayKi = lazy(
 	() => import('./components/routes/Les-9-rites-du-munay-ki'),

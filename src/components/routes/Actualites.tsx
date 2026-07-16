@@ -1,22 +1,10 @@
 import ParagraphSeparator from '../tools/Paragraph-Separator';
 import '../../scss/routes/Actualites.scss';
-import MetaTag from '../tools/MetaTag';
 import SharePopup from '../tools/SharePopup';
 
 const Actualites = () => {
-	const head = () => {
-		return (
-			<MetaTag
-				title='Actualités'
-				description='Les actualités de mon activités d’explorateur des mondes subtiles.'
-				resume='Les actualités de mon activités d’explorateurdes mondes subtiles, sur cette page j’évoquerais les différents événements, salon et formation aquels je participerai.'
-			/>
-		);
-	};
-
 	return (
 		<>
-			{head()}
 			<div className='actualites'>
 				<div className='article'>
 					<h1>Les actualités</h1>

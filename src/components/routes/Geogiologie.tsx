@@ -1,6 +1,5 @@
 import ParagraphSeparator from '../tools/Paragraph-Separator';
 import '../../scss/routes/Geobiologie.scss';
-import MetaTag from '../tools/MetaTag';
 import GeobioEnvironement from '../../assets/géobiologie/environement-ondes.jpg';
 import Plan from '../../assets/géobiologie/plan-geobiologie.png';
 import SharePopup from '../tools/SharePopup';
@@ -8,19 +7,8 @@ import SharePopup from '../tools/SharePopup';
 //https://home-vibes-harmony.be/geobiologie/
 
 const Geobiologie = () => {
-	const head = () => {
-		return (
-			<MetaTag
-				title='La Géobiologie'
-				description='La Géobiologie, l’étude des phénomènes ondulatoires et de leur impact sur le vivant.'
-				resume='La Géobiologie, connue des anciens bâtisseurs est l’étude de l’impact d’un ensemble de phénomènes ondulatoires et vibrants, ayant une incidence sur les êtres vivants et les énergies d’un lieu.'
-			/>
-		);
-	};
-
 	return (
 		<>
-			{head()}
 			<div className='geobiologie'>
 				<div className='article'>
 					<h1>La Géobiologie</h1>
