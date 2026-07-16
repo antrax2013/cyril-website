@@ -1,19 +1,6 @@
-import MetaTag from '../tools/MetaTag';
-
 const SiteMap = () => {
-	const head = () => {
-		return (
-			<MetaTag
-				title='Plan du site'
-				description='Le plan du site. Vous trouverez le lien vers les différentes pages qui le compose : Reiki Usui, Massage des 5 Continents et plus encore...'
-				resume='Le plan du site pour ne pas vous perdre.'
-			/>
-		);
-	};
-
 	return (
 		<>
-			{head()}
 			<div className='article'>
 				<h1>Le plan du site</h1>
 				<ul>

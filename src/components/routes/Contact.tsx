@@ -9,8 +9,7 @@ import '../../scss/routes/Contact.scss';
 import { Email, IMail } from '../../modules/email';
 import { Dropdown } from 'primereact/dropdown';
 import { Toast } from 'primereact/toast';
-import MetaTag from '../tools/MetaTag';
-import { Helmet } from 'react-helmet';
+// import { Helmet } from 'react-helmet-async';
 
 interface iError {
 	nom?: string;
@@ -142,22 +141,22 @@ const Contact = ({ sujetFromPath }: iContact) => {
 		);
 	};
 
-	const head = () => {
-		return (
-			<Helmet>
-				<title>Contact</title>
-				<link rel='canonical' href='https://cyril.cophignon.net/contact' />
-				<meta
-					name='description'
-					content='Contactez-moi pour voir comment à travers mes différents accompagnements, soins et initiations, je peux être à vos côtés pour vous guider sur votre chemin de vie.'
-				/>
-			</Helmet>
-		);
-	};
+	// const head = () => {
+	// 	return (
+	// 		<Helmet>
+	// 			<title>{`Contact - ${import.meta.env.VITE_META_MAIN_TITLE}`}</title>
+	// 			<link rel='canonical' href='https://cyril.cophignon.net/contact' />
+	// 			<meta
+	// 				name='description'
+	// 				content='Contactez-moi pour voir comment à travers mes différents accompagnements, soins et initiations, je peux être à vos côtés pour vous guider sur votre chemin de vie.'
+	// 			/>
+	// 		</Helmet>
+	// 	);
+	// };
 
 	return (
 		<>
-			{head()}
+			{/* {head()} */}
 			<div className='article contact'>
 				<h1>Contact</h1>
 				<Toast ref={toast} />

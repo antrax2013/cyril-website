@@ -1,7 +1,7 @@
 {
 	"name": "cyril-cophignon-net",
 	"private": true,
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
@@ -10,8 +10,11 @@
 		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview",
 		"compile-sass": "sass --watch src/scss/:public/css --no-source-map -s compressed",
-		"postbuild": "react-spa-prerender && purgecss -v --css build/assets/*.css --content build/*.html build/assets/*.js --output . --safelist p-toast p-toast-top-right p-ripple-disabled p-toast-message p-toast-message-content p-toast-message-success p-toast-message-enter-done p-icon p-toast-message-icon p-toast-message-text p-toast-summary p-toast-detail p-toast-icon-close p-link",
+		"postbuild": "react-spa-prerender && powershell -File .\\post-build.ps1 -m cyril.cophignon.net && purgecss -v --css build/assets/*.css --content build/*.html build/assets/*.js --output . --safelist p-toast p-toast-top-right p-ripple-disabled p-toast-message p-toast-message-content p-toast-message-success p-toast-message-enter-done p-icon p-toast-message-icon p-toast-message-text p-toast-summary p-toast-detail p-toast-icon-close p-link",
 		"purge": "purgecss -v --config config/purgecss.config.js"
+	},
+	"overrides": {
+		"node-fetch": "^2.6.7"
 	},
 	"dependencies": {
 		"@emailjs/browser": "^4.4.1",
@@ -21,14 +24,12 @@
 		"primereact": "^10.9.7",
 		"react": "19.0.0",
 		"react-dom": "19.0.0",
-		"react-helmet": "^6.1.0",
 		"react-router-dom": "^7.2.0"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.4.0",
 		"@types/react": "^19.0.10",
 		"@types/react-dom": "^19.0.4",
-		"@types/react-helmet": "^6.1.11",
 		"@typescript-eslint/eslint-plugin": "^8.24.1",
 		"@typescript-eslint/parser": "^8.24.1",
 		"@vitejs/plugin-react-swc": "^3.5.0",

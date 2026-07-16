@@ -1,4 +1,3 @@
-import MetaTag from '../tools/MetaTag';
 import '../../scss/routes/MessageAnimal.scss';
 import ParagraphSeparator from '../tools/Paragraph-Separator';
 import MessageAnimalChien from '../../assets/la-communication-animale/florian-schindler-iz_C0d3tK1Q-unsplash.png';
@@ -7,19 +6,8 @@ import MessageAnimalChat from '../../assets/la-communication-animale/pexels-marc
 import SharePopup from '../tools/SharePopup';
 
 const MessageAnimal = () => {
-	const head = () => {
-		return (
-			<MetaTag
-				title='La communication animale'
-				description='La communication animale, un moyen pour renforcer la compréhension mutuelle entre un gardien et son animal, dont je ne suis que le messager.'
-				resume='La communication animale, messager entre deux êtres, le gardien et son animal, sur un plan subtil, je fluidifie l’échange et permet une écoute mutuellement pour renforcer leurs liens et amour réciproque.'
-			/>
-		);
-	};
-
 	return (
 		<>
-			{head()}
 			<div className='message-animal'>
 				<div className='article'>
 					<h1>La communication animale</h1>
