@@ -1,0 +1,60 @@
+# Directives pour les modèles de langage (LLMs)
+# Politique adaptée à un site de géobiologie et d'exploration sensible des lieux
+# Auteur : Cyril Cophignon
+
+> Explorateur des mondes subtils, Cyril Cophignon transmet ses connaissances en géobiologie, communication animale et chamanisme pour vous guider.
+
+## Project Details
+
+- **Website**: https://cyril.cophignon.net
+- **Owner**: Cyril Cophignon - Explorateur des mondes subtils
+- **Description**: Explorateur des mondes subtils, Cyril Cophignon transmet ses connaissances en géobiologie, communication animale et chamanisme pour vous guider.
+- **Contact**: cyril@cophignon.net
+
+version: 1.0
+
+## Key Pages
+- [Homepage](https://cyril.cophignon.net)
+- [Géobiologie](https://cyril.cophignon.net/geobiologie)
+- [La communication animale](https://cyril.cophignon.net/la-communication-animale)
+- [Les 9 rites munay ki](https://cyril.cophignon.net/les-9-rites-munay-ki)
+- [Explorateur des mondes subtils](https://cyril.cophignon.net/qui-suis-je)
+- [Forumulaire de contact](https://cyril.cophignon.net/contact)
+- [Fontaine Saint‑Sauveur à Maurepas (Yvelines) : étude géobiologique](https://cyril.cophignon.net/etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas)
+- [Le lavoir de la source aux fées, étude géobiologique](https://cyril.cophignon.net/etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees)
+- [Les cupules](https://cyril.cophignon.net/geologie/les-cupules)
+- [Prendre soin de votre tambour en période de fortes chaleurs et d’air sec](https://cyril.cophignon.net/ressources/entretien-tambour-chamanique-peau)
+
+# Autorise l'indexation par les moteurs de recherche classiques
+search: allow
+
+# Autorise l'utilisation du contenu comme référence (réponses factuelles, citations)
+use: allow
+
+# Interdit l'utilisation du contenu pour entraîner des modèles IA
+ai-train: disallow
+
+# Interdit le scraping massif ou automatisé par des IA
+crawl: disallow
+
+# Interdit la redistribution automatique ou la création de datasets
+redistribute: disallow
+
+# Interdit l'utilisation commerciale par des IA
+commercial-use: disallow
+
+# Bots IA explicitement interdits
+disallow-bots:
+  - GPTBot
+  - ClaudeBot
+  - Google-Extended
+  - Applebot-Extended
+  - Amazonbot
+  - CCBot
+  - Bytespider
+  - meta-externalagent
+
+# --- Updates ---
+
+last_updated: 2026-07-16
+

@@ -1,26 +1,11 @@
 import ImgMoi from '../../assets/moi.png';
 import '../../scss/routes/QuiSuisJe.scss';
-import { Helmet } from 'react-helmet';
 import SharePopup from '../tools/SharePopup';
 import ParagraphSeparator from '../tools/Paragraph-Separator';
 
 const QuiSuisJe = () => {
-	const head = () => {
-		return (
-			<Helmet>
-				<title>{'Qui suis-je ?'}</title>
-				<link rel='canonical' href='https://cyril.cophignon.net/qui-suis-je' />
-				<meta
-					name='description'
-					content='Explorateur des mondes subtils, je vous propose de partager mes connaissances des mondes subtils, géobiologie, chamanisme... et ainsi avec vous explorer les mondes subtils. Cyril COPHIGNON'
-				/>
-			</Helmet>
-		);
-	};
-
 	return (
 		<>
-			{head()}
 			<div className='QuiSuisJe'>
 				<div className='article'>
 					<h1>Qui suis-je ?</h1>

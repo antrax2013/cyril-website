@@ -1,6 +1,5 @@
 import ParagraphSeparator from '../tools/Paragraph-Separator';
 import '../../scss/routes/Les9RitesMunayKi.scss';
-import MetaTag from '../tools/MetaTag';
 import Andes from '../../assets/munay-ki/andes-matchu-pichu.png';
 import RoueMedecine from '../../assets/munay-ki/roue-de-la-medecine.png';
 import Laika from '../../assets/munay-ki/Q_eros_Paqo_calling_Apu.jpg';
@@ -8,15 +7,6 @@ import AndesSoleil from '../../assets/munay-ki/chaman-peru.jpeg';
 import SharePopup from '../tools/SharePopup';
 
 const Les9RitesMunayKi = () => {
-	const head = () => {
-		return (
-			<MetaTag
-				title='Les 9 rites Munay-Ki'
-				description="Les 9 rites Munay-Ki, ou la transmission prophétisée d'un savoir ancestral venu des Andes et détenus par les Q'eros."
-				resume="Les rites 9 Munay-Ki, la transmission d'un savoir ancestral des Andes"
-			/>
-		);
-	};
 	//https://www.tamera.fr/blog/ameriques/perou-les-qeros-freres-des-andes-chroniques-de-franck-charton
 	//https://jadechabot.com/ateliers/munay-ki
 	//https://www-pampamesayok-com.translate.goog/ancient-medicine?_x_tr_sl=auto&_x_tr_tl=fr&_x_tr_hl=fr&_x_tr_pto=wapp
@@ -25,7 +15,6 @@ const Les9RitesMunayKi = () => {
 	//https://www.chakana.ca/21-pratiques-chamaniques-ebook?email=numeriquerelais%40gmail.com&name=dio
 	return (
 		<>
-			{head()}
 			<div className='Les9RitesMunayKi'>
 				<div className='article'>
 					<h1>Les 9 rites Munay-Ki</h1>

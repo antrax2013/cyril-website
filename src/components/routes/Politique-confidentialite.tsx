@@ -1,19 +1,6 @@
-import MetaTag from '../tools/MetaTag';
-
 const PolitiqueConfidentialite = () => {
-	const head = () => {
-		return (
-			<MetaTag
-				title='Politique de confidentialité'
-				description="Notre politique de confidentialité est stricte et dans le respect de la RGPD. Nous ne partageons pas vos données personnelles. Nous ne faisons qu'observer l'utilisation de notre site dans le but d'améliorer sa visibilité."
-				resume='Notre politique de confidentialité est stricte et dans le respect de la RGPD. Nous ne partageons pas vos données personnelles.'
-			/>
-		);
-	};
-
 	return (
 		<>
-			{head()}
 			<div className='article'>
 				<h1>Politique de confidentialité</h1>
 				<h2>
