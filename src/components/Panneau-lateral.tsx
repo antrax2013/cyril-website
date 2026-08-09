@@ -152,6 +152,31 @@ const PanneauLateral = () => {
 							En savoir plus
 						</a>
 					</div> */}
+					<h4>Sortie Géobio. Fontaine St-Martin</h4>
+					<ul>
+						<li>Dim. 18/10 09h-12h30 - Jouars (78)</li>
+					</ul>
+					<div className='ctas-container'>
+						<a
+							href='https://is.gd/june78'
+							className='cta cta-primary'
+							title='Lien pour réserver un ou plusieurs modules pour l’initiation à la Géobiologie - Explorateur de l’invisible'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							Réserver
+						</a>{' '}
+					</div>
+						<a
+							href='https://forum.monnaie-libre.fr/t/78-jouars-pontchartrain-gmarche-dimanche-30-aout-2026/34008'
+							className='cta cta-secondary'
+							title='En savoir plus sur le Ğmarché de Jouars-Pontchartrain - Dimanche 30 août 2026'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							En savoir plus
+						</a>
+					</div>
 					<h3>Sorties en nature</h3>
 					<h4>Sortie Géobio. Fontaine St-Martin</h4>
 					<ul>
@@ -164,14 +189,6 @@ const PanneauLateral = () => {
 							title='Lien pour réserver'
 						>
 							Réserver
-						</a>
-					</div>
-						<a
-							href='/actualites#forêt-de-rambouillet-à-gambaiseuil'
-							className='cta cta-secondary'
-							title='En savoir plus sur les sorties en nature'
-						>
-							En savoir plus
 						</a>
 					</div>
 				</div>
