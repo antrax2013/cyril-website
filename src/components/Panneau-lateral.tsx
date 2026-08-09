@@ -21,11 +21,11 @@ const PanneauLateral = () => {
 					</ul>
 					<h4>Module 3 - Les failles et les veines d’eau</h4>
 					<ul>
-						<li>Dim. 04/10 de 09h à 12h30 - Plaisir</li>
+						<li>Dim. 11/10 de 09h à 12h30 - Plaisir</li>
 					</ul>
 					<h4>Module 4 - Les réseaux géomagnétiques de base</h4>
 					<ul>
-						<li>Dim. 04/10 de 14h à 18h30 - Plaisir</li>
+						<li>Dim. 11/10 de 14h à 18h30 - Plaisir</li>
 					</ul>
 					<div className='ctas-container'>
 						<a
@@ -121,15 +121,35 @@ const PanneauLateral = () => {
 					</ul>
 				</div> */}
 				<div className='event' id='événements'>
-					<h3>Sorties en nature</h3>
+					<h3>Conférences</h3>
+					<h4>Conférence monnaie libre</h4>
 					<ul>
-						{/* <li>La prochaine sortie sera au printemps 2026</li> */}
-
-						{/* <li>24/05 de 09h-12h30 - Fontaine St Suveur - Maurepas</li> */}
-						<li>
-							Sam. 13/06 09h-18h30 - Sortie en forêt de Rambouillet avec
-							François Figuerau
-						</li>
+						<li>Dim. 30/08 14h30-15h30 - Pontchartrain (78)</li>
+					</ul>
+					<div className='ctas-container'>
+						<a
+							href='https://is.gd/june78'
+							className='cta cta-primary'
+							title='Lien pour réserver un ou plusieurs modules pour l’initiation à la Géobiologie - Explorateur de l’invisible'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							Réserver
+						</a>{' '}
+						<a
+							href='https://forum.monnaie-libre.fr/t/78-jouars-pontchartrain-gmarche-dimanche-30-aout-2026/34008'
+							className='cta cta-secondary'
+							title='En savoir plus sur le Ğmarché de Jouars-Pontchartrain - Dimanche 30 août 2026'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							En savoir plus
+						</a>
+					</div>
+					<h3>Sorties en nature</h3>
+					<h4>Sortie Géobio. Fontaine St-Martin</h4>
+					<ul>
+						<li>Dim. 18/10 09h-12h30 - Jouars (78)</li>
 					</ul>
 					<div className='ctas-container'>
 						<a
@@ -138,14 +158,6 @@ const PanneauLateral = () => {
 							title='Lien pour réserver'
 						>
 							Réserver
-						</a>
-						{'  '}
-						<a
-							href='/actualites#forêt-de-rambouillet-à-gambaiseuil'
-							className='cta cta-secondary'
-							title='En savoir plus sur les sorties en nature'
-						>
-							En savoir plus
 						</a>
 					</div>
 				</div>
