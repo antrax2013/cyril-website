@@ -294,13 +294,28 @@ const Actualites = () => {
 						<h3>Sortie Nature et Pratique</h3>
 						<h4>Exploration Énergétique de la Fontaine Saint-Martin</h4>
 						<h5>Dimanche 18 Octobre 2026 à Jouars-Pontchartrain — Dès 09h00</h5>
+								<a
+									href='/geobiologie#invisible'
+									title="En savoir plus sur le cycle d'initiation à la géobiologie Explorateur de l'Invisible"
+									target='_blank'
+								>
+									"Explorateur de l'Invisible"
+								</a>{' '}
+								ou équivalent.
 						</p>
 						<p>
 							Cette sortie géobiologie sur le terrain, sous réserve de météo
 							clémente, est idéale pour mettre en pratique les savoirs acquis
-							lors du cycle "Explorateur de l'invisible". Ensemble, nous
-							analyserons les vibrations, les mémoires et la structure
-							énergétique de ce lieu chargé d'Histoire.
+							lors du cycle{' '}
+							<a
+								href='/geobiologie#invisible'
+								title="En savoir plus sur le cycle d'initiation à la géobiologie Explorateur de l'Invisible"
+								target='_blank'
+							>
+								"Explorateur de l'Invisible"
+							</a>
+							. Ensemble, nous analyserons les vibrations, les mémoires et la
+							structure énergétique de ce lieu chargé d"Histoire.
 							💶 <b>Tarif des sorties :</b> 60€ par sortie{' '}
 							<i>
 								Possibilité de régler une partie de la sortie en Ğ1 (monnaie
@@ -351,7 +366,7 @@ const Actualites = () => {
 								14h30 à 15h30 : Conférence monnaie libre - animée par Cyril{' '}
 								<i>(moi)</i>
 								<br /> Changer la monnaie pour changer notre r-apport au monde :
-								Comprendre l'impact de la monnaie sur notre vie quotidienne et
+								Comprendre l"impact de la monnaie sur notre vie quotidienne et
 								notre relation aux autres.
 							</li>
 							<br />

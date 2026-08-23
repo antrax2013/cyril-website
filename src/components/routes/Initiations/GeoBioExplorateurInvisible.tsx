@@ -1,49 +1,24 @@
-import SharePopup from '../../tools/SharePopup';
-
 const GeoBioExplorateurInvisible = () => {
 	return (
 		<>
 			<div className='actualites'>
 				<div className='article'>
 					<div>
-						<h1>Initiation à la Géobiologie — Explorateur de l’invisible</h1>
-						<section className='icon-panel'>
-							<SharePopup url={window.location.href} title='Les actualités' />
-						</section>
+						<h1>Initiations en Géobiologie — Explorateur de l’invisible</h1>
 						<p>
-							Entrez dans la géobiologie par l’expérience du terrain avec le
-							cycle <strong>« Explorateur de l’invisible »</strong>. Une
-							initiation progressive pour apprendre à observer autrement les
-							lieux et les interactions invisibles qui les traversent.
+							Découvrez le monde de la géobiologie à travers l’initiation{' '}
+							<strong>« Explorateur de l’invisible »</strong>. Un premier pas
+							vers l'autonomie.
 						</p>
 					</div>
-					<aside>
-						<a
-							href='/actualites'
-							className='cta cta-primary'
-							title='Lien pour accéder aux actualités et voir les prochaines dates'
-						>
-							Voir les prochaines dates
-						</a>
-						{'  '}
-						<a
-							href='/geobiologie'
-							className='cta cta-secondary'
-							title='En savoir plus sur la Géobiologie'
-						>
-							Découvrir la géobiologie
-						</a>
-					</aside>
 					<main>
 						<section>
-							<h2>Ce que vous apprendrez</h2>
+							<h2>Objectif de cet apprentissage</h2>
 							<p>
-								Ce cycle vous transmet les premières clés pour détecter les
-								principaux phénomènes géobiologiques, observer leurs
-								interactions avec le vivant et comprendre la manière dont ils
-								s’organisent dans un lieu. Au fil des modules, vous développez
-								une méthode de recherche et vos propres perceptions afin
-								d’explorer progressivement de manière autonome.
+								Vous transmettre les clés pour appréhender, de manière autonome,
+								les principaux phénomènes énergétiques et géobiologiques d’un
+								lieu, comprendre leur agencement et évaluer leurs impacts
+								potentiels sur le vivant.
 							</p>
 						</section>
 
@@ -65,7 +40,7 @@ const GeoBioExplorateurInvisible = () => {
 							</ul>
 						</section>
 
-						<section id='programme'>
+						<section>
 							<h2>Programme des modules</h2>
 
 							<article className='module'>
@@ -132,12 +107,11 @@ const GeoBioExplorateurInvisible = () => {
 						</section>
 
 						<section>
-							<h2>Tarifs et Matériel</h2>
+							<h2>Tarifs &amp; Matériel</h2>
 							<p className='price'>
-								Module à la carte : 60 € par module
+								À la carte : 60 € par module
 								<br />
-								Tarif cycle complet : 200 € les 4 modules pour toute inscription
-								à l'intégralité du cycle.
+								Pack complet (4 modules) : 200 €
 							</p>
 
 							<aside className='callout'>
@@ -169,33 +143,6 @@ const GeoBioExplorateurInvisible = () => {
 							</p>
 						</section>
 					</main>
-					<section>
-						<h2>Vous souhaitez passer de la curiosité à l’expérimentation ?</h2>
-						<p>
-							Rejoignez le cycle <strong>« Explorateur de l’invisible »</strong>{' '}
-							pour faire vos premiers pas sur le terrain, affiner vos
-							perceptions et développer progressivement votre autonomie.
-							Consultez les prochaines dates et venez vivre votre première
-							exploration.
-						</p>
-						<aside>
-							<a
-								href='/actualites'
-								className='cta cta-primary'
-								title='Lien pour accéder aux actualités et voir les prochaines dates'
-							>
-								Voir les prochaines dates
-							</a>
-							{'  '}
-							<a
-								href='/geobiologie'
-								className='cta cta-secondary'
-								title='En savoir plus sur la Géobiologie'
-							>
-								Découvrir la géobiologie
-							</a>
-						</aside>
-					</section>
 				</div>
 			</div>
 		</>

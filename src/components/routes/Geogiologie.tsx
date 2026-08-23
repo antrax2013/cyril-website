@@ -355,6 +355,53 @@ const Geobiologie = () => {
 									</div>
 								</div>
 							</div>
+								</p>
+								<ul>
+									<li>d’observer</li>
+									<li>d’expérimenter</li>
+									<li>de développer son ressenti</li>
+									<li>
+										de confronter ses observations avec celles des autres
+										participants
+									</li>
+									<li>d’apprendre directement au contact du lieu</li>
+								</ul>
+								<p>
+									C’est cette approche que je privilégie lors de mes initiations
+									et explorations. L’expérimentation en groupe permet d’évoluer
+									dans un cadre de bienveillant d’enrichissement muutuel, de se
+									rassurer, de prendre confiance en ses ressentis et
+									inutuitions.
+								</p>
+								<h3>Apprendre et devenir autonome</h3>
+								<p>
+									Mon objectif n’est pas de transmettre des certitudes mais une
+									démarche éthique et des outils d’observation et de réflexion.
+									À travers les initiations, chacun est invité à développer
+									progressivement :
+								</p>
+								<ul>
+									<li>son sens de l’observation</li>
+									<li>sa capacité d’analyse</li>
+									<li>son ressenti</li>
+									<li>sa compréhension des lieux</li>
+									<li>son autonomie dans l’exploration</li>
+								</ul>
+							</div>
+							<div>
+								<h2>Prochaine étape</h2>
+								<h3>Envie d’explorer par vous-même ?</h3>
+								<p>
+									Découvrez les prochaines initiations et sorties de terrain
+									pour approfondir votre compréhension des lieux et développer
+									votre autonomie.
+								</p>
+								<div className='cta-container'>
+									<a href='/agenda' className='cta cta-secondary'>
+										Consulter l’agenda
+									</a>
+								</div>
+							</div>
 						</section>
 					</section>
 				</div>
