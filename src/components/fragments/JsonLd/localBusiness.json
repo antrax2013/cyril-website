@@ -1,0 +1,253 @@
+{
+	"@context": "https://schema.org",
+	"@graph": [
+		{
+			"@type": "WebSite",
+			"@id": "https://cyril.cophignon.net/#website",
+			"url": "https://cyril.cophignon.net",
+			"name": "Cyril Cophignon - Explorons ensemble les mondes subtils",
+			"publisher": {
+				"@id": "https://cyril.cophignon.net/#organization"
+			}
+		},
+		{
+			"@type": "SiteNavigationElement",
+			"@id": "https://cyril.cophignon.net/#navigation",
+			"name": "Navigation principale",
+			"hasPart": [
+				{
+					"@type": "WebPage",
+					"name": "Accueil",
+					"url": "https://cyril.cophignon.net/"
+				},
+				{
+					"@type": "WebPage",
+					"name": "Qui suis-je",
+					"url": "https://cyril.cophignon.net/qui-suis-je"
+				},
+				{
+					"@type": "WebPage",
+					"name": "Géobiologie",
+					"url": "https://cyril.cophignon.net/geobiologie"
+				},
+				{
+					"@type": "WebPage",
+					"name": "La communication animale",
+					"url": "https://cyril.cophignon.net/la-communication-animale"
+				},
+				{
+					"@type": "WebPage",
+					"name": "Les 9 rites Munay-Ki",
+					"url": "https://cyril.cophignon.net/les-9-rites-munay-ki"
+				},
+				{
+					"@type": "WebPage",
+					"@id": "https://cyril.cophignon.net/actualites#webpage"
+				},
+				{
+					"@type": "WebPage",
+					"name": "Contact",
+					"url": "https://cyril.cophignon.net/contact"
+				}
+			]
+		},
+		{
+			"@type": "Organization",
+			"@id": "https://cyril.cophignon.net/#organization",
+			"name": "Cyril Cophignon - Explorons ensemble les mondes subtils",
+			"url": "https://cyril.cophignon.net",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://cyril.cophignon.net/logo192.png"
+			},
+			"founder": {
+				"@id": "https://cyril.cophignon.net/#cyril"
+			}
+		},
+		{
+			"@type": "Person",
+			"@id": "https://cyril.cophignon.net/#cyril",
+			"name": "Cyril Cophignon",
+			"givenName": "Cyril",
+			"familyName": "Cophignon",
+			"jobTitle": "Explorateur des mondes subtils, géobiologue et conférencier",
+			"url": "https://cyril.cophignon.net",
+			"sameAs": [
+				"https://www.facebook.com/people/Cyril-Cophignon-Guide-des-mondes-subtils/61570202349589/",
+				"https://chat.whatsapp.com/HlJSfhypmoH3K0dNHe0dBU",
+				"https://www.instagram.com/cyrilcophignon"
+			]
+		},
+		{
+			"@type": "LocalBusiness",
+			"@id": "https://cyril.cophignon.net/#business",
+			"name": "Cyril Cophignon - Explorons ensemble les mondes subtils",
+			"legalName": "Cyril COPHIGNON Gardien de la Terre",
+			"description": "Cyril Cophignon propose des initiations à la géobiologie, des sorties terrain, des conférences sur la monnaie libre Ğ1 et des explorations des mondes subtils.",
+			"url": "https://cyril.cophignon.net",
+			"image": "https://cyril.cophignon.net/logo512.png",
+			"logo": "https://cyril.cophignon.net/logo192.png",
+			"founder": {
+				"@id": "https://cyril.cophignon.net/#cyril"
+			},
+			"foundingDate": "2024-10-03",
+			"iso6523Code": "0009:93380473400012",
+			"priceRange": "60-200 EUR",
+			"paymentAccepted": ["Cash", "Bank Transfer", "Ğ1"],
+			"keywords": [
+				"géobiologie",
+				"initiation géobiologie",
+				"géobiologie sacrée",
+				"étude géobiologique",
+				"sortie terrain",
+				"haut lieu vibratoire",
+				"site sacré",
+				"lieu de pouvoir",
+				"mégalithes",
+				"réseau cosmo-tellurique",
+				"cheminée cosmo-tellurique",
+				"vortex énergétique",
+				"gardien du lieu",
+				"esprit de la nature",
+				"arbre remarquable",
+				"source sacrée",
+				"mémoire des lieux",
+				"monnaie libre",
+				"Ğ1",
+				"conférence monnaie libre",
+				"chamanisme",
+				"médiumnité",
+				"clair ressenti",
+				"bioénergie",
+				"radiesthésie",
+				"test musculaire kinésiologie",
+				"Munay-Ki",
+				"Reiki-Ki",
+				"communication animale",
+				"mondes subtils",
+				"traditions ancestrales",
+				"Yvelines",
+				"Saint-Quentin-en-Yvelines"
+			],
+			"serviceArea": {
+				"@type": "AdministrativeArea",
+				"@id": "https://cyril.cophignon.net/serviceArea/#yvelines",
+				"name": "Yvelines"
+			},
+			"address": [
+				{
+					"@type": "PostalAddress",
+					"@id": "https://cyril.cophignon.net/#Maurepas",
+					"streetAddress": "14 place des Ardennes",
+					"addressLocality": "Maurepas",
+					"postalCode": "78310",
+					"addressCountry": "FR"
+				},
+				{
+					"@type": "PostalAddress",
+					"@id": "https://cyril.cophignon.net/#Guyancourt",
+					"streetAddress": "1 rue Le Corbusier",
+					"addressLocality": "Guyancourt",
+					"postalCode": "78280",
+					"addressCountry": "FR"
+				},
+				{
+					"@type": "PostalAddress",
+					"@id": "https://cyril.cophignon.net/#Plaisir",
+					"streetAddress": "5 rue Edmond Rostand",
+					"addressLocality": "Plaisir",
+					"postalCode": "78370",
+					"addressCountry": "FR"
+				}
+			],
+			"hasOfferCatalog": {
+				"@type": "OfferCatalog",
+				"@id": "https://cyril.cophignon.net/#catalog",
+				"name": "Prestations",
+				"itemListElement": [
+					{
+						"@type": "Offer",
+						"@id": "https://cyril.cophignon.net/#offer-geobiologie-init"
+					},
+					{
+						"@type": "Offer",
+						"@id": "https://cyril.cophignon.net/#offer-geobiologie-sortie"
+					},
+					{
+						"@type": "Offer",
+						"@id": "https://cyril.cophignon.net/#offer-g1-conference"
+					}
+				]
+			}
+		},
+		{
+			"@type": "Service",
+			"@id": "https://cyril.cophignon.net/#geobiologie-init",
+			"name": "Initiation à la géobiologie",
+			"description": "Cycle d'initiation composé de 4 modules de demi-journée associant théorie et pratique sur le terrain. L'objectif est de permettre aux participants de développer progressivement leur autonomie dans l'observation, l'identification, la compréhension des synergies et l'étude des phénomènes géobiologiques tels que les cheminées cosmo-telluriques, les failles, les veines d'eau et les réseaux géomagnétiques.",
+			"provider": {
+				"@id": "https://cyril.cophignon.net/#business"
+			}
+		},
+		{
+			"@type": "Service",
+			"@id": "https://cyril.cophignon.net/#geobiologie-sortie",
+			"name": "Sortie terrain",
+			"description": "Sorties de géobiologie sur le terrain permettant de mettre en pratique les notions abordées lors du cycle Explorateur de l'Invisible. Les participants réalisent leurs propres observations et analyses en bénéficiant de la synergie du groupe, d'échanges bienveillants et de conseils adaptés. Cyril Cophignon accompagne la démarche en tant que guide et facilitateur afin de favoriser l'autonomie et le discernement de chacun.",
+			"provider": {
+				"@id": "https://cyril.cophignon.net/#business"
+			}
+		},
+		{
+			"@type": "Service",
+			"@id": "https://cyril.cophignon.net/#g1-conference",
+			"name": "Conférence monnaie libre Ğ1",
+			"description": "Conférences et ateliers de découverte de la monnaie libre Ğ1 et de son écosystème.",
+			"provider": {
+				"@id": "https://cyril.cophignon.net/#business"
+			}
+		},
+		{
+			"@type": "Offer",
+			"@id": "https://cyril.cophignon.net/#offer-geobiologie-init",
+			"name": "Initiation à la géobiologie - Explorateur de l'invisible",
+			"itemOffered": {
+				"@id": "https://cyril.cophignon.net/#geobiologie-init"
+			},
+			"priceSpecification": {
+				"@type": "PriceSpecification",
+				"priceCurrency": "EUR",
+				"minPrice": 60,
+				"maxPrice": 200
+			}
+		},
+		{
+			"@type": "Offer",
+			"@id": "https://cyril.cophignon.net/#offer-geobiologie-sortie",
+			"name": "Sortie terrain - Approfondissement de la géobiologie",
+			"itemOffered": {
+				"@id": "https://cyril.cophignon.net/#geobiologie-sortie"
+			},
+			"priceSpecification": {
+				"@type": "PriceSpecification",
+				"priceCurrency": "EUR",
+				"minPrice": 60,
+				"maxPrice": 60
+			}
+		},
+		{
+			"@type": "Offer",
+			"@id": "https://cyril.cophignon.net/#offer-g1-conference",
+			"name": "Conférence monnaie libre Ğ1",
+			"itemOffered": {
+				"@id": "https://cyril.cophignon.net/#g1-conference"
+			},
+			"priceSpecification": {
+				"@type": "PriceSpecification",
+				"priceCurrency": "EUR",
+				"minPrice": 0,
+				"maxPrice": 0
+			}
+		}
+	]
+}
