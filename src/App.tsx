@@ -7,6 +7,8 @@ import 'primeflex/primeflex.css';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import { lazy } from 'react';
+import JsonLd from './components/fragments/JsonLd';
+import * as LocalBusinessLd from './components/fragments/JsonLd/localBusiness.json';
 
 const MessageAnimal = lazy(() => import('./components/routes/Message-animal'));
 const Actualites = lazy(() => import('./components/routes/Actualites'));
@@ -23,6 +25,10 @@ const PolitiqueConfidentialite = lazy(
 
 const QuiSuisJe = lazy(() => import('./components/routes/Qui-suis-je'));
 const PlanDuSite = lazy(() => import('./components/routes/Site-Map'));
+
+const GeoBioExplorateurInvisible = lazy(
+	() => import('./components/routes/Initiations/GeoBioExplorateurInvisible'),
+);
 
 const LeLavoirDeLaSourceAuxFees = lazy(
 	() =>
@@ -45,6 +51,7 @@ const ScrollButton = lazy(() => import('./components/tools/Scrollbutton'));
 const App = () => {
 	return (
 		<div className='App'>
+			<JsonLd data={LocalBusinessLd} />
 			<BrowserRouter>
 				<header className='flex flex-wrap'>
 					<Header />
@@ -75,6 +82,12 @@ const App = () => {
 							/>
 							<Route path='erreur-404' element={<Error404 />} />
 							<Route path='plan-du-site' element={<PlanDuSite />} />
+
+							<Route
+								path='initiations/geobiologie/explorateur-de-l-invisible'
+								element={<GeoBioExplorateurInvisible />}
+							/>
+
 							{/* Ressources */}
 							<Route
 								path='etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees'

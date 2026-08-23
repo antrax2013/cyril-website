@@ -15,14 +15,52 @@ const Geobiologie = () => {
 					<section className='icon-panel'>
 						<SharePopup url={window.location.href} title='La Géobiologie' />
 					</section>
+					<h2>Observer autrement les lieux et le vivant</h2>
+					<p>
+						La géobiologie invite à porter un regard différent sur notre
+						environnement. Entre observation, expérimentation et exploration de
+						terrain, elle nous aide à mieux comprendre la relation entre les
+						lieux, le vivant et les nombreuses interactions, visibles ou
+						invisibles, subtiles ou physiques, qui les relient.
+					</p>
+					<p>
+						<strong>
+							Mon cœur de métier repose sur la transmission et la pratique de
+							terrain.
+						</strong>{' '}
+						Plutôt que de chercher à intervenir artificiellement sur un lieu, ma
+						démarche privilégie le développement du sens de l'observation,
+						l'écoute des dynamiques naturelles et la transmission d'outils pour
+						vous accompagner vers une véritable autonomie.
+					</p>
+					<div className='cta-block'>
+						<p>
+							<strong>
+								Vous souhaitez apprendre à ressentir et décoder un lieu par
+								vous-même ?
+							</strong>
+						</p>
+						<a href='/initiation-explorateur-de-linvisible' className='btn'>
+							Découvrir l'initiation « Explorateur de l’invisible »
+						</a>
+					</div>
 					<h2>Qu'est-ce que la Géobiologie ?</h2>
 					<section className='paragraphe-1'>
 						<section className='paragraphe-content'>
 							<p>
-								La <em>Géobiologie</em>, est la recherche et l’étude de
-								phénomènes ondulatoires dans un lieu pour en comprendre
-								l’agencement et ainsi évaluer leurs impacts potentiels sur le
-								vivant.
+								La géobiologie est une discipline, un art, qui s’intéresse aux
+								interactions entre le vivant et son environnement que ce soit
+								d’un point de vue physique ou subtil.
+							</p>
+							<p>
+								Elle invite à observer les caractéristiques naturelles d’un
+								lieu, à être attentif au paysage, aux animaux, aux végétaux, à
+								la géologie, à l’eau, au vivant ainsi qu’aux différents
+								phénomènes ondulatoires pouvant être perçus ou mesurés.
+							</p>
+							<p>
+								Au-delà des techniques, la géobiologie est avant tout une
+								démarche d’observation et de questionnement.
 							</p>
 						</section>
 					</section>
@@ -106,117 +144,176 @@ const Geobiologie = () => {
 					<ParagraphSeparator />
 					<section className='paragraphe-3'>
 						<section className='paragraphe-content'>
-							<h2 id='geobiologie-initiations'>Initiations en Géobiologie</h2>
-							<h3 id='invisible'>Explorateur de l’invisible</h3>
-							<p>
-								Je propose de vous faire découvrir la <em>géobiologie</em> au
-								travers de l’initiation <em>"Explorateur de l’invisible"</em>.
-								Elle s’articule autour de 4 modules progressifs et indépendants.
-								Ils se veulent théoriques mais surtout pratiques. Aucun
-								prérequis n’est nécessaire. Bien que nous ne sommes pas tous
-								égaux, en termes de sensibilité, face aux phénomènes subtils,
-								nous sommes tous, à des degrés divers, en mesure de les
-								percevoir. Cela prend plus ou moins de temps.
-							</p>
-							<p>
-								L’objectif de cette initiation est d’être en mesure
-								d’appréhender, de manière autonome, les différents phénomènes
-								énergétiques et <em>géobiologiques</em> de base, présents dans
-								un lieu pour en comprendre leur agencement et ainsi évaluer
-								leurs impacts potentiels sur le vivant.
-							</p>
-							<p>
-								D’une durée approximative d’une demi-journée, les différents
-								modules se dérouleront en deux phases : une phase théorique
-								suivie d’une phase pratique de mise en application.
-							</p>
-							<p>Les modules sont les suivants :</p>
-							<dl>
-								<b className='titre-module'>Module 1 : La découverte.</b>
-								<dt className='objectif'>
-									<u>Objectif :</u> Module de présentation de ce qu’est la{' '}
-									<em>Géobiologie</em>
-								</dt>
-								<dt>
-									Découvrir les outils utilisés par les géobiologues et leur
-									mode de fonctionnement
-								</dt>
-								<dt>
-									Le gardien d’un lieu, premier contact avec une énergie subtile
-								</dt>
-							</dl>
-							<dl>
-								<b className='titre-module'>
-									Module 2 : Les premières recherches.
-								</b>
-								<dt className='objectif'>
-									<u>Objectif :</u> Etre en mesure de trouver des cheminées
-									cosmo-telluriques dans un lieu
-								</dt>
-								<dt>Présentation d’un protocole de recherche</dt>{' '}
-								<dt>
-									Description de ce que sont les cheminées cosmo-telluriques et
-									quels sont leurs impacts sur les êtres vivants en fonction de
-									leur nature
-								</dt>
-								<dt>
-									Recherche des cheminées cosmo-telluriques présentes sur le
-									lieu de l’initiation et perception sensorielle de leurs effets
-								</dt>
-							</dl>
-							<dl>
-								<b className='titre-module'>
-									Module 3 : Les failles et les veines d’eau.
-								</b>
-								<dt className='objectif'>
-									<u>Objectif :</u> Etre en mesure de trouver les failles et les
-									veines d’eau présentes dans un lieu
-								</dt>
-								<dt>
-									Description de ce que sont les failles et les veines d’eau et
-									quels sont leurs impacts sur les êtres vivants
-								</dt>
-								<dt>
-									Recherche des failles et des veines d’eau présentes sur le
-									lieu de l’initiation et perception sensorielle de leurs effets
-								</dt>
-							</dl>
-							<dl>
-								<b className='titre-module'>
-									Module 4 : Les réseaux géomagnétiques de base
-								</b>
-								<dt className='objectif'>
-									<u>Objectif :</u> Etre en mesure de trouver les réseaux
-									géomagnétiques dans un lieu
-								</dt>
-								<dt>Présentation d’un protocole de recherche</dt>{' '}
-								<dt>
-									Description des différents réseaux géomagnétiques de base
-									présents se manifestant dans un lieu ainsi que leurs impacts
-									sur les êtres vivants
-								</dt>
-								<dt>
-									Recherche des différents réseaux géomagnétiques présents sur
-									le lieu de l’initiation et perception sensorielle de leurs
-									effets
-								</dt>
-							</dl>
-							<p>
-								Le tarif est de 60€ par module ou 200€ les 4. Le tarif comprend
-								la location de la salle et un lobe de Hartmann, artisanal, fait
-								par mes soins qui vous sera remis lors de votre participation à
-								votre premier module. Il vous sera utile durant les phases
-								pratiques. Naturellement, vous serez libre d'utiliser d'autres
-								outils à votre convenance.
-							</p>
-							<p>
-								Les modules sont conçus pour être indépendants les uns des
-								autres. Bien que nous soyons tous en mesure de pouvoir percevoir
-								les phénomènes subtils, il arrive parfois que nos croyances, nos
-								certitudes et nos peurs soient des facteurs limitants entraînant
-								des difficultés. Je serai à vos côtés pour vous accompagner dans
-								cette découverte.
-							</p>
+							<div>
+								<h2>Pourquoi s’intéresser aux lieux ?</h2>
+								<p>
+									Nous passons notre vie dans des lieux différents :
+									appartements, maisons, jardins, espaces de travail,
+									environnements naturels ou sites historiques. Chaque lieu
+									possède ses particularités, son histoire et sa dynamique
+									propre, qui influencent l’épanouissement du vivant.
+								</p>
+								<p>
+									Comprendre ces interactions, c’est reconnaître que les lieux
+									ne sont jamais neutres : ils agissent, résonnent, soutiennent
+									ou parfois perturbent.
+								</p>
+								<p>
+									Observer ces dynamiques permet d’aborder notre environnement
+									avec plus de conscience, de mieux percevoir ce qui s’y joue
+									au‑delà du visible et ainsi mieux comprendre les interactions
+									subtiles, les influences des lieux et la manière dont le
+									vivant y réagit.
+								</p>
+								<p>
+									Nous vivons dans un univers où tout interagit en permanence,
+									où tout est ondulatoire. Reconnaître cela, c’est voir notre
+									environnement comme un ensemble vivant et dynamique, qui
+									appelle une approche holistique pour comprendre les synergies
+									subtiles entre les lieux et le vivant.
+								</p>
+							</div>
+							<div>
+								<h2>Une démarche fondée sur l’observation</h2>
+								<p>
+									Ma pratique de la géobiologie repose avant tout sur
+									l’expérience de terrain. J’accorde une place importante à :
+								</p>
+								<ul>
+									<li>
+										<b>L’observation</b> : Prendre le temps de regarder un lieu
+										avant de chercher à l’interpréter. Le subtil s’exprime aussi
+										visuellement, à travers des indices discrets, des détails
+										qui se révèlent ici ou là. Observer sans précipiter
+										l’analyse permet d’entrer en relation avec le lieu, de
+										percevoir ses dynamiques et d’accueillir ce qu’il donne à
+										voir avant d’aller plus loin.
+									</li>
+									<li>
+										<b>L’expérimentation</b> : Tester, mesurer et comparer, ses
+										perceptions, mais aussi, et surtout, apprendre à croire en
+										ses intuitions et en ses ressentis. C’est se faire
+										confiance.
+										<br />
+										L’expérience invite à confronter ce que l’on perçoit, à
+										affiner son regard, tout en laissant une place essentielle à
+										cette part intérieure qui sait avant de comprendre. C’est
+										dans cet équilibre entre intuition et mesure que se
+										construit une perception juste et personnelle du subtil.
+									</li>
+									<li>
+										<b>La curiosité</b> : Questionner sans cesse ce qui semble
+										acquis. C’est une démarche essentielle : revenir à
+										l’expérience avant la théorie, confronter ce que l’on croit
+										savoir, remettre en mouvement ce qui paraît établi. C’est
+										ainsi que l’on avance, que la compréhension s’affine et que
+										la théorie évolue au rythme de la pratique.
+									</li>
+									<li>
+										<b>Développer sa capacité d’analyse et d’observation</b>,
+										apprendre à faire confiance à ses perceptions : c’est, pour
+										moi, l’essentiel de la transmission. Accompagner quelqu’un,
+										ce n’est pas lui donner des certitudes, mais l’aider à
+										affiner son regard, à renforcer son autonomie et à
+										construire, avec lui, sa propre manière d’explorer les lieux
+										et le subtil.
+									</li>
+								</ul>
+								<p>
+									La géobiologie est, pour moi, un outil au service de l’Humain.
+									Elle révèle les interactions subtiles qui se jouent au‑delà du
+									visible et met en lumière les dynamiques qui relient les lieux
+									et le vivant. En observant ces phénomènes, elle offre une
+									manière plus consciente d’aborder notre environnement et d’en
+									comprendre les influences, les équilibres et les résonances.
+								</p>
+								<h3>Ma posture en géobiologie</h3>
+								<p>
+									Je ne cherche pas à corriger ou modifier un lieu. Mon travail
+									repose sur l’observation, la compréhension et la lecture des
+									dynamiques subtiles. L’harmonisation, pour moi, commence par
+									la relation au lieu et la conscience de ses synergies.
+								</p>
+							</div>
+							<div>
+								<h2>Ce que j’explore</h2>
+								<p>
+									Au fil de mes recherches et de mes sorties, différents sujets
+									retiennent particulièrement mon attention.
+								</p>
+								<ul>
+									<li>
+										<b>Les lieux naturels</b> : Forêts, sources, cours d'eau et
+										paysages.
+									</li>
+									<li>
+										<b>Les sites anciens</b> : Mégalithes, lieux historiques et
+										patrimoine.
+									</li>
+									<li>
+										<b>Les édifices remarquables</b> : Églises, chapelles et
+										constructions anciennes.
+									</li>
+									<p>
+										Ce qui m’anime c’est de découvrir les interactions entre le
+										vivant et son environnement. Observer le comportement des
+										végétaux et des animaux, comment ils résonnent avec le lieu.
+									</p>
+								</ul>
+							</div>
+							<div>
+								<h2>La géobiologie sur le terrain</h2>
+								<p>
+									Pour moi, la géobiologie ne s’apprend pas dans les livres. Le
+									terrain reste le meilleur laboratoire. Chaque sortie est
+									l’occasion :
+								</p>
+								<ul>
+									<li>d’observer</li>
+									<li>d’expérimenter</li>
+									<li>de développer son ressenti</li>
+									<li>
+										de confronter ses observations avec celles des autres
+										participants
+									</li>
+									<li>d’apprendre directement au contact du lieu</li>
+								</ul>
+								<p>
+									C’est cette approche que je privilégie lors de mes initiations
+									et explorations. L’expérimentation en groupe permet d’évoluer
+									dans un cadre de bienveillant d’enrichissement muutuel, de se
+									rassurer, de prendre confiance en ses ressentis et
+									inutuitions.
+								</p>
+								<h3>Apprendre et devenir autonome</h3>
+								<p>
+									Mon objectif n’est pas de transmettre des certitudes mais une
+									démarche éthique et des outils d’observation et de réflexion.
+									À travers les initiations, chacun est invité à développer
+									progressivement :
+								</p>
+								<ul>
+									<li>son sens de l’observation</li>
+									<li>sa capacité d’analyse</li>
+									<li>son ressenti</li>
+									<li>sa compréhension des lieux</li>
+									<li>son autonomie dans l’exploration</li>
+								</ul>
+							</div>
+							<div>
+								<h2>Prochaine étape</h2>
+								<h3>Envie d’explorer par vous-même ?</h3>
+								<p>
+									Découvrez les prochaines initiations et sorties de terrain
+									pour approfondir votre compréhension des lieux et développer
+									votre autonomie.
+								</p>
+								<div className='cta-container'>
+									<a href='/agenda' className='cta cta-secondary'>
+										Consulter l’agenda
+									</a>
+								</div>
+							</div>
 						</section>
 					</section>
 				</div>
