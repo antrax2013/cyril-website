@@ -56,7 +56,12 @@ const App = () => {
 				<header className='flex flex-wrap'>
 					<Header />
 				</header>
-				<div className='App-cp danger'></div>
+				<div className='App-cp danger'>
+					<a href='/actualites' className='annonce'>
+						⚠️ Mise à jour : les modules 1 et 2 prévus le 6 septembre sont
+						reportés au 11 octobre à Plaisir. ⚠️
+					</a>
+				</div>
 				<div className='App-body'>
 					<main className='content'>
 						<Routes>

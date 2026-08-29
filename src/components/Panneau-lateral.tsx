@@ -13,21 +13,27 @@ const PanneauLateral = () => {
 					<h4>Module 1 - La découverte</h4>
 					{/* <p>Prochaines sessions à l'automne 2026 </p> */}
 					<ul>
-						<li>Dim. 06/09 de 09h à 12h30 - Plaisir</li>
+						<li>
+							⚠️ Dim. <b>11/10</b> de 09h à 12h30 - Plaisir
+						</li>
 					</ul>
 					<h4>Module 2 - Les premières recherches </h4>
 					<ul>
-						<li>Dim. 06/09 de 14h à 18h30 - Plaisir</li>
+						<li>
+							⚠️ Dim. <b>11/10</b> de 14h à 17h30 - Plaisir
+						</li>
 					</ul>
 					<h4>Module 3 - Les failles et les veines d’eau</h4>
 					<ul>
-						<li>Dim. 11/10 de 09h à 12h30 - Plaisir</li>
+						<li>
 						<li>Dimanche 12 avril de 09h00 à 12h30</li>
+						</li>
 					</ul>
 					<h4>Module 4 - Les réseaux géomagnétiques de base</h4>
 					<ul>
-						<li>Dim. 11/10 de 14h à 18h30 - Plaisir</li>
+						<li>
 						<li>Dimanche 12 avril de 14h00 à 18h30</li>
+						</li>
 					</ul>
 					<div className='ctas-container'>
 						<a
