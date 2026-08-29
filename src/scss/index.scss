@@ -157,6 +157,9 @@ h5 {
 .asterix {
 	color: var(--secondary-color) !important;
 }
+.barre {
+	text-decoration: line-through;
+}
 
 h1:not(.aside),
 .h1-title {
@@ -267,6 +270,12 @@ nav .logo {
 
 .lazy-load-image-background {
 	display: contents;
+}
+
+.App-cp {
+	display: block;
+	text-align: center;
+	padding: 0.5rem;
 }
 
 main.content {
