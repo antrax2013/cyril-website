@@ -64,6 +64,7 @@ const Actualites = () => {
 						<h4>
 							📅 Partie 1 : Module 1 & 2 - Dimanche 11 Octobre 2026 (Plaisir 78)
 						</h4>
+						</h4>
 						<ul>
 							<li>
 								<b>09h00 - 12h30 | Module 1 : </b> La découverte, théorie de la
@@ -228,17 +229,13 @@ const Actualites = () => {
 							articles d’occasion, plants de jardin et livres thématiques.
 						</p>
 						<h4>📅 Programme du Ğmarché du 30 août de 10h00 à 18h00 :</h4>
-						<ul>
-							<li>
 								10h00 : Début du Ğmarché — Ouverture des stands, rencontres,
 								échanges en June.
-							</li>
 							<br />
 								<b>cheminées cosmo-telluriques</b>.
 						</ul>
 						<h4>📅 Partie 2 : Dimanche 11 Octobre 2026 (Plaisir 78)</h4>
 						<ul>
-							<li>
 								12h00 : Repas partagé — Chacun apporte quelque chose ; moment
 								convivial et communautaire.
 							<br />
@@ -252,17 +249,12 @@ const Actualites = () => {
 								</a>{' '}
 								— Séances de 15 minutes, sur mesure, pour soulager les tensions
 								et favoriser la détente.
-							</li>
 							<br />
-							<li>
 								14h30 à 15h30 : Conférence monnaie libre - animée par Cyril{' '}
 								<i>(moi)</i>
 								<br /> Changer la monnaie pour changer notre r-apport au monde :
 								Comprendre l’impact de la monnaie sur notre vie quotidienne et
 								notre relation aux autres.
-								<b>Pause déjeuner : </b>Repas partagé convivial sur place entre
-								participants.
-							</li>
 							<br />
 						</ul>
 						<p className='txt-center txt-warning'>
@@ -315,7 +307,7 @@ const Actualites = () => {
 								"Explorateur de l'Invisible"
 							</a>
 							. Ensemble, nous analyserons les vibrations, les mémoires et la
-							structure énergétique de ce lieu chargé d"Histoire.
+							structure énergétique de ce lieu chargé d’Histoire.
 							💶 <b>Tarif des sorties :</b> 60€ par sortie{' '}
 							<i>
 								Possibilité de régler une partie de la sortie en Ğ1 (monnaie
@@ -366,7 +358,7 @@ const Actualites = () => {
 								14h30 à 15h30 : Conférence monnaie libre - animée par Cyril{' '}
 								<i>(moi)</i>
 								<br /> Changer la monnaie pour changer notre r-apport au monde :
-								Comprendre l"impact de la monnaie sur notre vie quotidienne et
+								Comprendre l’impact de la monnaie sur notre vie quotidienne et
 								notre relation aux autres.
 							</li>
 							<br />
