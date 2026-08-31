@@ -34,15 +34,22 @@ const Geobiologie = () => {
 						vous accompagner vers une véritable autonomie.
 					</p>
 					<div className='cta-block'>
-						<p>
-							<strong>
-								Vous souhaitez apprendre à ressentir et décoder un lieu par
-								vous-même ?
-							</strong>
-						</p>
-						<a href='/initiation-explorateur-de-linvisible' className='btn'>
-							Découvrir l'initiation « Explorateur de l’invisible »
-						</a>
+						<h2>
+							Vous souhaitez apprendre à ressentir et décoder un lieu par
+							vous-même ?
+						</h2>
+
+						<div className='cta-container'>
+							<a
+								href='/initiations/geobiologie/explorateur-de-l-invisible'
+								className='cta cta-primary'
+							>
+								Découvrir le cycle
+							</a>{' '}
+							<a href='/actualites' className='cta cta-secondary'>
+								Voir les prochaines dates
+							</a>
+						</div>
 					</div>
 					<h2>Qu'est-ce que la Géobiologie ?</h2>
 					<section className='paragraphe-1'>
@@ -84,12 +91,12 @@ const Geobiologie = () => {
 								contact, nous permettant, ainsi de la percevoir.
 							</p>
 							<p>
-								Avec la découverte au 19ème siècle des ultras sons, des infras
-								rouges, des ultraviolets... la science reconnait l'existence de
+								Avec la découverte au 19ème siècle des ultrasons, des infras
+								rouges, des ultraviolets... la science reconnaît l'existence de
 								phénomènes naturels, non perceptibles par nos récepteurs
 								sensoriels. Non seulement ils existent, mais, ils ont également
 								un impact physique sur nous, sur tous les êtres peuplant notre
-								planète (cf. les coups de soleil dues aux ultraviolets)
+								planète (cf. les coups de soleil dus aux ultraviolets)
 							</p>
 							<p>
 								Aujourd’hui, il existe une grande variété d’ondes artificielles
@@ -173,6 +180,32 @@ const Geobiologie = () => {
 									subtiles entre les lieux et le vivant.
 								</p>
 							</div>
+							<div className='cta-block'>
+								<h2>Passer de la découverte à l’expérience</h2>
+
+								<p>
+									Vous souhaitez apprendre à observer ces interactions
+									directement sur le terrain ? Le cycle{' '}
+									<strong>« Explorateur de l’invisible »</strong> vous
+									accompagne progressivement dans la découverte et la pratique
+									de la géobiologie.
+								</p>
+
+								<div className='cta-container'>
+									<div className='cta-container'>
+										<a
+											href='/initiations/geobiologie/explorateur-de-l-invisible'
+											className='cta cta-primary'
+										>
+											Découvrir le cycle
+										</a>{' '}
+										<a href='/actualites' className='cta cta-secondary'>
+											Voir les prochaines dates
+										</a>
+									</div>
+								</div>
+							</div>
+							<ParagraphSeparator />
 							<div>
 								<h2>Une démarche fondée sur l’observation</h2>
 								<p>
@@ -281,8 +314,8 @@ const Geobiologie = () => {
 								<p>
 									C’est cette approche que je privilégie lors de mes initiations
 									et explorations. L’expérimentation en groupe permet d’évoluer
-									dans un cadre de bienveillant d’enrichissement muutuel, de se
-									rassurer, de prendre confiance en ses ressentis et
+									dans un cadre de bienveillant d’enrichissement mutuel, de se
+									rassurer, de prendre confiance en ses ressentis et ses
 									inutuitions.
 								</p>
 								<h3>Apprendre et devenir autonome</h3>
@@ -301,17 +334,25 @@ const Geobiologie = () => {
 								</ul>
 							</div>
 							<div>
-								<h2>Prochaine étape</h2>
-								<h3>Envie d’explorer par vous-même ?</h3>
+								<h2>Envie d’explorer par vous-même ?</h2>
 								<p>
-									Découvrez les prochaines initiations et sorties de terrain
-									pour approfondir votre compréhension des lieux et développer
-									votre autonomie.
+									Le cycle <strong>« Explorateur de l’invisible »</strong> vous
+									accompagne progressivement dans la découverte des phénomènes
+									géobiologiques, la pratique sur le terrain et le développement
+									de votre autonomie.
 								</p>
 								<div className='cta-container'>
-									<a href='/agenda' className='cta cta-secondary'>
-										Consulter l’agenda
-									</a>
+									<div className='cta-container'>
+										<a
+											href='/initiations/geobiologie/explorateur-de-l-invisible'
+											className='cta cta-primary'
+										>
+											Découvrir le cycle
+										</a>{' '}
+										<a href='/actualites' className='cta cta-secondary'>
+											Voir les prochaines dates
+										</a>
+									</div>
 								</div>
 							</div>
 						</section>

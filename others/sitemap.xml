@@ -19,10 +19,15 @@
   <loc>https://cyril.cophignon.net/actualites</loc>
   <lastmod>2026-08-10T22:15:01+00:00</lastmod>
 </url>
-
+2026-08-29T15:00:01+00:00
 <url>
   <loc>https://cyril.cophignon.net/geobiologie</loc>
-  <lastmod>2026-01-01T18:30:01+00:00</lastmod>
+  <lastmod>2026-08-29T15:00:01+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://cyril.cophignon.net/initiations/geobiologie/explorateur-de-l-invisible</loc>
+  <lastmod>2026-08-29T15:00:01+00:00</lastmod>
 </url>
 
 <url>
@@ -67,11 +72,6 @@
 
 <url>
   <loc>https://cyril.cophignon.net/plan-du-site</loc>  
-  <lastmod>2026-01-01T18:30:01+00:00</lastmod>
-</url>
-
-<url>
-  <loc>https://cyril.cophignon.net/erreur-404</loc>  
   <lastmod>2026-01-01T18:30:01+00:00</lastmod>
 </url>
 
