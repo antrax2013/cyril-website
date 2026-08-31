@@ -14,6 +14,11 @@ const SiteMap = () => {
 						<a href='/geobiologie'>Géobiologie</a>
 					</li>
 					<li>
+						<a href='/initiations/geobiologie/explorateur-de-l-invisible'>
+							Explorateur de l'invisible - Initiation à la Géobiologie
+						</a>
+					</li>
+					<li>
 						<a href='/la-communication-animale'>La communication animale</a>
 					</li>
 					<li>

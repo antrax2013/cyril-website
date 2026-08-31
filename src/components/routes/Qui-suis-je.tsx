@@ -92,7 +92,7 @@ const QuiSuisJe = () => {
 							</p>
 							<p>
 								En 2021, je m’initie, avec Catherine Leveau, à la{' '}
-								<em>Géobiologie</em>. Un cadeau, un veritable tournant pour moi.
+								<em>Géobiologie</em>. Un cadeau, un véritable tournant pour moi.
 								Grâce à la <em>Géobiologie</em>, je peux accéder à des
 								informations subtiles sur un lieu, à l’âme du lieu. Maintenant,
 								c’est une véritable passion.
@@ -107,7 +107,7 @@ const QuiSuisJe = () => {
 								>
 									Ludivine Subileau
 								</a>
-								, m’a transmis des enseignements chamaniques d’amérique du Sud.
+								, m’a transmis des enseignements chamaniques d’Amérique du Sud.
 								Une ouverture sur un monde nouveau que je souhaite continuer
 								d'explorer.
 							</p>
@@ -135,7 +135,7 @@ const QuiSuisJe = () => {
 							<p>
 								Je suis originaire de Sedan, une petite ville atypique du
 								nord-est de la France, proche de la Belgique, au passé glorieux.
-								A l’ombre de son château fort, terre bercée de contes et
+								À l’ombre de son château fort, terre bercée de contes et
 								légendes anciennes, au cœur de la vaste forêt des Ardennes, j’ai
 								été attiré, très jeune, par l’Histoire.
 							</p>
@@ -167,7 +167,7 @@ const QuiSuisJe = () => {
 									et au Reiki Usui
 								</li>
 								<li>
-									Etre initié aux <em>rites chamaniques du Munay-Ki</em>
+									Être initié aux <em>rites chamaniques du Munay-Ki</em>
 								</li>
 								<li>
 									Recevoir des enseignements <em>chamaniques</em>

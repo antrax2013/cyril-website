@@ -54,7 +54,7 @@ const LeLavoirDeLaSourceAuxFees = () => {
 							</p>
 							<p>
 								Le lavoir se trouvant en aval de la source est perdu dans la
-								forêt. Loin, trop loin de tout village pour être réélement
+								forêt. Loin, trop loin de tout village pour être réellement
 								utilisé en tant que lavoir. Le panneau, décrivant le lieu,
 								mentionne que des ex-votos ont été retrouvés sur le site et
 								qu'il serait hanté par des fées.
@@ -133,7 +133,7 @@ const LeLavoirDeLaSourceAuxFees = () => {
 								attendre. Il serait intéressant de mesure sa température exacte
 								pour confirmer ce ressenti et la comparer à la température de
 								l'Yvette qui s’écoule en contre bas. On note également la
-								présence de curstacés dans l'eau. Ce qui laisse sous-entendre
+								présence de crustacés dans l'eau. Ce qui laisse sous-entendre
 								une absence relative de pollution.
 							</p>
 							<p>
@@ -222,9 +222,9 @@ const LeLavoirDeLaSourceAuxFees = () => {
 							<p>
 								Le seul et unique réseau n’étant pas parallèle aux murs est le
 								réseau <span className='text-titane'>Titane</span>. Ce réseau,
-								en <em>géobiologie</em>, est reconnu comme ayant des vertues
+								en <em>géobiologie</em>, est reconnu comme ayant des vertus
 								thérapeutiques. Il aurait une influence sur les troubles
-								congnitifs et les genoux.
+								cognitifs et les genoux.
 							</p>
 							<p>
 								Ici, nous avons mis en évidence la présence d’un croisement
@@ -235,7 +235,7 @@ const LeLavoirDeLaSourceAuxFees = () => {
 								perpendiculaire (repère{' '}
 								<span className='text-titane text-shadow'>T1</span>). Les deux
 								lignes se croisent pratiquement au centre de la structure
-								bâtisse-bassin. Légérement décalée par rapport au croisement de
+								bâtisse-bassin. Légèrement décalée par rapport au croisement de
 								ce réseau, se situe une cheminée cosmotellurique de 17ème
 								dimension (repère{' '}
 								<span className='text-jaune-paille text-shadow'>CT17</span>
@@ -273,11 +273,11 @@ const LeLavoirDeLaSourceAuxFees = () => {
 							<p>
 								Pour améliorer la qualité de cette analyse, il conviendrait de
 								retourner sur les lieux et de compléter l’étude avec les
-								élements ci-dessous :
+								éléments ci-dessous :
 							</p>
 							<ol>
 								<li>
-									Bien remesurer les proporitions et tailles exactes de la
+									Bien remesurer les proportions et tailles exactes de la
 									structure bâtisse-bassin.
 								</li>
 								<li>
@@ -296,9 +296,9 @@ const LeLavoirDeLaSourceAuxFees = () => {
 								</li>
 								<li>
 									Etudier la pierre au niveau des bancs car, au vue des photos,
-									il se pourrait qu’il y ait des gliffes gravés dessus. Ainsi,
-									elle pourrait contribuer aux énergies subtiles influencençant
-									le lieu.
+									il se pourrait qu’il y ait des glyphes gravés dessus. Ainsi,
+									elle pourrait contribuer aux énergies subtiles influençant le
+									lieu.
 								</li>
 							</ol>
 						</section>

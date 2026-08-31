@@ -45,7 +45,7 @@ const PanneauLateral = () => {
 						</a>
 						{'  '}
 						<a
-							href='/geobiologie#invisible'
+							href='/initiations/geobiologie/explorateur-de-l-invisible'
 							className='cta cta-secondary'
 							title='En savoir plus sur l’initiation à la Géobiologie - Explorateur de l’invisible'
 						>

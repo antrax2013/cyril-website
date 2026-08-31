@@ -83,7 +83,7 @@ const Cupule = () => {
 						<section className='paragraphe-content'>
 							<p>
 								Bien que des milliers de cupules ont été référencées à travers
-								les continents, on ignore complétement leurs usages et leurs
+								les continents, on ignore complètement leurs usages et leurs
 								destinations :
 							</p>
 							<ul>
@@ -142,8 +142,8 @@ const Cupule = () => {
 					<section className='paragraphe-5'>
 						<section className='paragraphe-content'>
 							<p>
-								A cette effet, j’ai ciblé 4 sites potentiellement intéressants
-								et qui pourraient contribuer à cette quête :
+								A cet effet, j’ai ciblé 4 sites potentiellement intéressants et
+								qui pourraient contribuer à cette quête :
 							</p>
 							<ul>
 								<li>

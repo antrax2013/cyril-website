@@ -38,7 +38,7 @@ const MessageAnimal = () => {
 						<section className='paragraphe-content'>
 							<p>
 								Une session de <em>communication animale</em> n’est ni un{' '}
-								<b>acte médical</b>, ni de <b>la psychologie animal</b> et ne
+								<b>acte médical</b>, ni de <b>la psychologie animale</b> et ne
 								les
 								<b> remplace pas</b>. Un animal peut y exprimer son mal-être,
 								une douleur, un ressenti, ou, au contraire, de la joie, de la

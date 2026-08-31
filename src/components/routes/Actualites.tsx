@@ -61,8 +61,7 @@ const Actualites = () => {
 							consulter et de partager la nouvelle annonce. ⚠️
 						</b>
 						<h4>
-							📅 Partie 1 : Module 1 & 2 - Dimanche 11 Septembre 2026 (Plaisir
-							78)
+							📅 Partie 1 : Module 1 & 2 - Dimanche 11 Octobre 2026 (Plaisir 78)
 						</h4>
 						<ul>
 							<li>
@@ -71,7 +70,7 @@ const Actualites = () => {
 							</li>
 							<li>
 								<b>14h00 - 17h30 | Module 2 : </b> Théorie et premières
-								recherches pratiques autours des{' '}
+								recherches pratiques autour des{' '}
 								<b>cheminées cosmo-telluriques</b>.
 							</li>
 							<li>
@@ -89,9 +88,9 @@ const Actualites = () => {
 						</p>
 						<br />
 						<p>
-							💶 <b>Tarif des modules :</b> 60€ par module indépendant |{' '}
-							<b>Tarif cycle complet :</b> 200€ les 4 modules pour toutes
-							inscriptions à l'intégralité du cycle.
+							💶 <b>Tarif des modules :</b> 60 € par module indépendant |{' '}
+							<b>Tarif cycle complet :</b> 200 € les 4 modules ppour toute
+							inscription à l'intégralité du cycle.
 							<br />
 							<i>
 								Possibilité de régler une partie du cursus en Ğ1 (monnaie libre)
@@ -109,7 +108,7 @@ const Actualites = () => {
 							Réserver
 						</a>{' '}
 						<a
-							href='/geobiologie#invisible'
+							href='/initiations/geobiologie/explorateur-de-l-invisible'
 							className='cta cta-secondary'
 							title='En savoir plus sur l’initiation à la Géobiologie - Explorateur de l’invisible'
 						>
@@ -126,7 +125,7 @@ const Actualites = () => {
 								Journée d’application concrète en extérieur — Prérequis : avoir
 								suivi le cycle{' '}
 								<a
-									href='/geobiologie#invisible'
+									href='/initiations/geobiologie/explorateur-de-l-invisible'
 									title="En savoir plus sur le cycle d'initiation à la géobiologie Explorateur de l'Invisible"
 									target='_blank'
 								>
@@ -140,7 +139,7 @@ const Actualites = () => {
 							clémente, est idéale pour mettre en pratique les savoirs acquis
 							lors du cycle{' '}
 							<a
-								href='/geobiologie#invisible'
+								href='/initiations/geobiologie/explorateur-de-l-invisible'
 								title="En savoir plus sur le cycle d'initiation à la géobiologie Explorateur de l'Invisible"
 								target='_blank'
 							>

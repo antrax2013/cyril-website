@@ -20,7 +20,7 @@
 		{
 			"key": "contact",
 			"title": "Contact – Cyril COPHIGNON",
-			"description": "Envie d’explorer les mondes subtils, de faire une communication avec votre animale ou découvrir la géobiologie ? Contactez Cyril Cophignon.",
+			"description": "Envie d’explorer les mondes subtils, de faire une communication avec votre animal ou découvrir la géobiologie ? Contactez Cyril Cophignon.",
 			"canonical": "/contact"
 		},
 		{
@@ -30,8 +30,13 @@
 		},
 		{
 			"key": "geobiologie",
-			"title": "La Géobiologie — Cyril COPHIGNON",
+			"title": "La Géobiologie d'exploration — Cyril COPHIGNON",
 			"description": "Cyril Cophignon transmet ses connaissances en géobiologie et exploration des mondes subtils pour éclairer, comprendre et accompagner votre relation aux lieux."
+		},
+		{
+			"key": "explorateur-de-l-invisible",
+			"title": "Initiation à la géobiologie | Explorateur de l’invisible",
+			"description": "Un cycle de 4 modules mêlant théorie et pratique pour détecter les phénomènes géobiologiques, décrypter leurs interactions et gagner en autonomie."
 		},
 		{
 			"key": "les-9-rites-munay-ki",
@@ -46,7 +51,7 @@
 		{
 			"key": "les-cupules",
 			"title": "Les cupules – Cyril Cophignon",
-			"description": "Cyril Cophignon vous présente les cupules, ces énigmatiques pétroglyphespétroglyphes anciens liés au féminin, pour découvrir ce que les mondes subtils révèlent de leur mémoire."
+			"description": "Cyril Cophignon vous présente les cupules, ces énigmatiques pétroglyphes anciens liés au féminin, pour découvrir ce que les mondes subtils révèlent de leur mémoire."
 		},
 		{
 			"key": "politique-de-confidentialite",

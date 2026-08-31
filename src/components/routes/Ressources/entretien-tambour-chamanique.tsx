@@ -26,7 +26,7 @@ const EntretienTambourChamanique = () => {
 						/>
 					</section>
 					<i>
-						Tous droit réservé à{' '}
+						Tous droits réservés à{' '}
 						<a href='https://tambours-medecine-ossau.com/' target='_blank'>
 							Nicolas, Créateur et Gardien de Tambours Médecine d'Ossau
 						</a>
@@ -42,7 +42,7 @@ const EntretienTambourChamanique = () => {
 								irréversibles.
 							</p>
 							<blockquote>
-								L'igrométrtie idéale pour un tambour se situe entre 40% et 60%
+								L'hygrométrie idéale pour un tambour se situe entre 40% et 60%
 								d'humidité.
 							</blockquote>
 						</section>
@@ -122,7 +122,7 @@ const EntretienTambourChamanique = () => {
 								<li>trop tendre la peau,</li>
 								<li>l’étirer comme un élastique,</li>
 								<li>finir par la déformer durablement,</li>
-								<li>voir pire briser le cadre.</li>
+								<li>voire, pire briser le cadre.</li>
 							</ul>
 							<p>
 								C’est pour cela qu’un tambour peut rester détendu même lorsqu’il
