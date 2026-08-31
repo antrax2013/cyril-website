@@ -369,8 +369,8 @@ const Geobiologie = () => {
 								<p>
 									C’est cette approche que je privilégie lors de mes initiations
 									et explorations. L’expérimentation en groupe permet d’évoluer
-									dans un cadre de bienveillant d’enrichissement muutuel, de se
-									rassurer, de prendre confiance en ses ressentis et
+									dans un cadre de bienveillant d’enrichissement mutuel, de se
+									rassurer, de prendre confiance en ses ressentis et ses
 									inutuitions.
 								</p>
 								<h3>Apprendre et devenir autonome</h3>
@@ -389,17 +389,25 @@ const Geobiologie = () => {
 								</ul>
 							</div>
 							<div>
-								<h2>Prochaine étape</h2>
-								<h3>Envie d’explorer par vous-même ?</h3>
+								<h2>Envie d’explorer par vous-même ?</h2>
 								<p>
-									Découvrez les prochaines initiations et sorties de terrain
-									pour approfondir votre compréhension des lieux et développer
-									votre autonomie.
+									Le cycle <strong>« Explorateur de l’invisible »</strong> vous
+									accompagne progressivement dans la découverte des phénomènes
+									géobiologiques, la pratique sur le terrain et le développement
+									de votre autonomie.
 								</p>
 								<div className='cta-container'>
-									<a href='/agenda' className='cta cta-secondary'>
-										Consulter l’agenda
-									</a>
+									<div className='cta-container'>
+										<a
+											href='/initiations/geobiologie/explorateur-de-l-invisible'
+											className='cta cta-primary'
+										>
+											Découvrir le cycle
+										</a>{' '}
+										<a href='/actualites' className='cta cta-secondary'>
+											Voir les prochaines dates
+										</a>
+									</div>
 								</div>
 							</div>
 						</section>
