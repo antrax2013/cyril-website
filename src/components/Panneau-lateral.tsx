@@ -178,7 +178,7 @@ const PanneauLateral = () => {
 						>
 							En savoir plus
 						</a>
-					</div>
+					</div> */}
 					<h3>Sorties en nature</h3>
 					<h4>Sortie Géobio. Fontaine St-Martin</h4>
 					<ul>
