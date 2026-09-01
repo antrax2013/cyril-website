@@ -129,7 +129,7 @@ const PanneauLateral = () => {
 					</ul>
 				</div> */}
 				<div className='event' id='événements'>
-					<h3>Conférences</h3>
+					{/* <h3>Conférences</h3>
 					<h4>Conférence monnaie libre</h4>
 					<ul>
 						<li>Dim. 30/08 14h30-15h30 - Pontchartrain (78)</li>
@@ -153,7 +153,7 @@ const PanneauLateral = () => {
 						>
 							En savoir plus
 						</a>
-					</div>
+					</div> */}
 					<h3>Sorties en nature</h3>
 					<h4>Sortie Géobio. Fontaine St-Martin</h4>
 					<ul>

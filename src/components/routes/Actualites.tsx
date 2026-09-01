@@ -3,6 +3,7 @@ import '../../scss/routes/Actualites.scss';
 import SharePopup from '../tools/SharePopup';
 import JsonLd from '../fragments/JsonLd';
 import * as ActuLd from '../fragments/JsonLd/actu.json';
+import photoFontaine from '../../assets/géobiologie/etudes/yvelines/jouars/fontaine st martin/fontaine-st-martin-jouars.jpg';
 
 const Actualites = () => {
 	return (
@@ -118,55 +119,82 @@ const Actualites = () => {
 					<ParagraphSeparator />
 					<section className='paragraphe-2'>
 						<h3>Sortie Nature et Pratique</h3>
-						<h4>Exploration Énergétique de la Fontaine Saint-Martin</h4>
-						<h5>Dimanche 18 Octobre 2026 à Jouars-Pontchartrain — Dès 09h00</h5>
-						<p>
-							<i>
-								Journée d’application concrète en extérieur — Prérequis : avoir
-								suivi le cycle{' '}
-								<a
-									href='/initiations/geobiologie/explorateur-de-l-invisible'
-									title="En savoir plus sur le cycle d'initiation à la géobiologie Explorateur de l'Invisible"
-									target='_blank'
-								>
-									"Explorateur de l'Invisible"
-								</a>{' '}
-								ou équivalent.
-							</i>
-						</p>
-						<p>
-							Cette sortie géobiologie sur le terrain, sous réserve de météo
-							clémente, est idéale pour mettre en pratique les savoirs acquis
-							lors du cycle{' '}
+						<div>
+							<h4>Exploration géobiologique de la Fontaine Saint-Martin</h4>
+							<div className='flex-area'>
+								<section className='paragraphe-content'>
+									<h5>
+										Dimanche 18 Octobre 2026 à Jouars-Pontchartrain — Dès 09h00
+									</h5>
+									<p>
+										<i>
+											Journée d’application concrète en extérieur — Prérequis :
+											avoir suivi le cycle{' '}
+											<a
+												href='/initiations/geobiologie/explorateur-de-l-invisible'
+												title="En savoir plus sur le cycle d'initiation à la géobiologie Explorateur de l'Invisible"
+												target='_blank'
+											>
+												"Explorateur de l'Invisible"
+											</a>{' '}
+											ou équivalent.
+										</i>
+									</p>
+									<p>
+										Cette sortie géobiologie sur le terrain, sous réserve de
+										météo clémente, est idéale pour mettre en pratique les
+										savoirs acquis lors du cycle{' '}
+										<a
+											href='/initiations/geobiologie/explorateur-de-l-invisible'
+											title="En savoir plus sur le cycle d'initiation à la géobiologie Explorateur de l'Invisible"
+											target='_blank'
+										>
+											"Explorateur de l'Invisible"
+										</a>
+										. Ensemble, nous analyserons les vibrations, les mémoires et
+										la structure énergétique de ce lieu chargé d’Histoire.
+									</p>
+									<p>
+										💶 <b>Tarif des sorties :</b> 60€ par sortie
+										<br />
+										<i>
+											Possibilité de régler une partie de la sortie en Ğ1
+											(monnaie libre) sur demande.
+										</i>
+									</p>
+								</section>
+								<aside>
+									<div>
+										<img
+											src={photoFontaine}
+											className='img-photo-fontaine-st-martin'
+											alt='Photo de la fontaine St-Martin été 2026.'
+											title='Etude géobiologique - Photo de la fontaine St-Martin été 2026.'
+											loading='lazy'
+										/>
+									</div>
+								</aside>
+							</div>
+							<p className='txt-center txt-warning'>
+								⚠️ Attention réservation <b>obligatoire</b> ⚠️
+							</p>
 							<a
-								href='/initiations/geobiologie/explorateur-de-l-invisible'
-								title="En savoir plus sur le cycle d'initiation à la géobiologie Explorateur de l'Invisible"
-								target='_blank'
+								href='/contact?sujet=sortie-géobiologie'
+								className='cta cta-primary'
+								title='Lien pour réserver une place pour la sortie pratique de Géobiologie'
 							>
-								"Explorateur de l'Invisible"
+								Réserver
+							</a>{' '}
+							<a
+								href='/etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain'
+								className='cta cta-secondary'
+								title='En savoir plus sur la fontaine St-Martin de Jouars-Pontchartrain'
+							>
+								En savoir plus
 							</a>
-							. Ensemble, nous analyserons les vibrations, les mémoires et la
-							structure énergétique de ce lieu chargé d’Histoire.
-						</p>
-						<p>
-							💶 <b>Tarif des sorties :</b> 60€ par sortie{' '}
-							<i>
-								Possibilité de régler une partie de la sortie en Ğ1 (monnaie
-								libre) sur demande.
-							</i>
-						</p>
-						<p className='txt-center txt-warning'>
-							⚠️ Attention réservation <b>obligatoire</b> ⚠️
-						</p>
-						<a
-							href='/contact?sujet=sortie-géobiologie'
-							className='cta cta-primary'
-							title='Lien pour réserver une place pour la sortie pratique de Géobiologie'
-						>
-							Réserver
-						</a>
+						</div>
 					</section>
-					<ParagraphSeparator />
+					{/*<ParagraphSeparator />
 
 					<section className='paragraphe-3'>
 						<h2>Événement Monnaie Libre - Ğ1 (June)</h2>
@@ -235,7 +263,7 @@ const Actualites = () => {
 						>
 							En savoir plus
 						</a>
-					</section>
+					</section> */}
 				</div>
 			</div>
 		</>

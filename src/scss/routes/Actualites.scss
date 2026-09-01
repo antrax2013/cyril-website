@@ -4,4 +4,33 @@
 	.separator {
 		padding: 1em 0;
 	}
+
+	// .article > section {
+	// 	@include mixins.article-section;
+	// 	align-items: center;
+	// }
+
+	.article section aside > div {
+		@include mixins.flex-content-center;
+	}
+
+	aside {
+		@include mixins.paragraphe-img-container;
+	}
+
+	.paragraphe-2 {
+		.flex-area {
+			display: flex;
+		}
+		.paragraphe-content {
+			@include mixins.paragraphe-txt-container;
+		}
+		.aside {
+			flex-grow: 1;
+		}
+	}
+
+	img {
+		@include mixins.paragraphe-img;
+	}
 }

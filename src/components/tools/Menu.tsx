@@ -167,6 +167,21 @@ const Menu = ({ ...props }) => {
 							},
 						},
 						{
+							label: 'Fontaine St Martin (78)',
+							template: (item: MenuItem, options: MenuItemOptions) => {
+								return itemTemplate(item, options);
+							},
+							url: '/etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain',
+							className: getClassName(
+								'fontaine-saint-martin-jouars-pontchartrain',
+							),
+							command: () => {
+								onClick(
+									'etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain',
+								);
+							},
+						},
+						{
 							label: 'Lavoir source aux fées (78)',
 							template: (item: MenuItem, options: MenuItemOptions) => {
 								return itemTemplate(item, options);
