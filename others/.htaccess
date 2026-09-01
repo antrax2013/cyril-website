@@ -6,7 +6,11 @@ Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains
   RewriteCond %{SERVER_PORT} 80
   RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
   RewriteBase /
-  RewriteRule ^index\.html$ - [L]
+
+  # Liens courts de campagne 
+  RewriteRule ^lire-un-lieu/?$ /initiations/geobiologie/explorateur-de-l-invisible?utm_source=instagram&utm_medium=social&utm_campaign=apprendre_lire_lieu&utm_content=story [R=302,L,NE]
+  RewriteRule ^saintes-fontaines/facebook/?$ /etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain?utm_source=facebook&utm_medium=social&utm_campaign=saintes_fontaines_2026 [R=302,L,NE]
+  RewriteRule ^saintes-fontaines/instagram/?$ /etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain?utm_source=instagram&utm_medium=social&utm_campaign=saintes_fontaines_2026 [R=302,L,NE]
   
   # return our SPA code, but ignore static files
   RewriteCond %{REQUEST_FILENAME} !-f

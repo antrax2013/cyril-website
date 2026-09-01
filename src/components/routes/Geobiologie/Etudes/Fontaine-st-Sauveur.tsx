@@ -519,9 +519,12 @@ const FontaineStSauveur = () => {
 											<p>
 												Deux lieux apparaissent comme des candidats plausibles
 												pour cette liaison : l’église Saint‑Sauveur de
-												Maurepas‑Village et la fontaine Saint‑Martin, réputée
-												être comme une fontaine jumelle de la Fontaine
-												Saint‑Sauveur (qui pourrait avoir été détruite).
+												Maurepas‑Village et{' '}
+												<a href='/etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain'>
+													la fontaine Saint‑Martin
+												</a>
+												, réputée être comme une fontaine jumelle de la Fontaine
+												Saint‑Sauveur.
 											</p>
 										</section>
 									</AccordionTab>

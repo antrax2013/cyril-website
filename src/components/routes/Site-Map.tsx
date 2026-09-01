@@ -49,6 +49,11 @@ const SiteMap = () => {
 							</a>
 						</li>
 						<li>
+							<a href='/etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain'>
+								La fontaine St-Martin
+							</a>
+						</li>
+						<li>
 							<a href='/etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees'>
 								Le lavoir de la source aux fées
 							</a>

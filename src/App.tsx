@@ -39,6 +39,9 @@ const LeLavoirDeLaSourceAuxFees = lazy(
 const FontaineStSauveur = lazy(
 	() => import('./components/routes/Geobiologie/Etudes/Fontaine-st-Sauveur'),
 );
+const FontaineStMartin = lazy(
+	() => import('./components/routes/Geobiologie/Etudes/Fontaine-St-Martin'),
+);
 const Cupule = lazy(() => import('./components/routes/Geobiologie/Cupule'));
 const EntretienTambourChamanique = lazy(
 	() => import('./components/routes/Ressources/entretien-tambour-chamanique'),
@@ -101,6 +104,10 @@ const App = () => {
 							<Route
 								path='etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas'
 								element={<FontaineStSauveur />}
+							/>
+							<Route
+								path='etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain'
+								element={<FontaineStMartin />}
 							/>
 							<Route path='geologie/les-cupules' element={<Cupule />} />
 							<Route
