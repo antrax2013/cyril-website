@@ -19,7 +19,9 @@ const Menu = ({ ...props }) => {
 	};
 	const start = (
 		<span className='logo-menu'>
-			<img alt='logo' src={croixAndine} className='logo' />
+			<a href='/' itemProp='url'>
+				<img alt='logo' src={croixAndine} className='logo' />
+			</a>
 		</span>
 	);
 	const end = () => {
@@ -71,9 +73,9 @@ const Menu = ({ ...props }) => {
 		if (windowPathName.includes(pathName)) {
 			return selectedClassName;
 		}
-		if (pathName === 'qui-suis-je' && windowPathName === '/') {
-			return selectedClassName;
-		}
+		// if (pathName === 'qui-suis-je' && windowPathName === '/') {
+		// 	return selectedClassName;
+		// }
 		// Ressources case
 		if (
 			pathName === 'ressources' &&
@@ -90,15 +92,15 @@ const Menu = ({ ...props }) => {
 
 	const items: MenuItem[] = [
 		{
-			label: 'Qui suis-je ?',
+			label: 'Mon approche',
 			template: (item: MenuItem, options: MenuItemOptions) => {
 				return itemTemplate(item, options);
 			},
-			url: '/qui-suis-je',
+			url: '/mon-approche',
 			command: () => {
-				onClick('qui-suis-je');
+				onClick('mon-approche');
 			},
-			className: getClassName('qui-suis-je'),
+			className: getClassName('mon-approche'),
 		},
 		{
 			label: 'Actualités',

@@ -1,7 +1,7 @@
 {
 	"routes": [
-		"/",
-		"/qui-suis-je",
+		"/accueil",
+		"/mon-approche",
 		"/geobiologie",
 		"/initiations/geobiologie/explorateur-de-l-invisible",
 		"/la-communication-animale",

@@ -142,7 +142,7 @@ const Cupule = () => {
 					<section className='paragraphe-5'>
 						<section className='paragraphe-content'>
 							<p>
-								A cet effet, j’ai ciblé 4 sites potentiellement intéressants et
+								À cet effet, j’ai ciblé 4 sites potentiellement intéressants et
 								qui pourraient contribuer à cette quête :
 							</p>
 							<ul>

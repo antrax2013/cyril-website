@@ -8,6 +8,9 @@ const SiteMap = () => {
 						<a href='/'>Qui suis-je ?</a>
 					</li>
 					<li>
+						<a href='/mon-approche'>Mon approche</a>
+					</li>
+					<li>
 						<a href='/actualites'>Actualités</a>
 					</li>
 					<li>
@@ -29,7 +32,7 @@ const SiteMap = () => {
 					</li>
 					<li>
 						<a href='/politique-de-confidentialite'>
-							Politique de confidentialite
+							Politique de confidentialité
 						</a>
 					</li>
 					<li>

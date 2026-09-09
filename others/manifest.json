@@ -46,7 +46,13 @@
 			"name": "Qui suis-je?",
 			"short_name": "Qui suis-je?",
 			"description": "Explorateur des mondes subtils, partons ensemble à la découverte des mondes subtils. Je mets mes connaissances à votre service pour une exploration pleine de surprises.",
-			"url": "/qui-suis-je"
+			"url": "/"
+		},
+		{
+			"name": "Mon approche",
+			"short_name": "Mon approche",
+			"description": "Découvrez mon approche : observer, expérimenter et comprendre les interactions entre les lieux, le vivant et les mondes subtils.",
+			"url": "/"
 		},
 		{
 			"name": "Actualités",
