@@ -1,0 +1,85 @@
+@use '../../../rules/mixins';
+@use 'FontColorGeobio';
+
+.FontaineStSauveur {
+	.article > section {
+		@include mixins.article-section;
+		align-items: center;
+	}
+
+	.article section aside > div {
+		@include mixins.flex-content-center;
+	}
+
+	aside {
+		@include mixins.paragraphe-img-container;
+	}
+
+	.paragraphe-1 .paragraphe-content,
+	.paragraphe-2-1 .paragraphe-content,
+	.paragraphe-2-2 .paragraphe-content,
+	.paragraphe-3 .paragraphe-content,
+	.paragraphe-3-1 .paragraphe-content,
+	.paragraphe-3-2 .paragraphe-content,
+	.paragraphe-4 .paragraphe-content,
+	.paragraphe-5 .paragraphe-content,
+	.paragraphe-6 .paragraphe-content,
+	.paragraphe-6-1 .paragraphe-content,
+	.paragraphe-7 .paragraphe-content,
+	.paragraphe-8 .paragraphe-content,
+	.paragraphe-9 .paragraphe-content,
+	.paragraphe-10 .paragraphe-content {
+		@include mixins.paragraphe-txt-container;
+	}
+
+	.paragraphe-1 {
+		margin-top: 1rem;
+	}
+
+	.gallerie-panel {
+		.carte-postale-gallerie {
+			max-width: 640px;
+			max-height: 640px;
+			padding: 1rem;
+			.p-galleria-content {
+				margin-top: 3rem;
+			}
+		}
+	}
+
+	img,
+	video {
+		@include mixins.paragraphe-img;
+	}
+}
+
+@media (min-width: 427px) and (max-width: 768px) {
+	.FontaineStSauveur {
+		.paragraphe-1 .paragraphe-content,
+		.paragraphe-2 .paragraphe-content,
+		.article section aside {
+			flex: 2 1;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.FontaineStSauveur {
+		.article section,
+		.paragraphe-3-1 .p-accordion-content {
+			flex-direction: column;
+		}
+	}
+}
+
+@media (min-width: 769px) {
+	.FontaineStSauveur aside {
+		flex-direction: inherit;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+	.FontaineStSauveur aside {
+		margin-right: 1em;
+	}
+}

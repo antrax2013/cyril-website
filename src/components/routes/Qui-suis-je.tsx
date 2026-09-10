@@ -1,24 +1,11 @@
-import MetaTag from '../tools/MetaTag';
-import ParagraphSeparator from '../tools/Paragraph-Separator';
 import ImgMoi from '../../assets/moi.png';
 import '../../scss/routes/QuiSuisJe.scss';
 import SharePopup from '../tools/SharePopup';
+import ParagraphSeparator from '../tools/Paragraph-Separator';
 
 const QuiSuisJe = () => {
-	const head = () => {
-		return (
-			<MetaTag
-				title={import.meta.env.VITE_META_MAIN_TITLE || 'Qui suis-je ?'}
-				description='Explorateur des mondes subtils, je vous propose de partager mes connaissances des mondes subtils, géobiologie, chamanisme... et ainsi avec vous explorer les mondes subtils. Cyril COPHIGNON'
-				resume='Explorateur des mondes subtils, je mets mes connaissances des mondes subtils à votre service pour vous accompagner sur votre chemin de vie.'
-				forceTitle={true}
-			/>
-		);
-	};
-
 	return (
 		<>
-			{head()}
 			<div className='QuiSuisJe'>
 				<div className='article'>
 					<h1>Qui suis-je ?</h1>
@@ -105,8 +92,8 @@ const QuiSuisJe = () => {
 							</p>
 							<p>
 								En 2021, je m’initie, avec Catherine Leveau, à la{' '}
-								<em>Géobiolgie</em>. Un cadeau, un vertibale tournant pour moi.
-								Grâce à la <em>Géobiolgie</em>, je peux accéder à des
+								<em>Géobiologie</em>. Un cadeau, un véritable tournant pour moi.
+								Grâce à la <em>Géobiologie</em>, je peux accéder à des
 								informations subtiles sur un lieu, à l’âme du lieu. Maintenant,
 								c’est une véritable passion.
 							</p>
@@ -120,7 +107,7 @@ const QuiSuisJe = () => {
 								>
 									Ludivine Subileau
 								</a>
-								, m’a transmis des enseignements chamaniques d’amérique du Sud.
+								, m’a transmis des enseignements chamaniques d’Amérique du Sud.
 								Une ouverture sur un monde nouveau que je souhaite continuer
 								d'explorer.
 							</p>
@@ -148,7 +135,7 @@ const QuiSuisJe = () => {
 							<p>
 								Je suis originaire de Sedan, une petite ville atypique du
 								nord-est de la France, proche de la Belgique, au passé glorieux.
-								A l’ombre de son château fort, terre bercée de contes et
+								À l’ombre de son château fort, terre bercée de contes et
 								légendes anciennes, au cœur de la vaste forêt des Ardennes, j’ai
 								été attiré, très jeune, par l’Histoire.
 							</p>
@@ -180,7 +167,7 @@ const QuiSuisJe = () => {
 									et au Reiki Usui
 								</li>
 								<li>
-									Etre initié aux <em>rites chamaniques du Munay-Ki</em>
+									Être initié aux <em>rites chamaniques du Munay-Ki</em>
 								</li>
 								<li>
 									Recevoir des enseignements <em>chamaniques</em>

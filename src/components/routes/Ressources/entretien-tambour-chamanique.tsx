@@ -1,5 +1,5 @@
 import { Button } from 'primereact/button';
-import MetaTag from '../../tools/MetaTag';
+
 import ParagraphSeparator from '../../tools/Paragraph-Separator';
 import React from 'react';
 import CustomDialog from '../../tools/CustomDialog';
@@ -11,26 +11,13 @@ import SharePopup from '../../tools/SharePopup';
 
 const EntretienTambourChamanique = () => {
 	const [visible, setVisible] = React.useState(false);
-
-	const head = () => {
-		return (
-			<MetaTag
-				title='Protection tambour en peau : sécheresse et humidité'
-				description='La peau d’un tambour réagit fortement à l’humidité : chaleur et sécheresse peuvent la tendre, l’étirer ou la détendre. Nicolas détaille les risques, les bons gestes, l’humidification et les protocoles pour préserver la tension et la qualité sonore de votre tambour.'
-				resume='La chaleur et l’air sec peuvent abîmer la peau de votre tambour. Nicolas explique comment l’humidité influence la tension, comment éviter les dommages et quelles actions simples protègent durablement votre instrument.'
-				forceTitle={true}
-			/>
-		);
-	};
-
 	return (
 		<>
-			{head()}
 			<div className='EntretienTambourChamanique'>
 				<div className='article'>
 					<h1>
-						Comment protéger votre tambour en période de fortes chaleurs et
-						d’air sec
+						Prendre soin de votre tambour en période de fortes chaleurs et d’air
+						sec
 					</h1>
 					<section className='icon-panel'>
 						<SharePopup
@@ -39,7 +26,7 @@ const EntretienTambourChamanique = () => {
 						/>
 					</section>
 					<i>
-						Tous droit réservé à{' '}
+						Tous droits réservés à{' '}
 						<a href='https://tambours-medecine-ossau.com/' target='_blank'>
 							Nicolas, Créateur et Gardien de Tambours Médecine d'Ossau
 						</a>
@@ -55,7 +42,7 @@ const EntretienTambourChamanique = () => {
 								irréversibles.
 							</p>
 							<blockquote>
-								L'igrométrtie idéale pour un tambour se situe entre 40% et 60%
+								L'hygrométrie idéale pour un tambour se situe entre 40% et 60%
 								d'humidité.
 							</blockquote>
 						</section>
@@ -135,7 +122,7 @@ const EntretienTambourChamanique = () => {
 								<li>trop tendre la peau,</li>
 								<li>l’étirer comme un élastique,</li>
 								<li>finir par la déformer durablement,</li>
-								<li>voir pire briser le cadre.</li>
+								<li>voire, pire briser le cadre.</li>
 							</ul>
 							<p>
 								C’est pour cela qu’un tambour peut rester détendu même lorsqu’il

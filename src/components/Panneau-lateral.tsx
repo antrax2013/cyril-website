@@ -10,24 +10,30 @@ const PanneauLateral = () => {
 					<h3>
 						Initiation <em>Géobiologie</em> - Explorateur de l'invisible
 					</h3>
-					<h4>Module 1 & 2</h4>
+					<h4>Module 1 - La découverte</h4>
 					{/* <p>Prochaines sessions à l'automne 2026 </p> */}
 					<ul>
-						<li>Dim. 06/09 de 09h à 12h30 - Plaisir</li>
+						<li>
+							⚠️ Dim. <b>11/10</b> de 09h à 12h30 - Plaisir
+						</li>
 					</ul>
 					<h4>Module 2 - Les premières recherches </h4>
 					<ul>
-						<li>Dim. 06/09 de 14h à 18h30 - Plaisir</li>
+						<li>
+							⚠️ Dim. <b>11/10</b> de 14h à 17h30 - Plaisir
+						</li>
 					</ul>
 					<h4>Module 3 - Les failles et les veines d’eau</h4>
 					<ul>
-						<li>Dim. 04/10 de 09h à 12h30 - Plaisir</li>
+						<li>
 						<li>Dimanche 12 avril de 09h00 à 12h30</li>
+						</li>
 					</ul>
 					<h4>Module 4 - Les réseaux géomagnétiques de base</h4>
 					<ul>
-						<li>Dim. 04/10 de 14h à 18h30 - Plaisir</li>
+						<li>
 						<li>Dimanche 12 avril de 14h00 à 18h30</li>
+						</li>
 					</ul>
 					<div className='ctas-container'>
 						<a
@@ -39,7 +45,7 @@ const PanneauLateral = () => {
 						</a>
 						{'  '}
 						<a
-							href='/geobiologie#invisible'
+							href='/initiations/geobiologie/explorateur-de-l-invisible'
 							className='cta cta-secondary'
 							title='En savoir plus sur l’initiation à la Géobiologie - Explorateur de l’invisible'
 						>
@@ -47,14 +53,14 @@ const PanneauLateral = () => {
 						</a>
 					</div>
 				</div>
-				<div className='event' id='événements'>
+				{/* <div className='event' id='événements'>
 					<h3>Conférences</h3>
 					{/* <h4>Portes ouvertes</h4>
 					<ul>
 						<li>
 							<i>Dim. 14/06</i> - Espace Vibration & Libellule à Plaisir - 78
 						</li>
-					</ul> */}
+					</ul> * /}
 					<h4>Changer la monnaie pour changer notre rapport au monde</h4>
 					<ul>
 						<li>
@@ -79,8 +85,8 @@ const PanneauLateral = () => {
 						>
 							En savoir plus
 						</a>
-					</div>
-					{/* <h4>Portes ouvertes</h4>
+					</div> */}
+				{/* <h4>Portes ouvertes</h4>
 					<ul>
 						<li>
 							<a
@@ -108,7 +114,7 @@ const PanneauLateral = () => {
 							</i>
 						</li>
 					</ul>*/}
-					{/* <h4>Salon</h4>
+				{/* <h4>Salon</h4>
 					<ul>
 						<li>
 							<a
@@ -120,18 +126,38 @@ const PanneauLateral = () => {
 							</a>
 							{/* Pas de salon planifé à ce jour. * /}
 						</li>
-					</ul> */}
-				</div>
+					</ul>
+				</div> */}
 				<div className='event' id='événements'>
-					<h3>Sorties en nature</h3>
+					{/* <h3>Conférences</h3>
+					<h4>Conférence monnaie libre</h4>
 					<ul>
-						{/* <li>La prochaine sortie sera au printemps 2026</li> */}
-
-						{/* <li>24/05 de 09h-12h30 - Fontaine St Suveur - Maurepas</li> */}
-						<li>
-							Sam. 13/06 09h-18h30 - Sortie en forêt de Rambouillet avec
-							François Figuerau
-						</li>
+						<li>Dim. 30/08 14h30-15h30 - Pontchartrain (78)</li>
+					</ul>
+					<div className='ctas-container'>
+						<a
+							href='https://is.gd/june78'
+							className='cta cta-primary'
+							title='Lien pour réserver un ou plusieurs modules pour l’initiation à la Géobiologie - Explorateur de l’invisible'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							Réserver
+						</a>{' '}
+						<a
+							href='https://forum.monnaie-libre.fr/t/78-jouars-pontchartrain-gmarche-dimanche-30-aout-2026/34008'
+							className='cta cta-secondary'
+							title='En savoir plus sur le Ğmarché de Jouars-Pontchartrain - Dimanche 30 août 2026'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							En savoir plus
+						</a>
+					</div> */}
+					<h3>Sorties en nature</h3>
+					<h4>Sortie Géobio. Fontaine St-Martin</h4>
+					<ul>
+						<li>Dim. 18/10 09h-12h30 - Jouars (78)</li>
 					</ul>
 					<div className='ctas-container'>
 						<a
@@ -140,14 +166,6 @@ const PanneauLateral = () => {
 							title='Lien pour réserver'
 						>
 							Réserver
-						</a>
-						{'  '}
-						<a
-							href='/actualites#forêt-de-rambouillet-à-gambaiseuil'
-							className='cta cta-secondary'
-							title='En savoir plus sur les sorties en nature'
-						>
-							En savoir plus
 						</a>
 					</div>
 				</div>

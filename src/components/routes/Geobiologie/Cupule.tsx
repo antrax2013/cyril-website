@@ -1,4 +1,3 @@
-import MetaTag from '../../tools/MetaTag';
 import ParagraphSeparator from '../../tools/Paragraph-Separator';
 import Cupule1 from '../../../assets/cupules/cupule-11.png';
 import Cupule2 from '../../../assets/cupules/cupule-2.png';
@@ -7,20 +6,8 @@ import '../../../scss/routes/Geobiologie/LesCupules.scss';
 import SharePopup from '../../tools/SharePopup';
 
 const Cupule = () => {
-	const head = () => {
-		return (
-			<MetaTag
-				title={import.meta.env.VITE_META_MAIN_TITLE || 'Les cupules'}
-				description='Les cupules, ces énigmatiques pétroglyphes, formés par l’Homme, extrémenement répandus dont les archéologues en ignorent l’usage et la signification. Symbole du féminin, je vous propose de partir ensemble à la découverte de ces souvenirs du passé. Voyons ce que les mondes subtils ont à nous apprendre sur les cupules. Cyril COPHIGNON'
-				resume='Les cupules, symbole du féminin, ces énigmatiques pétroglyphes, formés par l’Homme, extrémenement répandus dont les archéologues en ignorent l’usage et la signification.'
-				forceTitle={true}
-			/>
-		);
-	};
-
 	return (
 		<>
-			{head()}
 			<div className='LesCupules'>
 				<div className='article'>
 					<h1>Les cupules</h1>
@@ -96,7 +83,7 @@ const Cupule = () => {
 						<section className='paragraphe-content'>
 							<p>
 								Bien que des milliers de cupules ont été référencées à travers
-								les continents, on ignore complétement leurs usages et leurs
+								les continents, on ignore complètement leurs usages et leurs
 								destinations :
 							</p>
 							<ul>
@@ -155,8 +142,8 @@ const Cupule = () => {
 					<section className='paragraphe-5'>
 						<section className='paragraphe-content'>
 							<p>
-								A cette effet, j’ai ciblé 4 sites potentiellement intéressants
-								et qui pourraient contribuer à cette quête :
+								A cet effet, j’ai ciblé 4 sites potentiellement intéressants et
+								qui pourraient contribuer à cette quête :
 							</p>
 							<ul>
 								<li>
