@@ -1,5 +1,9 @@
 import { describe, expect, it } from 'vitest';
-import { analyzeSelector, type SelectorCandidate } from './selector-analysis';
+import {
+	assessSelector,
+	SelectorEvidence,
+	type SelectorCandidate,
+} from './selector-analysis';
 
 describe('analyzeSelector', () => {
 	it('classifies a selector compatible with the JSX structure as probable', () => {
@@ -12,27 +16,23 @@ describe('analyzeSelector', () => {
 			},
 		};
 
-		// When
-		const analysis = analyzeSelector(probableCandidate, [
-			{
-				type: 'jsx-structure-compatible',
+		const jsxStructureEvidence: SelectorEvidence = {
+			type: 'jsx-structure-compatible',
+			matchedClassName: 'paragraphe-1',
+			classNameLocation: {
 				file: 'src/components/routes/Qui-suis-je.tsx',
+				line: 15,
 			},
-		]);
+		};
+
+		// When
+		const analysis = assessSelector(probableCandidate, [jsxStructureEvidence]);
 
 		// Then
-		expect(analysis).toEqual({
-			...probableCandidate,
-			usage: 'probable',
-			protection: 'reviewable',
-			protectionReasons: [],
-			evidence: [
-				{
-					type: 'jsx-structure-compatible',
-					file: 'src/components/routes/Qui-suis-je.tsx',
-				},
-			],
-		});
+		expect(analysis.usage).toBe('probable');
+		expect(analysis.protection).toBe('reviewable');
+		expect(analysis.protectionReasons).toEqual([]);
+		expect(analysis.evidence).toEqual([jsxStructureEvidence]);
 	});
 
 	it('keeps a PrimeReact selector protected even when it is observed', () => {
@@ -45,16 +45,27 @@ describe('analyzeSelector', () => {
 			},
 		};
 
+		const primeLibraryEvidence: SelectorEvidence = {
+			type: 'library-class',
+			library: 'primereact',
+		};
+
+		const domMatchEvidence: SelectorEvidence = {
+			type: 'dom-match',
+			page: '/contact',
+		};
+
 		// When
-		const analysis = analyzeSelector(primeProtectedCandidate, [
-			{ type: 'dom-match', page: '/contact' },
-			{ type: 'library-class', library: 'primereact' },
+		const analysis = assessSelector(primeProtectedCandidate, [
+			domMatchEvidence,
+			primeLibraryEvidence,
 		]);
 
 		// Then
 		expect(analysis.usage).toBe('observed');
 		expect(analysis.protection).toBe('protected');
 		expect(analysis.protectionReasons).toEqual(['library-class:primereact']);
+		expect(analysis.evidence).toEqual([domMatchEvidence, primeLibraryEvidence]);
 	});
 
 	it('marks a selector without usage evidence as unreferenced', () => {
@@ -65,10 +76,12 @@ describe('analyzeSelector', () => {
 		};
 
 		// When
-		const analysis = analyzeSelector(fictionalUnreferencedCandidate, []);
+		const analysis = assessSelector(fictionalUnreferencedCandidate, []);
 
 		// Then
 		expect(analysis.usage).toBe('unreferenced');
 		expect(analysis.protection).toBe('reviewable');
+		expect(analysis.protectionReasons).toEqual([]);
+		expect(analysis.evidence).toEqual([]);
 	});
 });

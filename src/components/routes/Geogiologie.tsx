@@ -150,7 +150,7 @@ const Geobiologie = () => {
 						</aside>
 					</section>
 					<ParagraphSeparator />
-					<section className='paragraphe-3'>
+					<section className='paragraphe-4'>
 						<section className='paragraphe-content'>
 							<div>
 								<h2>Pourquoi s’intéresser aux lieux ?</h2>
@@ -206,7 +206,11 @@ const Geobiologie = () => {
 									</div>
 								</div>
 							</div>
-							<ParagraphSeparator />
+						</section>
+					</section>
+					<ParagraphSeparator />
+					<section className='paragraphe-5'>
+						<section className='paragraphe-content'>
 							<div>
 								<h2>Une démarche fondée sur l’observation</h2>
 								<p>
@@ -318,61 +322,6 @@ const Geobiologie = () => {
 									dans un cadre bienveillant d’enrichissement mutuel, de se
 									rassurer, de prendre confiance en ses ressentis et ses
 									intuitions.
-								</p>
-								<h3>Apprendre et devenir autonome</h3>
-								<p>
-									Mon objectif n’est pas de transmettre des certitudes mais une
-									démarche éthique et des outils d’observation et de réflexion.
-									À travers les initiations, chacun est invité à développer
-									progressivement :
-								</p>
-								<ul>
-									<li>son sens de l’observation</li>
-									<li>sa capacité d’analyse</li>
-									<li>son ressenti</li>
-									<li>sa compréhension des lieux</li>
-									<li>son autonomie dans l’exploration</li>
-								</ul>
-							</div>
-							<div>
-								<h2>Envie d’explorer par vous-même ?</h2>
-								<p>
-									Le cycle <strong>« Explorateur de l’invisible »</strong> vous
-									accompagne progressivement dans la découverte des phénomènes
-									géobiologiques, la pratique sur le terrain et le développement
-									de votre autonomie.
-								</p>
-								<div className='cta-container'>
-									<div className='cta-container'>
-										<a
-											href='/initiations/geobiologie/explorateur-de-l-invisible'
-											className='cta cta-primary'
-										>
-											Découvrir le cycle
-										</a>{' '}
-										<a href='/actualites' className='cta cta-secondary'>
-											Voir les prochaines dates
-										</a>
-									</div>
-								</div>
-							</div>
-								</p>
-								<ul>
-									<li>d’observer</li>
-									<li>d’expérimenter</li>
-									<li>de développer son ressenti</li>
-									<li>
-										de confronter ses observations avec celles des autres
-										participants
-									</li>
-									<li>d’apprendre directement au contact du lieu</li>
-								</ul>
-								<p>
-									C’est cette approche que je privilégie lors de mes initiations
-									et explorations. L’expérimentation en groupe permet d’évoluer
-									dans un cadre de bienveillant d’enrichissement mutuel, de se
-									rassurer, de prendre confiance en ses ressentis et ses
-									inutuitions.
 								</p>
 								<h3>Apprendre et devenir autonome</h3>
 								<p>

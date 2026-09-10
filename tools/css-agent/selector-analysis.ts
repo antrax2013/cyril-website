@@ -12,19 +12,42 @@ export interface SelectorCandidate {
 	source: SelectorSource;
 }
 
+export interface JsxStructureCompatibleEvidence {
+	type: 'jsx-structure-compatible';
+	matchedClassName: string;
+	classNameLocation: SelectorSource;
+}
+
+function isJsxStructureCompatibleEvidence(
+	item: SelectorEvidence,
+): item is JsxStructureCompatibleEvidence {
+	return item.type === 'jsx-structure-compatible';
+}
+
+export interface DomMatchEvidence {
+	type: 'dom-match';
+	page: string;
+}
+
+function isDomMatchEvidence(item: SelectorEvidence): item is DomMatchEvidence {
+	return item.type === 'dom-match';
+}
+
+export interface LibraryClassEvidence {
+	type: 'library-class';
+	library: string;
+}
+
+function isLibraryClassEvidence(
+	item: SelectorEvidence,
+): item is LibraryClassEvidence {
+	return item.type === 'library-class';
+}
+
 export type SelectorEvidence =
-	| {
-			type: 'jsx-structure-compatible';
-			file: string;
-	  }
-	| {
-			type: 'dom-match';
-			page: string;
-	  }
-	| {
-			type: 'library-class';
-			library: string;
-	  };
+	| JsxStructureCompatibleEvidence
+	| DomMatchEvidence
+	| LibraryClassEvidence;
 
 export interface SelectorAnalysis extends SelectorCandidate {
 	usage: SelectorUsage;
@@ -33,32 +56,29 @@ export interface SelectorAnalysis extends SelectorCandidate {
 	evidence: SelectorEvidence[];
 }
 
-export function analyzeSelector(
+export function assessSelector(
 	candidate: SelectorCandidate,
 	evidence: SelectorEvidence[],
 ): SelectorAnalysis {
-	const libraryEvidence = evidence.filter(
-		(item): item is Extract<SelectorEvidence, { type: 'library-class' }> =>
-			item.type === 'library-class',
-	);
+	const libraryEvidence = evidence.filter(isLibraryClassEvidence);
 
 	return {
 		...candidate,
-		usage: inferUsage(evidence),
+		usage: getUsage(evidence),
 		protection: libraryEvidence.length > 0 ? 'protected' : 'reviewable',
 		protectionReasons: libraryEvidence.map(
-		(item) => `library-class:${item.library}`,
+			(item: LibraryClassEvidence) => `library-class:${item.library}`,
 		),
 		evidence,
 	};
 }
 
-function inferUsage(evidence: SelectorEvidence[]): SelectorUsage {
-	if (evidence.some((item) => item.type === 'dom-match')) {
+function getUsage(evidence: SelectorEvidence[]): SelectorUsage {
+	if (evidence.some(isDomMatchEvidence)) {
 		return 'observed';
 	}
 
-	if (evidence.some((item) => item.type === 'jsx-structure-compatible')) {
+	if (evidence.some(isJsxStructureCompatibleEvidence)) {
 		return 'probable';
 	}
 

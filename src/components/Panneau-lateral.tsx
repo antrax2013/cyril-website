@@ -26,13 +26,13 @@ const PanneauLateral = () => {
 					<h4>Module 3 - Les failles et les veines d’eau</h4>
 					<ul>
 						<li>
-						<li>Dimanche 12 avril de 09h00 à 12h30</li>
+							<li>⚠️ -- Reporté date à replanifier --</li>
 						</li>
 					</ul>
 					<h4>Module 4 - Les réseaux géomagnétiques de base</h4>
 					<ul>
 						<li>
-						<li>Dimanche 12 avril de 14h00 à 18h30</li>
+							<li>⚠️ -- Reporté date à replanifier --</li>
 						</li>
 					</ul>
 					<div className='ctas-container'>
@@ -85,8 +85,8 @@ const PanneauLateral = () => {
 						>
 							En savoir plus
 						</a>
-					</div> */}
-				{/* <h4>Portes ouvertes</h4>
+					</div> 
+					<h4>Portes ouvertes</h4>
 					<ul>
 						<li>
 							<a
@@ -113,7 +113,7 @@ const PanneauLateral = () => {
 								</a>
 							</i>
 						</li>
-					</ul>*/}
+					</ul>
 				{/* <h4>Salon</h4>
 					<ul>
 						<li>
@@ -153,7 +153,7 @@ const PanneauLateral = () => {
 						>
 							En savoir plus
 						</a>
-					</div> */}
+					</div> 
 					<h4>Sortie Géobio. Fontaine St-Martin</h4>
 					<ul>
 						<li>Dim. 18/10 09h-12h30 - Jouars (78)</li>

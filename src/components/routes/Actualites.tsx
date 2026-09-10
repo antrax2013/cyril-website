@@ -64,7 +64,6 @@ const Actualites = () => {
 						<h4>
 							📅 Partie 1 : Module 1 & 2 - Dimanche 11 Octobre 2026 (Plaisir 78)
 						</h4>
-						</h4>
 						<ul>
 							<li>
 								<b>09h00 - 12h30 | Module 1 : </b> La découverte, théorie de la
@@ -117,6 +116,7 @@ const Actualites = () => {
 							En savoir plus
 						</a>
 					</section>
+					<ParagraphSeparator />
 					<section className='paragraphe-2'>
 						<h3>Sortie Nature et Pratique</h3>
 						<div>
@@ -126,26 +126,21 @@ const Actualites = () => {
 									<h5>
 										Dimanche 18 Octobre 2026 à Jouars-Pontchartrain — Dès 09h00
 									</h5>
-					<p>
-						Ces événements sont destinés aux débutants, comme aux initiés,
-						souhaitant explorer l'autonomie et les énergies sous toutes leurs
-						formes. Que ce soit pour comprendre la géobiologie (
-						<b>réseaux géomagnétiques</b>, <b>failles</b>, <b>veines d'eau</b>,{' '}
-						<b>cheminées cosmo-telluriques</b>) ou pour pratiquer la monnaie
-						libre Ğ1 (échanges locaux, conférences citoyennes et ateliers),
-						chaque rencontre favorise le partage et la reconnexion au vivant.
-					</p>
-					<p>
-						Mes activités se déroulent principalement sur
-						Saint-Quentin-en-Yvelines : Plaisir, Guyancourt, Maurepas... ou en
-						forêt de Rambouillet.
-					</p>
-					<ParagraphSeparator />
-					<h2>Agenda & Actualités de la Géobiologie dans les Yvelines (78)</h2>
-					<section className='paragraphe-1'>
-						<h3>
-							(78)
-						</h3>
+									<p>
+										Ces événements sont destinés aux débutants, comme aux
+										initiés, souhaitant explorer l'autonomie et les énergies
+										sous toutes leurs formes. Que ce soit pour comprendre la
+										géobiologie (<b>réseaux géomagnétiques</b>, <b>failles</b>,{' '}
+										<b>veines d'eau</b>, <b>cheminées cosmo-telluriques</b>) ou
+										pour pratiquer la monnaie libre Ğ1 (échanges locaux,
+										conférences citoyennes et ateliers), chaque rencontre
+										favorise le partage et la reconnexion au vivant.
+									</p>
+									<p>
+										Mes activités se déroulent principalement sur
+										Saint-Quentin-en-Yvelines : Plaisir, Guyancourt, Maurepas...
+										ou en forêt de Rambouillet.
+									</p>
 									<p>
 										<i>
 											Journée d’application concrète en extérieur — Prérequis :
