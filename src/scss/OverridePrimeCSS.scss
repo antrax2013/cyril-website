@@ -66,6 +66,9 @@ nav .p-menuitem:not(.selected) .p-menuitem-text {
 
 nav .p-menuitem.selected .p-menuitem-text {
 	color: var(--text-color) !important;
+}
+
+li.p-menuitem.selected > .p-menuitem-content a .p-menuitem-text {
 	border-bottom: 0.08em solid var(--primary-color) !important;
 }
 

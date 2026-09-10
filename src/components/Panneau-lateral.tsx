@@ -17,19 +17,23 @@ const PanneauLateral = () => {
 					</h3>
 					<h4>Module 1 - La découverte </h4>
 					<ul>
-						<li>Dimanche 19 octobre de 09h00 à 12h30</li>
+						<li>Dimanche 18 janvier de 09h00 à 12h30</li>
+						<li>Dimanche 15 mars de 09h00 à 12h30</li>
 					</ul>
 					<h4>Module 2 - Les premières recherches </h4>
 					<ul>
-						<li>Dimanche 19 octobre de 14h00 à 18h00</li>
+						<li>Dimanche 18 janvier de 14h00 à 18h30</li>
+						<li>Dimanche 15 mars de 14h00 à 18h30</li>
 					</ul>
 					<h4>Module 3 - Les failles et les veines d’eau</h4>
 					<ul>
-						<li>Dimanche 16 novembre de 09h00 à 12h30</li>
+						<li>Dimanche 15 février de 09h00 à 12h30</li>
+						<li>Dimanche 12 avril de 09h00 à 12h30</li>
 					</ul>
 					<h4>Module 4 - Les réseaux géomagnétiques de base</h4>
 					<ul>
-						<li>Dimanche 16 novembre de 14h00 à 18h00</li>
+						<li>Dimanche 15 février de 14h00 à 18h30</li>
+						<li>Dimanche 12 avril de 14h00 à 18h30</li>
 					</ul>
 				</div>
 				<div className='event' id='événements'>
@@ -38,24 +42,31 @@ const PanneauLateral = () => {
 					<ul>
 						<li>
 							<a
-								href='https://coffret-alumine.art/fr/'
-								title='Cliquez sur ce lien pour découvrir la boutique en ligne'
+								href='https://www.facebook.com/permalink.php?story_fbid=pfbid02aT94GYPdw9ZWN5AziFGhzcs71G1KVqbAP1hUUyCnowr6Dzg6mw3HP6WZbe2ghXTFl&id=61573954084460'
 								target='_blank'
+								title='Cliquez ici pour en savoir plus sur les portes ouvertes.'
 							>
-								En décembre porte ouvertes coffret d'Alumine
+								Coffret d'Alumine espaces bien-être
+								<ul>
+									<li>Samedi 13/12 à 14h00</li>
+									<li>Dimanche 14/12 à 15h00</li>
+									<li>Samedi 20/12 à 14h00</li>
+									<li>Dimanche 21/12 à 14h00</li>
+								</ul>
 							</a>
 						</li>
 					</ul>
 					<h4>Salon</h4>
 					<ul>
 						<li>
-							<a
+							{/* <a
 								href='https://fb.me/e/1PYGeWXkGl'
 								title='Cliquez sur ce lien pour plus d’informations sur le salon L’être au naturel à Maurepas'
 								target='_blank'
 							>
 								23/11/2025 L'être au naturel Maurepas (78)
-							</a>
+							</a> */}
+							Pas de salon planifé à ce jour.
 						</li>
 					</ul>
 				</div>
