@@ -27,10 +27,12 @@ const PanneauLateral = () => {
 					<h4>Module 3 - Les failles et les veines d’eau</h4>
 					<ul>
 						<li>Dim. 19/04 de 09h à 12h30 - Guyancourt</li>
+						<li>Dimanche 12 avril de 09h00 à 12h30</li>
 					</ul>
 					<h4>Module 4 - Les réseaux géomagnétiques de base</h4>
 					<ul>
 						<li>Dim. 19/04 de 14h à 18h30 - Guyancourt</li>
+						<li>Dimanche 12 avril de 14h00 à 18h30</li>
 					</ul>
 					<div className='ctas-container'>
 						<a
