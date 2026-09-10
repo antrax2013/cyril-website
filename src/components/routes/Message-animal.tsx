@@ -4,6 +4,7 @@ import ParagraphSeparator from '../tools/Paragraph-Separator';
 import MessageAnimalChien from '../../assets/la-communication-animale/florian-schindler-iz_C0d3tK1Q-unsplash.png';
 import MessageAnimalLapin from '../../assets/la-communication-animale/pexels-pixabay-372166.png';
 import MessageAnimalChat from '../../assets/la-communication-animale/pexels-marcus-pinho-328812-923360.png';
+import SharePopup from '../tools/SharePopup';
 
 const MessageAnimal = () => {
 	const head = () => {
@@ -22,6 +23,12 @@ const MessageAnimal = () => {
 			<div className='message-animal'>
 				<div className='article'>
 					<h1>La communication animale</h1>
+					<section className='icon-panel'>
+						<SharePopup
+							url={window.location.href}
+							title='La communication animale'
+						/>
+					</section>
 					<h2>L’écoute du message animal</h2>
 					<section className='paragraphe-1'>
 						<aside>

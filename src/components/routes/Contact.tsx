@@ -42,6 +42,11 @@ const Contact = () => {
 			tag: 'initiation-géobiologie',
 		},
 		{
+			label: 'Inscription sorties.',
+			value: 'Inscription sorties',
+			tag: 'sortie-géobiologie',
+		},
+		{
 			label: 'Séance de communication animal',
 			value: 'Séance de communication animal',
 			tag: 'communication-animal',

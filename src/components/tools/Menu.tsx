@@ -74,13 +74,16 @@ const Menu = ({ ...props }) => {
 		if (pathName === 'qui-suis-je' && windowPathName === '/') {
 			return selectedClassName;
 		}
-		// Resources case
+		// Ressources case
 		if (
-			pathName === 'resources' &&
+			pathName === 'ressources' &&
 			(windowPathName.startsWith('/geologie/') ||
-				windowPathName.startsWith('/etudes-geobiologie/'))
+				windowPathName.startsWith('/etudes-geobiologie/') ||
+				windowPathName.startsWith('/ressources/'))
 		) {
-			return selectedClassName;
+			return windowPathName.startsWith('/ressources/')
+				? 'divers'
+				: selectedClassName;
 		}
 		return className;
 	};
@@ -142,15 +145,28 @@ const Menu = ({ ...props }) => {
 			},
 		},
 		{
-			label: 'Resources',
+			label: 'Ressources',
 			items: [
 				{
 					label: 'Études Géobiologiques',
 					items: [
+						// label: 'Yvelines',
+						// items: [
+						// 	{
+						// {
+						// 	label: 'Fontaine St Sauveur (78)',
+						// 	template: (item: MenuItem, options: MenuItemOptions) => {
+						// 		return itemTemplate(item, options);
+						// 	},
+						// 	url: '/etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas',
+						// 	className: getClassName('fontaine-saint-sauveur-maurepas'),
+						// 	command: () => {
+						// 		onClick(
+						// 			'etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas',
+						// 		);
+						// 	},
+						// },
 						{
-							// label: 'Yvelines',
-							// items: [
-							// 	{
 							label: 'Lavoir source aux fées (78)',
 							template: (item: MenuItem, options: MenuItemOptions) => {
 								return itemTemplate(item, options);
@@ -159,12 +175,11 @@ const Menu = ({ ...props }) => {
 							className: getClassName('le-lavoir-de-la-source-aux-fees'),
 							command: () => {
 								onClick(
-									'etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees'
+									'etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees',
 								);
 							},
-							// 	},
-							// ],
-						},
+						}, // 	},
+						// ],
 					],
 					className: getClassName('etudes-geobiologie'),
 				},
@@ -185,8 +200,25 @@ const Menu = ({ ...props }) => {
 					],
 					className: getClassName('geologie'),
 				},
+				{
+					label: 'Divers',
+					items: [
+						{
+							label: 'Entretien tambour chamanique',
+							template: (item: MenuItem, options: MenuItemOptions) => {
+								return itemTemplate(item, options);
+							},
+							url: '/ressources/entretien-tambour-chamanique-peau',
+							className: getClassName('entretien-tambour-chamanique-peau'),
+							command: () => {
+								onClick('ressources/entretien-tambour-chamanique-peau');
+							},
+						},
+					],
+					className: getClassName('divers'),
+				},
 			],
-			className: getClassName('resources'),
+			className: getClassName('ressources'),
 		},
 		{
 			label: 'Contact',

@@ -48,7 +48,7 @@ const SiteMap = () => {
 					</li>
 				</ul>
 				<ul>
-					<h2>Resources</h2>
+					<h2>Ressources</h2>
 					<ul>
 						<h3>Études géobiologiques</h3>
 						<li>
@@ -61,6 +61,14 @@ const SiteMap = () => {
 						<h3>Géologie</h3>
 						<li>
 							<a href='geologie/les-cupules'>Les cupules</a>
+						</li>
+					</ul>
+					<ul>
+						<h3>Divers</h3>
+						<li>
+							<a href='/ressources/entretien-tambour-chamanique-peau'>
+								Entretien du tambour chamanique
+							</a>
 						</li>
 					</ul>
 				</ul>
