@@ -91,12 +91,13 @@ const Geobiologie = () => {
 								contact, nous permettant, ainsi de la percevoir.
 							</p>
 							<p>
-								Avec la découverte au 19ème siècle des ultrasons, des infras
-								rouges, des ultraviolets... la science reconnaît l'existence de
-								phénomènes naturels, non perceptibles par nos récepteurs
-								sensoriels. Non seulement ils existent, mais, ils ont également
-								un impact physique sur nous, sur tous les êtres peuplant notre
-								planète (cf. les coups de soleil dus aux ultraviolets)
+								Avec la découverte au 19ème siècle des ultrasons, des
+								infrarouges, des ultraviolets... la science reconnaît
+								l'existence de phénomènes naturels, non perceptibles par nos
+								récepteurs sensoriels. Non seulement ils existent, mais, ils ont
+								également un impact physique sur nous, sur tous les êtres
+								peuplant notre planète (cf. les coups de soleil dus aux
+								ultraviolets)
 							</p>
 							<p>
 								Aujourd’hui, il existe une grande variété d’ondes artificielles
@@ -149,7 +150,7 @@ const Geobiologie = () => {
 						</aside>
 					</section>
 					<ParagraphSeparator />
-					<section className='paragraphe-3'>
+					<section className='paragraphe-4'>
 						<section className='paragraphe-content'>
 							<div>
 								<h2>Pourquoi s’intéresser aux lieux ?</h2>
@@ -205,7 +206,11 @@ const Geobiologie = () => {
 									</div>
 								</div>
 							</div>
-							<ParagraphSeparator />
+						</section>
+					</section>
+					<ParagraphSeparator />
+					<section className='paragraphe-5'>
+						<section className='paragraphe-content'>
 							<div>
 								<h2>Une démarche fondée sur l’observation</h2>
 								<p>
@@ -314,9 +319,9 @@ const Geobiologie = () => {
 								<p>
 									C’est cette approche que je privilégie lors de mes initiations
 									et explorations. L’expérimentation en groupe permet d’évoluer
-									dans un cadre de bienveillant d’enrichissement mutuel, de se
+									dans un cadre bienveillant d’enrichissement mutuel, de se
 									rassurer, de prendre confiance en ses ressentis et ses
-									inutuitions.
+									intuitions.
 								</p>
 								<h3>Apprendre et devenir autonome</h3>
 								<p>

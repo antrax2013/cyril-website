@@ -26,10 +26,13 @@ const PolitiqueConfidentialite = lazy(
 const QuiSuisJe = lazy(() => import('./components/routes/Qui-suis-je'));
 const PlanDuSite = lazy(() => import('./components/routes/Site-Map'));
 
+// Page V2
+const MonApproche = lazy(() => import('./components/routes/MonApproche'));
 const GeoBioExplorateurInvisible = lazy(
 	() => import('./components/routes/Initiations/GeoBioExplorateurInvisible'),
 );
 
+// Ressources
 const LeLavoirDeLaSourceAuxFees = lazy(
 	() =>
 		import(
@@ -68,9 +71,11 @@ const App = () => {
 				<div className='App-body'>
 					<main className='content'>
 						<Routes>
+							{/* Menu V1 */}
 							<Route path='/' element={<QuiSuisJe />} />
-							<Route path='qui-suis-je' element={<QuiSuisJe />} />
+							<Route path='/accueil' element={<QuiSuisJe />} />
 							<Route index element={<QuiSuisJe />} />
+
 							<Route path='actualites' element={<Actualites />} />
 							<Route path='geobiologie' element={<Geobiologie />} />
 							<Route
@@ -78,7 +83,20 @@ const App = () => {
 								element={<MessageAnimal />}
 							/>
 							<Route path='les-9-rites-munay-ki' element={<RitesMunayKi />} />
+
+							{/* Page V2 */}
+							<Route path='mon-approche' element={<MonApproche />} />
+							<Route
+								path='initiations/geobiologie/explorateur-de-l-invisible'
+								element={<GeoBioExplorateurInvisible />}
+							/>
+							<Route path='agenda' element={<Actualites />} />
+
 							<Route path='contact' element={<Contact />} />
+							<Route
+								path='/contact/sujet/:sujet'
+								element={<ContactWrapper />}
+							/>
 							<Route
 								path='/contact/sujet/:sujet'
 								element={<ContactWrapper />}
@@ -90,11 +108,6 @@ const App = () => {
 							/>
 							<Route path='erreur-404' element={<Error404 />} />
 							<Route path='plan-du-site' element={<PlanDuSite />} />
-
-							<Route
-								path='initiations/geobiologie/explorateur-de-l-invisible'
-								element={<GeoBioExplorateurInvisible />}
-							/>
 
 							{/* Ressources */}
 							<Route

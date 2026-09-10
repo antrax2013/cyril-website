@@ -4,6 +4,16 @@ param(
 
 $metasFilePath = "./src/assets/metas.json"
 
+# 1. PowerShell Post-Build Script - Deletes index.html and Renames accueil.html
+
+# 1.1 Delete the index.html file
+Remove-Item -Path "./build/index.html" -Force -ErrorAction SilentlyContinue
+
+# 1.2 Rename accueil.html to index.hml
+Rename-Item -Path "./build/accueil.html" -NewName "index.html" -Force -ErrorAction SilentlyContinue
+
+Write-Host "Deletes index.html and Renames accueil.html script completed."
+
 # 2. PowerShell Script to Replace URL in Build Directory - With Command Line URL Input and Confirmation
 
 # Define the directory to search

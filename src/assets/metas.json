@@ -7,15 +7,21 @@
 			"canonical": ""
 		},
 		{
-			"key": "qui-suis-je",
-			"title": "Cyril COPHIGNON – Explorons ensemble les mondes subtils",
-			"description": "Explorateur des mondes subtils, Cyril Cophignon transmet ses connaissances en géobiologie, communication animale et chamanisme pour vous guider.",
-			"canonical": ""
+			"key": "mon-approche",
+			"title": "Géobiologie d’exploration : mon approche – Cyril Cophignon",
+			"description": "Découvrez mon approche : observer, expérimenter et comprendre les interactions entre les lieux, le vivant et les mondes subtils."
 		},
 		{
 			"key": "actualites",
 			"title": "Agenda Géobiologie et Monnaie Libre (Ğ1) dans les Yvelines",
-			"description": "Initiations à la géobiologie, sorties terrain, conférences et événements autour de la monnaie libre Ğ1, St Quentin-en-Yvelines et alentours (78)."
+			"description": "Initiations à la géobiologie, sorties terrain, conférences et événements autour de la monnaie libre Ğ1, St Quentin-en-Yvelines et alentours (78).",
+			"canonical": "/actualites"
+		},
+		{
+			"key": "agenda",
+			"title": "Agenda Géobiologie et Monnaie Libre (Ğ1) dans les Yvelines",
+			"description": "Initiations à la géobiologie, sorties terrain, conférences et événements autour de la monnaie libre Ğ1, St Quentin-en-Yvelines et alentours (78).",
+			"canonical": "/actualites"
 		},
 		{
 			"key": "contact",

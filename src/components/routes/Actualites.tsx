@@ -127,6 +127,21 @@ const Actualites = () => {
 										Dimanche 18 Octobre 2026 à Jouars-Pontchartrain — Dès 09h00
 									</h5>
 									<p>
+										Ces événements sont destinés aux débutants, comme aux
+										initiés, souhaitant explorer l'autonomie et les énergies
+										sous toutes leurs formes. Que ce soit pour comprendre la
+										géobiologie (<b>réseaux géomagnétiques</b>, <b>failles</b>,{' '}
+										<b>veines d'eau</b>, <b>cheminées cosmo-telluriques</b>) ou
+										pour pratiquer la monnaie libre Ğ1 (échanges locaux,
+										conférences citoyennes et ateliers), chaque rencontre
+										favorise le partage et la reconnexion au vivant.
+									</p>
+									<p>
+										Mes activités se déroulent principalement sur
+										Saint-Quentin-en-Yvelines : Plaisir, Guyancourt, Maurepas...
+										ou en forêt de Rambouillet.
+									</p>
+									<p>
 										<i>
 											Journée d’application concrète en extérieur — Prérequis :
 											avoir suivi le cycle{' '}
@@ -207,6 +222,107 @@ const Actualites = () => {
 							<b>monnaie libre (la June - Ğ1)</b> à Jouars-Pontchartrain (78).
 							Venez à la rencontre de nombreux exposants : artisanat local,
 							articles d’occasion, plants de jardin et livres thématiques.
+						</p>
+						<h4>📅 Programme du Ğmarché du 30 août de 10h00 à 18h00 :</h4>
+								10h00 : Début du Ğmarché — Ouverture des stands, rencontres,
+								échanges en June.
+							<br />
+								<b>cheminées cosmo-telluriques</b>.
+						</ul>
+						<h4>📅 Partie 2 : Dimanche 11 Octobre 2026 (Plaisir 78)</h4>
+						<ul>
+								12h00 : Repas partagé — Chacun apporte quelque chose ; moment
+								convivial et communautaire.
+							<br />
+								14h00 à 18h00 : Atelier Bien-Être - animé par Marie <br />{' '}
+								<a
+									href='https://massage-reiki.fr/massage-assis-methode-eas'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									Massages du dos assis professionnel
+								</a>{' '}
+								— Séances de 15 minutes, sur mesure, pour soulager les tensions
+								et favoriser la détente.
+							<br />
+								14h30 à 15h30 : Conférence monnaie libre - animée par Cyril{' '}
+								<i>(moi)</i>
+								<br /> Changer la monnaie pour changer notre r-apport au monde :
+								Comprendre l’impact de la monnaie sur notre vie quotidienne et
+								notre relation aux autres.
+							<br />
+						</ul>
+						<p className='txt-center txt-warning'>
+							⚠️ Attention réservation <b>obligatoire</b> ⚠️
+							<i>
+								Possibilité de régler une partie du cursus en Ğ1 (monnaie libre)
+								sur demande.
+							</i>
+						</p>
+						<p className='txt-center txt-warning'>
+							⚠️ Attention réservation <b>obligatoire</b> ⚠️
+						</p>
+						<a
+							href='/contact?sujet=initiation-géobiologie'
+							className='cta cta-primary'
+							title='Lien pour réserver un ou plusieurs modules pour l’initiation à la Géobiologie - Explorateur de l’invisible'
+						>
+							Réserver
+						</a>{' '}
+						<a
+							href='/geobiologie#invisible'
+							className='cta cta-secondary'
+							title='En savoir plus sur l’initiation à la Géobiologie - Explorateur de l’invisible'
+						>
+							En savoir plus
+						</a>
+					</section>
+					<section className='paragraphe-2'>
+						<h3>Sortie Nature et Pratique</h3>
+						<h4>Exploration Énergétique de la Fontaine Saint-Martin</h4>
+						<h5>Dimanche 18 Octobre 2026 à Jouars-Pontchartrain — Dès 09h00</h5>
+								<a
+									href='/geobiologie#invisible'
+									title="En savoir plus sur le cycle d'initiation à la géobiologie Explorateur de l'Invisible"
+									target='_blank'
+								>
+									"Explorateur de l'Invisible"
+								</a>{' '}
+								ou équivalent.
+						</p>
+						<p>
+							Cette sortie géobiologie sur le terrain, sous réserve de météo
+							clémente, est idéale pour mettre en pratique les savoirs acquis
+							lors du cycle{' '}
+							<a
+								href='/geobiologie#invisible'
+								title="En savoir plus sur le cycle d'initiation à la géobiologie Explorateur de l'Invisible"
+								target='_blank'
+							>
+								"Explorateur de l'Invisible"
+							</a>
+							. Ensemble, nous analyserons les vibrations, les mémoires et la
+							structure énergétique de ce lieu chargé d’Histoire.
+							💶 <b>Tarif des sorties :</b> 60€ par sortie{' '}
+							<i>
+								Possibilité de régler une partie de la sortie en Ğ1 (monnaie
+								libre) sur demande.
+							</i>
+						</p>
+						<p className='txt-center txt-warning'>
+							⚠️ Attention réservation <b>obligatoire</b> ⚠️
+						</p>
+						<a
+							href='/contact?sujet=sortie-géobiologie'
+							className='cta cta-primary'
+							title='Lien pour réserver une place pour la sortie pratique de Géobiologie'
+						>
+							Réserver
+						</a>
+
+							Ğmarché et Conférence Citoyenne à Jouars-Pontchartrain - Dimanche
+							30 août 2026 de 10h00 à 18h00 — Entrée libre
+						</h3>
 						</p>
 						<h4>📅 Programme du Ğmarché du 30 août de 10h00 à 18h00 :</h4>
 						<ul>

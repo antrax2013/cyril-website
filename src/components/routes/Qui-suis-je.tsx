@@ -72,7 +72,7 @@ const QuiSuisJe = () => {
 								>
 									Reiki Usui
 								</a>
-								. Et ensemble, en septembre 2023, nous sommes devenus maître
+								. Et ensemble, en septembre 2023, nous sommes devenus maîtres
 								Reiki. Merci{' '}
 								<a
 									href='https://www.reflexologie-carolejacob.fr/'

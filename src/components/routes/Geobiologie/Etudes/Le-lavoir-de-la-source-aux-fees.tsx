@@ -212,7 +212,7 @@ const LeLavoirDeLaSourceAuxFees = () => {
 								retrouvée.
 							</p>
 							<p>
-								A l’exception d'un seul réseau, tous les réseaux sont
+								À l’exception d'un seul réseau, tous les réseaux sont
 								strictement alignés et parallèles aux murs de la structure
 								bâtisse-bassin. Cette organisation, atypique, laisse sous
 								entendre une manipulation des énergies subtiles du lieu avec

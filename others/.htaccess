@@ -12,6 +12,10 @@ Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains
   RewriteRule ^saintes-fontaines/facebook/?$ /etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain?utm_source=facebook&utm_medium=social&utm_campaign=saintes_fontaines_2026 [R=302,L,NE]
   RewriteRule ^saintes-fontaines/instagram/?$ /etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain?utm_source=instagram&utm_medium=social&utm_campaign=saintes_fontaines_2026 [R=302,L,NE]
   
+  # Les nouvelles pages
+  RewriteRule ^qui-suis-je/?$ /mon-approche [R=301,L]
+  RewriteRule ^agenda/?$ /actualites [R=301,L]
+
   # return our SPA code, but ignore static files
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
