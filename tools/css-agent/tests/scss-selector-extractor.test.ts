@@ -4,6 +4,7 @@ import type { SelectorCandidate } from './../src/selector-analysis';
 
 describe('extractSelectorCandidatesFromScss', () => {
 	const anyScssFile: string = 'any-file.scss';
+	const anyMixinName: string = 'any-mixin';
 
 	it('extracts a root selector from SCSS', () => {
 		// Given
@@ -84,13 +85,6 @@ describe('extractSelectorCandidatesFromScss', () => {
 
 		// Then
 		expect(candidates).toEqual([
-			{
-				selector: '.QuiSuisJe',
-				source: {
-					file: anyScssFile,
-					line: 1,
-				},
-			},
 			{
 				selector: '.QuiSuisJe .paragraphe-1',
 				source: {
@@ -192,21 +186,14 @@ describe('extractSelectorCandidatesFromScss', () => {
 		const scssContent: string = [
 			'.page {',
 			'\t@media (max-width: 768px) {',
-			'\t\t.title {}',
+			'\t\t.title { color: blue; }',
 			'\t}',
 			'',
-			'\t.content {}',
+			'\t.content { margin: 1rem; }',
 			'}',
 		].join('\n');
 
 		const expectedCandidates: SelectorCandidate[] = [
-			{
-				selector: '.page',
-				source: {
-					file: anyScssFile,
-					line: 1,
-				},
-			},
 			{
 				selector: '.page .title',
 				source: {
@@ -259,5 +246,122 @@ describe('extractSelectorCandidatesFromScss', () => {
 				},
 			},
 		]);
+	});
+
+	it('extracts an element selector nested inside a class selector', () => {
+		// Given
+		const scssContent: string = [
+			'.article {',
+			'\tp {',
+			'\t\tcolor: red;',
+			'\t}',
+			'}',
+		].join('\n');
+
+		// When
+		const candidates: SelectorCandidate[] = extractSelectorCandidatesFromScss(
+			scssContent,
+			anyScssFile,
+		);
+
+		// Then
+		expect(candidates).toEqual([
+			{
+				selector: '.article p',
+				source: {
+					file: anyScssFile,
+					line: 2,
+				},
+			},
+		]);
+	});
+
+	it('extracts grouped nested selectors containing a mixin inclusion', () => {
+		// Given
+		const anyMixinName: string = 'any-mixin';
+
+		const scssContent: string = [
+			`@mixin ${anyMixinName} {`,
+			'\tcolor: red;',
+			'}',
+			'',
+			'.Les9RitesMunayKi {',
+			'\t.paragraphe-1-1 .paragraphe-content,',
+			'\t.paragraphe-1-2 .paragraphe-content {',
+			`\t\t@include ${anyMixinName};`,
+			'\t}',
+			'}',
+		].join('\n');
+
+		// When
+		const candidates: SelectorCandidate[] = extractSelectorCandidatesFromScss(
+			scssContent,
+			anyScssFile,
+		);
+
+		// Then
+		expect(candidates).toEqual([
+			{
+				selector: '.Les9RitesMunayKi .paragraphe-1-1 .paragraphe-content',
+				source: {
+					file: anyScssFile,
+					line: 6,
+				},
+			},
+			{
+				selector: '.Les9RitesMunayKi .paragraphe-1-2 .paragraphe-content',
+				source: {
+					file: anyScssFile,
+					line: 7,
+				},
+			},
+		]);
+	});
+
+	it('keeps an unstyled parent selector through a nested media query', () => {
+		// Given
+		const scssContent: string = [
+			'.page {',
+			'\t@media (min-width: 426px) and (max-width: 691px) {',
+			'\t\taside.content ul {',
+			'\t\t\tpadding-left: 0;',
+			'\t\t}',
+			'\t}',
+			'}',
+		].join('\n');
+
+		// When
+		const candidates: SelectorCandidate[] = extractSelectorCandidatesFromScss(
+			scssContent,
+			anyScssFile,
+		);
+
+		// Then
+		expect(candidates).toEqual([
+			{
+				selector: '.page aside.content ul',
+				source: {
+					file: anyScssFile,
+					line: 3,
+				},
+			},
+		]);
+	});
+
+	it('ignores a root SCSS variable declaration', () => {
+		// Given
+		const anyVariableName: string = '$any-color';
+		const anyVariableValue: string = '#196b00';
+
+		const scssContent: string = `${anyVariableName}: ${anyVariableValue};`;
+
+		// When
+		const candidates: SelectorCandidate[] = extractSelectorCandidatesFromScss(
+			scssContent,
+			anyScssFile,
+		);
+
+		// Then
+		expect(candidates).toEqual([]);
 	});
 });
