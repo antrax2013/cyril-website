@@ -3,30 +3,38 @@ import {
 	assessSelector,
 	SelectorEvidence,
 	type SelectorCandidate,
-} from './selector-analysis';
+} from './../src/selector-analysis';
 
-describe('analyzeSelector', () => {
+describe('assessSelector', () => {
+	const anyScssFile: string = 'any-file.scss';
+	const anyPageName: string = '/any-page';
+	const anyLineNumber: number = 42;
+	const anySelector: string = '.any-selector';
+	const anyLibraryName: string = 'any-library';
+	const anyClassName: string = 'any-class';
+	const anyJsxFile: string = 'any-component.tsx';
+
+	const anyCandidate: SelectorCandidate = {
+		selector: anySelector,
+		source: {
+			file: anyScssFile,
+			line: anyLineNumber,
+		},
+	};
+
 	it('classifies a selector compatible with the JSX structure as probable', () => {
 		// Given
-		const probableCandidate: SelectorCandidate = {
-			selector: '.QuiSuisJe .paragraphe-1',
-			source: {
-				file: 'src/scss/routes/QuiSuisJe.scss',
-				line: 3,
-			},
-		};
-
 		const jsxStructureEvidence: SelectorEvidence = {
 			type: 'jsx-structure-compatible',
-			matchedClassName: 'paragraphe-1',
+			matchedClassName: anyClassName,
 			classNameLocation: {
-				file: 'src/components/routes/Qui-suis-je.tsx',
-				line: 15,
+				file: anyJsxFile,
+				line: anyLineNumber,
 			},
 		};
 
 		// When
-		const analysis = assessSelector(probableCandidate, [jsxStructureEvidence]);
+		const analysis = assessSelector(anyCandidate, [jsxStructureEvidence]);
 
 		// Then
 		expect(analysis.usage).toBe('probable');
@@ -35,28 +43,20 @@ describe('analyzeSelector', () => {
 		expect(analysis.evidence).toEqual([jsxStructureEvidence]);
 	});
 
-	it('keeps a PrimeReact selector protected even when it is observed', () => {
+	it('keeps a library selector protected even when it is observed', () => {
 		// Given
-		const primeProtectedCandidate: SelectorCandidate = {
-			selector: '.p-dialog-center .p-dialog-content',
-			source: {
-				file: 'src/scss/tools/CustomDialog.scss',
-				line: 1,
-			},
-		};
-
 		const primeLibraryEvidence: SelectorEvidence = {
 			type: 'library-class',
-			library: 'primereact',
+			library: anyLibraryName,
 		};
 
 		const domMatchEvidence: SelectorEvidence = {
 			type: 'dom-match',
-			page: '/contact',
+			page: anyPageName,
 		};
 
 		// When
-		const analysis = assessSelector(primeProtectedCandidate, [
+		const analysis = assessSelector(anyCandidate, [
 			domMatchEvidence,
 			primeLibraryEvidence,
 		]);
@@ -64,19 +64,15 @@ describe('analyzeSelector', () => {
 		// Then
 		expect(analysis.usage).toBe('observed');
 		expect(analysis.protection).toBe('protected');
-		expect(analysis.protectionReasons).toEqual(['library-class:primereact']);
+		expect(analysis.protectionReasons).toEqual([
+			`library-class:${anyLibraryName}`,
+		]);
 		expect(analysis.evidence).toEqual([domMatchEvidence, primeLibraryEvidence]);
 	});
 
 	it('marks a selector without usage evidence as unreferenced', () => {
-		// Given
-		const fictionalUnreferencedCandidate: SelectorCandidate = {
-			selector: '.fictional-page .fictional-title',
-			source: { file: 'src/scss/index.scss', line: 100 },
-		};
-
 		// When
-		const analysis = assessSelector(fictionalUnreferencedCandidate, []);
+		const analysis = assessSelector(anyCandidate, []);
 
 		// Then
 		expect(analysis.usage).toBe('unreferenced');
