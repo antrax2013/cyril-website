@@ -7,6 +7,7 @@
 		"dev": "vite",
 		"generate": "tsc && vite build",
 		"build": "tsc && vite build",
+		"css-agent:test": "vitest run tools/css-agent",
 		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview",
 		"compile-sass": "sass --watch src/scss/:public/css --no-source-map -s compressed",
@@ -28,6 +29,7 @@
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.4.0",
+		"@types/jsdom": "^30.0.0",
 		"@types/react": "^19.0.10",
 		"@types/react-dom": "^19.0.4",
 		"@typescript-eslint/eslint-plugin": "^8.24.1",
@@ -36,12 +38,18 @@
 		"eslint": "^9.27.0",
 		"eslint-plugin-react-hooks": "^5.1.0",
 		"eslint-plugin-react-refresh": "^0.4.19",
+		"fast-glob": "^3.3.3",
+		"jsdom": "^26.1.0",
+		"postcss": "^8.5.28",
+		"postcss-scss": "^4.0.9",
+		"postcss-selector-parser": "^7.1.6",
 		"purgecss": "^7.0.2",
-		"react-spa-prerender": "^1.0.1",
+		"react-spa-prerender": "^1.0.10",
 		"sass": "^1.89.0",
 		"stylelint": "^16.25.0",
 		"stylelint-prettier": "^5.0.3",
 		"typescript": "^5.8.3",
-		"vite": "^6.3.5"
+		"vite": "^6.3.5",
+		"vitest": "^5.0.0"
 	}
 }
