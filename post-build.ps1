@@ -21,9 +21,9 @@ $directory = "./build/*"
 
 # Define the templates
 $mainTemplate = "##main-web-site-url##"
-$titleTemplate = "<!-- ##title## -->"
-$descriptionTemplate = "<!-- ##description## -->"
-$canonicalTemplate = "<!-- ##canonical## -->"
+$titleTemplate = "##title##"
+$descriptionTemplate = "##description##"
+$canonicalTemplate = "##canonical##"
 
 # Get all files in the directory
 $files = Get-ChildItem -Path $directory -Filter "*.html" -File -Recurse
@@ -56,8 +56,8 @@ foreach ($file in $files) {
     $content = $content -replace [regex]::Escape($mainTemplate), $mainUrl    
 
     $mandatories = @(
-        @{ name="title"; template=$titleTemplate; htmlTag="<title>{value}</title>" },
-        @{ name="description"; template=$descriptionTemplate; htmlTag="<meta name='description' content='{value}'>" }
+        @{ name="title"; template=$titleTemplate; htmlTag="{value}" },
+        @{ name="description"; template=$descriptionTemplate; htmlTag="{value}" }
     )
 
     foreach ($property in $mandatories) {
@@ -73,7 +73,7 @@ foreach ($file in $files) {
     }
 
     if ($null -ne $meta.canonical) {
-      $htmlTag = "<link rel='canonical' href='{value}' />"
+      $htmlTag = "{value}"
       $render = $htmlTag.Replace("{value}", "https://$($mainUrl.TrimEnd('/'))/$($meta.canonical.TrimStart('/'))")
       $content = $content -replace [regex]::Escape($canonicalTemplate), $render
     }
