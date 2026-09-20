@@ -28,7 +28,7 @@ const LeLavoirDeLaSourceAuxFees = () => {
 						<section className='icon-panel'>
 							<SharePopup
 								url={window.location.href}
-								title='La fontaine Saint‑Sauveur - étude géobiologique'
+								title='Le lavoir de la source aux fées - étude géobiologique'
 							/>
 						</section>
 					</legend>

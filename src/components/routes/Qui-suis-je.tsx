@@ -1,4 +1,4 @@
-import ImgMoi from '../../assets/moi.png';
+import ImgMoi from '../../assets/moi-bois-baguettes-bruyeres.jpg';
 import '../../scss/routes/QuiSuisJe.scss';
 import SharePopup from '../tools/SharePopup';
 import ParagraphSeparator from '../tools/Paragraph-Separator';
@@ -24,6 +24,94 @@ const QuiSuisJe = () => {
 							</div>
 						</aside>
 						<section className='paragraphe-content'>
+							<p>
+								Curieux de nature, passionné d'Histoire, de patrimoine et de
+								vivant, j’explore depuis plusieurs années la géobiologie et les
+								mondes subtils à travers l'observation, l'expérimentation et le
+								terrain.
+							</p>
+							<p>
+								Au fil de mes recherches et de mes explorations, j’ai développé
+								une approche centrée sur la lecture des lieux : observer les
+								signaux faibles, comprendre les interactions qui façonnent un
+								territoire et croiser ces observations avec son histoire, ses
+								traditions et son environnement.
+							</p>
+							<p>
+								Aujourd’hui, je partage cette démarche principalement à{' '}
+								<b>Saint-Quentin-en-Yvelines et dans les Yvelines</b>, à travers
+								mes explorations, mes conférences et le cycle « Explorateur de
+								l’Invisible ». Avec une envie : transmettre des outils et une
+								méthode pour permettre à chacun d’expérimenter, de développer
+								son discernement et de devenir progressivement autonome.
+							</p>
+						</section>
+					</section>
+					<ParagraphSeparator />
+					<section className='geobiologie-exploration'>
+						<section className='paragraphe-content'>
+							<h2>Mon approche</h2>
+							<h3>La géobiologie d’exploration</h3>
+							<p>
+								La géobiologie est souvent associée à l’harmonisation
+								énergétique des maisons ou à la recherche de perturbations à
+								corriger. <b>Ce n’est pas l’approche que je développe.</b>
+							</p>
+							<p>
+								Pour moi, la géobiologie est avant tout une{' '}
+								<b>méthode de lecture des lieux</b>. Elle invite à observer,
+								expérimenter et comprendre les interactions entre la géologie,
+								l’eau, le vivant, les paysages, les symboles, les traditions et
+								la mémoire d’un territoire.
+							</p>
+							<p>
+								Il ne s’agit pas de transformer un lieu, mais d’apprendre à le
+								reconnaître, à le décrypter et à comprendre l’histoire qu’il
+								raconte.
+							</p>
+
+							<h4>Observer les signaux faibles</h4>
+							<p>
+								Développer un regard attentif sur les indices laissés par la
+								nature : formes du paysage, comportement du vivant, eau,
+								végétation, atmosphère, symboles ou détails qui passent souvent
+								inaperçus.
+							</p>
+							<h4>Comprendre les interactions</h4>
+							<p>
+								Découvrir comment la géologie, l’eau, le vivant, les paysages et
+								les présences symboliques et subtiles s’influencent mutuellement
+								pour donner naissance à l’identité d’un lieu.
+							</p>
+							<h4>Décrypter le territoire</h4>
+							<p>
+								Croiser les observations de terrain avec l’histoire locale, le
+								patrimoine, les traditions, les légendes et le folklore afin de
+								révéler la cohérence profonde d’un paysage.
+							</p>
+							<h4>Lire l’histoire du lieu</h4>
+							<p>
+								Comprendre la mémoire vivante d’un territoire en faisant
+								dialoguer les observations, la culture, le vivant et les mondes
+								subtils, sans chercher des certitudes mais une lecture sensible
+								et éclairée.
+							</p>
+							<a
+								href='/geobiologie'
+								className='cta cta-primary'
+								title='Découvrir ma vision de la géobiologie et de l’exploration des lieux'
+							>
+								Découvrir la géobiologie
+							</a>
+						</section>
+					</section>
+					<ParagraphSeparator />
+					<section className='paragraphe-2'>
+						<section className='paragraphe-content'>
+							<h2>Mon parcours</h2>
+							<p>
+								Mon parcours pour en arriver là est beaucoup moins linéaire.
+							</p>
 							<p>
 								Développeur d’applications informatiques depuis 2004, curieux et
 								autodidacte, j’aime apprendre et comprendre.
@@ -56,76 +144,98 @@ const QuiSuisJe = () => {
 					<section className='paragraphe-2'>
 						<section className='paragraphe-content'>
 							<p>
-								Je me suis, dans un premier temps, en 2020, avec{' '}
+								En 2020, je découvre le <em>Reiki Usui</em> aux côtés de{' '}
 								<a
-									href='https://marie.cophignon.net'
-									title='Accédez par ce lien au site de mon épouse, Marie'
+									href='https://marie.cophignon.net/'
+									title='Accédez au site de mon épouse, Marie'
 									target='_blank'
+									rel='noopener noreferrer'
 								>
-									mon épouse
+									mon épouse Marie
 								</a>
-								, formé au{' '}
-								<a
-									href='https://marie.cophignon.net/reiki'
-									title='Accédez par ce lien au site de mon épouse, qui vous présente ce qu’est le Reiki Usui'
-									target='_blank'
-								>
-									Reiki Usui
-								</a>
-								. Et ensemble, en septembre 2023, nous sommes devenus maîtres
-								Reiki. Merci{' '}
+								, auprès de{' '}
 								<a
 									href='https://www.reflexologie-carolejacob.fr/'
-									title='Accédez par ce lien au site de Carole Jacob, réflexologue et maître Reiki Usui enseignante.'
+									title='Accédez au site de Carole Jacob, réflexologue et maître Reiki Usui enseignante'
 									target='_blank'
+									rel='noopener noreferrer'
 								>
 									Carole Jacob
 								</a>
-								.
+								. Cette première expérience m’ouvre à une perception plus
+								sensible du vivant et des mondes subtils. J’expérimente alors
+								des ressentis nouveaux qui éveillent ma curiosité et me donnent
+								envie d’aller plus loin. En septembre 2023, nous poursuivons ce
+								cheminement jusqu’à devenir tous les deux maîtres Reiki.
 							</p>
+
 							<p>
-								Le <em>Reiki</em> m’a permis de m’ouvrir aux mondes du subtil et
-								de l’énergétique. Je ne remercierai jamais assez cette porte qui
-								s’est ouverte à moi. Grâce à elle, j’ai pu expérimenter et
-								découvrir des sensations nouvelles, enrichissantes me donnant
-								envie d’aller plus loin.
+								En 2021, une nouvelle étape importante commence avec mon
+								initiation à la <em>géobiologie auprès de Catherine Leveau</em>.
+								C’est un véritable tournant. Je découvre une autre manière
+								d’observer les lieux, de percevoir ce qui les traverse et de
+								m’interroger sur les interactions entre leur environnement, le
+								vivant et les phénomènes subtils. La géobiologie devient
+								progressivement une véritable passion et le point central de mes
+								explorations.
 							</p>
+
 							<p>
-								En 2021, je m’initie, avec Catherine Leveau, à la{' '}
-								<em>Géobiologie</em>. Un cadeau, un véritable tournant pour moi.
-								Grâce à la <em>Géobiologie</em>, je peux accéder à des
-								informations subtiles sur un lieu, à l’âme du lieu. Maintenant,
-								c’est une véritable passion.
-							</p>
-							<p>
-								En 2023, j’ai reçu les 9 rites du <em>Munay-Ki</em>. Pendant un
+								En 2023, je reçois les <em>9 rites du Munay-Ki</em>. Pendant un
 								peu plus d’un an,{' '}
 								<a
 									href='https://www.facebook.com/subileau.psychosomato/'
-									title='Accédez par ce lien à la page Facebook de Ludivine Subileau, psycho-somatothérapeute,.'
+									title='Accédez à la page Facebook de Ludivine Subileau'
 									target='_blank'
+									rel='noopener noreferrer'
 								>
 									Ludivine Subileau
-								</a>
-								, m’a transmis des enseignements chamaniques d’Amérique du Sud.
-								Une ouverture sur un monde nouveau que je souhaite continuer
-								d'explorer.
+								</a>{' '}
+								me transmet également des enseignements chamaniques d’Amérique
+								du Sud. Cette expérience élargit encore mon regard, notamment
+								sur les symboles, les traditions et les différentes manières
+								dont les cultures appréhendent leur relation au vivant et au
+								monde qui les entoure.
 							</p>
+
 							<p>
-								En février 2025, je participe à mon premier salon, le salon du
-								bien-être à St Lambert-des-bois où je fais une conférence sur la{' '}
-								<em>Géobiologie</em>. Par la magie du hasard, j’y rencontre
-								Marjorie Dufresne. J'échange avec elle sur la pratique de la{' '}
-								<em>communication animale</em> et je me rends compte que la
-								personne qui l’a initiée réside à quelques kilomètres. Et donc,
-								en octobre 2025, je participe au premier module du cycle de{' '}
-								<em>communication animale</em> dispensé par{' '}
+								En février 2025, je participe à mon premier salon du bien-être à{' '}
+								<strong>Saint-Lambert-des-Bois</strong>, où je donne une
+								conférence sur la géobiologie. J’y rencontre Marjorie Dufresne
+								et découvre à travers nos échanges la{' '}
+								<em>communication animale</em>. Quelques mois plus tard, en
+								octobre 2025, je participe au premier module du cycle proposé
+								par{' '}
 								<a
 									href='https://www.quanticienne-chamanique.fr/'
-									title='Accédez par ce lien au site d’Emmanta d’Eaubonne, quanticienne chamanique.'
+									title='Découvrir le site Emmanta d’Eaubonne, quanticienne chamanique'
 									target='_blank'
-								></a>
-								Emmanta d'Eaubonne.
+									rel='noopener noreferrer'
+								>
+									Emmanta d’Eaubonne
+								</a>
+								. Cette pratique ouvre une nouvelle voie d’exploration de notre
+								relation au vivant, que je continue aujourd’hui à approfondir.
+							</p>
+
+							<p>
+								Je me suis également formé au{' '}
+								<em>test musculaire de kinésiologie</em> auprès de{' '}
+								<a
+									href='https://ecoledesartsdusouffle.com/nos-formations/initiation-art-test-musculaire/'
+									title='Découvrir l’École des Arts du Souffle et l’initiation au test musculaire'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									Sonia Blaise, à l’École des Arts du Souffle
+								</a>
+								, dans les Ardennes. J’y ai découvert un outil permettant
+								d’interroger les réactions du corps et d’explorer ce qui peut
+								être difficile à percevoir ou à verbaliser. Cette approche
+								complète ma pratique de la géobiologie en m’offrant une autre
+								manière d’observer la relation entre une personne et un lieu,
+								notamment les ressentis ou les réactions que celui-ci peut
+								susciter et dont la personne n’a pas nécessairement conscience.
 							</p>
 						</section>
 					</section>
@@ -167,10 +277,14 @@ const QuiSuisJe = () => {
 									et au Reiki Usui
 								</li>
 								<li>
-									Être initié aux <em>rites chamaniques du Munay-Ki</em>
+									D’être initié aux <em>rites chamaniques du Munay-Ki</em>
 								</li>
 								<li>
 									Recevoir des enseignements <em>chamaniques</em>
+								</li>
+								<li>
+									D’apprendre à pratiquer le test musculaire{' '}
+									<em>de Kinésiologie</em>
 								</li>
 							</ul>
 							<p>
