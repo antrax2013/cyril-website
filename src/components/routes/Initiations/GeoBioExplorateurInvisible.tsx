@@ -8,7 +8,10 @@ const GeoBioExplorateurInvisible = () => {
 					<div>
 						<h1>Initiation à la Géobiologie — Explorateur de l’invisible</h1>
 						<section className='icon-panel'>
-							<SharePopup url={window.location.href} title='Les actualités' />
+							<SharePopup
+								url={window.location.href}
+								title='Initiation à la géobiologie — Explorateur de l’invisible'
+							/>
 						</section>
 						<p>
 							Entrez dans la géobiologie par l’expérience du terrain avec le
@@ -63,6 +66,11 @@ const GeoBioExplorateurInvisible = () => {
 									et expérimentation sur le terrain.
 								</li>
 							</ul>
+							<p>
+								Les ateliers sont principalement organisés à
+								Saint-Quentin-en-Yvelines et dans les Yvelines, selon les
+								modules et les possibilités d'exploration sur le terrain.
+							</p>
 						</section>
 
 						<section id='programme'>

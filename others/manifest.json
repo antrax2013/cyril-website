@@ -52,7 +52,7 @@
 			"name": "Mon approche",
 			"short_name": "Mon approche",
 			"description": "Découvrez mon approche : observer, expérimenter et comprendre les interactions entre les lieux, le vivant et les mondes subtils.",
-			"url": "/"
+			"url": "/mon-approche"
 		},
 		{
 			"name": "Actualités",
@@ -65,6 +65,12 @@
 			"short_name": "Géobiologie",
 			"description": "La Géobiologie, l’étude des phénomènes ondulatoires d’un lieu et de leurs impacts sur le vivant.",
 			"url": "/geobiologie"
+		},
+		{
+			"name": "Initiation à la géobiologie | Explorateur de l’invisible",
+			"short_name": "Cycle Explorateur de l’invisible",
+			"description": "Apprendre la géobiologie en 4 modules mêlant théorie et pratique pour détecter les phénomènes, comprendre leurs interactions et gagner en autonomie.",
+			"url": "/initiations/geobiologie/explorateur-de-l-invisible"
 		},
 		{
 			"name": "La communication animale",
@@ -82,7 +88,7 @@
 			"name": "Les cupules",
 			"short_name": "Les cupules",
 			"description": "Article sur les cupules, le pendant féminin du ménhir.",
-			"url": "/les-cupules"
+			"url": "/geologie/les-cupules"
 		},
 		{
 			"name": "La fontaine Saint‑Sauveur de Maurepas, étude géobiologique",
