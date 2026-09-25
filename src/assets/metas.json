@@ -2,8 +2,8 @@
 	"metas": [
 		{
 			"key": "index",
-			"title": "Cyril COPHIGNON – Explorons ensemble les mondes subtils",
-			"description": "Explorateur des mondes subtils, Cyril Cophignon transmet ses connaissances en géobiologie, communication animale et chamanisme pour vous guider.",
+			"title": "Géobiologie d’exploration dans les Yvelines - Cyril COPHIGNON",
+			"description": "Découvrez une approche de la géobiologie centrée sur l’observation, le terrain et la lecture des lieux, à Saint-Quentin-en-Yvelines et dans les Yvelines.",
 			"canonical": ""
 		},
 		{
@@ -14,27 +14,27 @@
 		},
 		{
 			"key": "actualites",
-			"title": "Agenda Géobiologie et Monnaie Libre (Ğ1) dans les Yvelines",
-			"description": "Initiations à la géobiologie, sorties terrain, conférences et événements autour de la monnaie libre Ğ1, St Quentin-en-Yvelines et alentours (78).",
+			"title": "Agenda Géobiologie dans les Yvelines – Cyril Cophignon",
+			"description": "Retrouvez les prochaines initiations, explorations de terrain et conférences autour de la géobiologie à Saint-Quentin-en-Yvelines et dans les Yvelines.",
 			"canonical": "/actualites"
 		},
 		{
 			"key": "agenda",
-			"title": "Agenda Géobiologie et Monnaie Libre (Ğ1) dans les Yvelines",
-			"description": "Initiations à la géobiologie, sorties terrain, conférences et événements autour de la monnaie libre Ğ1, St Quentin-en-Yvelines et alentours (78).",
+			"title": "Agenda Géobiologie dans les Yvelines – Cyril Cophignon",
+			"description": "Retrouvez les prochaines initiations, explorations de terrain et conférences autour de la géobiologie à Saint-Quentin-en-Yvelines et dans les Yvelines.",
 			"canonical": "/actualites"
 		},
 		{
 			"key": "contact",
 			"title": "Contact – Cyril COPHIGNON",
-			"description": "Envie d’explorer les mondes subtils, de faire une communication avec votre animal ou découvrir la géobiologie ? Contactez Cyril Cophignon.",
+			"description": "Contactez-moi pour une initiation, une exploration de terrain ou une conférence autour de la géobiologie à Saint-Quentin-en-Yvelines et dans les Yvelines.",
 			"canonical": "/contact"
 		},
 
 		{
 			"key": "geobiologie",
 			"title": "La Géobiologie d'exploration — Cyril COPHIGNON",
-			"description": "Cyril Cophignon transmet ses connaissances en géobiologie et exploration des mondes subtils pour éclairer, comprendre et accompagner votre relation aux lieux.",
+			"description": "Découvrez une approche de la géobiologie fondée sur l’observation, l’expérimentation et la lecture des interactions entre les lieux, le vivant et leur histoire.",
 			"canonical": "/geobiologie"
 		},
 		{
@@ -57,8 +57,8 @@
 		},
 		{
 			"key": "les-cupules",
-			"title": "Les cupules – Cyril Cophignon",
-			"description": "Cyril Cophignon vous présente les cupules, ces énigmatiques pétroglyphes anciens liés au féminin, pour découvrir ce que les mondes subtils révèlent de leur mémoire.",
+			"title": "Cupules : histoire, symboles et lecture des lieux – Cyril Cophignon",
+			"description": "Découvrez les cupules creusées dans la pierre, leurs usages supposés, leur dimension symbolique et la manière dont elles peuvent enrichir la lecture d’un lieu.",
 			"canonical": "/geologie/les-cupules"
 		},
 		{
