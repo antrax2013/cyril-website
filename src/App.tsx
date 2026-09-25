@@ -12,6 +12,7 @@ import * as LocalBusinessLd from './components/fragments/JsonLd/localBusiness.js
 
 const MessageAnimal = lazy(() => import('./components/routes/Message-animal'));
 const Actualites = lazy(() => import('./components/routes/Actualites'));
+const Explorations = lazy(() => import('./components/routes/Explorations'));
 const Contact = lazy(() => import('./components/routes/Contact'));
 const ContactWrapper = lazy(() => import('./components/routes/ContactWrapper'));
 const Error404 = lazy(() => import('./components/routes/Error404'));
@@ -35,9 +36,7 @@ const GeoBioExplorateurInvisible = lazy(
 // Ressources
 const LeLavoirDeLaSourceAuxFees = lazy(
 	() =>
-		import(
-			'./components/routes/Geobiologie/Etudes/Le-lavoir-de-la-source-aux-fees'
-		),
+		import('./components/routes/Geobiologie/Etudes/Le-lavoir-de-la-source-aux-fees'),
 );
 const FontaineStSauveur = lazy(
 	() => import('./components/routes/Geobiologie/Etudes/Fontaine-st-Sauveur'),
@@ -91,6 +90,7 @@ const App = () => {
 								element={<GeoBioExplorateurInvisible />}
 							/>
 							<Route path='agenda' element={<Actualites />} />
+							<Route path='explorations' element={<Explorations />} />
 
 							<Route path='contact' element={<Contact />} />
 							<Route

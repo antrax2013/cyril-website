@@ -12,16 +12,16 @@ const Actualites = () => {
 			<div className='actualites'>
 				<div className='article'>
 					<h1>
-						Actualités & Agenda : Géobiologie et Monnaie Libre (Ğ1) dans les
-						Yvelines (78)
+						Actualités & Agenda : Géobiologie et explorations dans les Yvelines
+						(78)
 					</h1>
 					<section className='icon-panel'>
 						<SharePopup url={window.location.href} title='Les actualités' />
 					</section>
 					<p>
-						Découvrez mes prochaines initiations, ateliers, conférences et
-						sorties terrain en géobiologie, ainsi que nos rencontres et Ğmarchés
-						autour de la monnaie libre (Ğ1 / June) dans les Yvelines.
+						Retrouvez les prochaines initiations, explorations de terrain et
+						conférences autour de la géobiologie à Saint-Quentin-en-Yvelines et
+						dans les Yvelines.
 					</p>
 					<p>
 						Ces événements sont destinés aux débutants, comme aux initiés,

@@ -17,6 +17,11 @@ const SiteMap = () => {
 						<a href='/geobiologie'>Géobiologie</a>
 					</li>
 					<li>
+						<a href='/explorations'>
+							Explorations géobiologiques et lecture des lieux
+						</a>
+					</li>
+					<li>
 						<a href='/initiations/geobiologie/explorateur-de-l-invisible'>
 							Explorateur de l'invisible - Initiation à la Géobiologie
 						</a>
@@ -56,14 +61,10 @@ const SiteMap = () => {
 								La fontaine St-Martin
 							</a>
 						</li>
-						<li>
-							<a href='/etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas'>
-								La fontaine St-Sauveur
-							</a>
-						</li>
+
 						<li>
 							<a href='/etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees'>
-								Le lavoir de la source aux fées
+								Le lavoir de la source aux fées St-Forget
 							</a>
 						</li>
 					</ul>

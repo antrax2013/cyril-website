@@ -20,6 +20,7 @@ Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteCond %{REQUEST_URI} !\.[a-zA-Z0-9]+$
   RewriteRule . /index.html [L]
   ErrorDocument 404 /erreur-404
 

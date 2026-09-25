@@ -12,7 +12,7 @@ const LeLavoirDeLaSourceAuxFees = () => {
 		<>
 			<div className='LeLavoirDeLaSourceAuxFees'>
 				<div className='article'>
-					<h1>Le lavoir de la source aux fées, étude géobiologique</h1>
+					<h1>Le lavoir de la Source aux Fées à Saint‑Forget</h1>
 					<legend>
 						<a
 							href='https://fr.wikipedia.org/wiki/Licence_Creative_Commons#Sept_licences_régulièrement_utilisées'

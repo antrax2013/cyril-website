@@ -38,6 +38,12 @@
 			"canonical": "/geobiologie"
 		},
 		{
+			"key": "explorations",
+			"title": "Explorations géobiologiques dans les Yvelines | Cyril Cophignon",
+			"description": "Découvrez mes explorations géobiologiques, principalement dans les Yvelines : patrimoine, histoire, nature et lecture sensible des territoires.",
+			"canonical": "/la-communication-animale"
+		},
+		{
 			"key": "les-9-rites-munay-ki",
 			"title": "Les 9 rites Munay-Ki – Cyril Cophignon",
 			"description": "À travers les 9 rites Munay‑Ki, Cyril Cophignon présente un savoir ancestral des Q’eros pour accompagner votre exploration subtile et votre transformation intérieure.",
@@ -75,8 +81,8 @@
 		},
 		{
 			"key": "le-lavoir-de-la-source-aux-fees",
-			"title": "Le lavoir de la source aux fées : étude géobiologique",
-			"description": "Étude géobiologique du lavoir aux fées de Saint‑Forget par Cyril Cophignon, pour transmettre une lecture sensible d’un lieu ancien associé à la guérison.",
+			"title": "Lavoir de la Source aux Fées à Saint‑Forget : étude géobiologique",
+			"description": "Découvrez le lavoir de la Source aux Fées à Saint‑Forget : son histoire, les légendes qui l’entourent et mon exploration géobiologique de ce lieu en forêt..",
 			"canonical": "/etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees"
 		},
 		{
