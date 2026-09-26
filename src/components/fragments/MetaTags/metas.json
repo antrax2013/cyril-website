@@ -16,13 +16,13 @@
 			"key": "actualites",
 			"title": "Agenda Géobiologie dans les Yvelines – Cyril Cophignon",
 			"description": "Retrouvez les prochaines initiations, explorations de terrain et conférences autour de la géobiologie à Saint-Quentin-en-Yvelines et dans les Yvelines.",
-			"canonical": "/actualites"
+			"canonical": "/agenda"
 		},
 		{
 			"key": "agenda",
 			"title": "Agenda Géobiologie dans les Yvelines – Cyril Cophignon",
 			"description": "Retrouvez les prochaines initiations, explorations de terrain et conférences autour de la géobiologie à Saint-Quentin-en-Yvelines et dans les Yvelines.",
-			"canonical": "/actualites"
+			"canonical": "/agenda"
 		},
 		{
 			"key": "contact",
@@ -82,7 +82,7 @@
 		{
 			"key": "le-lavoir-de-la-source-aux-fees",
 			"title": "Lavoir de la Source aux Fées à Saint‑Forget : étude géobiologique",
-			"description": "Découvrez le lavoir de la Source aux Fées à Saint‑Forget : son histoire, les légendes qui l’entourent et mon exploration géobiologique de ce lieu en forêt..",
+			"description": "Découvrez le lavoir de la Source aux Fées à Saint‑Forget : son histoire, les légendes qui l’entourent et mon exploration géobiologique de ce lieu en forêt.",
 			"canonical": "/etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees"
 		},
 		{

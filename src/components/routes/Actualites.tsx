@@ -4,6 +4,10 @@ import SharePopup from '../tools/SharePopup';
 import JsonLd from '../fragments/JsonLd';
 import * as ActuLd from '../fragments/JsonLd/actu.json';
 import photoFontaine from '../../assets/géobiologie/etudes/yvelines/jouars/fontaine st martin/fontaine-st-martin-jouars.jpg';
+import CtaReserver from '../fragments/Ctas/Reserver';
+import CtaExplorateurInv from '../fragments/Ctas/ExplorateurInvisible';
+import CtaExplorations from '../fragments/Ctas/Explorations';
+import Cta from '../fragments/Ctas/Cta';
 
 const Actualites = () => {
 	return (
@@ -41,8 +45,8 @@ const Actualites = () => {
 					<h2>Agenda & Actualités de la Géobiologie dans les Yvelines (78)</h2>
 					<section className='paragraphe-1'>
 						<h3>
-							Initiation à la Géobiologie "Explorateur de l'Invisible" à Plaisir
-							(78)
+							Initiation à la Géobiologie « Explorateur de l’Invisible » à
+							Plaisir (78)
 						</h3>
 						<p>
 							<i>
@@ -101,20 +105,16 @@ const Actualites = () => {
 						<p className='txt-center txt-warning'>
 							⚠️ Attention réservation <b>obligatoire</b> ⚠️
 						</p>
-						<a
-							href='/contact?sujet=initiation-géobiologie'
-							className='cta cta-primary'
-							title='Lien pour réserver un ou plusieurs modules pour l’initiation à la Géobiologie - Explorateur de l’invisible'
-						>
-							Réserver
-						</a>{' '}
-						<a
-							href='/initiations/geobiologie/explorateur-de-l-invisible'
-							className='cta cta-secondary'
-							title='En savoir plus sur l’initiation à la Géobiologie - Explorateur de l’invisible'
-						>
-							En savoir plus
-						</a>
+						<div className='cta-container'>
+							<CtaReserver
+								ctaText={'Apprenez la géobio. avec moi'}
+								title='Lien pour réserver un ou plusieurs modules du cycle Explorateur de l’invisible'
+							/>{' '}
+							<CtaExplorateurInv
+								ctaText={'Voir le contenu du cycle'}
+								className={'cta-secondary'}
+							/>
+						</div>
 					</section>
 					<ParagraphSeparator />
 					<section className='paragraphe-2'>
@@ -144,27 +144,24 @@ const Actualites = () => {
 									<p>
 										<i>
 											Journée d’application concrète en extérieur — Prérequis :
-											avoir suivi le cycle{' '}
-											<a
-												href='/initiations/geobiologie/explorateur-de-l-invisible'
-												title="En savoir plus sur le cycle d'initiation à la géobiologie Explorateur de l'Invisible"
-												target='_blank'
-											>
-												"Explorateur de l'Invisible"
-											</a>{' '}
-											ou équivalent.
+											avoir suivi le cycle « Explorateur de l’Invisible » ou
+											équivalent.
 										</i>
 									</p>
+									<div className='cta-container'>
+										<CtaExplorateurInv className={'cta-secondary'} />{' '}
+										<CtaExplorations className={'cta-tertiary'} />
+									</div>
 									<p>
 										Cette sortie géobiologie sur le terrain, sous réserve de
 										météo clémente, est idéale pour mettre en pratique les
 										savoirs acquis lors du cycle{' '}
 										<a
 											href='/initiations/geobiologie/explorateur-de-l-invisible'
-											title="En savoir plus sur le cycle d'initiation à la géobiologie Explorateur de l'Invisible"
+											title="En savoir plus sur le cycle d'initiation à la géobiologie « Explorateur de l’Invisible »"
 											target='_blank'
 										>
-											"Explorateur de l'Invisible"
+											« Explorateur de l'Invisible »
 										</a>
 										. Ensemble, nous analyserons les vibrations, les mémoires et
 										la structure énergétique de ce lieu chargé d’Histoire.
@@ -193,20 +190,26 @@ const Actualites = () => {
 							<p className='txt-center txt-warning'>
 								⚠️ Attention réservation <b>obligatoire</b> ⚠️
 							</p>
-							<a
-								href='/contact?sujet=sortie-géobiologie'
-								className='cta cta-primary'
-								title='Lien pour réserver une place pour la sortie pratique de Géobiologie'
-							>
-								Réserver
-							</a>{' '}
-							<a
-								href='/etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain'
-								className='cta cta-secondary'
-								title='En savoir plus sur la fontaine St-Martin de Jouars-Pontchartrain'
-							>
-								En savoir plus
-							</a>
+							<div className='cta-container'>
+								<Cta
+									link={'/contact?sujet=sortie-géobiologie'}
+									title={
+										'Lien pour réserver une place pour la sortie pratique de Géobiologie'
+									}
+									ctaLinkClassName='cta-primary'
+									ctaText={'Venez explorer avec moi'}
+								/>
+								<Cta
+									link={
+										'/etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain'
+									}
+									title={
+										'En savoir plus sur la fontaine St-Martin de Jouars-Pontchartrain'
+									}
+									ctaLinkClassName='cta-secondary'
+									ctaText={'Découvrir la fontaine St-Matrin'}
+								/>
+							</div>
 						</div>
 					</section>
 					{/*<ParagraphSeparator />
@@ -286,7 +289,7 @@ const Actualites = () => {
 									title="En savoir plus sur le cycle d'initiation à la géobiologie Explorateur de l'Invisible"
 									target='_blank'
 								>
-									"Explorateur de l'Invisible"
+									« Explorateur de l’Invisible »
 								</a>{' '}
 								ou équivalent.
 						</p>
@@ -299,7 +302,7 @@ const Actualites = () => {
 								title="En savoir plus sur le cycle d'initiation à la géobiologie Explorateur de l'Invisible"
 								target='_blank'
 							>
-								"Explorateur de l'Invisible"
+								« Explorateur de l’Invisible »
 							</a>
 							. Ensemble, nous analyserons les vibrations, les mémoires et la
 							structure énergétique de ce lieu chargé d’Histoire.

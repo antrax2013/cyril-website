@@ -129,6 +129,13 @@ const FontaineStSauveur = () => {
 								majeur, reliant la Préhistoire, la christianisation et la
 								formation de Maurepas autour d’un même point d’eau.
 							</p>
+							<a
+								href='/explorations'
+								className='cta cta-secondary'
+								title='Découvrir mes explorations de terrain'
+							>
+								Découvrir mes explorations
+							</a>
 						</section>
 					</section>
 					<ParagraphSeparator />

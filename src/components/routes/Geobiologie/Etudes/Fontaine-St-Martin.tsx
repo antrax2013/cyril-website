@@ -5,6 +5,9 @@ import photoFontaine from '../../../../assets/géobiologie/etudes/yvelines/jouar
 import photoPlaine from '../../../../assets/géobiologie/etudes/yvelines/jouars/fontaine st martin/plaine-de-jouars-depuis-l-eglise-st-martin-philippe-milbault.jpg';
 
 import '../../../../scss/routes/Geobiologie/Etudes/FontaineStMartin.scss';
+import Cta from '../../../fragments/Ctas/Cta';
+import CtaExplorations from '../../../fragments/Ctas/Explorations';
+import CtaAgenda from '../../../fragments/Ctas/Agenda';
 
 const FontaineStMartin = () => {
 	const photoPlaineURL = 'https://maps.app.goo.gl/dpnwA11JyKtpNqDq9';
@@ -99,13 +102,16 @@ const FontaineStMartin = () => {
 								géobiologique. Nous y avions notamment observé une organisation
 								énergétique complexe.
 							</p>
-							<a
-								href='/contact?sujet=sortie-géobiologie'
-								className='cta cta-secondary'
-								title="Lien pour accéder à l'étude géobiologique complète de la fontaine St-Sauveur"
-							>
-								Découvrir l'étude de la fontaine St-Sauveur
-							</a>
+							<Cta
+								link={
+									'/etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas'
+								}
+								title={
+									"Lien pour accéder à l'étude géobiologique complète de la fontaine St-Sauveur"
+								}
+								ctaText={"Découvrir l'étude de la fontaine St-Sauveur"}
+								ctaLinkClassName='cta-tertiary'
+							/>
 						</section>
 						<aside>
 							<div>
@@ -148,6 +154,7 @@ const FontaineStMartin = () => {
 								essayer de comprendre ce que cette petite fontaine peut encore
 								nous raconter.
 							</p>
+							<CtaExplorations className={'cta-secondary'} />
 						</section>
 					</section>
 					<ParagraphSeparator />
@@ -166,21 +173,18 @@ const FontaineStMartin = () => {
 								confronter les perceptions et participer directement à une étude
 								géobiologique collective.
 							</p>
-							<a
-								href='/contact?sujet=sortie-géobiologie'
-								className='cta cta-primary'
-								title='Lien pour réserver une place pour l’exploration géobiologique de terrain en nature'
-							>
-								Participer à la sortie
-							</a>{' '}
-							<a
-								href='/actualites'
-								className='cta cta-secondary'
-								title='Lien pour voir l’agenda des sorties géobiologie'
-							>
-								Voir l'agenda
-							</a>
-							<br />
+							<div className='cta-container'>
+								<Cta
+									link={'/contact?sujet=sortie-géobiologie'}
+									title={
+										'Lien pour réserver une place pour l’exploration pédagogique de terrain en nature'
+									}
+									ctaLinkClassName='cta-primary'
+									ctaText={'Venez explorer avec moi'}
+								/>{' '}
+								<CtaAgenda />
+								<br />
+							</div>
 						</section>
 					</section>
 				</div>

@@ -1,5 +1,8 @@
 import { Button } from 'primereact/button';
 import openInNewTab from './tools/OpenInNewTab';
+import CtaReserver from './fragments/Ctas/Reserver';
+import CtaExplorateurInv from './fragments/Ctas/ExplorateurInvisible';
+import Cta from './fragments/Ctas/Cta';
 
 const PanneauLateral = () => {
 	return (
@@ -25,32 +28,16 @@ const PanneauLateral = () => {
 					</ul>
 					<h4>Module 3 - Les failles et les veines d’eau</h4>
 					<ul>
-						<li>
-							<li>⚠️ -- Reporté date à replanifier --</li>
-						</li>
+						<li>⚠️ -- Reporté date à replanifier --</li>
 					</ul>
 					<h4>Module 4 - Les réseaux géomagnétiques de base</h4>
 					<ul>
-						<li>
-							<li>⚠️ -- Reporté date à replanifier --</li>
-						</li>
+						<li>⚠️ -- Reporté date à replanifier --</li>
 					</ul>
-					<div className='ctas-container'>
-						<a
-							href='/contact?sujet=initiation-géobiologie'
-							className='cta cta-primary'
-							title='Lien pour réserver un ou plusieurs modules pour l’initiation à la Géobiologie - Explorateur de l’invisible'
-						>
-							Réserver
-						</a>
+					<div className='cta-container'>
+						<CtaReserver />
 						{'  '}
-						<a
-							href='/initiations/geobiologie/explorateur-de-l-invisible'
-							className='cta cta-secondary'
-							title='En savoir plus sur l’initiation à la Géobiologie - Explorateur de l’invisible'
-						>
-							En savoir plus
-						</a>
+						<CtaExplorateurInv className={'cta-secondary'} />
 					</div>
 				</div>
 				{/* <div className='event' id='événements'>
@@ -77,7 +64,7 @@ const PanneauLateral = () => {
 							</i>
 						</li>
 					</ul>
-					<div className='ctas-container'>
+					<div className='cta-container'>
 						<a
 							href='/actualites#conférences'
 							className='cta cta-secondary'
@@ -134,7 +121,7 @@ const PanneauLateral = () => {
 					<ul>
 						<li>Dim. 30/08 14h30-15h30 - Pontchartrain (78)</li>
 					</ul>
-					<div className='ctas-container'>
+					<div className='cta-container'>
 						<a
 							href='https://is.gd/june78'
 							className='cta cta-primary'
@@ -158,7 +145,7 @@ const PanneauLateral = () => {
 					<ul>
 						<li>Dim. 18/10 09h-12h30 - Jouars (78)</li>
 					</ul>
-					<div className='ctas-container'>
+					<div className='cta-container'>
 						<a
 							href='https://is.gd/june78'
 							className='cta cta-primary'
@@ -184,14 +171,15 @@ const PanneauLateral = () => {
 					<ul>
 						<li>Dim. 18/10 09h-12h30 - Jouars (78)</li>
 					</ul>
-					<div className='ctas-container'>
-						<a
-							href='/contact?sujet=sortie-géobiologie'
-							className='cta cta-primary'
-							title='Lien pour réserver'
-						>
-							Réserver
-						</a>
+					<div className='cta-container'>
+						<Cta
+							link={'/contact?sujet=sortie-géobiologie'}
+							title={
+								'Lien pour réserver une place pour l’exploration pédagogique de terrain en nature'
+							}
+							ctaLinkClassName='cta-primary'
+							ctaText={'Venez explorer avec moi'}
+						/>
 					</div>
 				</div>
 			</div>

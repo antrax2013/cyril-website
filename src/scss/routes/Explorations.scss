@@ -1,0 +1,11 @@
+@use '../rules/mixins';
+
+.Explorations {
+	.separator {
+		padding: 1em 0;
+	}
+
+	img {
+		@include mixins.paragraphe-img;
+	}
+}

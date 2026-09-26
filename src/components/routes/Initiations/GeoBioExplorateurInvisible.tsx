@@ -1,3 +1,6 @@
+import CtaAgenda from '../../fragments/Ctas/Agenda';
+import CtaExplorations from '../../fragments/Ctas/Explorations';
+import CtaGeobiologie from '../../fragments/Ctas/Geobiologie';
 import SharePopup from '../../tools/SharePopup';
 
 const GeoBioExplorateurInvisible = () => {
@@ -21,21 +24,10 @@ const GeoBioExplorateurInvisible = () => {
 						</p>
 					</div>
 					<aside>
-						<a
-							href='/actualites'
-							className='cta cta-primary'
-							title='Lien pour accéder aux actualités et voir les prochaines dates'
-						>
-							Voir les prochaines dates
-						</a>
-						{'  '}
-						<a
-							href='/geobiologie'
-							className='cta cta-secondary'
-							title='En savoir plus sur la Géobiologie'
-						>
-							Découvrir la géobiologie
-						</a>
+						<div className='cta-container'>
+							<CtaAgenda className='cta-primary' />{' '}
+							<CtaGeobiologie className=' cta-secondary' />
+						</div>
 					</aside>
 					<main>
 						<section>
@@ -71,6 +63,9 @@ const GeoBioExplorateurInvisible = () => {
 								Saint-Quentin-en-Yvelines et dans les Yvelines, selon les
 								modules et les possibilités d'exploration sur le terrain.
 							</p>
+							<div className='cta-container'>
+								<CtaExplorations className='cta-tertiary' />
+							</div>
 						</section>
 
 						<section id='programme'>
@@ -187,21 +182,10 @@ const GeoBioExplorateurInvisible = () => {
 							exploration.
 						</p>
 						<aside>
-							<a
-								href='/actualites'
-								className='cta cta-primary'
-								title='Lien pour accéder aux actualités et voir les prochaines dates'
-							>
-								Voir les prochaines dates
-							</a>
-							{'  '}
-							<a
-								href='/geobiologie'
-								className='cta cta-secondary'
-								title='En savoir plus sur la Géobiologie'
-							>
-								Découvrir la géobiologie
-							</a>
+							<div className='cta-container'>
+								<CtaAgenda className='cta-primary' />{' '}
+								<CtaGeobiologie className=' cta-secondary' />
+							</div>
 						</aside>
 					</section>
 				</div>

@@ -1,3 +1,7 @@
+import CtaAgenda from '../fragments/Ctas/Agenda';
+import Cta from '../fragments/Ctas/Cta';
+import CtaExplorations from '../fragments/Ctas/Explorations';
+import CtaGeobiologie from '../fragments/Ctas/Geobiologie';
 import ParagraphSeparator from '../tools/Paragraph-Separator';
 import SharePopup from '../tools/SharePopup';
 
@@ -88,12 +92,7 @@ const MonApproche = () => {
 						</p>
 						<p>Cette démarche d'expérimentation est au cœur de mon approche.</p>
 						<div className='cta-container'>
-							<a href='/geobiologie' className='cta cta-primary'>
-								Découvrir la géobiologie
-							</a>{' '}
-							<a href='/agenda' className='cta cta-secondary'>
-								Consulter mon agenda
-							</a>
+							<CtaGeobiologie /> <CtaAgenda ctaText={'Consulter mon agenda'} />
 						</div>
 					</div>
 					<ParagraphSeparator />
@@ -120,9 +119,11 @@ const MonApproche = () => {
 							complémentaire à mes explorations géobiologiques.
 						</p>
 						<div className='cta-container'>
-							<a href='/la-communication-animale' className='cta cta-secondary'>
-								Découvrir la communication animale
-							</a>
+							<Cta
+								link={'/la-communication-animale'}
+								title={'Découvrir la communication animale'}
+								ctaLinkClassName='cta-tertiary'
+							/>
 						</div>
 						<h3>Test musculaire de kinésiologie</h3>
 						<p>
@@ -143,9 +144,11 @@ const MonApproche = () => {
 							les relient.
 						</p>
 						<div className='cta-container'>
-							<a href='/les-9-rites-munay-ki' className='cta cta-secondary'>
-								En savoir plus sur les rites du Munay-Ki
-							</a>
+							<Cta
+								link={'/les-9-rites-munay-ki'}
+								title={'En savoir plus sur les rites du Munay-Ki'}
+								ctaLinkClassName='cta-tertiary'
+							/>
 						</div>
 					</div>
 					<ParagraphSeparator />
@@ -190,6 +193,9 @@ const MonApproche = () => {
 								avec les lieux, les animaux, la nature et le subtil.
 							</li>
 						</ul>
+					</div>
+					<ParagraphSeparator />
+					<div>
 						<h3>Continuons l'exploration</h3>
 						<p>
 							Que vous soyez simplement curieux ou déjà engagé sur votre propre
@@ -197,12 +203,8 @@ const MonApproche = () => {
 							mes explorations et mes expériences de terrain.
 						</p>
 						<div className='cta-container'>
-							<a href='/agenda' className='cta cta-primary'>
-								Consulter l'agenda
-							</a>{' '}
-							<a href='/contact' className='cta cta-secondary'>
-								Me contacter
-							</a>
+							<CtaAgenda className={'cta-primary'} />{' '}
+							<CtaExplorations className={'cta-secondary'} />
 						</div>
 					</div>
 				</div>

@@ -1,0 +1,111 @@
+@use '../../rules/mixins';
+
+.CardList {
+	.p-fieldset {
+		background-color: unset;
+		.p-icon.p-fieldset-toggler {
+			height: 12px;
+			width: 12px;
+		}
+		.p-fieldset-legend {
+			font-size: 0.8em;
+			background-color: unset;
+			border: none;
+			a {
+				padding: 0.5rem;
+			}
+		}
+
+		.p-fieldset-content {
+			font-size: 0.8em;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			padding: 0px;
+
+			.filter-item {
+				font-size: 0.8em;
+			}
+
+			.label,
+			.category-name {
+				padding-right: 0.5rem;
+				white-space: nowrap;
+			}
+
+			.card-types-filter {
+				flex: 0 0 25%;
+				display: flex;
+				align-items: center;
+
+				.category-name {
+					padding-left: 0.5rem;
+				}
+				.p-multistatecheckbox.p-checkbox.p-component {
+					.p-checkbox-box {
+						.p-checkbox-icon.p-c.pi {
+							width: 20px !important;
+							height: 19px !important;
+							padding: 2px;
+						}
+
+						border-color: var(--secondary-color-text);
+						background: unset;
+					}
+				}
+			}
+		}
+
+		.card-tags-filter {
+			flex: 0 0 75%;
+			display: flex;
+			align-items: center;
+			.autocomplete-scroll {
+				width: 100%;
+				display: inline-block;
+				.p-autocomplete-input-token input {
+					font-size: 0.8em;
+				}
+
+				.p-autocomplete-multiple-container {
+					background-color: unset;
+					display: flex !important;
+					flex-wrap: nowrap !important;
+					overflow-x: auto !important;
+					padding-left: unset;
+				}
+			}
+
+			.p-autocomplete {
+				background-color: unset !important;
+			}
+
+			.p-autocomplete-token {
+				color: var(--text-color);
+				background: var(--background-color);
+				padding-bottom: 0px;
+				padding-top: 0px;
+			}
+		}
+	}
+
+	.cards-container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+}
+
+@media (max-width: 768px) {
+	.CardList {
+		.p-fieldset-content {
+			flex-direction: column;
+			align-items: start !important;
+		}
+		.cards-container {
+			flex-direction: column;
+		}
+	}
+}

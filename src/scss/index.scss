@@ -349,8 +349,14 @@ aside.content {
 			padding-left: 0em !important;
 		}
 	}
-	.ctas-container {
+	.cta-container {
 		text-align: center;
+	}
+}
+
+.cta-container {
+	> :not(:first-child) {
+		margin-left: 0.5rem;
 	}
 }
 

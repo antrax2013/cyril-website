@@ -22,13 +22,23 @@
 				},
 				{
 					"@type": "WebPage",
-					"name": "Mon approche",
-					"url": "https://cyril.cophignon.net/mon-approche"
+					"name": "Géobiologie",
+					"url": "https://cyril.cophignon.net/geobiologie"
 				},
 				{
 					"@type": "WebPage",
-					"name": "Géobiologie",
-					"url": "https://cyril.cophignon.net/geobiologie"
+					"name": "Explorateur de l’invisible",
+					"url": "https://cyril.cophignon.net/initiations/geobiologie/explorateur-de-l-invisible"
+				},
+				{
+					"@type": "WebPage",
+					"name": "Agenda",
+					"url": "https://cyril.cophignon.net/agenda"
+				},
+				{
+					"@type": "WebPage",
+					"name": "Mon approche",
+					"url": "https://cyril.cophignon.net/mon-approche"
 				},
 				{
 					"@type": "WebPage",
@@ -42,7 +52,7 @@
 				},
 				{
 					"@type": "WebPage",
-					"@id": "https://cyril.cophignon.net/actualites#webpage"
+					"@id": "https://cyril.cophignon.net/agenda#webpage"
 				},
 				{
 					"@type": "WebPage",

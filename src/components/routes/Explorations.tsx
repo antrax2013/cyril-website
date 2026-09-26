@@ -1,5 +1,12 @@
+import { explorationCards } from '../entities/explorationCards/exporationCards';
+import CardList from '../fragments/CardList/CardList';
 import ParagraphSeparator from '../tools/Paragraph-Separator';
 import SharePopup from '../tools/SharePopup';
+import '../../scss/routes/Explorations.scss';
+import CtaMonApproche from '../fragments/Ctas/MonApproche';
+import CtaGeobiologie from '../fragments/Ctas/Geobiologie';
+import CtaExplorateurInv from '../fragments/Ctas/ExplorateurInvisible';
+import CtaAgenda from '../fragments/Ctas/Agenda';
 
 const Explorations = () => {
 	return (
@@ -30,9 +37,7 @@ const Explorations = () => {
 							de mon approche.
 						</p>
 						<div className='cta-container'>
-							<a href='/mon-approche' className='cta'>
-								Découvrir mon approche
-							</a>
+							<CtaMonApproche />
 						</div>
 					</div>
 					<div>
@@ -47,62 +52,13 @@ const Explorations = () => {
 							d’explorer.
 						</p>
 						<div className='cta-container'>
-							<a href='/geobiologie' className='cta'>
-								Découvrir la géobiologie
-							</a>
+							<CtaGeobiologie className={'cta-tertiary'} />
 						</div>
 					</div>
 					<ParagraphSeparator />
 					<div>
 						<h2>Mes études de lieux</h2>
-						<h3>Le lavoir de la Source aux Fées — Saint‑Forget</h3>
-						<p>
-							À Saint‑Forget, un lavoir se cache dans la forêt, près d’une
-							source entourée de récits et de légendes. Son emplacement étonnant
-							invite à remonter son histoire et à découvrir ce que le lieu
-							raconte sur le terrain.
-						</p>
-						<div className='cta-container'>
-							<a
-								href='/etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees'
-								className='cta'
-							>
-								Découvrir l'étude
-							</a>
-						</div>
-						<h3>La fontaine Saint‑Sauveur — Maurepas</h3>
-						<p>
-							Discrète sous la végétation, la fontaine Saint‑Sauveur fait partie
-							de ces lieux que l’on pourrait traverser sans les voir. Son
-							exploration m’a conduit à rechercher la place de cette source dans
-							l’histoire de Maurepas et à observer ce qui subsiste aujourd’hui.
-						</p>
-						<div className='cta-container'>
-							<a
-								href='/etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas'
-								className='cta'
-							>
-								Découvrir l'étude
-							</a>
-						</div>
-						<h3>
-							La fontaine Saint‑Martin — Jouars‑Pontchartrain · étude à venir
-						</h3>
-						<p>
-							Près de l’église Saint‑Martin, cette fontaine s’inscrit dans un
-							paysage marqué par d’anciens chemins et la proximité de Diodurum.
-							Les recherches historiques ont déjà ouvert plusieurs pistes ;
-							l’exploration sur le terrain viendra nourrir la suite de
-							l’enquête.
-						</p>
-						<div className='cta-container'>
-							<a
-								href='/etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain'
-								className='cta'
-							>
-								Découvrir l'étude
-							</a>
-						</div>
+						<CardList cards={explorationCards} disableFilters={true} />
 					</div>
 					<ParagraphSeparator />
 					<div>
@@ -113,12 +69,8 @@ const Explorations = () => {
 							propre lecture des lieux.
 						</p>
 						<div className='cta-container'>
-							<a
-								href='/initiations/geobiologie/explorateur-de-l-invisible'
-								className='cta cta-primary'
-							>
-								Découvrir le cycle
-							</a>
+							<CtaExplorateurInv />
+							<CtaAgenda />
 						</div>
 					</div>
 				</div>

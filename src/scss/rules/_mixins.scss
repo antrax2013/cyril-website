@@ -1,11 +1,23 @@
-@mixin ombre-portee-panneau {
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
+@mixin ombre-portee {
 	box-shadow: 5px 5px 5px 5px var(--shadow);
 	background-color: var(--background-color);
+}
+
+@mixin ombre-portee-panneau {
+	@include ombre-portee;
+
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 	margin: 0 1rem;
 	padding: 0 1rem;
 	flex-direction: column;
+}
+
+@mixin ombre-portee-basse-panneau {
+	@include ombre-portee;
+
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
 }
 
 @mixin btn-border-rounded {
