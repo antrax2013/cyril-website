@@ -70,27 +70,96 @@ const Menu = ({ ...props }) => {
 		pathName = pathName.toLowerCase();
 		const windowPathName = window.location.pathname;
 
-		if (windowPathName.includes(pathName)) {
-			return selectedClassName;
-		}
-		// if (pathName === 'qui-suis-je' && windowPathName === '/') {
-		// 	return selectedClassName;
-		// }
-		// Ressources case
+		let result = className;
 		if (
-			pathName === 'ressources' &&
-			(windowPathName.startsWith('/geologie/') ||
-				windowPathName.startsWith('/etudes-geobiologie/') ||
-				windowPathName.startsWith('/ressources/'))
+			windowPathName.includes(pathName) &&
+			!windowPathName.startsWith(
+				'/initiations/geobiologie/explorateur-de-l-invisible',
+			)
 		) {
-			return windowPathName.startsWith('/ressources/')
-				? 'divers'
-				: selectedClassName;
+			result = selectedClassName;
+		} else {
+			switch (pathName) {
+				case '_geobiologie':
+					if (windowPathName.includes('/geobiologie'))
+						result = selectedClassName;
+					break;
+				case '/initiations/geobiologie/explorateur-de-l-invisible':
+					if (
+						windowPathName.startsWith(
+							'/initiations/geobiologie/explorateur-de-l-invisible',
+						)
+					)
+						result = selectedClassName;
+					break;
+				case 'articles':
+					if (
+						windowPathName.startsWith('/geologie/') ||
+						windowPathName.startsWith('/ressources/') ||
+						windowPathName.includes('/les-9-rites-munay-ki') ||
+						windowPathName.includes('/la-communication-animale')
+					)
+						result = selectedClassName;
+					break;
+			}
 		}
-		return className;
+
+		return result;
 	};
 
 	const items: MenuItem[] = [
+		{
+			label: 'Géobiologie',
+			items: [
+				{
+					label: 'Découvrir la géobiologie',
+					template: (item: MenuItem, options: MenuItemOptions) => {
+						return itemTemplate(item, options);
+					},
+					url: '/geobiologie',
+					className: getClassName('/geobiologie'),
+					command: () => {
+						onClick('geobiologie');
+					},
+				},
+				{
+					label: 'Explorateur l’Invisible',
+					template: (item: MenuItem, options: MenuItemOptions) => {
+						return itemTemplate(item, options);
+					},
+					url: '/initiations/geobiologie/explorateur-de-l-invisible',
+					className: getClassName(
+						'/initiations/geobiologie/explorateur-de-l-invisible',
+					),
+					command: () => {
+						onClick('explorateur-de-l-invisible');
+					},
+				},
+			],
+			className: getClassName('_geobiologie'),
+		},
+		{
+			label: 'Explorations',
+			template: (item: MenuItem, options: MenuItemOptions) => {
+				return itemTemplate(item, options);
+			},
+			url: '/explorations',
+			className: getClassName('/explorations'),
+			command: () => {
+				onClick('explorations');
+			},
+		},
+		{
+			label: 'Agenda',
+			template: (item: MenuItem, options: MenuItemOptions) => {
+				return itemTemplate(item, options);
+			},
+			url: '/agenda',
+			className: getClassName('agenda'),
+			command: () => {
+				onClick('agenda');
+			},
+		},
 		{
 			label: 'Mon approche',
 			template: (item: MenuItem, options: MenuItemOptions) => {
@@ -102,140 +171,56 @@ const Menu = ({ ...props }) => {
 			},
 			className: getClassName('mon-approche'),
 		},
+
 		{
-			label: 'Actualités',
-			template: (item: MenuItem, options: MenuItemOptions) => {
-				return itemTemplate(item, options);
-			},
-			url: '/actualites',
-			className: getClassName('actualites'),
-			command: () => {
-				onClick('actualites');
-			},
-		},
-		{
-			label: 'Géobiologie',
-			template: (item: MenuItem, options: MenuItemOptions) => {
-				return itemTemplate(item, options);
-			},
-			url: '/geobiologie',
-			className: getClassName('/geobiologie'),
-			command: () => {
-				onClick('geobiologie');
-			},
-		},
-		{
-			label: 'La communication animale',
-			template: (item: MenuItem, options: MenuItemOptions) => {
-				return itemTemplate(item, options);
-			},
-			url: '/la-communication-animale',
-			command: () => {
-				onClick('la-communication-animale');
-			},
-			className: getClassName('la-communication-animale'),
-		},
-		{
-			label: 'Les 9 Rites Munay-Ki',
-			template: (item: MenuItem, options: MenuItemOptions) => {
-				return itemTemplate(item, options);
-			},
-			url: '/les-9-rites-munay-ki',
-			className: getClassName('les-9-rites-munay-ki'),
-			command: () => {
-				onClick('les-9-rites-munay-ki');
-			},
-		},
-		{
-			label: 'Ressources',
+			label: 'Articles',
 			items: [
 				{
-					label: 'Études Géobiologiques',
-					items: [
-						// label: 'Yvelines',
-						// items: [
-						// 	{
-						{
-							label: 'Fontaine St Sauveur (78)',
-							template: (item: MenuItem, options: MenuItemOptions) => {
-								return itemTemplate(item, options);
-							},
-							url: '/etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas',
-							className: getClassName('fontaine-saint-sauveur-maurepas'),
-							command: () => {
-								onClick(
-									'etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas',
-								);
-							},
-						},
-						{
-							label: 'Fontaine St Martin (78)',
-							template: (item: MenuItem, options: MenuItemOptions) => {
-								return itemTemplate(item, options);
-							},
-							url: '/etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain',
-							className: getClassName(
-								'fontaine-saint-martin-jouars-pontchartrain',
-							),
-							command: () => {
-								onClick(
-									'etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain',
-								);
-							},
-						},
-						{
-							label: 'Lavoir source aux fées (78)',
-							template: (item: MenuItem, options: MenuItemOptions) => {
-								return itemTemplate(item, options);
-							},
-							url: '/etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees',
-							className: getClassName('le-lavoir-de-la-source-aux-fees'),
-							command: () => {
-								onClick(
-									'etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees',
-								);
-							},
-						}, // 	},
-						// ],
-					],
-					className: getClassName('etudes-geobiologie'),
+					label: 'Les cupules',
+					template: (item: MenuItem, options: MenuItemOptions) => {
+						return itemTemplate(item, options);
+					},
+					url: '/geologie/les-cupules',
+					className: getClassName('les-cupules'),
+					command: () => {
+						onClick('geologie/les-cupules');
+					},
 				},
 				{
-					label: 'Géologie',
-					items: [
-						{
-							label: 'Les cupules',
-							template: (item: MenuItem, options: MenuItemOptions) => {
-								return itemTemplate(item, options);
-							},
-							url: '/geologie/les-cupules',
-							className: getClassName('les-cupules'),
-							command: () => {
-								onClick('geologie/les-cupules');
-							},
-						},
-					],
-					className: getClassName('geologie'),
+					label: 'Entretien tambour chamanique',
+					template: (item: MenuItem, options: MenuItemOptions) => {
+						return itemTemplate(item, options);
+					},
+					url: '/ressources/entretien-tambour-chamanique-peau',
+					className: getClassName('entretien-tambour-chamanique-peau'),
+					command: () => {
+						onClick('ressources/entretien-tambour-chamanique-peau');
+					},
 				},
 				{
-					label: 'Divers',
-					items: [
-						{
-							label: 'Entretien tambour chamanique',
-							template: (item: MenuItem, options: MenuItemOptions) => {
-								return itemTemplate(item, options);
-							},
-							url: '/ressources/entretien-tambour-chamanique-peau',
-							className: getClassName('entretien-tambour-chamanique-peau'),
-							command: () => {
-								onClick('ressources/entretien-tambour-chamanique-peau');
-							},
-						},
-					],
-					className: getClassName('divers'),
+					label: 'Les 9 Rites Munay-Ki',
+					template: (item: MenuItem, options: MenuItemOptions) => {
+						return itemTemplate(item, options);
+					},
+					url: '/les-9-rites-munay-ki',
+					className: getClassName('les-9-rites-munay-ki'),
+					command: () => {
+						onClick('les-9-rites-munay-ki');
+					},
+				},
+				{
+					label: 'La communication animale',
+					template: (item: MenuItem, options: MenuItemOptions) => {
+						return itemTemplate(item, options);
+					},
+					url: '/la-communication-animale',
+					command: () => {
+						onClick('la-communication-animale');
+					},
+					className: getClassName('la-communication-animale'),
 				},
 			],
-			className: getClassName('ressources'),
+			className: getClassName('articles'),
 		},
 		{
 			label: 'Contact',

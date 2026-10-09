@@ -12,6 +12,7 @@ import * as LocalBusinessLd from './components/fragments/JsonLd/localBusiness.js
 
 const MessageAnimal = lazy(() => import('./components/routes/Message-animal'));
 const Actualites = lazy(() => import('./components/routes/Actualites'));
+const Explorations = lazy(() => import('./components/routes/Explorations'));
 const Contact = lazy(() => import('./components/routes/Contact'));
 const ContactWrapper = lazy(() => import('./components/routes/ContactWrapper'));
 const Error404 = lazy(() => import('./components/routes/Error404'));
@@ -35,9 +36,7 @@ const GeoBioExplorateurInvisible = lazy(
 // Ressources
 const LeLavoirDeLaSourceAuxFees = lazy(
 	() =>
-		import(
-			'./components/routes/Geobiologie/Etudes/Le-lavoir-de-la-source-aux-fees'
-		),
+		import('./components/routes/Geobiologie/Etudes/Le-lavoir-de-la-source-aux-fees'),
 );
 const FontaineStSauveur = lazy(
 	() => import('./components/routes/Geobiologie/Etudes/Fontaine-st-Sauveur'),
@@ -62,12 +61,12 @@ const App = () => {
 				<header className='flex flex-wrap'>
 					<Header />
 				</header>
-				<div className='App-cp danger'>
-					<a href='/actualites' className='annonce'>
+				{/* <div className='App-cp danger'>
+					<a href='/agenda' className='annonce'>
 						⚠️ Mise à jour : les modules 1 et 2 prévus le 6 septembre sont
 						reportés au 11 octobre à Plaisir. ⚠️
 					</a>
-				</div>
+				</div> */}
 				<div className='App-body'>
 					<main className='content'>
 						<Routes>
@@ -76,7 +75,6 @@ const App = () => {
 							<Route path='/accueil' element={<QuiSuisJe />} />
 							<Route index element={<QuiSuisJe />} />
 
-							<Route path='actualites' element={<Actualites />} />
 							<Route path='geobiologie' element={<Geobiologie />} />
 							<Route
 								path='la-communication-animale'
@@ -91,6 +89,7 @@ const App = () => {
 								element={<GeoBioExplorateurInvisible />}
 							/>
 							<Route path='agenda' element={<Actualites />} />
+							<Route path='explorations' element={<Explorations />} />
 
 							<Route path='contact' element={<Contact />} />
 							<Route

@@ -1,0 +1,35 @@
+@use '../rules/main';
+@use '../rules/mixins';
+
+a.cta {
+	display: inline-block;
+	@include mixins.btn-border-rounded;
+	padding: 0.4rem 0.8rem;
+	white-space: nowrap;
+}
+
+.cta-primary {
+	color: var(--text-color) !important;
+	background-color: var(--secondary-color) !important;
+	border: 0.1rem solid var(---secondary-color) !important;
+}
+.cta-secondary {
+	color: var(--text-color) !important;
+	border: 0.1rem solid var(--secondary-color) !important;
+}
+.cta-tertiary {
+	border: 0.1rem solid var(--background-color) !important;
+	color: var(--text-color) !important;
+	@include mixins.ombre-portee-panneau;
+}
+
+.cta-blockquote {
+	display: inline-block !important;
+	flex-grow: 2;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	color: var(--grey-medium);
+	font-style: italic !important;
+	font-size: 0.9em !important;
+}

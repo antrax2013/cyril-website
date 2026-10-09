@@ -6,13 +6,14 @@ import SourceAuxFeesReseaux from '../../../../assets/géobiologie/etudes/yveline
 import ImgCC from '../../../../assets/Cc_by-nc-nd_icon.svg';
 import '../../../../scss/routes/Geobiologie/Etudes/LeLavoirDeLaSourceAuxFees.scss';
 import SharePopup from '../../../tools/SharePopup';
+import CtaExplorations from '../../../fragments/Ctas/Explorations';
 
 const LeLavoirDeLaSourceAuxFees = () => {
 	return (
 		<>
 			<div className='LeLavoirDeLaSourceAuxFees'>
 				<div className='article'>
-					<h1>Le lavoir de la source aux fées, étude géobiologique</h1>
+					<h1>Le lavoir de la Source aux Fées à Saint‑Forget</h1>
 					<legend>
 						<a
 							href='https://fr.wikipedia.org/wiki/Licence_Creative_Commons#Sept_licences_régulièrement_utilisées'
@@ -81,6 +82,9 @@ const LeLavoirDeLaSourceAuxFees = () => {
 								légende. Mais, qu’en est-il d’un point de vue de la{' '}
 								<em>géobiologie</em> et des énergies subtiles ?
 							</p>
+							<div className='cta-container'>
+								<CtaExplorations className='cta-secondary' />
+							</div>
 						</section>
 					</section>
 					<ParagraphSeparator />

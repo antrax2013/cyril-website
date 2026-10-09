@@ -1,7 +1,7 @@
 {
 	"name": "cyril-cophignon-net",
 	"private": true,
-	"version": "1.3",
+	"version": "1.3.2",
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
@@ -10,7 +10,7 @@
 		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview",
 		"compile-sass": "sass --watch src/scss/:public/css --no-source-map -s compressed",
-		"postbuild": "react-spa-prerender && powershell -File .\\post-build.ps1 -m cyril.cophignon.net && purgecss -v --css build/assets/*.css --content build/*.html build/assets/*.js --output . --safelist p-toast p-toast-top-right p-ripple-disabled p-toast-message p-toast-message-content p-toast-message-success p-toast-message-enter-done p-icon p-toast-message-icon p-toast-message-text p-toast-summary p-toast-detail p-toast-icon-close p-link",
+		"postbuild": "react-spa-prerender && powershell -File .\\post-build.ps1 -m cyril.cophignon.net",
 		"purge": "purgecss -v --config config/purgecss.config.js"
 	},
 	"overrides": {

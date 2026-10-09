@@ -55,16 +55,22 @@
 			"url": "/mon-approche"
 		},
 		{
-			"name": "Actualités",
-			"short_name": "Actualités",
+			"name": "Agenda",
+			"short_name": "Agenda",
 			"description": "Les différentes actualités, nouvelles, informations que je souhaite partager avec vous.",
-			"url": "/actualites"
+			"url": "/agenda"
 		},
 		{
 			"name": "Géobiologie",
 			"short_name": "Géobiologie",
 			"description": "La Géobiologie, l’étude des phénomènes ondulatoires d’un lieu et de leurs impacts sur le vivant.",
 			"url": "/geobiologie"
+		},
+		{
+			"name": "Explorations géobiologiques dans les Yvelines | Cyril Cophignon",
+			"short_name": "Explorations",
+			"description": "Découvrez mes explorations géobiologiques, principalement dans les Yvelines : patrimoine, histoire, nature et lecture sensible des territoires.",
+			"url": "/la-communication-animale"
 		},
 		{
 			"name": "Initiation à la géobiologie | Explorateur de l’invisible",

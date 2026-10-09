@@ -2,16 +2,28 @@ import ImgMoi from '../../assets/moi-bois-baguettes-bruyeres.jpg';
 import '../../scss/routes/QuiSuisJe.scss';
 import SharePopup from '../tools/SharePopup';
 import ParagraphSeparator from '../tools/Paragraph-Separator';
+import CtaGeobiologie from '../fragments/Ctas/Geobiologie';
+import CtaExplorations from '../fragments/Ctas/Explorations';
+import CtaMonApproche from '../fragments/Ctas/MonApproche';
+import CtaExplorateurInv from '../fragments/Ctas/ExplorateurInvisible';
 
 const QuiSuisJe = () => {
 	return (
 		<>
 			<div className='QuiSuisJe'>
 				<div className='article'>
-					<h1>Qui suis-je ?</h1>
+					<h1>Explorer les lieux, le vivant et les mondes subtils</h1>
 					<section className='icon-panel'>
 						<SharePopup url={window.location.href} title='Qui suis-je ?' />
 					</section>
+					<p>
+						Chaque lieu porte une mémoire. À travers la{' '}
+						<b>géobiologie d’exploration</b>, les conférences et les
+						explorations de terrain, je vous invite à observer, expérimenter et
+						comprendre les liens qui unissent la nature, les symboles, les
+						traditions et le vivant.
+					</p>
+					<h2>Qui suis-je ?</h2>
 					<section className='paragraphe-1'>
 						<aside>
 							<div>
@@ -69,7 +81,6 @@ const QuiSuisJe = () => {
 								reconnaître, à le décrypter et à comprendre l’histoire qu’il
 								raconte.
 							</p>
-
 							<h4>Observer les signaux faibles</h4>
 							<p>
 								Développer un regard attentif sur les indices laissés par la
@@ -96,13 +107,10 @@ const QuiSuisJe = () => {
 								subtils, sans chercher des certitudes mais une lecture sensible
 								et éclairée.
 							</p>
-							<a
-								href='/geobiologie'
-								className='cta cta-primary'
-								title='Découvrir ma vision de la géobiologie et de l’exploration des lieux'
-							>
-								Découvrir la géobiologie
-							</a>
+							<div className='cta-container'>
+								<CtaGeobiologie />{' '}
+								<CtaExplorations className={'cta-secondary'} />
+							</div>
 						</section>
 					</section>
 					<ParagraphSeparator />
@@ -138,6 +146,9 @@ const QuiSuisJe = () => {
 								service de tous, et ainsi, guider, accompagner et protéger le
 								vivant, les êtres vivants, la vie et notre planète, la Terre.
 							</p>
+							<div className='cta-container'>
+								<CtaMonApproche className={'cta-tertiary'} />
+							</div>
 						</section>
 					</section>
 					<ParagraphSeparator />
@@ -292,6 +303,10 @@ const QuiSuisJe = () => {
 								changé mon regard sur la vie et d’explorer avec vous les mondes
 								subtils.
 							</p>
+							<div className='cta-container'>
+								<CtaExplorateurInv ctaText={'Apprendre la géobiologie'} />{' '}
+								<CtaExplorations className={'cta-secondary'} />
+							</div>
 						</section>
 					</section>
 				</div>

@@ -1,5 +1,7 @@
 import { Button } from 'primereact/button';
 import openInNewTab from './tools/OpenInNewTab';
+import CtaExplorateurInv from './fragments/Ctas/ExplorateurInvisible';
+import Cta from './fragments/Ctas/Cta';
 
 const PanneauLateral = () => {
 	return (
@@ -7,12 +9,61 @@ const PanneauLateral = () => {
 			<div className='events'>
 				<h2>Prochains événements</h2>
 				<div className='event' id='événements'>
+					<h3>Sorties en nature</h3>
+					<h4>Sortie Géobio. Fontaine St-Martin</h4>
+					<ul>
+						<li>Dim. 18/10 09h-12h30 - Jouars (78)</li>
+					</ul>
+					<div className='cta-container'>
+						<Cta
+							link={'/contact?sujet=sortie-géobiologie'}
+							title={
+								'Lien pour réserver une place pour l’exploration pédagogique de terrain en nature'
+							}
+							ctaLinkClassName='cta-primary'
+							ctaText={'Venez explorer avec moi'}
+						/>
+					</div>
+				</div>
+				<div className='event' id='événements'>
+					<h3>Conférences</h3>
+					<h4>Portes ouvertes</h4>
+					{/* <ul>
+						<li>
+							<a
+								href='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid09V9H9QgejdRqpwbsrhiqetJiikoiXv3uAUcB1os9sq5mzoa7yQbWWec2cLMdzC8Gl%26id%3D61570202349589'
+								target='_blank'
+								title='Cliquez ici pour en savoir plus sur les portes ouvertes.'
+							> */}
+					<h5>Cabinet Blowball Dim. 22/11</h5>
+					<p>Programme en cours d'établissement</p>
+					{/* <ul>
+									<li>
+										portes ouvertes de <i>09h30 à 13h</i>
+									</li>
+									<li>
+										conf. Géobio de <i>10h à 11h</i>
+									</li>
+								</ul>
+							</a>
+							<i>
+								<a
+									href='https://www.billetweb.fr/porte-ouverte-cabinet-blowball-25-janvier-2026'
+									target='_blank'
+								>
+									Inscription gratuite mais obligatoire
+								</a>
+							</i>
+						</li>
+					</ul> */}
+				</div>
+				<div className='event' id='événements'>
 					<h3>
 						Initiation <em>Géobiologie</em> - Explorateur de l'invisible
 					</h3>
-					<h4>Module 1 - La découverte</h4>
-					{/* <p>Prochaines sessions à l'automne 2026 </p> */}
-					<ul>
+					<p>Prochaines sessions à planifer </p>
+					{/* <h4>Module 1 - La découverte</h4> */}
+					{/*<ul>
 						<li>
 							⚠️ Dim. <b>11/10</b> de 09h à 12h30 - Plaisir
 						</li>
@@ -25,37 +76,20 @@ const PanneauLateral = () => {
 					</ul>
 					<h4>Module 3 - Les failles et les veines d’eau</h4>
 					<ul>
-						<li>
-							<li>⚠️ -- Reporté date à replanifier --</li>
-						</li>
+						<li>⚠️ -- Reporté date à replanifier --</li>
 					</ul>
 					<h4>Module 4 - Les réseaux géomagnétiques de base</h4>
 					<ul>
-						<li>
-							<li>⚠️ -- Reporté date à replanifier --</li>
-						</li>
-					</ul>
-					<div className='ctas-container'>
-						<a
-							href='/contact?sujet=initiation-géobiologie'
-							className='cta cta-primary'
-							title='Lien pour réserver un ou plusieurs modules pour l’initiation à la Géobiologie - Explorateur de l’invisible'
-						>
-							Réserver
-						</a>
-						{'  '}
-						<a
-							href='/initiations/geobiologie/explorateur-de-l-invisible'
-							className='cta cta-secondary'
-							title='En savoir plus sur l’initiation à la Géobiologie - Explorateur de l’invisible'
-						>
-							En savoir plus
-						</a>
+						<li>⚠️ -- Reporté date à replanifier --</li>
+					</ul>*/}
+					<div className='cta-container'>
+						{/* <CtaReserver />
+						{'  '} */}
+						<CtaExplorateurInv className={'cta-secondary'} />
 					</div>
 				</div>
-				{/* <div className='event' id='événements'>
-					<h3>Conférences</h3>
-					{/* <h4>Portes ouvertes</h4>
+
+				{/* <h4>Portes ouvertes</h4>
 					<ul>
 						<li>
 							<i>Dim. 14/06</i> - Espace Vibration & Libellule à Plaisir - 78
@@ -77,7 +111,7 @@ const PanneauLateral = () => {
 							</i>
 						</li>
 					</ul>
-					<div className='ctas-container'>
+					<div className='cta-container'>
 						<a
 							href='/actualites#conférences'
 							className='cta cta-secondary'
@@ -85,35 +119,8 @@ const PanneauLateral = () => {
 						>
 							En savoir plus
 						</a>
-					</div> 
-					<h4>Portes ouvertes</h4>
-					<ul>
-						<li>
-							<a
-								href='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid09V9H9QgejdRqpwbsrhiqetJiikoiXv3uAUcB1os9sq5mzoa7yQbWWec2cLMdzC8Gl%26id%3D61570202349589'
-								target='_blank'
-								title='Cliquez ici pour en savoir plus sur les portes ouvertes.'
-							>
-								Cabinet Blowball Dim. 25/01
-								<ul>
-									<li>
-										portes ouvertes de <i>09h30 à 13h</i>
-									</li>
-									<li>
-										conf. Géobio de <i>10h à 11h</i>
-									</li>
-								</ul>
-							</a>
-							<i>
-								<a
-									href='https://www.billetweb.fr/porte-ouverte-cabinet-blowball-25-janvier-2026'
-									target='_blank'
-								>
-									Inscription gratuite mais obligatoire
-								</a>
-							</i>
-						</li>
-					</ul>
+					</div> */}
+
 				{/* <h4>Salon</h4>
 					<ul>
 						<li>
@@ -128,13 +135,13 @@ const PanneauLateral = () => {
 						</li>
 					</ul>
 				</div> */}
-				<div className='event' id='événements'>
-					{/* <h3>Conférences</h3>
+
+				{/* <h3>Conférences</h3>
 					<h4>Conférence monnaie libre</h4>
 					<ul>
 						<li>Dim. 30/08 14h30-15h30 - Pontchartrain (78)</li>
 					</ul>
-					<div className='ctas-container'>
+					<div className='cta-container'>
 						<a
 							href='https://is.gd/june78'
 							className='cta cta-primary'
@@ -158,7 +165,7 @@ const PanneauLateral = () => {
 					<ul>
 						<li>Dim. 18/10 09h-12h30 - Jouars (78)</li>
 					</ul>
-					<div className='ctas-container'>
+					<div className='cta-container'>
 						<a
 							href='https://is.gd/june78'
 							className='cta cta-primary'
@@ -179,21 +186,6 @@ const PanneauLateral = () => {
 							En savoir plus
 						</a>
 					</div> */}
-					<h3>Sorties en nature</h3>
-					<h4>Sortie Géobio. Fontaine St-Martin</h4>
-					<ul>
-						<li>Dim. 18/10 09h-12h30 - Jouars (78)</li>
-					</ul>
-					<div className='ctas-container'>
-						<a
-							href='/contact?sujet=sortie-géobiologie'
-							className='cta cta-primary'
-							title='Lien pour réserver'
-						>
-							Réserver
-						</a>
-					</div>
-				</div>
 			</div>
 			<div id='events'>
 				<p className='social-networks'>

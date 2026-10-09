@@ -1,0 +1,113 @@
+{
+	"metas": [
+		{
+			"key": "index",
+			"title": "Géobiologie d’exploration dans les Yvelines - Cyril COPHIGNON",
+			"description": "Découvrez une approche de la géobiologie centrée sur l’observation, le terrain et la lecture des lieux, à Saint-Quentin-en-Yvelines et dans les Yvelines.",
+			"canonical": ""
+		},
+		{
+			"key": "mon-approche",
+			"title": "Géobiologie d’exploration : mon approche – Cyril Cophignon",
+			"description": "Découvrez mon approche : observer, expérimenter et comprendre les interactions entre les lieux, le vivant et les mondes subtils.",
+			"canonical": "/mon-approche"
+		},
+		{
+			"key": "actualites",
+			"title": "Agenda Géobiologie dans les Yvelines – Cyril Cophignon",
+			"description": "Retrouvez les prochaines initiations, explorations de terrain et conférences autour de la géobiologie à Saint-Quentin-en-Yvelines et dans les Yvelines.",
+			"canonical": "/agenda"
+		},
+		{
+			"key": "agenda",
+			"title": "Agenda Géobiologie dans les Yvelines – Cyril Cophignon",
+			"description": "Retrouvez les prochaines initiations, explorations de terrain et conférences autour de la géobiologie à Saint-Quentin-en-Yvelines et dans les Yvelines.",
+			"canonical": "/agenda"
+		},
+		{
+			"key": "contact",
+			"title": "Contact – Cyril COPHIGNON",
+			"description": "Contactez-moi pour une initiation, une exploration de terrain ou une conférence autour de la géobiologie à Saint-Quentin-en-Yvelines et dans les Yvelines.",
+			"canonical": "/contact"
+		},
+
+		{
+			"key": "geobiologie",
+			"title": "La Géobiologie d'exploration — Cyril COPHIGNON",
+			"description": "Découvrez une approche de la géobiologie fondée sur l’observation, l’expérimentation et la lecture des interactions entre les lieux, le vivant et leur histoire.",
+			"canonical": "/geobiologie"
+		},
+		{
+			"key": "explorations",
+			"title": "Explorations géobiologiques dans les Yvelines | Cyril Cophignon",
+			"description": "Découvrez mes explorations géobiologiques, principalement dans les Yvelines : patrimoine, histoire, nature et lecture sensible des territoires.",
+			"canonical": "/la-communication-animale"
+		},
+		{
+			"key": "les-9-rites-munay-ki",
+			"title": "Les 9 rites Munay-Ki – Cyril Cophignon",
+			"description": "À travers les 9 rites Munay‑Ki, Cyril Cophignon présente un savoir ancestral des Q’eros pour accompagner votre exploration subtile et votre transformation intérieure.",
+			"canonical": "/les-9-rites-munay-ki"
+		},
+		{
+			"key": "la-communication-animale",
+			"title": "La communication animale – Cyril Cophignon",
+			"description": "À travers la communication subtile, Cyril Cophignon établit un lien plus conscient entre gardien et animal, se plaçant comme simple messager de leur compréhension mutuelle.",
+			"canonical": "/la-communication-animale"
+		},
+		{
+			"key": "explorateur-de-l-invisible",
+			"title": "Initiation à la géobiologie | Explorateur de l’invisible",
+			"description": "Apprendre la géobiologie en 4 modules mêlant théorie et pratique pour détecter les phénomènes, comprendre leurs interactions et gagner en autonomie.",
+			"canonical": "/initiations/geobiologie/explorateur-de-l-invisible"
+		},
+		{
+			"key": "les-cupules",
+			"title": "Cupules : histoire, symboles et lecture des lieux – Cyril Cophignon",
+			"description": "Découvrez les cupules creusées dans la pierre, leurs usages supposés, leur dimension symbolique et la manière dont elles peuvent enrichir la lecture d’un lieu.",
+			"canonical": "/geologie/les-cupules"
+		},
+		{
+			"key": "fontaine-saint-sauveur-maurepas",
+			"title": "Fontaine Saint‑Sauveur de Maurepas : étude géobiologique",
+			"description": "Étude géobiologique de la fontaine Saint‑Sauveur à Maurepas : source ancienne, champ sacré, vortex, réseaux subtils et présences protectrices. Un lieu qui veille.",
+			"canonical": "/etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas"
+		},
+		{
+			"key": "fontaine-saint-martin-jouars-pontchartrain",
+			"title": "Fontaine Saint‑Martin de Jouars-Pontchartrain : étude géobiologique",
+			"description": "Découvrez la fontaine Saint-Martin de Jouars-Pontchartrain, son histoire et son étonnante ressemblance avec la fontaine Saint-Sauveur de Maurepas. Une exploration géobiologique à venir.",
+			"canonical": "/etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain"
+		},
+		{
+			"key": "le-lavoir-de-la-source-aux-fees",
+			"title": "Lavoir de la Source aux Fées à Saint‑Forget : étude géobiologique",
+			"description": "Découvrez le lavoir de la Source aux Fées à Saint‑Forget : son histoire, les légendes qui l’entourent et mon exploration géobiologique de ce lieu en forêt.",
+			"canonical": "/etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees"
+		},
+		{
+			"key": "entretien-tambour-chamanique-peau",
+			"title": "Entretenir son tambour en peau : gérer la sécheresse et l’humidité",
+			"description": "Cyril Cophignon transmet des conseils pour prendre soin de la peau d’un tambour chamanique en période de forte chaleur, afin de préserver sa qualité et son énergie.",
+			"canonical": "/ressources/entretien-tambour-chamanique-peau"
+		},
+		{
+			"key": "politique-de-confidentialite",
+			"title": "Politique de confidentialité – Cyril COPHIGNON",
+			"description": "Notre politique de confidentialité est stricte et dans le respect de la RGPD. Nous ne partageons pas vos données personnelles. Nous ne faisons qu’observer l’utilisation de notre site dans le but d’améliorer sa visibilité.",
+			"canonical": "/politique-de-confidentialite"
+		},
+		{
+			"key": "plan-du-site",
+			"title": "Plan du site – Cyril COPHIGNON",
+			"description": "Le plan du site. Vous trouverez le lien vers les différentes pages qui le compose : Géobiologie, la communication animale, les rites du Munay-Ki et plus encore...",
+			"canonical": "/plan-du-site"
+		},
+		{
+			"key": "erreur-404",
+			"title": "Erreur 404 – Cyril COPHIGNON",
+			"description": "La page demandée n’existe pas ou plus.",
+			"canonical": "/erreur-404"
+		}
+	]
+}

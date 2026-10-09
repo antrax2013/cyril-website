@@ -3,11 +3,11 @@
 	"@graph": [
 		{
 			"@type": "WebPage",
-			"@id": "https://cyril.cophignon.net/actualites#webpage",
-			"url": "https://cyril.cophignon.net/actualites",
+			"@id": "https://cyril.cophignon.net/agenda#webpage",
+			"url": "https://cyril.cophignon.net/agenda",
 			"name": "Actualités & Agenda : Géobiologie et Monnaie Libre (Ğ1) dans les Yvelines (78)",
 			"breadcrumb": {
-				"@id": "https://cyril.cophignon.net/actualites#breadcrumb"
+				"@id": "https://cyril.cophignon.net/agenda#breadcrumb"
 			},
 			"isPartOf": {
 				"@id": "https://cyril.cophignon.net/#website"
@@ -23,7 +23,7 @@
 		},
 		{
 			"@type": "BreadcrumbList",
-			"@id": "https://cyril.cophignon.net/actualites#breadcrumb",
+			"@id": "https://cyril.cophignon.net/agenda#breadcrumb",
 			"itemListElement": [
 				{
 					"@type": "ListItem",
@@ -35,7 +35,7 @@
 					"@type": "ListItem",
 					"position": 2,
 					"name": "Actualites",
-					"item": "https://cyril.cophignon.net/actualites"
+					"item": "https://cyril.cophignon.net/agenda"
 				}
 			]
 		},

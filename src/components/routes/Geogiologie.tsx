@@ -3,6 +3,10 @@ import '../../scss/routes/Geobiologie.scss';
 import GeobioEnvironement from '../../assets/géobiologie/environement-ondes.jpg';
 import Plan from '../../assets/géobiologie/plan-geobiologie.png';
 import SharePopup from '../tools/SharePopup';
+import CtaExplorateurInv from '../fragments/Ctas/ExplorateurInvisible';
+import CtaAgenda from '../fragments/Ctas/Agenda';
+import CtaExplorations from '../fragments/Ctas/Explorations';
+import CtaMonApproche from '../fragments/Ctas/MonApproche';
 
 //https://home-vibes-harmony.be/geobiologie/
 
@@ -34,21 +38,12 @@ const Geobiologie = () => {
 						vous accompagner vers une véritable autonomie.
 					</p>
 					<div className='cta-block'>
-						<h2>
+						<h3>
 							Vous souhaitez apprendre à ressentir et décoder un lieu par
 							vous-même ?
-						</h2>
-
+						</h3>
 						<div className='cta-container'>
-							<a
-								href='/initiations/geobiologie/explorateur-de-l-invisible'
-								className='cta cta-primary'
-							>
-								Découvrir le cycle
-							</a>{' '}
-							<a href='/actualites' className='cta cta-secondary'>
-								Voir les prochaines dates
-							</a>
+							<CtaExplorateurInv /> <CtaAgenda />
 						</div>
 					</div>
 					<h2>Qu'est-ce que la Géobiologie ?</h2>
@@ -193,17 +188,7 @@ const Geobiologie = () => {
 								</p>
 
 								<div className='cta-container'>
-									<div className='cta-container'>
-										<a
-											href='/initiations/geobiologie/explorateur-de-l-invisible'
-											className='cta cta-primary'
-										>
-											Découvrir le cycle
-										</a>{' '}
-										<a href='/actualites' className='cta cta-secondary'>
-											Voir les prochaines dates
-										</a>
-									</div>
+									<CtaExplorateurInv /> <CtaAgenda />
 								</div>
 							</div>
 						</section>
@@ -272,6 +257,7 @@ const Geobiologie = () => {
 									dynamiques subtiles. L’harmonisation, pour moi, commence par
 									la relation au lieu et la conscience de ses synergies.
 								</p>
+								<CtaMonApproche className={'cta-tertiary'} />
 							</div>
 							<div>
 								<h2>Ce que j’explore</h2>
@@ -299,6 +285,7 @@ const Geobiologie = () => {
 									</p>
 								</ul>
 							</div>
+							<ParagraphSeparator />
 							<div>
 								<h2>La géobiologie sur le terrain</h2>
 								<p>
@@ -337,6 +324,7 @@ const Geobiologie = () => {
 									<li>sa compréhension des lieux</li>
 									<li>son autonomie dans l’exploration</li>
 								</ul>
+								<CtaExplorations className={'cta-tertiary'} />
 							</div>
 							<div>
 								<h2>Envie d’explorer par vous-même ?</h2>
@@ -346,18 +334,9 @@ const Geobiologie = () => {
 									géobiologiques, la pratique sur le terrain et le développement
 									de votre autonomie.
 								</p>
+
 								<div className='cta-container'>
-									<div className='cta-container'>
-										<a
-											href='/initiations/geobiologie/explorateur-de-l-invisible'
-											className='cta cta-primary'
-										>
-											Découvrir le cycle
-										</a>{' '}
-										<a href='/actualites' className='cta cta-secondary'>
-											Voir les prochaines dates
-										</a>
-									</div>
+									<CtaExplorateurInv /> <CtaAgenda />
 								</div>
 							</div>
 						</section>
