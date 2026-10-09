@@ -2,7 +2,7 @@ param(
   [Parameter(Mandatory = $true)] [string]$mainUrl
 )
 
-$metasFilePath = "./src/components/MetaTags/metas.json"
+$metasFilePath = "./src/components/fragments/MetaTags/metas.json"
 
 # 1. PowerShell Post-Build Script - Deletes index.html and Renames accueil.html
 

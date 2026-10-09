@@ -43,8 +43,8 @@ const Explorations = () => {
 					<div>
 						<h2>La géobiologie au fil des lieux</h2>
 						<p>
-							La géobiologie est un outil de mes outils pour relier les indices
-							et construire une histoire possible du lieu. Une part de cette
+							La géobiologie est un de mes outils pour relier les indices et
+							construire une histoire possible du lieu. Une part de cette
 							lecture repose sur le ressenti, le subtil, ce qu’on ne peut pas
 							toujours vérifier. Je la garde donc ouverte, avec humilité :
 							certaines pistes mènent à une impasse ou s’avèrent inexactes. Cela

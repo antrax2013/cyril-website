@@ -43,80 +43,6 @@ const Actualites = () => {
 					</p>
 					<ParagraphSeparator />
 					<h2>Agenda & Actualités de la Géobiologie dans les Yvelines (78)</h2>
-					<section className='paragraphe-1'>
-						<h3>
-							Initiation à la Géobiologie « Explorateur de l’Invisible » à
-							Plaisir (78)
-						</h3>
-						<p>
-							<i>
-								Cycle complet de 4 modules pour <b>débutants</b> — Sans
-								prérequis
-							</i>
-						</p>
-						<p>
-							Apprenez à <b>décoder</b>, par vous-même, les énergies des lieux,
-							comprendre les failles, détecter les veines d’eau souterraines et
-							mesurer l'impact des réseaux géomagnétiques et des présences
-							subtiles sur les êtres vivants.
-						</p>
-						<b>
-							⚠️ Attention changement de date : les modules 1 et 2 prévus le 6
-							septembre sont reportés au 11 octobre à Plaisir. Merci de
-							consulter et de partager la nouvelle annonce. ⚠️
-						</b>
-						<h4>
-							📅 Partie 1 : Module 1 & 2 - Dimanche 11 Octobre 2026 (Plaisir 78)
-						</h4>
-						<ul>
-							<li>
-								<b>09h00 - 12h30 | Module 1 : </b> La découverte, théorie de la
-								géobiologie, ses outils et premiers ressentis.
-							</li>
-							<li>
-								<b>14h00 - 17h30 | Module 2 : </b> Théorie et premières
-								recherches pratiques autour des{' '}
-								<b>cheminées cosmo-telluriques</b>.
-							</li>
-							<li>
-								<b>Pause déjeuner : </b>Repas partagé convivial sur place entre
-								participants.
-							</li>
-						</ul>
-						<h4>
-							📅 Partie 2 : Module 3 & 4{' - '}
-							<span className='barre'>Dimanche 11 Octobre 2026</span> (Plaisir
-							78)
-						</h4>
-						<p>
-							⚠️ <i>-- Reportés date à replanifier --</i> ⚠️
-						</p>
-						<br />
-						<p>
-							💶 <b>Tarif des modules :</b> 60 € par module indépendant |{' '}
-							<b>Tarif cycle complet :</b> 200 € les 4 modules ppour toute
-							inscription à l'intégralité du cycle.
-							<br />
-							<i>
-								Possibilité de régler une partie du cursus en Ğ1 (monnaie libre)
-								sur demande.
-							</i>
-						</p>
-						<p className='txt-center txt-warning'>
-							⚠️ Attention réservation <b>obligatoire</b> ⚠️
-						</p>
-						<div className='cta-container'>
-							<CtaReserver
-								ctaText={'Apprenez la géobio. avec moi'}
-								title='Lien pour réserver un ou plusieurs modules du cycle Explorateur de l’invisible'
-							/>{' '}
-							<CtaExplorateurInv
-								ctaText={'Voir le contenu du cycle'}
-								className={'cta-secondary'}
-							/>
-						</div>
-					</section>
-					<ParagraphSeparator />
 					<section className='paragraphe-2'>
 						<h3>Sortie Nature et Pratique</h3>
 						<div>
@@ -211,6 +137,147 @@ const Actualites = () => {
 								/>
 							</div>
 						</div>
+					</section>
+
+					<ParagraphSeparator />
+					<section className='paragraphe-1'>
+						<h3>
+							Initiation à la Géobiologie « Explorateur de l’Invisible » à
+							Plaisir (78)
+						</h3>
+						<p>
+							<i>
+								Cycle complet de 4 modules pour <b>débutants</b> — Sans
+								prérequis
+							</i>
+						</p>
+						<p>
+							Apprenez à <b>décoder</b>, par vous-même, les énergies des lieux,
+							comprendre les failles, détecter les veines d’eau souterraines et
+							mesurer l'impact des réseaux géomagnétiques et des présences
+							subtiles sur les êtres vivants.
+						</p>
+						<h4>📅 Partie 1 : Module 1 & 2 - Date à planifier</h4>
+						<ul>
+							<li>
+								<b>Module 1 : </b> La découverte, théorie de la géobiologie, ses
+								outils et premiers ressentis.
+							</li>
+							<li>
+								<b>Module 2 : </b> Théorie et premières recherches pratiques
+								autour des <b>cheminées cosmo-telluriques</b>.
+							</li>
+							<li>
+								<b>Pause déjeuner : </b>Repas partagé convivial sur place entre
+								participants.
+							</li>
+						</ul>
+						<h4>
+							📅 Partie 2 : Module 3 & 4{' - '}
+							Date à planifier
+						</h4>
+						<ul>
+							<li>
+								<b>Module 3 : </b> Identification des <b>failles</b> et des{' '}
+								<b>veines d’eau</b> souterraines ainsi que leurs répercussions
+								sur les êtres vivants.
+							</li>
+							<li>
+								<b>Module 4 : </b> Découverte des principaux réseaux
+								géomagnétiques :{' '}
+								<b>Hartmann, Curry, Peyré, Grand Diagonal...</b>
+							</li>
+							<li>
+								<b>Pause déjeuner : </b>Repas partagé convivial sur place entre
+								participants.
+							</li>
+						</ul>
+						<br />
+						<p>
+							💶 <b>Tarif des modules :</b> 60 € par module indépendant |{' '}
+							<b>Tarif cycle complet :</b> 200 € les 4 modules ppour toute
+							inscription à l'intégralité du cycle.
+							<br />
+							<i>
+								Possibilité de régler une partie du cursus en Ğ1 (monnaie libre)
+								sur demande.
+							</i>
+						</p>
+						<p className='txt-center txt-warning'>
+							⚠️ Attention réservation <b>obligatoire</b> ⚠️
+						</p>
+						<div className='cta-container'>
+							<CtaReserver
+								ctaText={'Apprenez la géobio. avec moi'}
+								title='Lien pour réserver un ou plusieurs modules du cycle Explorateur de l’invisible'
+							/>{' '}
+							<CtaExplorateurInv
+								ctaText={'Voir le contenu du cycle'}
+								className={'cta-secondary'}
+							/>
+						</div>
+					</section>
+					<ParagraphSeparator />
+
+					<section className='paragraphe-3'>
+						<h2>Portes ouvertes - Cabinet Blowball</h2>
+						<h3>
+							Portes ouvertes à Guyancourt - Dimanche 22 novembre 2026 de 09h00
+							à 13h00 — Entrée libre sur réservation
+						</h3>
+						<p>
+							Participez aux portes ouvertes du Cabinet Blowball et venez
+							rencontrer les praticiens et thérapeutes du cabinet et découvrir
+							leurs activités.
+						</p>
+						<h4>📅 Programme des portes ouvertes :</h4>
+						<p>Programme en cours d'élaboration...</p>
+						{/* <ul>
+							<li>
+								10h00 : Début du Ğmarché — Ouverture des stands, rencontres,
+								échanges en June.
+							</li>
+							<li>
+								12h00 : Repas partagé — Chacun apporte quelque chose ; moment
+								convivial et communautaire.
+							</li>
+							<li>
+								14h00 à 18h00 : Atelier Bien-Être - animé par Marie <br />{' '}
+								<a
+									href='https://massage-reiki.fr/massage-assis-methode-eas'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									Massages du dos assis professionnel
+								</a>{' '}
+								— Séances de 15 minutes, sur mesure, pour soulager les tensions
+								et favoriser la détente.
+							</li>
+							<li>
+								14h30 à 15h30 : Conférence monnaie libre - animée par Cyril{' '}
+								<i>(moi)</i>
+								<br /> Changer la monnaie pour changer notre r-apport au monde :
+								Comprendre l’impact de la monnaie sur notre vie quotidienne et
+								notre relation aux autres.
+							</li>
+						</ul> */}
+						<p className='txt-center txt-warning'>
+							⚠️ Attention réservation <b>obligatoire</b> ⚠️
+						</p>
+						{/* <a
+							href='/contact?sujet=initiation-géobiologie'
+							className='cta cta-primary'
+							title='Lien pour réserver un ou plusieurs modules pour l’initiation à la Géobiologie - Explorateur de l’invisible'
+						>
+							Réserver
+						</a>{' '}
+						<a
+							href='/geobiologie#invisible'
+							className='cta cta-secondary'
+							title='En savoir plus sur l’initiation à la Géobiologie - Explorateur de l’invisible'
+						>
+							En savoir plus
+						</a> */}
 					</section>
 					{/*<ParagraphSeparator />
 
