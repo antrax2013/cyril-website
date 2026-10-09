@@ -1,0 +1,117 @@
+@use '../../rules/mixins';
+
+.McCard,
+.MiniCard {
+	margin: 0.8rem;
+	display: inline-block;
+
+	.card-main-container {
+		background-color: unset;
+		border: none;
+		padding: 0.5em;
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		@include mixins.ombre-portee-basse-panneau;
+
+		.p-card-header {
+			h2,
+			h3 {
+				color: var(--secondary-color-text);
+				text-align: justify;
+				padding: 0 0.5em;
+				margin-bottom: 0px;
+			}
+		}
+
+		.p-card-body {
+			padding-top: 0px;
+
+			.card-first-container {
+				.card-img-container {
+					text-align: center;
+					display: flex;
+					justify-content: center;
+					flex-wrap: nowrap;
+				}
+			}
+
+			.card-tags {
+				display: flex;
+				flex-wrap: wrap;
+				.card-tag {
+					margin-right: 0.5em;
+					margin-bottom: 0.5em !important;
+					display: block;
+				}
+			}
+
+			.p-card-footer {
+				padding-top: 0px;
+				text-align: right;
+			}
+		}
+	}
+}
+
+.McCard {
+	height: 512px !important;
+	.p-card-body {
+		.card-first-container {
+			.card-img-container {
+				.card-thumbnail {
+					height: 167px !important;
+				}
+			}
+		}
+	}
+}
+
+.MiniCard {
+	height: 210px !important;
+	.card-main-container {
+		justify-content: space-between;
+	}
+
+	.p-card-header {
+		h3 {
+			font-size: 0.9rem;
+			margin-top: 0px;
+		}
+	}
+
+	.p-card-body {
+		.p-card-content {
+			padding: 0px !important;
+		}
+		.card-first-container {
+			padding-bottom: 0px !important;
+			display: flex;
+
+			.card-img-container {
+				flex-grow: 1;
+			}
+			.description {
+				padding-left: 0.5rem;
+				flex-grow: 2;
+			}
+		}
+
+		.card-first-container {
+			.card-img-container {
+				.card-thumbnail {
+					height: 100px !important;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.McCard {
+		height: unset !important;
+		.p-card-header h2 {
+			font-size: 0.85rem !important;
+		}
+	}
+}

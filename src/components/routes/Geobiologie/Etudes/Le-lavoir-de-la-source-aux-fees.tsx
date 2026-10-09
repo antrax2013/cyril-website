@@ -6,6 +6,7 @@ import SourceAuxFeesReseaux from '../../../../assets/géobiologie/etudes/yveline
 import ImgCC from '../../../../assets/Cc_by-nc-nd_icon.svg';
 import '../../../../scss/routes/Geobiologie/Etudes/LeLavoirDeLaSourceAuxFees.scss';
 import SharePopup from '../../../tools/SharePopup';
+import CtaExplorations from '../../../fragments/Ctas/Explorations';
 
 const LeLavoirDeLaSourceAuxFees = () => {
 	return (
@@ -81,6 +82,9 @@ const LeLavoirDeLaSourceAuxFees = () => {
 								légende. Mais, qu’en est-il d’un point de vue de la{' '}
 								<em>géobiologie</em> et des énergies subtiles ?
 							</p>
+							<div className='cta-container'>
+								<CtaExplorations className='cta-secondary' />
+							</div>
 						</section>
 					</section>
 					<ParagraphSeparator />

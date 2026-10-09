@@ -61,12 +61,12 @@ const App = () => {
 				<header className='flex flex-wrap'>
 					<Header />
 				</header>
-				<div className='App-cp danger'>
-					<a href='/actualites' className='annonce'>
+				{/* <div className='App-cp danger'>
+					<a href='/agenda' className='annonce'>
 						⚠️ Mise à jour : les modules 1 et 2 prévus le 6 septembre sont
 						reportés au 11 octobre à Plaisir. ⚠️
 					</a>
-				</div>
+				</div> */}
 				<div className='App-body'>
 					<main className='content'>
 						<Routes>
@@ -75,7 +75,6 @@ const App = () => {
 							<Route path='/accueil' element={<QuiSuisJe />} />
 							<Route index element={<QuiSuisJe />} />
 
-							<Route path='actualites' element={<Actualites />} />
 							<Route path='geobiologie' element={<Geobiologie />} />
 							<Route
 								path='la-communication-animale'

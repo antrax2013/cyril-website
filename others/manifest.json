@@ -55,10 +55,10 @@
 			"url": "/mon-approche"
 		},
 		{
-			"name": "Actualités",
-			"short_name": "Actualités",
+			"name": "Agenda",
+			"short_name": "Agenda",
 			"description": "Les différentes actualités, nouvelles, informations que je souhaite partager avec vous.",
-			"url": "/actualites"
+			"url": "/agenda"
 		},
 		{
 			"name": "Géobiologie",
