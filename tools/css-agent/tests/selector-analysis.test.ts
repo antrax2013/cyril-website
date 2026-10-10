@@ -1,6 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import {
 	assessSelector,
+	findReviewableUnreferencedSelectors,
+	SelectorAnalysis,
 	SelectorEvidence,
 	type SelectorCandidate,
 } from './../src/selector-analysis';
@@ -79,5 +81,54 @@ describe('assessSelector', () => {
 		expect(analysis.protection).toBe('reviewable');
 		expect(analysis.protectionReasons).toEqual([]);
 		expect(analysis.evidence).toEqual([]);
+	});
+
+	it('keeps only reviewable unreferenced selectors', () => {
+		// Given
+		const reviewableUnreferencedAnalysis: SelectorAnalysis = {
+			...anyCandidate,
+			usage: 'unreferenced',
+			protection: 'reviewable',
+			protectionReasons: [],
+			evidence: [],
+		};
+
+		const observedAnalysis: SelectorAnalysis = {
+			...anyCandidate,
+			selector: '.observed',
+			usage: 'observed',
+			protection: 'reviewable',
+			protectionReasons: [],
+			evidence: [
+				{
+					type: 'dom-match',
+					page: anyPageName,
+				},
+			],
+		};
+
+		const protectedUnreferencedAnalysis: SelectorAnalysis = {
+			...anyCandidate,
+			selector: '.library-selector',
+			usage: 'unreferenced',
+			protection: 'protected',
+			protectionReasons: [`library-class:${anyLibraryName}`],
+			evidence: [
+				{
+					type: 'library-class',
+					library: anyLibraryName,
+				},
+			],
+		};
+
+		// When
+		const selectors: SelectorAnalysis[] = findReviewableUnreferencedSelectors([
+			observedAnalysis,
+			protectedUnreferencedAnalysis,
+			reviewableUnreferencedAnalysis,
+		]);
+
+		// Then
+		expect(selectors).toEqual([reviewableUnreferencedAnalysis]);
 	});
 });

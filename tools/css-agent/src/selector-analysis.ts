@@ -45,9 +45,7 @@ function isLibraryClassEvidence(
 }
 
 export type SelectorEvidence =
-	| JsxStructureCompatibleEvidence
-	| DomMatchEvidence
-	| LibraryClassEvidence;
+	JsxStructureCompatibleEvidence | DomMatchEvidence | LibraryClassEvidence;
 
 export interface SelectorAnalysis extends SelectorCandidate {
 	usage: SelectorUsage;
@@ -83,4 +81,13 @@ function getUsage(evidence: SelectorEvidence[]): SelectorUsage {
 	}
 
 	return 'unreferenced';
+}
+
+export function findReviewableUnreferencedSelectors(
+	analyses: readonly SelectorAnalysis[],
+): SelectorAnalysis[] {
+	return analyses.filter(
+		(analysis: SelectorAnalysis): boolean =>
+			analysis.usage === 'unreferenced' && analysis.protection === 'reviewable',
+	);
 }
