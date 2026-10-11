@@ -32,6 +32,26 @@
 				},
 				{
 					"@type": "WebPage",
+					"name": "Explorations",
+					"url": "https://cyril.cophignon.net/explorations"
+				},
+				{
+					"@type": "WebPage",
+					"name": "Le lavoir de la Source aux Fées à Saint‑Forget",
+					"url": "https://cyril.cophignon.net/etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees"
+				},
+				{
+					"@type": "WebPage",
+					"name": "Fontaine Saint-Martin de Jouars-Pontchartrain ",
+					"url": "https://cyril.cophignon.net/etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain"
+				},
+				{
+					"@type": "WebPage",
+					"name": "Fontaine Saint-Sauveur de Maurepas",
+					"url": "https://cyril.cophignon.net/etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas"
+				},
+				{
+					"@type": "WebPage",
 					"name": "Agenda",
 					"url": "https://cyril.cophignon.net/agenda"
 				},
@@ -122,9 +142,6 @@
 				"arbre remarquable",
 				"source sacrée",
 				"mémoire des lieux",
-				"monnaie libre",
-				"Ğ1",
-				"conférence monnaie libre",
 				"chamanisme",
 				"médiumnité",
 				"clair ressenti",
