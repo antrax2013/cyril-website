@@ -1,13 +1,12 @@
 import { Card } from 'primereact/card';
-import { iCard } from './ICard';
+import { iCardInfo } from './ICard';
 import McImage from '../McImage/McImage';
 
-// import '../../../scss/fragments/Card.scss';
+import '../../../scss/fragments/CardList/Card.scss';
 import Metas from '../MetaTags/metas.json';
 import { iMetaTag } from '../MetaTags/IMetaTag';
 
-const MiniCard = ({ slug, date, images, type, h1: title }: iCard) => {
-	const thumbnail = images[0];
+const MiniCard = ({ slug, date, thumbnail, type, h1: title }: iCardInfo) => {
 	const meta: iMetaTag = Metas.metas.find((m) => m.key === slug) || {
 		title: '',
 		description: '',

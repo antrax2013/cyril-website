@@ -92,15 +92,6 @@ const Menu = ({ ...props }) => {
 					)
 						result = selectedClassName;
 					break;
-				case 'articles':
-					if (
-						windowPathName.startsWith('/geologie/') ||
-						windowPathName.startsWith('/ressources/') ||
-						windowPathName.includes('/les-9-rites-munay-ki') ||
-						windowPathName.includes('/la-communication-animale')
-					)
-						result = selectedClassName;
-					break;
 			}
 		}
 
@@ -139,6 +130,17 @@ const Menu = ({ ...props }) => {
 			className: getClassName('_geobiologie'),
 		},
 		{
+			label: 'Mon approche',
+			template: (item: MenuItem, options: MenuItemOptions) => {
+				return itemTemplate(item, options);
+			},
+			url: '/mon-approche',
+			command: () => {
+				onClick('mon-approche');
+			},
+			className: getClassName('mon-approche'),
+		},
+		{
 			label: 'Explorations',
 			template: (item: MenuItem, options: MenuItemOptions) => {
 				return itemTemplate(item, options);
@@ -147,6 +149,18 @@ const Menu = ({ ...props }) => {
 			className: getClassName('/explorations'),
 			command: () => {
 				onClick('explorations');
+			},
+		},
+
+		{
+			label: 'Articles',
+			template: (item: MenuItem, options: MenuItemOptions) => {
+				return itemTemplate(item, options);
+			},
+			url: '/articles',
+			className: getClassName('articles'),
+			command: () => {
+				onClick('articles');
 			},
 		},
 		{
@@ -159,68 +173,6 @@ const Menu = ({ ...props }) => {
 			command: () => {
 				onClick('agenda');
 			},
-		},
-		{
-			label: 'Mon approche',
-			template: (item: MenuItem, options: MenuItemOptions) => {
-				return itemTemplate(item, options);
-			},
-			url: '/mon-approche',
-			command: () => {
-				onClick('mon-approche');
-			},
-			className: getClassName('mon-approche'),
-		},
-
-		{
-			label: 'Articles',
-			items: [
-				{
-					label: 'Les cupules',
-					template: (item: MenuItem, options: MenuItemOptions) => {
-						return itemTemplate(item, options);
-					},
-					url: '/geologie/les-cupules',
-					className: getClassName('les-cupules'),
-					command: () => {
-						onClick('geologie/les-cupules');
-					},
-				},
-				{
-					label: 'Entretien tambour chamanique',
-					template: (item: MenuItem, options: MenuItemOptions) => {
-						return itemTemplate(item, options);
-					},
-					url: '/ressources/entretien-tambour-chamanique-peau',
-					className: getClassName('entretien-tambour-chamanique-peau'),
-					command: () => {
-						onClick('ressources/entretien-tambour-chamanique-peau');
-					},
-				},
-				{
-					label: 'Les 9 Rites Munay-Ki',
-					template: (item: MenuItem, options: MenuItemOptions) => {
-						return itemTemplate(item, options);
-					},
-					url: '/les-9-rites-munay-ki',
-					className: getClassName('les-9-rites-munay-ki'),
-					command: () => {
-						onClick('les-9-rites-munay-ki');
-					},
-				},
-				{
-					label: 'La communication animale',
-					template: (item: MenuItem, options: MenuItemOptions) => {
-						return itemTemplate(item, options);
-					},
-					url: '/la-communication-animale',
-					command: () => {
-						onClick('la-communication-animale');
-					},
-					className: getClassName('la-communication-animale'),
-				},
-			],
-			className: getClassName('articles'),
 		},
 		{
 			label: 'Contact',

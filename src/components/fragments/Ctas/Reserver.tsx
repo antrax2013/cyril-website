@@ -1,7 +1,7 @@
 import Cta, { CtaClassNameProps } from './Cta';
 
 const CtaReserver = ({ className, ctaText, title }: CtaClassNameProps) => {
-	const textDefault: string = 'Réserver';
+	const textDefault: string = '📝 Réserver';
 	const titleDefault: string =
 		'Lien pour réserver un ou plusieurs modules pour l’initiation à la Géobiologie - « Explorateur de l’invisible »';
 	return (

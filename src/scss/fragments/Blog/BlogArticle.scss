@@ -1,0 +1,116 @@
+@use '../../rules/mixins';
+
+.BlogArticle {
+	// padding-bottom: 0.5rem;
+
+	.article-container {
+		// padding: 0 1.5rem 1.5rem;
+		// @include mixins.ombre-portee-basse-panneau;
+
+		.article-main-container {
+			display: flex;
+			justify-content: space-evenly;
+
+			.article-content-container {
+				display: flex;
+				flex-flow: column;
+				padding-right: 1rem;
+
+				.blog-card-tags {
+					.blog-card-tag {
+						margin-right: 0.5em;
+						margin-bottom: 0.5em;
+					}
+				}
+				.cta-container {
+					margin-bottom: 1rem;
+				}
+			}
+
+			.paragraphe-5 > div {
+				display: flex;
+				align-items: center;
+				flex-direction: column;
+			}
+
+			.img-container {
+				display: flex;
+				justify-content: center;
+				.img {
+					width: 500px;
+				}
+
+				.img-lg {
+					width: 700px;
+				}
+			}
+			legend {
+				text-align: center;
+				padding-bottom: 1rem;
+			}
+			.box-label-container {
+				padding: 1rem 0.5rem;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+
+				.box-label {
+					list-style-type: none;
+					display: flex;
+					justify-content: center;
+					flex-direction: column;
+					margin: 0px;
+
+					li {
+						padding: 0.8rem 1rem;
+						background-color: var(--primary-color);
+						border-top: 0.25rem solid var(--secondary-color);
+						border-left: 0.25rem solid var(--secondary-color);
+						border-right: 0.25rem solid var(--secondary-color);
+						display: inline-block;
+						margin-right: 2rem;
+						color: var(--primary-color-text);
+						// border-top-left-radius: 1rem;
+						// border-bottom-right-radius: 1rem;
+					}
+					li:last-child {
+						border-bottom: 0.25rem solid var(--secondary-color);
+					}
+				}
+			}
+		}
+	}
+
+	.cta-container {
+		display: block;
+
+		.cta-container-row {
+			justify-content: flex-start;
+
+			a {
+				margin-right: 0.5em;
+			}
+		}
+	}
+}
+
+.related-articles-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.related-articles-grid {
+	display: flex;
+	justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+	.BlogArticle {
+		.article-container {
+			.article-main-container {
+				flex-direction: column;
+				align-items: start !important;
+			}
+		}
+	}
+}

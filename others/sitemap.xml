@@ -3,7 +3,7 @@
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
   <loc>https://cyril.cophignon.net/</loc>
@@ -13,11 +13,6 @@
 <url>
   <loc>https://cyril.cophignon.net/mon-approche</loc>
   <lastmod>2026-09-09T22:00:01+00:00</lastmod>
-</url>
-
-<url>
-  <loc>https://cyril.cophignon.net/agenda</loc>
-  <lastmod>2026-09-26T12:30:01+00:00</lastmod>
 </url>
 
 <url>
@@ -36,17 +31,7 @@
 </url>
 
 <url>
-  <loc>https://cyril.cophignon.net/la-communication-animale</loc>
-  <lastmod>2026-01-01T18:30:01+00:00</lastmod>
-</url>
-
-<url>
-  <loc>https://cyril.cophignon.net/les-9-rites-munay-ki</loc>
-  <lastmod>2026-01-01T18:30:01+00:00</lastmod>
-</url>
-
-<url>
-  <loc>https://cyril.cophignon.net/geologie/les-cupules</loc>  
+  <loc>https://cyril.cophignon.net/etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees</loc>  
   <lastmod>2026-01-01T18:30:01+00:00</lastmod>
 </url>
 
@@ -60,14 +45,46 @@
   <lastmod>2026-08-31T08:30:01+00:00</lastmod>
 </url>
 
+
+
 <url>
-  <loc>https://cyril.cophignon.net/etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees</loc>  
+  <loc>https://cyril.cophignon.net/articles</loc>
+  <lastmod>2026-10-23T09:00:01+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://cyril.cophignon.net/articles/les-9-rites-munay-ki</loc>
   <lastmod>2026-01-01T18:30:01+00:00</lastmod>
 </url>
 
 <url>
-  <loc>https://cyril.cophignon.net/ressources/entretien-tambour-chamanique-peau</loc>  
+  <loc>https://cyril.cophignon.net/articles/les-cupules</loc>  
+  <lastmod>2026-01-01T18:30:01+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://cyril.cophignon.net/articles/la-communication-animale</loc>
+  <lastmod>2026-01-01T18:30:01+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://cyril.cophignon.net/articles/entretien-tambour-chamanique-peau</loc>  
   <lastmod>2026-06-06T11:11:01+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://cyril.cophignon.net/articles/lire-un-lieu</loc>  
+  <lastmod>2026-10-23T09:00:01+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://cyril.cophignon.net/articles/portes-ouvertes-blowball-guyancourt-novembre-2026</loc>  
+  <lastmod>2026-10-24T10:00:01+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://cyril.cophignon.net/agenda</loc>
+  <lastmod>2026-09-26T12:30:01+00:00</lastmod>
 </url>
 
 <url>

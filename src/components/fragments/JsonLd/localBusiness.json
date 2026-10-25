@@ -50,29 +50,47 @@
 					"name": "Fontaine Saint-Sauveur de Maurepas",
 					"url": "https://cyril.cophignon.net/etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas"
 				},
-				{
-					"@type": "WebPage",
-					"name": "Agenda",
-					"url": "https://cyril.cophignon.net/agenda"
-				},
+
 				{
 					"@type": "WebPage",
 					"name": "Mon approche",
 					"url": "https://cyril.cophignon.net/mon-approche"
 				},
-				{
-					"@type": "WebPage",
-					"name": "La communication animale",
-					"url": "https://cyril.cophignon.net/la-communication-animale"
-				},
+
 				{
 					"@type": "WebPage",
 					"name": "Les 9 rites Munay-Ki",
-					"url": "https://cyril.cophignon.net/les-9-rites-munay-ki"
+					"url": "https://cyril.cophignon.net/articles/les-9-rites-munay-ki"
 				},
 				{
 					"@type": "WebPage",
+					"name": "Les cupules",
+					"url": "https://cyril.cophignon.net/articles/les-cupules"
+				},
+				{
+					"@type": "WebPage",
+					"name": "La communication animale",
+					"url": "https://cyril.cophignon.net/articles/la-communication-animale"
+				},
+				{
+					"@type": "WebPage",
+					"name": "Prendre soin de votre tambour en période de fortes chaleurs et d’air sec",
+					"url": "https://cyril.cophignon.net/articles/entretien-tambour-chamanique-peau"
+				},
+				{
+					"@type": "WebPage",
+					"name": "Lire un lieu : d’une découverte à l’autre",
+					"url": "https://cyril.cophignon.net/articles/lire-un-lieu"
+				},
+
+				{
+					"@type": "WebPage",
 					"@id": "https://cyril.cophignon.net/agenda#webpage"
+				},
+				{
+					"@type": "WebPage",
+					"name": "Agenda",
+					"url": "https://cyril.cophignon.net/agenda"
 				},
 				{
 					"@type": "WebPage",

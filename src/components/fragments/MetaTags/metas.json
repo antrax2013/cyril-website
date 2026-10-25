@@ -6,12 +6,39 @@
 			"description": "Découvrez une approche de la géobiologie centrée sur l’observation, le terrain et la lecture des lieux, à Saint-Quentin-en-Yvelines et dans les Yvelines.",
 			"canonical": ""
 		},
+
+		{
+			"key": "geobiologie",
+			"title": "La Géobiologie d'exploration — Cyril COPHIGNON",
+			"description": "Découvrez une approche de la géobiologie fondée sur l’observation, l’expérimentation et la lecture des interactions entre les lieux, le vivant et leur histoire.",
+			"canonical": "/geobiologie"
+		},
+		{
+			"key": "explorateur-de-l-invisible",
+			"title": "Initiation à la géobiologie - Explorateur de l’invisible",
+			"description": "Apprendre la géobiologie en 4 modules mêlant théorie et pratique pour détecter les phénomènes, comprendre leurs interactions et gagner en autonomie.",
+			"canonical": "/initiations/geobiologie/explorateur-de-l-invisible"
+		},
+
 		{
 			"key": "mon-approche",
 			"title": "Géobiologie d’exploration : mon approche – Cyril Cophignon",
 			"description": "Découvrez mon approche : observer, expérimenter et comprendre les interactions entre les lieux, le vivant et les mondes subtils.",
 			"canonical": "/mon-approche"
 		},
+		{
+			"key": "explorations",
+			"title": "Explorations géobiologiques dans les Yvelines | Cyril Cophignon",
+			"description": "Découvrez mes explorations géobiologiques, principalement dans les Yvelines : patrimoine, histoire, nature et lecture sensible des territoires.",
+			"canonical": "/explorations"
+		},
+		{
+			"key": "articles",
+			"title": "Articles sur la géobiologie et le vivant - Cyril Cophignon",
+			"description": "Découvrez mes articles sur la géobiologie, l’exploration des lieux, les perceptions subtiles et les pratiques qui nourrissent mon approche du vivant.",
+			"canonical": "/articles"
+		},
+
 		{
 			"key": "actualites",
 			"title": "Agenda Géobiologie dans les Yvelines – Cyril Cophignon",
@@ -32,69 +59,65 @@
 		},
 
 		{
-			"key": "geobiologie",
-			"title": "La Géobiologie d'exploration — Cyril COPHIGNON",
-			"description": "Découvrez une approche de la géobiologie fondée sur l’observation, l’expérimentation et la lecture des interactions entre les lieux, le vivant et leur histoire.",
-			"canonical": "/geobiologie"
-		},
-		{
-			"key": "explorations",
-			"title": "Explorations géobiologiques dans les Yvelines | Cyril Cophignon",
-			"description": "Découvrez mes explorations géobiologiques, principalement dans les Yvelines : patrimoine, histoire, nature et lecture sensible des territoires.",
-			"canonical": "/explorations"
-		},
-		{
-			"key": "les-9-rites-munay-ki",
-			"title": "Les 9 rites Munay-Ki – Cyril Cophignon",
-			"description": "Découvrez les 9 rites Munay-Ki, un parcours de transformation intérieure inspiré des traditions spirituelles andines.",
-			"canonical": "/les-9-rites-munay-ki"
-		},
-		{
-			"key": "la-communication-animale",
-			"title": "La communication animale – Cyril Cophignon",
-			"description": "Découvrez l’approche de Cyril Cophignon en communication animale, une rencontre sensible fondée sur l’écoute et la compréhension mutuelle.",
-			"canonical": "/la-communication-animale"
-		},
-		{
-			"key": "explorateur-de-l-invisible",
-			"title": "Initiation à la géobiologie | Explorateur de l’invisible",
-			"description": "Apprendre la géobiologie en 4 modules mêlant théorie et pratique pour détecter les phénomènes, comprendre leurs interactions et gagner en autonomie.",
-			"canonical": "/initiations/geobiologie/explorateur-de-l-invisible"
-		},
-		{
-			"key": "les-cupules",
-			"title": "Cupules : histoire, symboles et lecture des lieux – Cyril Cophignon",
-			"description": "Découvrez les cupules creusées dans la pierre, leurs usages supposés, leur dimension symbolique et la manière dont elles peuvent enrichir la lecture d’un lieu.",
-			"canonical": "/geologie/les-cupules"
-		},
-		{
-			"key": "fontaine-saint-sauveur-maurepas",
-			"title": "Fontaine Saint‑Sauveur de Maurepas : étude géobiologique",
-			"description": "Découvrez l’étude géobiologique de la fontaine Saint-Sauveur à Maurepas, entre histoire du lieu, réseaux subtils et phénomènes ressentis.",
-			"canonical": "/etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas"
-		},
-		{
-			"key": "fontaine-saint-martin-jouars-pontchartrain",
-			"title": "Fontaine Saint‑Martin de Jouars-Pontchartrain : étude géobiologique",
-			"description": "Explorez la fontaine Saint-Martin à Jouars-Pontchartrain : recherches historiques, environnement du lieu et observations géobiologiques.",
-			"canonical": "/etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain"
-		},
-		{
-			"key": "le-lavoir-de-la-source-aux-fees",
+			"key": "yvelines/le-lavoir-de-la-source-aux-fees",
 			"title": "Lavoir de la Source aux Fées à Saint‑Forget : étude géobiologique",
 			"description": "Découvrez le lavoir de la Source aux Fées à Saint‑Forget : son histoire, les légendes qui l’entourent et mon exploration géobiologique de ce lieu en forêt..",
 			"canonical": "/etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees"
 		},
 		{
+			"key": "yvelines/fontaine-saint-sauveur-maurepas",
+			"title": "Fontaine Saint‑Sauveur de Maurepas : étude géobiologique",
+			"description": "Découvrez l’étude géobiologique de la fontaine Saint-Sauveur à Maurepas, entre histoire du lieu, réseaux subtils et phénomènes ressentis.",
+			"canonical": "/etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas"
+		},
+		{
+			"key": "yvelines/fontaine-saint-martin-jouars-pontchartrain",
+			"title": "Fontaine Saint‑Martin de Jouars-Pontchartrain : étude géobiologique",
+			"description": "Explorez la fontaine Saint-Martin à Jouars-Pontchartrain : recherches historiques, environnement du lieu et observations géobiologiques.",
+			"canonical": "/etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain"
+		},
+
+		{
+			"key": "les-9-rites-munay-ki",
+			"title": "Les 9 rites Munay-Ki – Cyril Cophignon",
+			"description": "Découvrez les 9 rites Munay-Ki, un parcours de transformation intérieure inspiré des traditions spirituelles andines.",
+			"canonical": "/articles/les-9-rites-munay-ki"
+		},
+		{
+			"key": "les-cupules",
+			"title": "Cupules : histoire, symboles et lecture des lieux – Cyril Cophignon",
+			"description": "Découvrez les cupules creusées dans la pierre, leurs usages supposés, leur dimension symbolique et la manière dont elles peuvent enrichir la lecture d’un lieu.",
+			"canonical": "/articles/les-cupules"
+		},
+		{
 			"key": "entretien-tambour-chamanique-peau",
 			"title": "Entretenir son tambour en peau : gérer la sécheresse et l’humidité",
 			"description": "Comment protéger la peau de votre tambour chamanique de la sécheresse, de la chaleur et de l’humidité ? Conseils pratiques pour son entretien.",
-			"canonical": "/ressources/entretien-tambour-chamanique-peau"
+			"canonical": "/articles/entretien-tambour-chamanique-peau"
 		},
+		{
+			"key": "la-communication-animale",
+			"title": "La communication animale – Cyril Cophignon",
+			"description": "Découvrez l’approche de Cyril Cophignon en communication animale, une rencontre sensible fondée sur l’écoute et la compréhension mutuelle.",
+			"canonical": "/articles/la-communication-animale"
+		},
+		{
+			"key": "lire-un-lieu",
+			"title": "Lire un lieu : d’une découverte à l’autre - Cyril Cophignon",
+			"description": "D’une découverte à l’autre, je partage ma façon de lire un lieu en reliant documents, observations et perceptions géobiologiques. Une approche, pas une recette.",
+			"canonical": "/articles/lire-un-lieu"
+		},
+		{
+			"key": "portes-ouvertes-blowball-guyancourt-novembre-2026",
+			"title": "Portes ouvertes Blowball à Guyancourt - 22 novembre 2026",
+			"description": "Le 22 novembre 2026, découvrez le cabinet Blowball à Guyancourt : conférences, rencontres et exploration de la fontaine Saint-Sauveur.",
+			"canonical": "/articles/portes-ouvertes-blowball-guyancourt-novembre-2026"
+		},
+
 		{
 			"key": "politique-de-confidentialite",
 			"title": "Politique de confidentialité – Cyril COPHIGNON",
-			"description": "Consultez la politique de confidentialité de Cyril Cophignon : traitement des données personnelles, respect de la vie privée et informations RGPD.",
+			"description": "Apprendre à lire un lieu en géobiologie : observer le terrain, écouter ses ressentis et croiser les indices pour mieux comprendre un territoire.",
 			"canonical": "/politique-de-confidentialite"
 		},
 		{

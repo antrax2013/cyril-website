@@ -10,47 +10,36 @@ import { lazy } from 'react';
 import JsonLd from './components/fragments/JsonLd';
 import * as LocalBusinessLd from './components/fragments/JsonLd/localBusiness.json';
 
-const MessageAnimal = lazy(() => import('./components/routes/Message-animal'));
-const Actualites = lazy(() => import('./components/routes/Actualites'));
-const Explorations = lazy(() => import('./components/routes/Explorations'));
-const Contact = lazy(() => import('./components/routes/Contact'));
-const ContactWrapper = lazy(() => import('./components/routes/ContactWrapper'));
-const Error404 = lazy(() => import('./components/routes/Error404'));
-const RitesMunayKi = lazy(
-	() => import('./components/routes/Les-9-rites-du-munay-ki'),
-);
-const Geobiologie = lazy(() => import('./components/routes/Geogiologie'));
+// Header & Footer
+const PanneauLateral = lazy(() => import('./components/Panneau-lateral'));
+const FooterMenu = lazy(() => import('./components/tools/Footer-Menu'));
 const PolitiqueConfidentialite = lazy(
 	() => import('./components/routes/Politique-confidentialite'),
 );
-
-const QuiSuisJe = lazy(() => import('./components/routes/Qui-suis-je'));
 const PlanDuSite = lazy(() => import('./components/routes/Site-Map'));
 
 // Page V2
-const MonApproche = lazy(() => import('./components/routes/MonApproche'));
+const QuiSuisJe = lazy(() => import('./components/routes/Qui-suis-je'));
+const Geobiologie = lazy(() => import('./components/routes/Geogiologie'));
 const GeoBioExplorateurInvisible = lazy(
 	() => import('./components/routes/Initiations/GeoBioExplorateurInvisible'),
 );
+const Actualites = lazy(() => import('./components/routes/Actualites'));
+const MonApproche = lazy(() => import('./components/routes/MonApproche'));
 
-// Ressources
-const LeLavoirDeLaSourceAuxFees = lazy(
-	() =>
-		import('./components/routes/Geobiologie/Etudes/Le-lavoir-de-la-source-aux-fees'),
-);
-const FontaineStSauveur = lazy(
-	() => import('./components/routes/Geobiologie/Etudes/Fontaine-st-Sauveur'),
-);
-const FontaineStMartin = lazy(
-	() => import('./components/routes/Geobiologie/Etudes/Fontaine-St-Martin'),
-);
-const Cupule = lazy(() => import('./components/routes/Geobiologie/Cupule'));
-const EntretienTambourChamanique = lazy(
-	() => import('./components/routes/Ressources/entretien-tambour-chamanique'),
-);
+// Explorations
+const Explorations = lazy(() => import('./components/routes/Explorations'));
+const Exploration = lazy(() => import('./components/fragments/Exploration'));
 
-const PanneauLateral = lazy(() => import('./components/Panneau-lateral'));
-const FooterMenu = lazy(() => import('./components/tools/Footer-Menu'));
+const Contact = lazy(() => import('./components/routes/Contact'));
+const ContactWrapper = lazy(() => import('./components/routes/ContactWrapper'));
+
+// Articles
+const Articles = lazy(() => import('./components/routes/Articles'));
+const Article = lazy(() => import('./components/fragments/Article'));
+
+// Autres
+const Error404 = lazy(() => import('./components/routes/Error404'));
 const ScrollButton = lazy(() => import('./components/tools/Scrollbutton'));
 
 const App = () => {
@@ -76,11 +65,6 @@ const App = () => {
 							<Route index element={<QuiSuisJe />} />
 
 							<Route path='geobiologie' element={<Geobiologie />} />
-							<Route
-								path='la-communication-animale'
-								element={<MessageAnimal />}
-							/>
-							<Route path='les-9-rites-munay-ki' element={<RitesMunayKi />} />
 
 							{/* Page V2 */}
 							<Route path='mon-approche' element={<MonApproche />} />
@@ -89,7 +73,12 @@ const App = () => {
 								element={<GeoBioExplorateurInvisible />}
 							/>
 							<Route path='agenda' element={<Actualites />} />
+
 							<Route path='explorations' element={<Explorations />} />
+							<Route
+								path='etudes-geobiologie/:region/:slug'
+								element={<Exploration />}
+							/>
 
 							<Route path='contact' element={<Contact />} />
 							<Route
@@ -109,23 +98,9 @@ const App = () => {
 							<Route path='plan-du-site' element={<PlanDuSite />} />
 
 							{/* Ressources */}
-							<Route
-								path='etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees'
-								element={<LeLavoirDeLaSourceAuxFees />}
-							/>
-							<Route
-								path='etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas'
-								element={<FontaineStSauveur />}
-							/>
-							<Route
-								path='etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain'
-								element={<FontaineStMartin />}
-							/>
-							<Route path='geologie/les-cupules' element={<Cupule />} />
-							<Route
-								path='ressources/entretien-tambour-chamanique-peau'
-								element={<EntretienTambourChamanique />}
-							/>
+							<Route path='articles' element={<Articles />} />
+							<Route path='articles/:slug' element={<Article />} />
+
 							<Route path='*' element={<Navigate replace to='/erreur-404' />} />
 						</Routes>
 						<ScrollButton />

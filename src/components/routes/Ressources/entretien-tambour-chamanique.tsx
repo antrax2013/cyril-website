@@ -7,7 +7,6 @@ import Marcheur from '../../../assets/ressources/entretien-tambours/le-marcheur-
 import MonTambour from '../../../assets/ressources/entretien-tambours/mon-tambour2.jpg';
 import TabourArbreBleu from '../../../assets/ressources/entretien-tambours/tambour-arbre.jpg';
 import '../../../scss/routes/Ressources/EntretienTambour.scss';
-import SharePopup from '../../tools/SharePopup';
 
 const EntretienTambourChamanique = () => {
 	const [visible, setVisible] = React.useState(false);
@@ -15,16 +14,6 @@ const EntretienTambourChamanique = () => {
 		<>
 			<div className='EntretienTambourChamanique'>
 				<div className='article'>
-					<h1>
-						Prendre soin de votre tambour en période de fortes chaleurs et d’air
-						sec
-					</h1>
-					<section className='icon-panel'>
-						<SharePopup
-							url={window.location.href}
-							title='Protéger son tambour en peau'
-						/>
-					</section>
 					<i>
 						Tous droits réservés à{' '}
 						<a href='https://tambours-medecine-ossau.com/' target='_blank'>
