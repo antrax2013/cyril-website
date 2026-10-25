@@ -1,5 +1,3 @@
-import SharePopup from '../../../tools/SharePopup';
-import ImgCC from '../../../../assets/Cc_by-nc-nd_icon.svg';
 import ParagraphSeparator from '../../../tools/Paragraph-Separator';
 import photoFontaine from '../../../../assets/géobiologie/etudes/yvelines/jouars/fontaine st martin/fontaine-st-martin-jouars.jpg';
 import photoPlaine from '../../../../assets/géobiologie/etudes/yvelines/jouars/fontaine st martin/plaine-de-jouars-depuis-l-eglise-st-martin-philippe-milbault.jpg';
@@ -15,30 +13,6 @@ const FontaineStMartin = () => {
 		<>
 			<div className='FontaineStMartin'>
 				<div className='article'>
-					<h1>
-						Fontaine Saint-Martin de Jouars-Pontchartrain : une future
-						exploration géobiologique
-					</h1>
-					<legend>
-						<a
-							href='https://fr.wikipedia.org/wiki/Licence_Creative_Commons#Sept_licences_régulièrement_utilisées'
-							target='_blank'
-						>
-							<img
-								className='ImgCC'
-								src={ImgCC}
-								alt='étude géobiologique publiée sous Licence Creative Commons BY-NC-ND'
-								title='étude géobiologique publiée sous Licence Creative Commons BY-NC-ND'
-							/>
-						</a>
-						<section className='icon-panel'>
-							<SharePopup
-								url={window.location.href}
-								title='La fontaine Saint‑Martin - étude géobiologique'
-							/>
-						</section>
-					</legend>
-
 					<section className='paragraphe-1'>
 						<aside>
 							<div>

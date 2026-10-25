@@ -6,13 +6,13 @@ export interface iCardFilters {
 	tags?: string[];
 }
 
-export const useCardFilter = (articles: iCard[]) => {
+export const useCardFilter = (cards: iCard[]) => {
 	const [filters, setFilters] = useState<iCardFilters>({
 		tags: [],
 	});
 
 	const filtered = useMemo(() => {
-		return articles
+		return cards
 			.filter((a) => {
 				if (!!filters.type && a.type !== filters.type) return false;
 
@@ -25,7 +25,7 @@ export const useCardFilter = (articles: iCard[]) => {
 				return true;
 			})
 			.sort((a, b) => b.date.getTime() - a.date.getTime());
-	}, [articles, filters]);
+	}, [cards, filters]);
 
 	return { filters, setFilters, filtered };
 };

@@ -33,6 +33,7 @@
 					display: flex;
 					justify-content: center;
 					flex-wrap: nowrap;
+					align-items: center;
 				}
 			}
 
@@ -69,6 +70,7 @@
 
 .MiniCard {
 	height: 210px !important;
+
 	.card-main-container {
 		justify-content: space-between;
 	}
@@ -81,6 +83,7 @@
 	}
 
 	.p-card-body {
+		font-size: 0.8rem;
 		.p-card-content {
 			padding: 0px !important;
 		}

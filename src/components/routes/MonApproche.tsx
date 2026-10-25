@@ -120,7 +120,7 @@ const MonApproche = () => {
 						</p>
 						<div className='cta-container'>
 							<Cta
-								link={'/la-communication-animale'}
+								link={'/articles/la-communication-animale'}
 								title={'Découvrir la communication animale'}
 								ctaLinkClassName='cta-tertiary'
 							/>
@@ -145,7 +145,7 @@ const MonApproche = () => {
 						</p>
 						<div className='cta-container'>
 							<Cta
-								link={'/les-9-rites-munay-ki'}
+								link={'articles/les-9-rites-munay-ki'}
 								title={'En savoir plus sur les rites du Munay-Ki'}
 								ctaLinkClassName='cta-tertiary'
 							/>

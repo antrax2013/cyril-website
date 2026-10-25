@@ -1,4 +1,4 @@
-//import { JSX } from 'react/jsx-runtime';
+import { JSX } from 'react/jsx-runtime';
 import { iImage } from '../McImage/McImage';
 
 export type CardType = 'Evénement' | 'Article' | 'Etude géobio.';
@@ -8,14 +8,18 @@ export interface CardListProps {
 	disableFilters?: boolean;
 }
 
-export interface iCard {
+export interface iCardInfo {
 	slug: string;
+	h1?: string;
 	date: Date;
 	tags: string[];
-	images: iImage[];
-	//content?: string | JSX.Element;
-	type?: CardType;
-	h1?: string;
+	thumbnail: iImage;
+	type: CardType;
+}
+
+export interface iCard extends Omit<iCardInfo, 'h1'> {
+	content: string | JSX.Element;
+	h1: string;
 }
 
 export interface iCradsPanel {

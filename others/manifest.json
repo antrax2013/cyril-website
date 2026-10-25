@@ -70,7 +70,7 @@
 			"name": "Explorations géobiologiques dans les Yvelines | Cyril Cophignon",
 			"short_name": "Explorations",
 			"description": "Découvrez mes explorations géobiologiques, principalement dans les Yvelines : patrimoine, histoire, nature et lecture sensible des territoires.",
-			"url": "/la-communication-animale"
+			"url": "/explorations"
 		},
 		{
 			"name": "Initiation à la géobiologie | Explorateur de l’invisible",
@@ -82,19 +82,25 @@
 			"name": "La communication animale",
 			"short_name": "Comm. animale",
 			"description": "La communication animale, un moyen pour renforcer la compréhension mutuelle entre un gardien et son animal, dont je ne suis que le messager.",
-			"url": "/la-communication-animale"
+			"url": "/articles/la-communication-animale"
 		},
 		{
 			"name": "Les 9 rites du Munay-Ki",
 			"short_name": "Munay-Ki",
 			"description": "Les 9 rites Munay-Ki, ou la transmission prophétisée d'un savoir ancestral venu des Andes et détenus par les Q’eros.",
-			"url": "/les-9-rites-munay-ki"
+			"url": "/articles/les-9-rites-munay-ki"
+		},
+		{
+			"name": "Entretenir son tambour en peau : gérer la sécheresse et l’humidité",
+			"short_name": "Entretenir son tambour en peau",
+			"description": "Comment protéger la peau de votre tambour chamanique de la sécheresse, de la chaleur et de l’humidité ? Conseils pratiques pour son entretien.",
+			"url": "/articles/entretien-tambour-chamanique-peau"
 		},
 		{
 			"name": "Les cupules",
 			"short_name": "Les cupules",
 			"description": "Article sur les cupules, le pendant féminin du ménhir.",
-			"url": "/geologie/les-cupules"
+			"url": "/articles/les-cupules"
 		},
 		{
 			"name": "La fontaine Saint‑Sauveur de Maurepas, étude géobiologique",
@@ -107,6 +113,24 @@
 			"short_name": "Le lavoir de la source aux fées",
 			"description": "Étude géobiologique du lavoir de la source aux fées de St Forget (78).",
 			"url": "/etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees"
+		},
+		{
+			"name": "La fontaine Saint‑Martin de Jouars-Pontchartrain, étude géobiologique",
+			"short_name": "La fontaine Saint‑Martin",
+			"description": "Explorez la fontaine Saint-Martin à Jouars-Pontchartrain : recherches historiques, environnement du lieu et observations géobiologiques.",
+			"url": "/etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain"
+		},
+		{
+			"name": "Lire un lieu : d’une découverte à l’autre - Cyril Cophignon",
+			"short_name": "Lire un lieu",
+			"description": "D’une découverte à l’autre, je partage ma façon de lire un lieu en reliant documents, observations et perceptions géobiologiques. Une approche, pas une recette.",
+			"url": "/articles/lire-un-lieu"
+		},
+		{
+			"short_name": "Portes ouvertes Blowball",
+			"name": "Portes ouvertes Blowball à Guyancourt - 22 novembre 2026",
+			"description": "Le 22 novembre 2026, découvrez le cabinet Blowball à Guyancourt : conférences, rencontres et exploration de la fontaine Saint-Sauveur.",
+			"url": "/articles/portes-ouvertes-blowball-guyancourt-novembre-2026"
 		},
 		{
 			"name": "Contact",

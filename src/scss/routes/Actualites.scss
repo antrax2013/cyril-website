@@ -10,6 +10,14 @@
 	// 	align-items: center;
 	// }
 
+	h4 {
+		font-style: normal;
+	}
+
+	h5 {
+		margin-bottom: unset;
+	}
+
 	.article section aside > div {
 		@include mixins.flex-content-center;
 	}

@@ -3,10 +3,8 @@ import '../../scss/routes/Actualites.scss';
 import SharePopup from '../tools/SharePopup';
 import JsonLd from '../fragments/JsonLd';
 import * as ActuLd from '../fragments/JsonLd/actu.json';
-import photoFontaine from '../../assets/géobiologie/etudes/yvelines/jouars/fontaine st martin/fontaine-st-martin-jouars.jpg';
 import CtaReserver from '../fragments/Ctas/Reserver';
 import CtaExplorateurInv from '../fragments/Ctas/ExplorateurInvisible';
-import CtaExplorations from '../fragments/Ctas/Explorations';
 import Cta from '../fragments/Ctas/Cta';
 
 const Actualites = () => {
@@ -32,9 +30,9 @@ const Actualites = () => {
 						souhaitant explorer l’autonomie et les énergies sous toutes leurs
 						formes. Que ce soit pour comprendre la géobiologie (
 						<b>réseaux géomagnétiques</b>, <b>failles</b>, <b>veines d’eau</b>,{' '}
-						<b>cheminées cosmo-telluriques</b>) ou pour pratiquer la monnaie
-						libre Ğ1 (échanges locaux, conférences citoyennes et ateliers),
-						chaque rencontre favorise le partage et la reconnexion au vivant.
+						<b>cheminées cosmo-telluriques</b>) par curiosité ou pour se
+						perfectionner, chaque rencontre favorise la diffusion de la
+						connaissance, le partage et la reconnexion au vivant.
 					</p>
 					<p>
 						Mes activités se déroulent principalement sur
@@ -43,7 +41,7 @@ const Actualites = () => {
 					</p>
 					<ParagraphSeparator />
 					<h2>Agenda & Actualités de la Géobiologie dans les Yvelines (78)</h2>
-					<section className='paragraphe-2'>
+					{/* <section className='paragraphe-2'>
 						<h3>Sortie Nature et Pratique</h3>
 						<div>
 							<h4>Exploration géobiologique de la Fontaine Saint-Martin</h4>
@@ -139,11 +137,11 @@ const Actualites = () => {
 						</div>
 					</section>
 
-					<ParagraphSeparator />
+					<ParagraphSeparator /> */}
 					<section className='paragraphe-1'>
 						<h3>
 							Initiation à la Géobiologie « Explorateur de l’Invisible » à
-							Plaisir (78)
+							Guyancourt (78)
 						</h3>
 						<p>
 							<i>
@@ -157,7 +155,9 @@ const Actualites = () => {
 							mesurer l'impact des réseaux géomagnétiques et des présences
 							subtiles sur les êtres vivants.
 						</p>
-						<h4>📅 Partie 1 : Module 1 & 2 - Date à planifier</h4>
+						<h4>
+							📅 Partie 1 : Module 1 & 2 - Dim. 13 décembre 2026 de 09h à 17h30
+						</h4>
 						<ul>
 							<li>
 								<b>Module 1 : </b> La découverte, théorie de la géobiologie, ses
@@ -173,8 +173,7 @@ const Actualites = () => {
 							</li>
 						</ul>
 						<h4>
-							📅 Partie 2 : Module 3 & 4{' - '}
-							Date à planifier
+							📅 Partie 2 : Module 3 & 4 - Dim. 17 janvier 2027 de 09h à 17h30
 						</h4>
 						<ul>
 							<li>
@@ -192,10 +191,9 @@ const Actualites = () => {
 								participants.
 							</li>
 						</ul>
-						<br />
 						<p>
 							💶 <b>Tarif des modules :</b> 60 € par module indépendant |{' '}
-							<b>Tarif cycle complet :</b> 200 € les 4 modules ppour toute
+							<b>Tarif cycle complet :</b> 200 € les 4 modules pour toute
 							inscription à l'intégralité du cycle.
 							<br />
 							<i>
@@ -203,12 +201,16 @@ const Actualites = () => {
 								sur demande.
 							</i>
 						</p>
-						<p className='txt-center txt-warning'>
-							⚠️ Attention réservation <b>obligatoire</b> ⚠️
+						<p>
+							📍 <b>Lieu</b> : Cabinet Blowball — 1 rue Le Corbusier, 78280
+							Guyancourt
+							<br />
+							📝 <b>Inscription obligatoire</b>
 						</p>
+
 						<div className='cta-container'>
 							<CtaReserver
-								ctaText={'Apprenez la géobio. avec moi'}
+								ctaText={'📝 Apprenez la géobio. avec moi'}
 								title='Lien pour réserver un ou plusieurs modules du cycle Explorateur de l’invisible'
 							/>{' '}
 							<CtaExplorateurInv
@@ -222,62 +224,119 @@ const Actualites = () => {
 					<section className='paragraphe-3'>
 						<h2>Portes ouvertes - Cabinet Blowball</h2>
 						<h3>
-							Portes ouvertes à Guyancourt - Dimanche 22 novembre 2026 de 09h00
-							à 13h00 — Entrée libre sur réservation
+							📅 Portes ouvertes à Guyancourt - Dimanche 22 novembre 2026 de
+							09h30 à 13h00 — Entrée libre sur réservation
 						</h3>
 						<p>
-							Participez aux portes ouvertes du Cabinet Blowball et venez
-							rencontrer les praticiens et thérapeutes du cabinet et découvrir
-							leurs activités.
+							Une matinée pour rencontrer les praticiens du cabinet, découvrir
+							leurs approches et assister à des conférences.
 						</p>
-						<h4>📅 Programme des portes ouvertes :</h4>
-						<p>Programme en cours d'élaboration...</p>
-						{/* <ul>
-							<li>
-								10h00 : Début du Ğmarché — Ouverture des stands, rencontres,
-								échanges en June.
-							</li>
-							<li>
-								12h00 : Repas partagé — Chacun apporte quelque chose ; moment
-								convivial et communautaire.
-							</li>
-							<li>
-								14h00 à 18h00 : Atelier Bien-Être - animé par Marie <br />{' '}
-								<a
-									href='https://massage-reiki.fr/massage-assis-methode-eas'
-									target='_blank'
-									rel='noopener noreferrer'
-								>
-									Massages du dos assis professionnel
-								</a>{' '}
-								— Séances de 15 minutes, sur mesure, pour soulager les tensions
-								et favoriser la détente.
-							</li>
-							<li>
-								14h30 à 15h30 : Conférence monnaie libre - animée par Cyril{' '}
-								<i>(moi)</i>
-								<br /> Changer la monnaie pour changer notre r-apport au monde :
-								Comprendre l’impact de la monnaie sur notre vie quotidienne et
-								notre relation aux autres.
-							</li>
-						</ul> */}
-						<p className='txt-center txt-warning'>
-							⚠️ Attention réservation <b>obligatoire</b> ⚠️
+						<h4>🔎 Ma conférence · De 10 h 45 à 11 h 45</h4>
+						<h5>Autour de la fontaine St Sauveur de Maurepas</h5>
+						<h6>
+							Et si ce lieu discret avait encore bien des choses à révéler ?
+						</h6>
+						<p>
+							Comment un lieu familier peut-il révéler de nouvelles pistes
+							d’exploration ? <br />À travers la fontaine Saint-Sauveur de
+							Maurepas, je vous propose de découvrir ma démarche, entre
+							observation, recherches historiques et perceptions géobiologiques.
 						</p>
-						{/* <a
-							href='/contact?sujet=initiation-géobiologie'
-							className='cta cta-primary'
-							title='Lien pour réserver un ou plusieurs modules pour l’initiation à la Géobiologie - Explorateur de l’invisible'
-						>
-							Réserver
-						</a>{' '}
-						<a
-							href='/geobiologie#invisible'
-							className='cta cta-secondary'
-							title='En savoir plus sur l’initiation à la Géobiologie - Explorateur de l’invisible'
-						>
-							En savoir plus
-						</a> */}
+						<p>
+							Ce sera également l’occasion d’échanger sur le cycle « Explorateur
+							de l’invisible » et de vous inscrire aux initiations de décembre
+							2026 et janvier 2027.
+						</p>
+						<div className='cta-container'>
+							<CtaExplorateurInv
+								ctaText={'« Explorateur de l’invisible » ❓'}
+								className={'cta-tertiary'}
+							/>
+						</div>
+						<h4>✨ Au programme également</h4>
+						<ul>
+							<li>
+								10 h – 10 h 30 · Jérémy Bordes : aborder l’hiver avec la
+								médecine traditionnelle chinoise.
+							</li>
+							<li>
+								12 h – 12 h 20 ·{' '}
+								<u>
+									<a
+										href='https://massage-reiki.fr'
+										title='Découvrir le site de Marie'
+										target='_blank'
+									>
+										Marie Cophignon
+									</a>
+								</u>{' '}
+								: découvrir le{' '}
+								<u>
+									<a
+										href='https://massage-reiki.fr/massage-des-5-continents'
+										title='Découvrir le Massage des 5 Continents'
+										target='_blank'
+									>
+										Massage des 5 Continents
+									</a>
+								</u>{' '}
+								à l’approche de l’hiver.
+							</li>
+							<li>
+								12 h 30 – 13 h ·{' '}
+								<u>
+									<a
+										href='https://massage-reiki.fr'
+										title='Découvrir le site de Carole'
+										target='_blank'
+									>
+										Carole Jacob
+									</a>
+								</u>{' '}
+								: conseils de réflexologie palmaire pour la période hivernale.
+							</li>
+							<p>
+								Vous pourrez aussi recevoir un{' '}
+								<u>
+									<a
+										href='https://massage-reiki.fr/massage-assis-methode-eas'
+										title='Découvrir le massage du dos assis méthode EAS®'
+										target='_blank'
+									>
+										massage du dos assis méthode EAS®
+									</a>
+								</u>{' '}
+								avec Marie (15 minutes · 15 €), découvrir les créations en
+								céramique de Carole et vous renseigner sur ses ateliers de 2027.
+							</p>
+						</ul>
+						<p>
+							📍 <b>Lieu</b> : Cabinet Blowball — 1 rue Le Corbusier, 78280
+							Guyancourt
+							<br />
+							📝<b>Entrée gratuite · Inscription obligatoire</b>
+						</p>
+
+						<div className='cta-container'>
+							<Cta
+								link={
+									'https://www.billetweb.fr/porte-ouverte-cabinet-blowball-22-novembre-2026'
+								}
+								title={'Inscription gratuite mais obligatoire'}
+								ctaText={'📝 M’inscrire'}
+								ctaLinkClassName='cta-secondary'
+								target='_blank'
+							/>{' '}
+							<Cta
+								link={
+									'/articles/portes-ouvertes-blowball-guyancourt-novembre-2026'
+								}
+								title={'Lire l’article sur les portes ouvertes.'}
+								ctaText={'Voir l’article'}
+								ctaLinkClassName='cta-tertiary'
+								target='_blank'
+							/>
+						</div>
 					</section>
 					{/*<ParagraphSeparator />
 
