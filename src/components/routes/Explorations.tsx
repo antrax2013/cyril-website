@@ -7,11 +7,18 @@ import CtaMonApproche from '../fragments/Ctas/MonApproche';
 import CtaGeobiologie from '../fragments/Ctas/Geobiologie';
 import CtaExplorateurInv from '../fragments/Ctas/ExplorateurInvisible';
 import CtaAgenda from '../fragments/Ctas/Agenda';
+import { iCard, iCardInfo } from '../fragments/CardList/ICard';
 
 const Explorations = () => {
+	const cards: iCard[] = explorationCards.map((item: iCardInfo) => ({
+		...item,
+		content: '',
+		h1: item.h1 ?? '',
+	}));
+
 	return (
 		<>
-			<div className='Explorations'>
+			<div className='Explorations card-list'>
 				<div className='article'>
 					<div className='hero'>
 						<h1>Explorations géobiologiques et lecture des lieux</h1>
@@ -58,7 +65,7 @@ const Explorations = () => {
 					<ParagraphSeparator />
 					<div>
 						<h2>Mes études de lieux</h2>
-						<CardList cards={explorationCards} disableFilters={true} />
+						<CardList cards={cards} disableFilters={true} />
 					</div>
 					<ParagraphSeparator />
 					<div>

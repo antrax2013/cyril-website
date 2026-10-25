@@ -1,5 +1,7 @@
 Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS
 
+Options -Indexes
+
 <IfModule mod_rewrite.c>
 
   RewriteEngine On
@@ -15,6 +17,15 @@ Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains
   # Les nouvelles pages
   RewriteRule ^qui-suis-je/?$ /mon-approche [R=301,L]
   RewriteRule ^actualites/?$ /agenda [R=301,L]
+
+  RewriteRule ^geologie/les-cupules/?$ /articles/les-cupules [R=301,L]
+  RewriteRule ^les-9-rites-munay-ki/?$ /articles/les-9-rites-munay-ki [R=301,L]
+  RewriteRule ^la-communication-animale/?$ /articles/la-communication-animale [R=301,L]
+  RewriteRule ^ressources/entretien-tambour-chamanique-peau/?$ /articles/entretien-tambour-chamanique-peau [R=301,L]
+
+  # Le dossier /articles existe physiquement,
+  # mais cette URL doit être gérée par React
+  RewriteRule ^articles/?$ /index.html [L]
 
   # return our SPA code, but ignore static files
   RewriteCond %{REQUEST_FILENAME} !-f

@@ -148,7 +148,8 @@ nav .p-menubar-mobile-active .p-menubar-button:active,
 	}
 }
 
-.CardList {
+.CardList,
+.BlogArticle {
 	.p-badge {
 		font-family: var(--text-front-family) !important;
 		color: var(--primary-color-text) !important;
@@ -162,7 +163,7 @@ nav .p-menubar-mobile-active .p-menubar-button:active,
 		background-color: var(--text-color) !important;
 	}
 
-	.p-badge.p-badge-info {
+	.p-badge.p-badge-infos {
 		background-color: var(--secondary-color-text) !important;
 	}
 
@@ -178,7 +179,63 @@ nav .p-menubar-mobile-active .p-menubar-button:active,
 	}
 
 	.p-badge.p-badge-warning {
-		background-color: var(--pink-500) !important;
+		background-color: var(--warning) !important;
+	}
+
+	.p-paginator {
+		font-size: 0.8rem;
+		background: var(--background-color);
+		span.p-dropdown-label.p-inputtext {
+			line-height: 1.5rem;
+			font-size: 0.8rem;
+		}
+		button {
+			min-width: 1rem;
+			min-height: 1rem;
+			width: 1rem;
+			height: 1rem;
+		}
+
+		.p-link {
+			color: var(--text-color);
+		}
+
+		.p-paginator-first,
+		.p-paginator-prev,
+		.p-paginator-next,
+		.p-paginator-last,
+		.p-dropdown-trigger {
+			svg {
+				color: var(--secondary-color-text);
+				vertical-align: middle;
+			}
+		}
+
+		.p-highlight {
+			background: var(--shadow);
+		}
+	}
+}
+
+.p-dropdown:not(.p-disabled):hover {
+	border-color: var(--secondary-color-text);
+}
+
+.p-dropdown.p-component,
+.p-dropdown-panel {
+	background: var(--background-color);
+	.p-dropdown-items {
+		padding: inherit;
+		li {
+			padding: 0.2rem 0.75rem;
+			font-size: 0.8rem;
+		}
+		.p-highlight {
+			background: var(--shadow);
+		}
+		.p-focus {
+			border: var(--secondary-color-text) 1px solid;
+		}
 	}
 }
 

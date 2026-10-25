@@ -151,6 +151,13 @@ h5 {
 	color: var(--primary-color) !important;
 }
 
+h6 {
+	font-size: 0.85rem;
+	color: var(--primary-color) !important;
+	margin: unset;
+	padding: unset;
+}
+
 .inline-header {
 	display: inline;
 }
@@ -316,10 +323,11 @@ aside.content {
 	section {
 		margin: 0rem 1rem 1.5rem;
 		padding: 0 1rem;
-	}
 
-	button span {
-		font-size: 0.8rem;
+		a {
+			font-size: 0.8rem;
+			font-style: italic;
+		}
 	}
 }
 

@@ -1,4 +1,11 @@
+import { iCard, iCardInfo } from '../fragments/CardList/ICard';
+import { ArticleList } from '../entities/articles/ArticleList';
+import { explorationCards } from '../entities/explorationCards/exporationCards';
+
 const SiteMap = () => {
+	const articles: iCard[] = [...ArticleList];
+	const explorations: iCard[] = [...explorationCards];
+
 	return (
 		<>
 			<div className='article'>
@@ -29,24 +36,37 @@ const SiteMap = () => {
 
 					<li>
 						<h2>
+							<a href='/mon-approche'>Mon approche</a>
+						</h2>
+					</li>
+
+					<li>
+						<h2>
 							<a href='/explorations'>Explorations</a>
 						</h2>
 						<ul>
-							<li>
-								<a href='/etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas'>
-									Fontaine Saint-Sauveur — Maurepas
-								</a>
-							</li>
-							<li>
-								<a href='/etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees'>
-									Lavoir de la Source aux Fées — Saint-Forget
-								</a>
-							</li>
-							<li>
-								<a href='/etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain'>
-									Fontaine Saint-Martin — Jouars-Pontchartrain
-								</a>
-							</li>
+							{explorations.map((article: iCardInfo, i: number) => (
+								<li key={`article-${i}`}>
+									<a
+										href={`articles/${article.slug}`}
+									>{`${article.date.toLocaleDateString()} - ${article.h1}`}</a>
+								</li>
+							))}
+						</ul>
+					</li>
+
+					<li>
+						<h2>
+							<a href='/articles'>Articles</a>
+						</h2>
+						<ul>
+							{articles.map((article: iCardInfo, i: number) => (
+								<li key={`article-${i}`}>
+									<a
+										href={`articles/${article.slug}`}
+									>{`${article.date.toLocaleDateString()} - ${article.h1}`}</a>
+								</li>
+							))}
 						</ul>
 					</li>
 
@@ -54,32 +74,6 @@ const SiteMap = () => {
 						<h2>
 							<a href='/agenda'>Agenda</a>
 						</h2>
-					</li>
-
-					<li>
-						<h2>
-							<a href='/mon-approche'>Mon approche</a>
-						</h2>
-					</li>
-
-					<li>
-						<h2>Articles</h2>
-						<ul>
-							<li>
-								<a href='/la-communication-animale'>Communication animale</a>
-							</li>
-							<li>
-								<a href='/les-9-rites-munay-ki'>Les 9 rites Munay-Ki</a>
-							</li>
-							<li>
-								<a href='/geologie/les-cupules'>Les cupules</a>
-							</li>
-							<li>
-								<a href='/ressources/entretien-tambour-chamanique-peau'>
-									Entretien de la peau d’un tambour chamanique
-								</a>
-							</li>
-						</ul>
 					</li>
 
 					<li>

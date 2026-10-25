@@ -11,19 +11,24 @@
 - **Description**: Explorateur des mondes subtils, Cyril Cophignon transmet ses connaissances en géobiologie, communication animale et chamanisme pour vous guider.
 - **Contact**: cyril@cophignon.net
 
-version: 1.0
+version: 1.1
 
 ## Key Pages
-- [Homepage](https://cyril.cophignon.net)
+- [Explorer les lieux, le vivant et les mondes subtils](https://cyril.cophignon.net)
 - [Géobiologie](https://cyril.cophignon.net/geobiologie)
-- [La communication animale](https://cyril.cophignon.net/la-communication-animale)
-- [Les 9 rites munay ki](https://cyril.cophignon.net/les-9-rites-munay-ki)
-- [Explorateur des mondes subtils](https://cyril.cophignon.net/qui-suis-je)
-- [Forumulaire de contact](https://cyril.cophignon.net/contact)
-- [Fontaine Saint‑Sauveur à Maurepas (Yvelines) : étude géobiologique](https://cyril.cophignon.net/etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas)
+- [Initiation à la Géobiologie — Explorateur de l’invisible](https://cyril.cophignon.net/initiations/geobiologie/explorateur-de-l-invisible)
+- [Mon approche](https://cyril.cophignon.net/initiations/mon-approche)
+- [Explorations géobiologiques et lecture des lieux](https://cyril.cophignon.net/explorations)
 - [Le lavoir de la source aux fées, étude géobiologique](https://cyril.cophignon.net/etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees)
-- [Les cupules](https://cyril.cophignon.net/geologie/les-cupules)
-- [Prendre soin de votre tambour en période de fortes chaleurs et d’air sec](https://cyril.cophignon.net/ressources/entretien-tambour-chamanique-peau)
+- [Fontaine Saint‑Sauveur à Maurepas (Yvelines) : étude géobiologique](https://cyril.cophignon.net/etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas)
+- [Fontaine Saint‑Martin à Jouars-Pontchartrain (Yvelines) : étude géobiologique](https://cyril.cophignon.net/etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain)
+- [Articles](https://cyril.cophignon.net/articles)
+- [La communication animale](https://cyril.cophignon.net/articles/la-communication-animale)
+- [Les 9 rites munay ki](https://cyril.cophignon.net/articles/les-9-rites-munay-ki)
+- [Les cupules](https://cyril.cophignon.net/articles/les-cupules)
+- [Prendre soin de votre tambour en période de fortes chaleurs et d’air sec](https://cyril.cophignon.net/articles/entretien-tambour-chamanique-peau)
+- [Actualités & Agenda : Géobiologie et explorations dans les Yvelines (78)](https://cyril.cophignon.net/agenda)
+- [Forumulaire de contact](https://cyril.cophignon.net/contact)
 
 # Autorise l'indexation par les moteurs de recherche classiques
 search: allow

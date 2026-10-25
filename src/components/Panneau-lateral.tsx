@@ -2,13 +2,14 @@ import { Button } from 'primereact/button';
 import openInNewTab from './tools/OpenInNewTab';
 import CtaExplorateurInv from './fragments/Ctas/ExplorateurInvisible';
 import Cta from './fragments/Ctas/Cta';
+import CtaReserver from './fragments/Ctas/Reserver';
 
 const PanneauLateral = () => {
 	return (
 		<>
 			<div className='events'>
 				<h2>Prochains événements</h2>
-				<div className='event' id='événements'>
+				{/* <div className='event' id='événements'>
 					<h3>Sorties en nature</h3>
 					<h4>Sortie Géobio. Fontaine St-Martin</h4>
 					<ul>
@@ -24,10 +25,13 @@ const PanneauLateral = () => {
 							ctaText={'Venez explorer avec moi'}
 						/>
 					</div>
-				</div>
+				</div> */}
 				<div className='event' id='événements'>
-					<h3>Conférences</h3>
-					<h4>Portes ouvertes</h4>
+					<h3>
+						Portes ouvertes - Cabinet Blowball
+						<br />
+						Dim. 22/11 de 09h30 à 13h
+					</h3>
 					{/* <ul>
 						<li>
 							<a
@@ -35,56 +39,56 @@ const PanneauLateral = () => {
 								target='_blank'
 								title='Cliquez ici pour en savoir plus sur les portes ouvertes.'
 							> */}
-					<h5>Cabinet Blowball Dim. 22/11</h5>
-					<p>Programme en cours d'établissement</p>
-					{/* <ul>
-									<li>
-										portes ouvertes de <i>09h30 à 13h</i>
-									</li>
-									<li>
-										conf. Géobio de <i>10h à 11h</i>
-									</li>
-								</ul>
-							</a>
-							<i>
-								<a
-									href='https://www.billetweb.fr/porte-ouverte-cabinet-blowball-25-janvier-2026'
-									target='_blank'
-								>
-									Inscription gratuite mais obligatoire
-								</a>
-							</i>
+
+					<ul>
+						<li>
+							conf. Géobio de <i>10h45 à 11h45</i>
 						</li>
-					</ul> */}
+					</ul>
+					<div className='cta-container'>
+						<Cta
+							link={
+								'https://www.billetweb.fr/porte-ouverte-cabinet-blowball-22-novembre-2026'
+							}
+							title={'Inscription gratuite mais obligatoire'}
+							ctaText={'📝 M’inscrire'}
+							ctaLinkClassName='cta-secondary'
+							target='_blank'
+						/>
+					</div>
 				</div>
+
 				<div className='event' id='événements'>
 					<h3>
 						Initiation <em>Géobiologie</em> - Explorateur de l'invisible
 					</h3>
-					<p>Prochaines sessions à planifer </p>
-					{/* <h4>Module 1 - La découverte</h4> */}
-					{/*<ul>
+					<h4>Module 1 - La découverte</h4>
+					<ul>
 						<li>
-							⚠️ Dim. <b>11/10</b> de 09h à 12h30 - Plaisir
+							Dim. <b>13/12</b> de 09h à 12h30 - Guyancourt
 						</li>
 					</ul>
 					<h4>Module 2 - Les premières recherches </h4>
 					<ul>
 						<li>
-							⚠️ Dim. <b>11/10</b> de 14h à 17h30 - Plaisir
+							Dim. <b>13/12</b> de 14h à 17h30 - Guyancourt
 						</li>
 					</ul>
 					<h4>Module 3 - Les failles et les veines d’eau</h4>
 					<ul>
-						<li>⚠️ -- Reporté date à replanifier --</li>
+						<li>
+							Dim. <b>17/01</b> de 09h à 12h30 - Guyancourt
+						</li>
 					</ul>
 					<h4>Module 4 - Les réseaux géomagnétiques de base</h4>
 					<ul>
-						<li>⚠️ -- Reporté date à replanifier --</li>
-					</ul>*/}
+						<li>
+							Dim. <b>17/01</b> de 14h à 17h30 - Guyancourt
+						</li>
+					</ul>
 					<div className='cta-container'>
-						{/* <CtaReserver />
-						{'  '} */}
+						<CtaReserver />
+						{'  '}
 						<CtaExplorateurInv className={'cta-secondary'} />
 					</div>
 				</div>

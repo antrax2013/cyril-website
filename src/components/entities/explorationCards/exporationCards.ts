@@ -7,4 +7,4 @@ export const explorationCards: iCard[] = [
 	ExplorLavoirSourceAuxFees,
 	ExplorFontaineStSauveur,
 	ExplorFontaineStMartin,
-];
+].sort((a, b) => b.date.getTime() - a.date.getTime());

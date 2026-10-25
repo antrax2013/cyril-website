@@ -41,7 +41,7 @@ foreach ($file in $files) {
     $fileName = [System.IO.Path]::GetFileNameWithoutExtension($file.Name)
 
     # Chercher la meta correspondant à la clé
-    $meta = $datas.metas | Where-Object { $_.key -eq $fileName }
+    $meta = $datas.metas | Where-Object { $_.key.EndsWith($fileName) }
     #Write-Host "Injection metas dans $($file.FullName) avec title: $($meta.title) et description: $($meta.description)"
 
     if ($meta -eq $null) {
