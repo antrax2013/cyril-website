@@ -66,8 +66,17 @@ const PortesOuvertesBBNov2026 = () => {
 			</p>
 			<ul>
 				<li>
-					10 h – 10 h 30 · Jérémy Bordes : aborder l’hiver avec la médecine
-					traditionnelle chinoise.
+					10 h – 10 h 30 ·{' '}
+					<u>
+						<a
+							href='https://www.medoucine.com/consultation/guyancourt/jeremy-bordes/687'
+							title='Découvrir le site de Jérémy'
+							target='_blank'
+						>
+							Jérémy Bordes
+						</a>
+					</u>{' '}
+					: aborder l’hiver avec la médecine traditionnelle chinoise.
 				</li>
 				<li>
 					12 h – 12 h 20 ·{' '}

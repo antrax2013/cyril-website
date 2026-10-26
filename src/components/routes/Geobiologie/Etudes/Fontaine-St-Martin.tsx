@@ -76,16 +76,18 @@ const FontaineStMartin = () => {
 								géobiologique. Nous y avions notamment observé une organisation
 								énergétique complexe.
 							</p>
-							<Cta
-								link={
-									'/etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas'
-								}
-								title={
-									"Lien pour accéder à l'étude géobiologique complète de la fontaine St-Sauveur"
-								}
-								ctaText={"Découvrir l'étude de la fontaine St-Sauveur"}
-								ctaLinkClassName='cta-tertiary'
-							/>
+							<div className='cta-container'>
+								<Cta
+									link={
+										'/etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas'
+									}
+									title={
+										"Lien pour accéder à l'étude géobiologique complète de la fontaine St-Sauveur"
+									}
+									ctaText={"Découvrir l'étude de la fontaine St-Sauveur"}
+									ctaLinkClassName='cta-tertiary'
+								/>
+							</div>
 						</section>
 						<aside>
 							<div>
@@ -128,7 +130,9 @@ const FontaineStMartin = () => {
 								essayer de comprendre ce que cette petite fontaine peut encore
 								nous raconter.
 							</p>
-							<CtaExplorations className={'cta-secondary'} />
+							<div className='cta-container'>
+								<CtaExplorations className={'cta-secondary'} />
+							</div>
 						</section>
 					</section>
 					<ParagraphSeparator />

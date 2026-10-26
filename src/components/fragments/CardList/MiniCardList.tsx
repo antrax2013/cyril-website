@@ -15,8 +15,9 @@ const MiniCardList = ({ cards }: MiniCardListProps) => {
 				<h2 className='related-title'>📖 À lire aussi</h2>
 
 				<div className='related-articles-grid'>
-					{cards.map((card) => (
+					{cards.map((card, index) => (
 						<MiniCard
+							key={`minicard-${index}`}
 							slug={card.slug}
 							date={card.date}
 							thumbnail={card.thumbnail}
