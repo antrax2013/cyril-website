@@ -98,6 +98,18 @@
 	}
 }
 
+@media (max-width: 320px) {
+	.card-thumbnail {
+		width: 200px;
+	}
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+	.card-thumbnail {
+		width: 250px;
+	}
+}
+
 @media (max-width: 768px) {
 	.CardList {
 		.p-fieldset-content {

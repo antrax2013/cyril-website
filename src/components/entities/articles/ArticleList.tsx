@@ -5,7 +5,7 @@ import CupuleThumbnail from '../../../assets/cupules/cupules-thumbnail.jpg';
 import MunayKiThumbnail from '../../../assets/munay-ki/munay-ki-thunbnail.jpg';
 import ComAnnimalThumbnail from '../../../assets/la-communication-animale/com-animale-thumbnail.jpg';
 import EntretienTambourThumbnail from '../../../assets/ressources/entretien-tambours/entretien-tambour-thumbnail.jpg';
-import PortesOuvertesBBNov2026Thumbnail from '../../../assets/articles/po-blowball-nov-2026/Portes ouvertes vers le bien-être.png';
+import PortesOuvertesBBNov2026Thumbnail from '../../../assets/articles/po-blowball-nov-2026/Portes ouvertes vers le bien-être.jpg';
 
 import { iCard } from '../../fragments/CardList/ICard';
 import Cupule from '../../routes/Geobiologie/Cupule';

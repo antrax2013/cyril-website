@@ -184,27 +184,6 @@ h1:not(.aside),
 	justify-content: space-between;
 }
 
-a.cta {
-	display: inline-block !important;
-	@include mixins.btn-border-rounded;
-	padding: 0.4rem 0.8rem;
-	font-style: italic;
-}
-
-.cta-primary {
-	color: var(--primary-color-text) !important;
-	background-color: var(--primary-color) !important;
-	border: 0.1rem solid var(--primary-color) !important;
-}
-.cta-secondary {
-	color: var(--text-color) !important;
-	border: 0.1rem solid var(--secondary-color) !important;
-}
-.cta-tertiary {
-	color: var(--text-color) !important;
-	@include mixins.ombre-portee-panneau;
-}
-
 header {
 	background-color: #bcbab1; //#BFBBAF; //#B8BDBC #e9edea;
 	height: 21vh;
