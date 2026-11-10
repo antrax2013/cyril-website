@@ -22,10 +22,11 @@ Options -Indexes
   RewriteRule ^les-9-rites-munay-ki/?$ /articles/les-9-rites-munay-ki [R=301,L]
   RewriteRule ^la-communication-animale/?$ /articles/la-communication-animale [R=301,L]
   RewriteRule ^ressources/entretien-tambour-chamanique-peau/?$ /articles/entretien-tambour-chamanique-peau [R=301,L]
+  RewriteRule ^articles/?$ /mes-articles [R=301,L]
 
   # Le dossier /articles existe physiquement,
   # mais cette URL doit être gérée par React
-  RewriteRule ^articles/?$ /index.html [L]
+  # RewriteRule ^articles/?$ /index.html [L]
 
   # return our SPA code, but ignore static files
   RewriteCond %{REQUEST_FILENAME} !-f

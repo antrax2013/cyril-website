@@ -33,12 +33,11 @@
 			"canonical": "/explorations"
 		},
 		{
-			"key": "articles",
+			"key": "mes-articles",
 			"title": "Articles sur la géobiologie et le vivant - Cyril Cophignon",
 			"description": "Découvrez mes articles sur la géobiologie, l’exploration des lieux, les perceptions subtiles et les pratiques qui nourrissent mon approche du vivant.",
-			"canonical": "/articles"
+			"canonical": "/mes-articles"
 		},
-
 		{
 			"key": "actualites",
 			"title": "Agenda Géobiologie dans les Yvelines – Cyril Cophignon",

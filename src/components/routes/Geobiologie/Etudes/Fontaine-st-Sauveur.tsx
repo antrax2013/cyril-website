@@ -4,8 +4,6 @@ import { Accordion, AccordionTab } from 'primereact/accordion';
 import { Galleria } from 'primereact/galleria';
 
 import ParagraphSeparator from '../../../tools/Paragraph-Separator';
-import ImgCC from '../../../../assets/Cc_by-nc-nd_icon.svg';
-import SharePopup from '../../../tools/SharePopup';
 
 import '../../../../scss/routes/Geobiologie/Etudes/FontaineStSauveur.scss';
 
@@ -70,30 +68,6 @@ const FontaineStSauveur = () => {
 		<>
 			<div className='FontaineStSauveur'>
 				<div className='article'>
-					<h1>
-						Fontaine Saint‑Sauveur à Maurepas (Yvelines) : étude géobiologique
-						d’un site sacré
-					</h1>
-					<legend>
-						<a
-							href='https://fr.wikipedia.org/wiki/Licence_Creative_Commons#Sept_licences_régulièrement_utilisées'
-							target='_blank'
-						>
-							<img
-								className='ImgCC'
-								src={ImgCC}
-								alt='étude géobiologique publiée sous Licence Creative Commons BY-NC-ND'
-								title='étude géobiologique publiée sous Licence Creative Commons BY-NC-ND'
-							/>
-						</a>
-						<section className='icon-panel'>
-							<SharePopup
-								url={window.location.href}
-								title='La fontaine Saint‑Sauveur - étude géobiologique'
-							/>
-						</section>
-					</legend>
-
 					<section className='paragraphe-1'>
 						<aside>
 							<div>

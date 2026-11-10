@@ -22,11 +22,11 @@ const SiteMap = () => {
 								<a href='/geobiologie'>Découvrir la géobiologie</a>
 							</li>
 							<li>
-						<a href='/explorations'>
-							Explorations géobiologiques et lecture des lieux
-						</a>
-					</li>
-					<li>
+								<a href='/explorations'>
+									Explorations géobiologiques et lecture des lieux
+								</a>
+							</li>
+							<li>
 								<a href='/initiations/geobiologie/explorateur-de-l-invisible'>
 									Explorateur de l’Invisible
 								</a>
@@ -48,7 +48,7 @@ const SiteMap = () => {
 							{explorations.map((article: iCardInfo, i: number) => (
 								<li key={`article-${i}`}>
 									<a
-										href={`articles/${article.slug}`}
+										href={`etudes-geobiologie/${article.slug}`}
 									>{`${article.date.toLocaleDateString()} - ${article.h1}`}</a>
 								</li>
 							))}
@@ -57,7 +57,7 @@ const SiteMap = () => {
 
 					<li>
 						<h2>
-							<a href='/articles'>Articles</a>
+							<a href='/mes-articles'>Mes articles</a>
 						</h2>
 						<ul>
 							{articles.map((article: iCardInfo, i: number) => (
