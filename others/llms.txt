@@ -11,7 +11,7 @@
 - **Description**: Explorateur des mondes subtils, Cyril Cophignon transmet ses connaissances en géobiologie, communication animale et chamanisme pour vous guider.
 - **Contact**: cyril@cophignon.net
 
-version: 1.1
+version: 1.2
 
 ## Key Pages
 - [Explorer les lieux, le vivant et les mondes subtils](https://cyril.cophignon.net)
@@ -22,7 +22,7 @@ version: 1.1
 - [Le lavoir de la source aux fées, étude géobiologique](https://cyril.cophignon.net/etudes-geobiologie/yvelines/le-lavoir-de-la-source-aux-fees)
 - [Fontaine Saint‑Sauveur à Maurepas (Yvelines) : étude géobiologique](https://cyril.cophignon.net/etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas)
 - [Fontaine Saint‑Martin à Jouars-Pontchartrain (Yvelines) : étude géobiologique](https://cyril.cophignon.net/etudes-geobiologie/yvelines/fontaine-saint-martin-jouars-pontchartrain)
-- [Articles](https://cyril.cophignon.net/articles)
+- [Articles](https://cyril.cophignon.net/mes-articles)
 - [La communication animale](https://cyril.cophignon.net/articles/la-communication-animale)
 - [Les 9 rites munay ki](https://cyril.cophignon.net/articles/les-9-rites-munay-ki)
 - [Les cupules](https://cyril.cophignon.net/articles/les-cupules)

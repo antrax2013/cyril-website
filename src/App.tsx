@@ -98,7 +98,7 @@ const App = () => {
 							<Route path='plan-du-site' element={<PlanDuSite />} />
 
 							{/* Ressources */}
-							<Route path='articles' element={<Articles />} />
+							<Route path='mes-articles' element={<Articles />} />
 							<Route path='articles/:slug' element={<Article />} />
 
 							<Route path='*' element={<Navigate replace to='/erreur-404' />} />

@@ -157,10 +157,10 @@ const Menu = ({ ...props }) => {
 			template: (item: MenuItem, options: MenuItemOptions) => {
 				return itemTemplate(item, options);
 			},
-			url: '/articles',
+			url: '/mes-articles',
 			className: getClassName('articles'),
 			command: () => {
-				onClick('articles');
+				onClick('mes-articles');
 			},
 		},
 		{
