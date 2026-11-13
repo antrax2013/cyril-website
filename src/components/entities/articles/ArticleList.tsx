@@ -6,6 +6,7 @@ import MunayKiThumbnail from '../../../assets/munay-ki/munay-ki-thunbnail.jpg';
 import ComAnnimalThumbnail from '../../../assets/la-communication-animale/com-animale-thumbnail.jpg';
 import EntretienTambourThumbnail from '../../../assets/ressources/entretien-tambours/entretien-tambour-thumbnail.jpg';
 import PortesOuvertesBBNov2026Thumbnail from '../../../assets/articles/po-blowball-nov-2026/Portes ouvertes vers le bien-être.jpg';
+import PkoiInitierGeobioParExploXphumbnail from '../../../assets/articles/geobio-pratique-experience/Apprendre la géobiologie en forêt2.jpg';
 
 import { iCard } from '../../fragments/CardList/ICard';
 import Cupule from '../../routes/Geobiologie/Cupule';
@@ -13,9 +14,29 @@ import Les9RitesMunayKi from '../../routes/Les-9-rites-du-munay-ki';
 import MessageAnimal from '../../routes/Message-animal';
 import EntretienTambourChamanique from '../../routes/Ressources/entretien-tambour-chamanique';
 import PortesOuvertesBBNov2026 from '../../routes/Articles/portes-ouvertes-blowball-guyancourt-novembre-2026';
+import PkoiInitierGeobioParExploXp from '../../routes/Articles/pkoi-initier-geobio-par-explo-xp';
 
 export const ArticleList: iCard[] = (
 	[
+		{
+			slug: 'initiation-geobiologie-exploration-experience',
+			h1: 'Pourquoi s’initier à la géobiologie par l’exploration et l’expérience ?',
+			date: new Date('2026-11-11'),
+			tags: [
+				'Géobiologie',
+				'Cycle initiation',
+				'Exploration',
+				'Explorateur de l’invisible',
+				'Transmission',
+			],
+			thumbnail: {
+				path: PkoiInitierGeobioParExploXphumbnail,
+				className: 'img',
+				alt: 'Trois personnes explorent une clairière autour d’une pierre levée, entre prise de notes, pratique des baguettes et échanges.',
+			},
+			content: <PkoiInitierGeobioParExploXp />,
+			type: 'Article',
+		},
 		{
 			slug: 'portes-ouvertes-blowball-guyancourt-novembre-2026',
 			h1: 'Portes ouvertes Blowball à Guyancourt - 22 novembre 2026',
