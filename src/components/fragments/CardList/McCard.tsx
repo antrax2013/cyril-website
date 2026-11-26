@@ -20,7 +20,7 @@ const McCard = ({ slug, date, tags, thumbnail, type, h1 }: iCardInfo) => {
 	const footer = (
 		<Cta
 			link={meta.canonical}
-			title={`Lire le post sur l’${type} : ${h1 ?? meta.title}`}
+			title={`Lire l’${type} : ${h1 ?? meta.title}`}
 			ctaText='Lire la suite'
 			ctaLinkClassName='cta-secondary'
 			target='_blank'

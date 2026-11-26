@@ -1,149 +1,98 @@
 import Cta from '../../fragments/Ctas/Cta';
+import CtaExplorateurInv from '../../fragments/Ctas/ExplorateurInvisible';
+import ParagraphSeparator from '../../tools/Paragraph-Separator';
 
 const PortesOuvertesBBNov2026 = () => {
 	return (
 		<>
-			<h2>📅 Dimanche 22 novembre 2026, de 9 h 30 à 13 h</h2>
 			<p>
-				Le cabinet Blowball vous ouvre ses portes pour une matinée de
-				découvertes et d’échanges avec ses praticiens. L’occasion de découvrir
-				les lieux, de poser vos questions et d’assister à plusieurs conférences
-				dans une ambiance conviviale.
+				Le dimanche 22 novembre 2026, le cabinet Blowball, à Guyancourt, a
+				ouvert ses portes pour une matinée de rencontres et de découvertes avec
+				ses praticiens. Une quinzaine de visiteurs sont venus échanger avec nous
+				et découvrir nos activités.
 			</p>
 			<p>
-				J’y participerai pour vous présenter mon approche de la géobiologie
-				d’exploration, à travers un lieu du patrimoine local : la fontaine
-				Saint-Sauveur de Maurepas.
-			</p>
-			<h2>🔎 Autour de la fontaine Saint-Sauveur de Maurepas</h2>
-			<h3>Ma conférence · De 10h45 à 11h45</h3>
-			<h4>Et si ce lieu discret avait encore bien des choses à révéler ?</h4>
-			<p>
-				Certains lieux se trouvent à quelques pas de chez nous, sans que nous
-				prenions vraiment le temps de les regarder. Une fontaine, un ancien
-				chemin, quelques pierres… Derrière ces éléments parfois modestes se
-				dessinent des histoires et des questions qui invitent à poursuivre
-				l’exploration.
+				J’y ai présenté une conférence autour de la fontaine Saint-Sauveur de
+				Maurepas, intitulée « Explorer un lieu oublié… ». J’ai partagé ma
+				manière d’aborder un lieu en croisant les observations de terrain, les
+				recherches historiques et les perceptions géobiologiques.
 			</p>
 			<p>
-				La fontaine Saint-Sauveur de Maurepas fait partie de ces lieux. Je vous
-				propose de découvrir comment je l’ai abordée, en croisant l’observation
-				du terrain, les recherches historiques et mes perceptions
-				géobiologiques.
+				La conférence a été bien accueillie. Les visiteurs ont semblé apprécier
+				la matinée, et chaque praticien a pu présenter son activité.
+			</p>
+			<h2>De Holda au feu sacré : un cheminement symbolique</h2>
+			<p>
+				Une question a porté sur un enchaînement d’images évoqué pendant la
+				conférence : Holda et les vestales, les vestales de Rome, le feu sacré
+				et deux figures portant le nom de Brigitte.
 			</p>
 			<p>
-				Comment une première découverte ouvre-t-elle une nouvelle piste ? Que
-				peut apporter une carte ancienne à la compréhension du paysage actuel ?
-				Comment mettre en relation les éléments recueillis, tout en laissant une
-				place aux incertitudes ?
+				Dans ma lecture des écrits de Yann Lipnick, Holda, ou Dame Holle, est
+				associée à l’air et à des présences qu’il nomme les vestales. Le mot m’a
+				ensuite fait penser aux vestales de Rome, gardiennes du feu sacré. De
+				là, j’ai établi un rapprochement avec sainte Brigitte de Kildare,
+				associée à une tradition de feu sacré, puis avec une autre sainte
+				Brigitte : Brigitte de Suède, fondatrice de l’ordre du Saint-Sauveur.
 			</p>
 			<p>
-				Au fil de cette conférence, je partagerai le cheminement de cette
-				exploration : les indices qui ont retenu mon attention, les liens qui se
-				sont dessinés progressivement et les questions qui restent ouvertes. Une
-				invitation à porter un autre regard sur ce qui nous entoure, accessible
-				même si vous ne connaissez pas la géobiologie.
-			</p>
-			<h2>🌿 Un temps pour se rencontrer</h2>
-			<p>
-				Cette matinée sera aussi l’occasion d’échanger directement avec moi sur
-				ma démarche et sur le cycle « Explorateur de l’invisible ».
+				Cette succession ne décrit pas une continuité historique entre ces
+				figures. C’est un cheminement par associations et correspondances, qui
+				m’a ramené au nom de la fontaine Saint-Sauveur. Pour moi, ces éléments
+				disjoints prennent ensemble une forte résonance émotionnelle, comme une
+				confirmation intime de ma lecture du lieu.
 			</p>
 			<p>
-				Si vous êtes curieux de découvrir la géobiologie ou souhaitez commencer
-				à explorer par vous-même, nous pourrons parler du contenu des modules et
-				de la place accordée à la pratique. Les inscriptions aux initiations de
-				décembre 2026 et janvier 2027 seront également possibles.
+				La question m’a toutefois montré que ce fil est difficile à suivre
+				lorsqu’il n’est pas explicité. Ce qui se relie spontanément dans mon
+				expérience peut sembler abrupt à l’auditoire. Il me reste donc à mieux
+				faire comprendre comment ces images se répondent et pourquoi elles ont
+				leur place dans cette exploration.
+			</p>
+			<h2>Des échanges autour des initiations en géobiologie</h2>
+			<p>
+				Les échanges se sont prolongés autour du cycle « Explorateur de
+				l’invisible ». Plusieurs personnes ont manifesté leur intérêt pour ces
+				initiations et l’envie d’y participer. Une suite encourageante à cette
+				matinée de rencontres.
 			</p>
 			<p>
-				Vous pouvez tout aussi bien venir simplement écouter, découvrir et
-				partager vos questions.
+				La matinée a aussi été l’occasion de faire découvrir un outil de
+				géobiologie : une dame a gagné un lobe de Hartmann que j’avais fabriqué
+				artisanalement. J’ai pu lui en expliquer brièvement le fonctionnement et
+				l’utilisation.
 			</p>
-			<h2>✨ Les autres rendez-vous de la matinée</h2>
 			<p>
-				Trois autres conférences viendront compléter le programme autour de
-				l’accompagnement et du bien-être en hiver :
+				J’ai apprécié le format de ces portes ouvertes : les visiteurs venaient
+				avec un intérêt réel pour au moins l’un des praticiens. Cela a favorisé
+				des échanges ciblés autour de nos activités.
 			</p>
-			<ul>
-				<li>
-					10 h – 10 h 30 ·{' '}
-					<u>
-						<a
-							href='https://www.medoucine.com/consultation/guyancourt/jeremy-bordes/687'
-							title='Découvrir le site de Jérémy'
-							target='_blank'
-						>
-							Jérémy Bordes
-						</a>
-					</u>{' '}
-					: aborder l’hiver avec la médecine traditionnelle chinoise.
-				</li>
-				<li>
-					12 h – 12 h 20 ·{' '}
-					<u>
-						<a
-							href='https://massage-reiki.fr'
-							title='Découvrir le site de Marie'
-							target='_blank'
-						>
-							Marie Cophignon
-						</a>
-					</u>{' '}
-					: découvrir le{' '}
-					<u>
-						<a
-							href='https://massage-reiki.fr/massage-des-5-continents'
-							title='Découvrir le Massage des 5 Continents'
-							target='_blank'
-						>
-							Massage des 5 Continents
-						</a>
-					</u>{' '}
-					à l’approche de l’hiver.
-				</li>
-				<li>
-					12 h 30 – 13 h ·{' '}
-					<u>
-						<a
-							href='https://www.reflexologie-carolejacob.fr'
-							title='Découvrir le site de Carole'
-							target='_blank'
-						>
-							Carole Jacob
-						</a>
-					</u>{' '}
-					: conseils de réflexologie palmaire pour la période hivernale.
-				</li>
-				<p>
-					Vous pourrez aussi recevoir un{' '}
-					<u>
-						<a
-							href='https://massage-reiki.fr/massage-assis-methode-eas'
-							title='Découvrir le massage du dos assis méthode EAS®'
-							target='_blank'
-						>
-							massage du dos assis méthode EAS®
-						</a>
-					</u>{' '}
-					avec Marie (15 minutes · 15 €), découvrir les créations en céramique
-					de Carole et vous renseigner sur ses ateliers de 2027.
-				</p>
-			</ul>
+			<ParagraphSeparator />
+			<h2>Poursuivre l’exploration</h2>
 			<p>
-				📍 <b>Lieu</b> : Cabinet Blowball — 1 rue Le Corbusier, 78280 Guyancourt
-				<br />
-				📝<b>Entrée gratuite · Inscription obligatoire</b>
+				Les correspondances évoquées pendant la conférence ne représentent
+				qu’une partie de l’exploration de la fontaine Saint-Sauveur. Pour mieux
+				comprendre un lieu, je mets en relation les observations de terrain, son
+				histoire, les cartes et les perceptions géobiologiques. C’est l’ensemble
+				de ces pistes qui permet peu à peu d’en composer une lecture plus
+				complète, sans réduire le lieu à une seule interprétation.
 			</p>
-
+			<p>
+				Cette démarche est au cœur du cycle{' '}
+				<b>« Explorateur de l’invisible »</b>. Les initiations proposent
+				d’apprendre progressivement à observer un lieu, à mener ses propres
+				recherches et à relier les éléments recueillis.
+			</p>
+			<p>Pour aller plus loin :</p>
 			<div className='cta-container'>
+				<CtaExplorateurInv />{' '}
 				<Cta
-					link={
-						'https://www.billetweb.fr/porte-ouverte-cabinet-blowball-22-novembre-2026'
+					link={'/etudes-geobiologie/yvelines/fontaine-saint-sauveur-maurepas'}
+					title={
+						'Lire l’intégralité de l’étude géobiologique et subtile autour de la fontaine Saint-Sauveur'
 					}
-					title={'Inscription gratuite mais obligatoire'}
-					ctaText={'📝 M’inscrire'}
+					ctaText={'Découvrir l’étude autour de la fontaine Saint-Sauveur'}
 					ctaLinkClassName='cta-secondary'
-					target='_blank'
 				/>
 			</div>
 		</>
