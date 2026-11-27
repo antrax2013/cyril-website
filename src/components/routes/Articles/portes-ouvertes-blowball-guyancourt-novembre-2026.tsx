@@ -13,9 +13,10 @@ const PortesOuvertesBBNov2026 = () => {
 			</p>
 			<p>
 				J’y ai présenté une conférence autour de la fontaine Saint-Sauveur de
-				Maurepas, intitulée « Explorer un lieu oublié… ». J’ai partagé ma
-				manière d’aborder un lieu en croisant les observations de terrain, les
-				recherches historiques et les perceptions géobiologiques.
+				Maurepas, intitulée « Et si ce lieu discret avait encore bien des choses
+				à révéler ? ». J’ai partagé ma manière d’aborder un lieu en croisant les
+				observations de terrain, les recherches historiques et les perceptions
+				géobiologiques et subtiles.
 			</p>
 			<p>
 				La conférence a été bien accueillie. Les visiteurs ont semblé apprécier

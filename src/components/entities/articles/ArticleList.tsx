@@ -39,7 +39,7 @@ export const ArticleList: iCard[] = (
 		},
 		{
 			slug: 'portes-ouvertes-blowball-guyancourt-novembre-2026',
-			h1: 'Portes ouvertes à Guyancourt : retour sur la matinée Blowball',
+			h1: 'Portes ouvertes cabinet Blowball à Guyancourt - retour sur la matinée',
 			date: new Date('2026-11-26'),
 			tags: [
 				'Géobiologie',
