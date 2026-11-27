@@ -39,8 +39,8 @@ export const ArticleList: iCard[] = (
 		},
 		{
 			slug: 'portes-ouvertes-blowball-guyancourt-novembre-2026',
-			h1: 'Portes ouvertes Blowball à Guyancourt - 22 novembre 2026',
-			date: new Date('2026-10-24'),
+			h1: 'Portes ouvertes à Guyancourt : retour sur la matinée Blowball',
+			date: new Date('2026-11-26'),
 			tags: [
 				'Géobiologie',
 				'Portes ouvertes',
